@@ -3,8 +3,8 @@ from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from model import (availability, best_lineup_points, model_fppg,
-                   team_expected_remaining, win_probability)
+from model import (availability, best_lineup_points, matchup_remaining_periods, model_fppg,
+                   period_date_anchor, prior_fppg, team_expected_remaining, win_probability)
 
 NOW = datetime(2026, 10, 22, 5, 0)
 
@@ -37,12 +37,47 @@ def test_finished_matchup_is_certain():
     assert win_probability(400, 0, 401, 0)[0] == 0.0
 
 
+def test_prior_is_mean_of_projection_and_last_season():
+    assert prior_fppg(40, 30) == 35
+    assert prior_fppg(40, None) == 40
+    assert prior_fppg(0, None) == 0
+
+
+def test_blend_moves_from_prior_to_actual():
+    assert model_fppg(None, 0, 40) == 40                  # opening week: all prior
+    assert abs(model_fppg(60, 1, 40) - 260 / 6) < 1e-9    # one hot game barely moves it
+    assert model_fppg(60, 5, 40) == 50                    # 5 games: 50/50
+    assert model_fppg(60, 45, 40) == 58                   # mid-season: 90% actual
+    assert model_fppg(45, 10, 0) == 45                    # no prior: actual only
+
+
 def test_fppg_floor():
-    assert model_fppg(12.0, 15.0, 20.0) == 25        # streamer with low averages -> floor
-    assert model_fppg(None, None, None) == 25        # no stats at all -> floor
-    assert model_fppg(41.5, 38.0, 40.0) == 41.5      # starter keeps his last-30
-    assert model_fppg(None, 33.0, 30.0) == 33.0      # no last-30 yet -> season
-    assert model_fppg(12.0, None, None, floor=0) == 12.0
+    assert model_fppg(12.0, 10, 18.0) == 25        # streamer with low averages -> floor
+    assert model_fppg(None, 0, 0) == 25            # no stats at all -> floor
+    assert model_fppg(12.0, 10, None, floor=0) == 12.0
+
+
+def test_opening_week_window():
+    # Opening night Tue Oct 20 is period 1; matchup runs through Sun Oct 25 = period 6
+    periods, start, end = matchup_remaining_periods(1, date(2026, 10, 20), 1)
+    assert periods == [1, 2, 3, 4, 5, 6] and end == date(2026, 10, 25)
+
+
+def test_mid_week_window_and_override():
+    # Thu Oct 29 is period 10; matchup 2 started Mon Oct 26 (period 7)
+    periods, start, end = matchup_remaining_periods(10, date(2026, 10, 29), 7)
+    assert start == date(2026, 10, 26) and periods == [10, 11, 12, 13]
+    # Two-week matchup (e.g. All-Star break) ends a Sunday later
+    periods, _, end = matchup_remaining_periods(10, date(2026, 10, 29), 7, weeks_in_matchup=2)
+    assert end == date(2026, 11, 8) and periods[-1] == 20
+    periods, _, _ = matchup_remaining_periods(10, date(2026, 10, 29), 7, end_override=date(2026, 10, 30))
+    assert periods == [10, 11]
+
+
+def test_period_date_anchor():
+    dates = {3: date(2026, 10, 22), 5: date(2026, 10, 24)}
+    assert period_date_anchor(1, dates, date(2000, 1, 1)) == date(2026, 10, 20)
+    assert period_date_anchor(1, {}, date(2026, 10, 20)) == date(2026, 10, 20)
 
 
 def test_lineup_cap_and_slot_specificity():

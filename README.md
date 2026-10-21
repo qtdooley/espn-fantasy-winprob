@@ -34,6 +34,8 @@ probability with a z-score, and commits the CSVs to `data/`.
    | `SD_PCT`    | `0.25`      | Each team's standard deviation as a fraction               |
    | `SD_BASIS`  | `remaining` | Apply `SD_PCT` to expected **remaining** points or **total** |
    | `MIN_FPPG`  | `25`        | Floor on every player's projected fantasy points per game  |
+   | `PRIOR_GAMES` | `5`       | How many games the projection / last-season basis is worth |
+   | `MATCHUP_END` | *(unset)* | Last day of the current matchup, `YYYY-MM-DD`; only if the summary's dates are wrong. Delete it after that week. |
 
 6. **Run it once by hand:** **Actions** tab → *Daily ESPN pull* → **Run workflow**.
    The run page shows a win-probability table; the CSVs appear in `data/`.
@@ -57,11 +59,19 @@ z                   = (expected_total_A − expected_total_B) / √(σ_A² + σ_
 P(A wins)           = Φ(z)
 ```
 
-- **FPPG** is last-30-day fantasy points per game, falling back to season average, then
-  ESPN's projection (early season), with a **floor of 25** (`MIN_FPPG`). Streamers are
-  usually short-term pickups filling in for an injured starter, so their season averages
-  understate what they'll score in that role. `rosters.csv` keeps the raw averages next to
-  the floored `fppg_model` column.
+- **FPPG** blends a pre-season basis with this season's games:
+  - *basis* = average of ESPN's season projection and last season's FPPG (whichever exist,
+    both scored with your league's settings)
+  - *this season* = last-30-day FPPG (season FPPG until then)
+  - blend = (games played × this season + 5 × basis) ÷ (games played + 5). At 0 games it's
+    all basis, at 5 games 50/50, and by 20 games it's 80% this season. Change the 5 with
+    `PRIOR_GAMES`.
+  - **floor of 25** (`MIN_FPPG`): streamers are usually short-term pickups filling in for an
+    injured starter, so their averages understate what they'll score in that role.
+  `rosters.csv` shows every input next to the final `fppg_model` column.
+- **Matchup days:** from today through the matchup's last Sunday. Multi-week matchups
+  (All-Star break) are handled from your league settings. If ESPN's dates ever differ, set
+  `MATCHUP_END`. The run summary prints the dates it used.
 - **P(plays)** comes from ESPN's injury status: active 1.0, day-to-day 0.75, out 0
   (0.8 once the expected return date passes). Tune these in `model.py`.
 - **Lineup cap:** each day, only as many players as your league's starting slots can score,

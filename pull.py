@@ -11,7 +11,9 @@ Writes to ./data/:
 
 Env vars: ESPN_LEAGUE_ID, ESPN_YEAR (2027 = the 2026-27 season), ESPN_S2, ESPN_SWID,
           SD_PCT (default 0.25), SD_BASIS ("remaining" default, or "total"),
-          MIN_FPPG (default 25: floor on every player's projected FPPG)
+          MIN_FPPG (default 25: floor on every player's projected FPPG),
+          PRIOR_GAMES (default 5: weight of projection / last season, in games),
+          MATCHUP_END (optional YYYY-MM-DD override for the matchup's last day)
 """
 
 import os
@@ -21,7 +23,8 @@ from pathlib import Path
 import pandas as pd
 from espn_api.basketball import League
 
-from model import model_fppg, team_expected_remaining, win_probability
+from model import (matchup_remaining_periods, model_fppg, period_date_anchor, prior_fppg,
+                   team_expected_remaining, win_probability)
 
 LEAGUE_ID = int(os.environ["ESPN_LEAGUE_ID"])
 YEAR = int(os.environ.get("ESPN_YEAR") or 2027)
@@ -30,6 +33,10 @@ SWID = os.environ.get("ESPN_SWID") or None
 SD_PCT = float(os.environ.get("SD_PCT") or 0.25)
 SD_BASIS = os.environ.get("SD_BASIS") or "remaining"
 MIN_FPPG = float(os.environ.get("MIN_FPPG") or 25)  # floor on projected FPPG for every rostered player
+PRIOR_GAMES = float(os.environ.get("PRIOR_GAMES") or 5)  # weight of projection/last season, in games
+# Last day of the current matchup (YYYY-MM-DD) if ESPN's differs from "the coming Sunday"
+MATCHUP_END = (date.fromisoformat(os.environ["MATCHUP_END"])
+               if os.environ.get("MATCHUP_END") else None)
 OUT = Path(os.environ.get("ESPN_OUT_DIR") or "data")
 
 # ESPN lineupSlotId -> name for active slots (12 = BE, 13 = IR are excluded)
@@ -40,6 +47,32 @@ DEFAULT_SLOTS = {"PG": 1, "SG": 1, "SF": 1, "PF": 1, "C": 1, "G": 1, "F": 1, "UT
 
 def fppg(player, split):
     return player.stats.get(f"{YEAR}_{split}", {}).get("applied_avg")
+
+
+def games_played(player):
+    total = player.stats.get(f"{YEAR}_total", {})
+    gp = (total.get("total") or {}).get("GP")
+    if gp is None and total.get("applied_avg"):
+        gp = round(total.get("applied_total", 0) / total["applied_avg"])
+    return int(gp or 0)
+
+
+def last_season_fppg(league, player_ids) -> dict:
+    """playerId -> last season's fantasy points per game, scored with this league's settings."""
+    out = {}
+    if not player_ids:
+        return out
+    try:
+        data = league.espn_request.get_player_card(
+            player_ids, league.finalScoringPeriod, additional_filters=[f"00{YEAR - 1}"])
+        for entry in data.get("players", []):
+            pl = entry.get("player", entry)
+            for s in pl.get("stats", []):
+                if s.get("id") == f"00{YEAR - 1}" and s.get("appliedAverage"):
+                    out[pl.get("id", entry.get("id"))] = round(s["appliedAverage"], 2)
+    except Exception as e:  # never let this kill the daily run
+        print(f"Could not load last-season averages ({e}); using projections only")
+    return out
 
 
 def active_slot_counts(league) -> dict:
@@ -73,18 +106,32 @@ def main():
     today = date.today()
     slot_counts = active_slot_counts(league)
 
-    # ---------- Current rosters: drives everything forward-looking ----------
+    # ---------- Which days (scoring periods) are left in this matchup ----------
     cur_period = league.scoringPeriodId
     matchup_id = league.currentMatchupPeriod
-    week_periods = sorted(int(p) for p in league.settings.matchup_periods.get(str(matchup_id), []))
-    remaining_periods = [p for p in week_periods if p >= cur_period]
+    period_dates = {}
+    for team in league.teams:
+        for p in team.roster:
+            for k, g in p.schedule.items():
+                period_dates.setdefault(int(k), g["date"].date())
+    cur_date = period_date_anchor(cur_period, period_dates, today)
+    played = [int(x) for x in getattr(league, "matchup_ids", {}).get(matchup_id, [])]
+    start_period = min(played) if played else cur_period
+    weeks = max(1, len(league.settings.matchup_periods.get(str(matchup_id), [1])))
+    remaining_periods, wk_start, wk_end = matchup_remaining_periods(
+        cur_period, cur_date, start_period, weeks, MATCHUP_END)
+
+    # ---------- Last season's FPPG for every rostered player (one request) ----------
+    last_season = last_season_fppg(league, [p.playerId for t in league.teams for p in t.roster])
 
     roster_rows, sched_rows, model_players = [], [], {}
     for team in league.teams:
         model_players[team.team_id] = []
         for p in team.roster:
             season, last30 = fppg(p, "total"), fppg(p, "last_30")
-            rate = model_fppg(last30, season, p.projected_avg_points, MIN_FPPG)
+            gp = games_played(p)
+            prior = prior_fppg(p.projected_avg_points, last_season.get(p.playerId))
+            rate = model_fppg(last30 or season, gp, prior, MIN_FPPG, PRIOR_GAMES)
             schedule = {int(k): v for k, v in p.schedule.items()}
             games_left = sum(1 for k, g in schedule.items()
                              if k in remaining_periods and g["date"] > now)
@@ -101,8 +148,10 @@ def main():
                 "position": p.position, "lineup_slot": p.lineupSlot,
                 "injury_status": p.injuryStatus, "injured": p.injured,
                 "expected_return": p.expected_return_date,
-                "fppg_season": season, "fppg_last30": last30,
-                "fppg_projected": p.projected_avg_points, "fppg_model": rate,
+                "games_played": gp, "fppg_season": season, "fppg_last30": last30,
+                "fppg_projected": p.projected_avg_points,
+                "fppg_last_season": last_season.get(p.playerId),
+                "fppg_prior": round(prior, 2), "fppg_model": round(rate, 2),
                 "games_left_this_matchup": games_left,
             })
             for k, g in schedule.items():
@@ -159,6 +208,7 @@ def main():
             "z": round(z, 3), "home_win_prob": round(p_home, 4),
             "away_win_prob": round(1 - p_home, 4),
             "sd_pct": SD_PCT, "sd_basis": SD_BASIS,
+            "matchup_start": wk_start, "matchup_end": wk_end,
         })
     wp = pd.DataFrame(wp_rows)
     wp.to_csv(OUT / "win_probability.csv", index=False)
@@ -166,11 +216,17 @@ def main():
                  ["run_date", "matchup_period", "home_team"])
 
     # ---------- Summary (shows on the GitHub Actions run page) ----------
-    lines = [f"### Matchup {matchup_id} — {today}  (σ = {SD_PCT:.0%} of {SD_BASIS})", "",
-             "| Home | Exp | Win % | Away | Exp | Win % |", "|---|---:|---:|---|---:|---:|"]
+    lines = [f"### Matchup {matchup_id}: {wk_start:%a %b %-d} – {wk_end:%a %b %-d}  "
+             f"({len(remaining_periods)} days left, σ = {SD_PCT:.0%} of {SD_BASIS})", "",
+             "If these dates don't match ESPN's matchup dates, set the repo variable "
+             "`MATCHUP_END` (YYYY-MM-DD).", "",
+             "| Home | Now | Games left | Exp | Win % | Away | Now | Games left | Exp | Win % |",
+             "|---|---:|---:|---:|---:|---|---:|---:|---:|---:|"]
     for r in wp_rows:
-        lines.append(f"| {r['home_team']} | {r['home_exp_total']} | {r['home_win_prob']:.0%} "
-                     f"| {r['away_team']} | {r['away_exp_total']} | {r['away_win_prob']:.0%} |")
+        lines.append(
+            f"| {r['home_team']} | {r['home_banked']} | {r['home_exp_games']} | {r['home_exp_total']} "
+            f"| {r['home_win_prob']:.0%} | {r['away_team']} | {r['away_banked']} | {r['away_exp_games']} "
+            f"| {r['away_exp_total']} | {r['away_win_prob']:.0%} |")
     summary = "\n".join(lines)
     print(summary)
     if os.environ.get("GITHUB_STEP_SUMMARY"):

@@ -14,7 +14,7 @@ by players who have since been dropped and excludes bench points.
 games left in this matchup period, filling the active lineup each day.
 """
 
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from math import erf, sqrt
 
 # Most specific slot first, so flexible players don't steal a slot someone else needs.
@@ -33,14 +33,57 @@ DEFAULT_AVAILABILITY = {
 RETURNING_AVAILABILITY = 0.8  # OUT player whose expected return date has passed
 
 
-def model_fppg(last30, season, projected, floor: float = 25.0) -> float:
+def prior_fppg(projected, last_season):
+    """Pre-season basis: mean of ESPN's season projection and last season's FPPG (whichever exist)."""
+    vals = [v for v in (projected, last_season) if v]
+    return sum(vals) / len(vals) if vals else 0.0
+
+
+def model_fppg(recent, games_played, prior, floor: float = 25.0, prior_games: float = 5) -> float:
     """
-    Rate used for future games: last-30 FPPG, else season, else ESPN projection,
-    never below `floor`. Streamers are usually short-term injury fill-ins whose
-    averages understate their current role, so a floor beats their raw average.
+    Rate used for future games.
+      recent       this season's last-30 FPPG (or season FPPG)
+      games_played games this season
+      prior        projection / last-season basis (see prior_fppg)
+    Blend: (gp * recent + prior_games * prior) / (gp + prior_games)
+      0 games -> all prior; 5 games -> 50/50; 20 games -> 80% this season.
+    Never below `floor`: streamers are usually short-term injury fill-ins whose
+    averages understate their current role.
     """
-    base = last30 or season or projected or 0.0
+    gp = games_played or 0
+    if recent and gp > 0 and prior:
+        base = (gp * recent + prior_games * prior) / (gp + prior_games)
+    elif recent:
+        base = recent
+    else:
+        base = prior or 0.0
     return max(base, floor)
+
+
+def period_date_anchor(cur_period: int, period_dates: dict, fallback: date) -> date:
+    """
+    Calendar date of the current scoring period. ESPN scoring periods are consecutive
+    days, so any period with a known game date pins all of them.
+    """
+    if not period_dates:
+        return fallback
+    p = min(period_dates, key=lambda k: abs(k - cur_period))
+    return period_dates[p] - timedelta(days=p - cur_period)
+
+
+def matchup_remaining_periods(cur_period: int, cur_date: date, start_period: int,
+                              weeks_in_matchup: int = 1, end_override: date | None = None):
+    """
+    Scoring periods left in the current matchup, today included.
+    ESPN H2H matchups end on Sunday; a matchup spanning several weeks
+    (All-Star break, multi-week playoff rounds) ends that many Sundays later.
+    Returns (periods, start_date, end_date).
+    """
+    start_date = cur_date - timedelta(days=cur_period - start_period)
+    end_date = end_override or (
+        start_date + timedelta(days=6 - start_date.weekday() + 7 * (weeks_in_matchup - 1)))
+    days_left = (end_date - cur_date).days
+    return list(range(cur_period, cur_period + days_left + 1)), start_date, end_date
 
 
 def normal_cdf(z: float) -> float:
