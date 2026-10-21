@@ -39,10 +39,17 @@ jobs:
           MIN_FPPG: ${{ vars.MIN_FPPG }}
         run: python pull.py
 
-      - name: Commit data
+            - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Daily ESPN data $(date +%F)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily ESPN data $(date +%F)"
+          # If the repo changed during the run (e.g. you uploaded a file), replay this
+          # commit on top of it; for any CSV changed on both sides, keep this run's data.
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin "${{ github.ref_name }}" && git push && exit 0
+            sleep 5
+          done
+          exit 1
