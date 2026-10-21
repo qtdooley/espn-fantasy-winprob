@@ -78,6 +78,7 @@ MVPKNEE,Scotty Pippen Jr.,4431785,2,True,2026-10-21 17:00:00,UTA
 My Sweet Glorious King,Trey Murphy III,4397688,2,True,2026-10-21 17:00:00,IND
 Towns Syndrome,Ty Jerome,4065733,2,True,2026-10-21 17:00:00,UTA
 Tyrese's,Tyrese Haliburton,4396993,2,True,2026-10-21 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,2,True,2026-10-21 17:00:00,IND
 The Galumphs,Zach Edey,4600663,2,True,2026-10-21 17:00:00,UTA
 Tyrese's,Zion Williamson,4395628,2,True,2026-10-21 17:00:00,IND
 you know what to do with that,Alperen Sengun,4871144,2,True,2026-10-21 17:30:00,DAL
@@ -242,7 +243,6 @@ Anything Is Possible,Jabari Smith Jr.,4432639,4,True,2026-10-23 18:30:00,SAS
 The Galumphs,Jaren Jackson Jr.,4277961,4,True,2026-10-23 18:30:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,4,True,2026-10-23 18:30:00,UTA
 Towns Syndrome,Jordan Poole,4277956,4,True,2026-10-23 18:30:00,UTA
-MVPKNEE,Julian Champagnie,4592479,4,True,2026-10-23 18:30:00,HOU
 The Galumphs,Kevin Durant,3202,4,True,2026-10-23 18:30:00,SAS
 Tyrese's,Keyonte George,4433627,4,True,2026-10-23 18:30:00,NOP
 you know what to do with that,Kyle Filipowski,4684793,4,True,2026-10-23 18:30:00,NOP
@@ -254,6 +254,7 @@ Yong,Tari Eason,4433192,4,True,2026-10-23 18:30:00,SAS
 Don't Ask,Tobias Harris,6440,4,True,2026-10-23 18:30:00,HOU
 My Sweet Glorious King,Trey Murphy III,4397688,4,True,2026-10-23 18:30:00,UTA
 The Galumphs,Victor Wembanyama,5104157,4,True,2026-10-23 18:30:00,HOU
+MVPKNEE,Yves Missi,5061589,4,True,2026-10-23 18:30:00,UTA
 Tyrese's,Zion Williamson,4395628,4,True,2026-10-23 18:30:00,UTA
 The Galumphs,Austin Reaves,4066457,4,True,2026-10-23 19:00:00,LAC
 Yong,Brandin Podziemski,4709138,4,True,2026-10-23 19:00:00,MEM
@@ -337,7 +338,6 @@ Anything Is Possible,Devin Vassell,4395630,5,True,2026-10-24 17:00:00,DAL
 Don't Ask,Dylan Harper,5037871,5,True,2026-10-24 17:00:00,DAL
 Yong,Jalen Smith,4397189,5,True,2026-10-24 17:00:00,WAS
 Don't Ask,Josh Giddey,4871145,5,True,2026-10-24 17:00:00,WAS
-MVPKNEE,Julian Champagnie,4592479,5,True,2026-10-24 17:00:00,DAL
 Tyrese's,Kyrie Irving,6442,5,True,2026-10-24 17:00:00,SAS
 Yong,Kyshawn George,5174563,5,True,2026-10-24 17:00:00,CHI
 KotaroLivesAlone,Matas Buzelis,4711294,5,True,2026-10-24 17:00:00,WAS
@@ -372,6 +372,7 @@ Towns Syndrome,Jordan Poole,4277956,5,True,2026-10-24 18:00:00,DEN
 you know what to do with that,Nikola Jokic,3112335,5,True,2026-10-24 18:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,5,True,2026-10-24 18:00:00,DEN
 My Sweet Glorious King,Trey Murphy III,4397688,5,True,2026-10-24 18:00:00,DEN
+MVPKNEE,Yves Missi,5061589,5,True,2026-10-24 18:00:00,DEN
 Tyrese's,Zion Williamson,4395628,5,True,2026-10-24 18:00:00,DEN
 Yong,Brandin Podziemski,4709138,5,True,2026-10-24 19:00:00,PHO
 Yong,Collin Gillespie,4278585,5,True,2026-10-24 19:00:00,GSW
@@ -595,7 +596,6 @@ Yong,Jalen Brunson,3934672,8,False,2026-10-27 17:00:00,DET
 The Freak and The Felons,Jalen Duren,4433621,8,False,2026-10-27 17:00:00,NYK
 Anything Is Possible,John Collins,3908845,8,False,2026-10-27 17:00:00,NYK
 KotaroLivesAlone,Josh Hart,3062679,8,False,2026-10-27 17:00:00,DET
-MVPKNEE,Julian Champagnie,4592479,8,False,2026-10-27 17:00:00,SAC
 Towns Syndrome,Karl-Anthony Towns,3136195,8,False,2026-10-27 17:00:00,DET
 Tyrese's,Keegan Murray,4594327,8,False,2026-10-27 17:00:00,SAS
 Anything Is Possible,Malik Monk,4066262,8,False,2026-10-27 17:00:00,SAS
@@ -719,6 +719,7 @@ Yong,Tari Eason,4433192,9,False,2026-10-28 17:00:00,MIL
 My Sweet Glorious King,Trey Murphy III,4397688,9,False,2026-10-28 17:00:00,DEN
 Flashy like Primo,Tyler Herro,4395725,9,False,2026-10-28 17:00:00,HOU
 Yong,Yaxel Lendeborg,5175737,9,False,2026-10-28 17:00:00,MIN
+MVPKNEE,Yves Missi,5061589,9,False,2026-10-28 17:00:00,DEN
 Tyrese's,Zion Williamson,4395628,9,False,2026-10-28 17:00:00,DEN
 My Sweet Glorious King,Ace Bailey,4873138,9,False,2026-10-28 18:00:00,SAS
 KotaroLivesAlone,Darryn Peterson,5041955,9,False,2026-10-28 18:00:00,SAS
@@ -726,7 +727,6 @@ you know what to do with that,De'Aaron Fox,4066259,9,False,2026-10-28 18:00:00,U
 Anything Is Possible,Devin Vassell,4395630,9,False,2026-10-28 18:00:00,UTA
 Don't Ask,Dylan Harper,5037871,9,False,2026-10-28 18:00:00,UTA
 The Galumphs,Jaren Jackson Jr.,4277961,9,False,2026-10-28 18:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,9,False,2026-10-28 18:00:00,UTA
 Tyrese's,Keyonte George,4433627,9,False,2026-10-28 18:00:00,SAS
 you know what to do with that,Kyle Filipowski,4684793,9,False,2026-10-28 18:00:00,SAS
 Towns Syndrome,Lauri Markkanen,4066336,9,False,2026-10-28 18:00:00,SAS
@@ -779,6 +779,7 @@ Tyrese's,Keegan Murray,4594327,10,False,2026-10-29 17:00:00,NOP
 Anything Is Possible,Malik Monk,4066262,10,False,2026-10-29 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,10,False,2026-10-29 17:00:00,SAC
 My Sweet Glorious King,Trey Murphy III,4397688,10,False,2026-10-29 17:00:00,SAC
+MVPKNEE,Yves Missi,5061589,10,False,2026-10-29 17:00:00,SAC
 The Freak and The Felons,Zach LaVine,3064440,10,False,2026-10-29 17:00:00,NOP
 Tyrese's,Zion Williamson,4395628,10,False,2026-10-29 17:00:00,SAC
 Towns Syndrome,Cameron Boozer,5041935,10,False,2026-10-29 19:00:00,POR
@@ -944,6 +945,7 @@ you know what to do with that,Nickeil Alexander-Walker,4278039,12,False,2026-10-
 The Freak and The Felons,Onyeka Okongwu,4431680,12,False,2026-10-31 16:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,12,False,2026-10-31 16:00:00,ATL
 My Sweet Glorious King,Trey Murphy III,4397688,12,False,2026-10-31 16:00:00,ATL
+MVPKNEE,Yves Missi,5061589,12,False,2026-10-31 16:00:00,ATL
 Tyrese's,Zion Williamson,4395628,12,False,2026-10-31 16:00:00,ATL
 Yong,Anthony Edwards,4594268,12,False,2026-10-31 17:00:00,SAS
 Don't Ask,Ayo Dosunmu,4397002,12,False,2026-10-31 17:00:00,SAS
@@ -963,7 +965,6 @@ Anything Is Possible,James Harden,3992,12,False,2026-10-31 17:00:00,MIL
 Yong,Jarrett Allen,4066328,12,False,2026-10-31 17:00:00,MIL
 Flashy like Primo,Jerami Grant,2991070,12,False,2026-10-31 17:00:00,SAC
 The Freak and The Felons,Jonathan Kuminga,4433247,12,False,2026-10-31 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,12,False,2026-10-31 17:00:00,MIN
 Tyrese's,Keegan Murray,4594327,12,False,2026-10-31 17:00:00,MEM
 My Sweet Glorious King,Kel'el Ware,5105623,12,False,2026-10-31 17:00:00,CLE
 Towns Syndrome,LaMelo Ball,4432816,12,False,2026-10-31 17:00:00,SAS
@@ -1140,6 +1141,7 @@ MVPKNEE,Scotty Pippen Jr.,4431785,14,False,2026-11-02 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,14,False,2026-11-02 17:00:00,MEM
 Towns Syndrome,Ty Jerome,4065733,14,False,2026-11-02 17:00:00,NOP
 Flashy like Primo,Tyler Herro,4395725,14,False,2026-11-02 17:00:00,MIN
+MVPKNEE,Yves Missi,5061589,14,False,2026-11-02 17:00:00,MEM
 The Galumphs,Zach Edey,4600663,14,False,2026-11-02 17:00:00,NOP
 The Freak and The Felons,Zach LaVine,3064440,14,False,2026-11-02 17:00:00,DAL
 Tyrese's,Zion Williamson,4395628,14,False,2026-11-02 17:00:00,MEM
@@ -1155,7 +1157,6 @@ MVPKNEE,Fred VanVleet,2991230,14,False,2026-11-02 17:30:00,BOS
 Anything Is Possible,Jabari Smith Jr.,4432639,14,False,2026-11-02 17:30:00,BOS
 The Galumphs,Jaren Jackson Jr.,4277961,14,False,2026-11-02 17:30:00,SAS
 MVPKNEE,Jayson Tatum,4065648,14,False,2026-11-02 17:30:00,HOU
-MVPKNEE,Julian Champagnie,4592479,14,False,2026-11-02 17:30:00,UTA
 The Galumphs,Kevin Durant,3202,14,False,2026-11-02 17:30:00,BOS
 Tyrese's,Keyonte George,4433627,14,False,2026-11-02 17:30:00,SAS
 you know what to do with that,Kyle Filipowski,4684793,14,False,2026-11-02 17:30:00,SAS
@@ -1307,6 +1308,7 @@ Towns Syndrome,Shai Gilgeous-Alexander,4278073,16,False,2026-11-04 17:00:00,CLE
 My Sweet Glorious King,Trey Murphy III,4397688,16,False,2026-11-04 17:00:00,UTA
 Towns Syndrome,Ty Jerome,4065733,16,False,2026-11-04 17:00:00,IND
 Tyrese's,Tyrese Haliburton,4396993,16,False,2026-11-04 17:00:00,MEM
+MVPKNEE,Yves Missi,5061589,16,False,2026-11-04 17:00:00,UTA
 The Galumphs,Zach Edey,4600663,16,False,2026-11-04 17:00:00,IND
 Tyrese's,Zion Williamson,4395628,16,False,2026-11-04 17:00:00,UTA
 you know what to do with that,Alperen Sengun,4871144,16,False,2026-11-04 17:30:00,MIN
@@ -1352,7 +1354,6 @@ Don't Ask,Daniel Gafford,4278049,16,False,2026-11-04 18:30:00,SAS
 you know what to do with that,De'Aaron Fox,4066259,16,False,2026-11-04 18:30:00,DAL
 Anything Is Possible,Devin Vassell,4395630,16,False,2026-11-04 18:30:00,DAL
 Don't Ask,Dylan Harper,5037871,16,False,2026-11-04 18:30:00,DAL
-MVPKNEE,Julian Champagnie,4592479,16,False,2026-11-04 18:30:00,DAL
 Tyrese's,Kyrie Irving,6442,16,False,2026-11-04 18:30:00,SAS
 Tyrese's,P.J. Washington,4278078,16,False,2026-11-04 18:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,16,False,2026-11-04 18:30:00,DAL
@@ -1487,6 +1488,7 @@ Towns Syndrome,Shai Gilgeous-Alexander,4278073,18,False,2026-11-06 17:00:00,MEM
 My Sweet Glorious King,Trey Murphy III,4397688,18,False,2026-11-06 17:00:00,MIN
 Towns Syndrome,Ty Jerome,4065733,18,False,2026-11-06 17:00:00,OKC
 Flashy like Primo,Tyler Herro,4395725,18,False,2026-11-06 17:00:00,TOR
+MVPKNEE,Yves Missi,5061589,18,False,2026-11-06 17:00:00,MIN
 The Galumphs,Zach Edey,4600663,18,False,2026-11-06 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,18,False,2026-11-06 17:00:00,MIN
 The Galumphs,Austin Reaves,4066457,18,False,2026-11-06 19:00:00,POR
@@ -1502,7 +1504,6 @@ Don't Ask,Dylan Harper,5037871,18,False,2026-11-06 19:00:00,SAC
 The Freak and The Felons,Ja Morant,4279888,18,False,2026-11-06 19:00:00,LAL
 Yong,Jake LaRavia,4592691,18,False,2026-11-06 19:00:00,POR
 The Galumphs,Jrue Holiday,3995,18,False,2026-11-06 19:00:00,LAL
-MVPKNEE,Julian Champagnie,4592479,18,False,2026-11-06 19:00:00,SAC
 Tyrese's,Keegan Murray,4594327,18,False,2026-11-06 19:00:00,SAS
 Flashy like Primo,Luka Doncic,3945274,18,False,2026-11-06 19:00:00,POR
 Anything Is Possible,Malik Monk,4066262,18,False,2026-11-06 19:00:00,SAS
@@ -1593,7 +1594,6 @@ you know what to do with that,Donovan Clingan,5105565,19,False,2026-11-07 19:00:
 Don't Ask,Dylan Harper,5037871,19,False,2026-11-07 19:00:00,POR
 The Freak and The Felons,Ja Morant,4279888,19,False,2026-11-07 19:00:00,SAS
 The Galumphs,Jrue Holiday,3995,19,False,2026-11-07 19:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,19,False,2026-11-07 19:00:00,POR
 Towns Syndrome,Stephon Castle,4845367,19,False,2026-11-07 19:00:00,POR
 Don't Ask,Tobias Harris,6440,19,False,2026-11-07 19:00:00,POR
 you know what to do with that,Toumani Camara,4431736,19,False,2026-11-07 19:00:00,SAS
@@ -1673,6 +1673,7 @@ Anything Is Possible,Malik Monk,4066262,20,False,2026-11-08 18:00:00,MIA
 Flashy like Primo,Rui Hachimura,4066648,20,False,2026-11-08 18:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,20,False,2026-11-08 18:00:00,LAC
 My Sweet Glorious King,Trey Murphy III,4397688,20,False,2026-11-08 18:00:00,LAC
+MVPKNEE,Yves Missi,5061589,20,False,2026-11-08 18:00:00,LAC
 The Freak and The Felons,Zach LaVine,3064440,20,False,2026-11-08 18:00:00,MIA
 Tyrese's,Zion Williamson,4395628,20,False,2026-11-08 18:00:00,LAC
 Anything Is Possible,AJ Dybantsa,5142718,21,False,2026-11-09 16:00:00,DET
@@ -1750,7 +1751,6 @@ Anything Is Possible,Devin Vassell,4395630,21,False,2026-11-09 18:00:00,PHO
 Yong,Dillon Brooks,3155526,21,False,2026-11-09 18:00:00,SAS
 Don't Ask,Dylan Harper,5037871,21,False,2026-11-09 18:00:00,PHO
 My Sweet Glorious King,Jalen Green,4437244,21,False,2026-11-09 18:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,21,False,2026-11-09 18:00:00,PHO
 MVPKNEE,Khaman Maluach,5203685,21,False,2026-11-09 18:00:00,SAS
 The Freak and The Felons,Miles Bridges,4066383,21,False,2026-11-09 18:00:00,SAS
 KotaroLivesAlone,Oso Ighodaro,4601023,21,False,2026-11-09 18:00:00,SAS
@@ -1769,6 +1769,7 @@ Anything Is Possible,Saddiq Bey,4397136,21,False,2026-11-09 19:00:00,GSW
 MVPKNEE,Stephen Curry,3975,21,False,2026-11-09 19:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,21,False,2026-11-09 19:00:00,GSW
 Yong,Yaxel Lendeborg,5175737,21,False,2026-11-09 19:00:00,NOP
+MVPKNEE,Yves Missi,5061589,21,False,2026-11-09 19:00:00,GSW
 Tyrese's,Zion Williamson,4395628,21,False,2026-11-09 19:00:00,GSW
 MVPKNEE,Jaime Jaquez Jr.,4432848,22,False,2026-11-10 16:30:00,NYK
 Yong,Jalen Brunson,3934672,22,False,2026-11-10 16:30:00,MIL
@@ -1897,7 +1898,6 @@ Flashy like Primo,Jerami Grant,2991070,23,False,2026-11-11 17:00:00,DEN
 KotaroLivesAlone,Jeremiah Fears,5144091,23,False,2026-11-11 17:00:00,BKN
 Towns Syndrome,Jordan Poole,4277956,23,False,2026-11-11 17:00:00,BKN
 Don't Ask,Josh Giddey,4871145,23,False,2026-11-11 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,23,False,2026-11-11 17:00:00,CHI
 KotaroLivesAlone,Julius Randle,3064514,23,False,2026-11-11 17:00:00,NOP
 My Sweet Glorious King,Kel'el Ware,5105623,23,False,2026-11-11 17:00:00,LAL
 Flashy like Primo,Luka Doncic,3945274,23,False,2026-11-11 17:00:00,MIL
@@ -1920,6 +1920,7 @@ Towns Syndrome,Ty Jerome,4065733,23,False,2026-11-11 17:00:00,DEN
 Flashy like Primo,Tyler Herro,4395725,23,False,2026-11-11 17:00:00,LAL
 The Galumphs,Victor Wembanyama,5104157,23,False,2026-11-11 17:00:00,CHI
 Don't Ask,Walker Kessler,4433136,23,False,2026-11-11 17:00:00,MIL
+MVPKNEE,Yves Missi,5061589,23,False,2026-11-11 17:00:00,BKN
 The Galumphs,Zach Edey,4600663,23,False,2026-11-11 17:00:00,DEN
 Tyrese's,Zion Williamson,4395628,23,False,2026-11-11 17:00:00,BKN
 My Sweet Glorious King,Ace Bailey,4873138,23,False,2026-11-11 18:00:00,ORL
@@ -2061,6 +2062,7 @@ Anything Is Possible,Saddiq Bey,4397136,25,False,2026-11-13 17:00:00,MEM
 MVPKNEE,Scotty Pippen Jr.,4431785,25,False,2026-11-13 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,25,False,2026-11-13 17:00:00,MEM
 Towns Syndrome,Ty Jerome,4065733,25,False,2026-11-13 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,25,False,2026-11-13 17:00:00,MEM
 The Galumphs,Zach Edey,4600663,25,False,2026-11-13 17:00:00,NOP
 Tyrese's,Zion Williamson,4395628,25,False,2026-11-13 17:00:00,MEM
 My Sweet Glorious King,Ace Bailey,4873138,25,False,2026-11-13 17:30:00,HOU
@@ -2082,7 +2084,6 @@ Anything Is Possible,Devin Vassell,4395630,25,False,2026-11-13 18:30:00,GSW
 Don't Ask,Draymond Green,6589,25,False,2026-11-13 18:30:00,SAS
 Don't Ask,Dylan Harper,5037871,25,False,2026-11-13 18:30:00,GSW
 Flashy like Primo,Jimmy Butler III,6430,25,False,2026-11-13 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,25,False,2026-11-13 18:30:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,25,False,2026-11-13 18:30:00,SAS
 MVPKNEE,Stephen Curry,3975,25,False,2026-11-13 18:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,25,False,2026-11-13 18:30:00,GSW
@@ -2127,6 +2128,7 @@ Towns Syndrome,Jordan Poole,4277956,26,False,2026-11-14 16:00:00,DEN
 you know what to do with that,Nikola Jokic,3112335,26,False,2026-11-14 16:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,26,False,2026-11-14 16:00:00,DEN
 My Sweet Glorious King,Trey Murphy III,4397688,26,False,2026-11-14 16:00:00,DEN
+MVPKNEE,Yves Missi,5061589,26,False,2026-11-14 16:00:00,DEN
 Tyrese's,Zion Williamson,4395628,26,False,2026-11-14 16:00:00,DEN
 My Sweet Glorious King,Cooper Flagg,5041939,26,False,2026-11-14 16:30:00,CLE
 Don't Ask,Daniel Gafford,4278049,26,False,2026-11-14 16:30:00,CLE
@@ -2213,7 +2215,6 @@ you know what to do with that,De'Aaron Fox,4066259,27,False,2026-11-15 14:00:00,
 Anything Is Possible,Devin Vassell,4395630,27,False,2026-11-15 14:00:00,UTA
 Don't Ask,Dylan Harper,5037871,27,False,2026-11-15 14:00:00,UTA
 The Galumphs,Jaren Jackson Jr.,4277961,27,False,2026-11-15 14:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,27,False,2026-11-15 14:00:00,UTA
 Tyrese's,Keyonte George,4433627,27,False,2026-11-15 14:00:00,SAS
 you know what to do with that,Kyle Filipowski,4684793,27,False,2026-11-15 14:00:00,SAS
 Towns Syndrome,Lauri Markkanen,4066336,27,False,2026-11-15 14:00:00,SAS
@@ -2359,6 +2360,7 @@ MVPKNEE,Stephen Curry,3975,28,False,2026-11-16 17:00:00,NOP
 you know what to do with that,Toumani Camara,4431736,28,False,2026-11-16 17:00:00,MIN
 My Sweet Glorious King,Trey Murphy III,4397688,28,False,2026-11-16 17:00:00,GSW
 Yong,Yaxel Lendeborg,5175737,28,False,2026-11-16 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,28,False,2026-11-16 17:00:00,GSW
 Tyrese's,Zion Williamson,4395628,28,False,2026-11-16 17:00:00,GSW
 Towns Syndrome,Aaron Gordon,3064290,28,False,2026-11-16 18:00:00,PHO
 The Galumphs,Cameron Johnson,3138196,28,False,2026-11-16 18:00:00,PHO
@@ -2400,7 +2402,6 @@ The Freak and The Felons,Jalen Duren,4433621,29,False,2026-11-17 17:00:00,SAS
 Anything Is Possible,John Collins,3908845,29,False,2026-11-17 17:00:00,SAS
 The Freak and The Felons,Jonathan Kuminga,4433247,29,False,2026-11-17 17:00:00,POR
 The Galumphs,Jrue Holiday,3995,29,False,2026-11-17 17:00:00,MIN
-MVPKNEE,Julian Champagnie,4592479,29,False,2026-11-17 17:00:00,DET
 Towns Syndrome,LaMelo Ball,4432816,29,False,2026-11-17 17:00:00,POR
 Don't Ask,Rudy Gobert,3032976,29,False,2026-11-17 17:00:00,POR
 Towns Syndrome,Stephon Castle,4845367,29,False,2026-11-17 17:00:00,DET
@@ -2525,6 +2526,7 @@ The Freak and The Felons,Onyeka Okongwu,4431680,30,False,2026-11-18 17:00:00,OKC
 Anything Is Possible,Saddiq Bey,4397136,30,False,2026-11-18 17:00:00,DET
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,30,False,2026-11-18 17:00:00,ATL
 My Sweet Glorious King,Trey Murphy III,4397688,30,False,2026-11-18 17:00:00,DET
+MVPKNEE,Yves Missi,5061589,30,False,2026-11-18 17:00:00,DET
 Tyrese's,Zion Williamson,4395628,30,False,2026-11-18 17:00:00,DET
 Towns Syndrome,Aaron Gordon,3064290,30,False,2026-11-18 18:00:00,BOS
 The Galumphs,Cameron Johnson,3138196,30,False,2026-11-18 18:00:00,BOS
@@ -2598,7 +2600,6 @@ Flashy like Primo,Jimmy Butler III,6430,31,False,2026-11-19 17:00:00,MEM
 The Freak and The Felons,Jonathan Kuminga,4433247,31,False,2026-11-19 17:00:00,NYK
 KotaroLivesAlone,Josh Hart,3062679,31,False,2026-11-19 17:00:00,MIN
 The Galumphs,Jrue Holiday,3995,31,False,2026-11-19 17:00:00,MIL
-MVPKNEE,Julian Champagnie,4592479,31,False,2026-11-19 17:00:00,LAC
 Towns Syndrome,Karl-Anthony Towns,3136195,31,False,2026-11-19 17:00:00,MIN
 Towns Syndrome,Keaton Wagler,5254165,31,False,2026-11-19 17:00:00,SAS
 My Sweet Glorious King,Kel'el Ware,5105623,31,False,2026-11-19 17:00:00,POR
@@ -2689,6 +2690,7 @@ Anything Is Possible,Saddiq Bey,4397136,32,False,2026-11-20 17:00:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,32,False,2026-11-20 17:00:00,NOP
 The Freak and The Felons,Trae Young,4277905,32,False,2026-11-20 17:00:00,CHI
 My Sweet Glorious King,Trey Murphy III,4397688,32,False,2026-11-20 17:00:00,OKC
+MVPKNEE,Yves Missi,5061589,32,False,2026-11-20 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,32,False,2026-11-20 17:00:00,OKC
 My Sweet Glorious King,Ace Bailey,4873138,32,False,2026-11-20 18:30:00,PHO
 Yong,Collin Gillespie,4278585,32,False,2026-11-20 18:30:00,UTA
@@ -2771,7 +2773,6 @@ Flashy like Primo,Jerami Grant,2991070,33,False,2026-11-21 17:00:00,MIN
 KotaroLivesAlone,Jeremiah Fears,5144091,33,False,2026-11-21 17:00:00,SAS
 The Freak and The Felons,Jonathan Kuminga,4433247,33,False,2026-11-21 17:00:00,MEM
 Towns Syndrome,Jordan Poole,4277956,33,False,2026-11-21 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,33,False,2026-11-21 17:00:00,NOP
 Towns Syndrome,Keaton Wagler,5254165,33,False,2026-11-21 17:00:00,DAL
 Tyrese's,Kyrie Irving,6442,33,False,2026-11-21 17:00:00,LAC
 Towns Syndrome,LaMelo Ball,4432816,33,False,2026-11-21 17:00:00,MEM
@@ -2785,6 +2786,7 @@ Don't Ask,Tobias Harris,6440,33,False,2026-11-21 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,33,False,2026-11-21 17:00:00,SAS
 Towns Syndrome,Ty Jerome,4065733,33,False,2026-11-21 17:00:00,MIN
 The Galumphs,Victor Wembanyama,5104157,33,False,2026-11-21 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,33,False,2026-11-21 17:00:00,SAS
 The Galumphs,Zach Edey,4600663,33,False,2026-11-21 17:00:00,MIN
 Tyrese's,Zion Williamson,4395628,33,False,2026-11-21 17:00:00,SAS
 Flashy like Primo,Darius Acuff Jr.,5142620,33,False,2026-11-21 19:00:00,BOS
@@ -2959,6 +2961,7 @@ KotaroLivesAlone,Oso Ighodaro,4601023,35,False,2026-11-23 17:00:00,NOP
 Flashy like Primo,Peyton Watson,4576087,35,False,2026-11-23 17:00:00,CHI
 Anything Is Possible,Saddiq Bey,4397136,35,False,2026-11-23 17:00:00,PHO
 My Sweet Glorious King,Trey Murphy III,4397688,35,False,2026-11-23 17:00:00,PHO
+MVPKNEE,Yves Missi,5061589,35,False,2026-11-23 17:00:00,PHO
 Tyrese's,Zion Williamson,4395628,35,False,2026-11-23 17:00:00,PHO
 you know what to do with that,Alperen Sengun,4871144,35,False,2026-11-23 17:30:00,LAC
 KotaroLivesAlone,Amen Thompson,4684740,35,False,2026-11-23 17:30:00,LAC
@@ -2984,7 +2987,6 @@ Anything Is Possible,Domantas Sabonis,3155942,35,False,2026-11-23 19:00:00,SAS
 Don't Ask,Dylan Harper,5037871,35,False,2026-11-23 19:00:00,SAC
 Yong,Jake LaRavia,4592691,35,False,2026-11-23 19:00:00,UTA
 The Galumphs,Jaren Jackson Jr.,4277961,35,False,2026-11-23 19:00:00,LAL
-MVPKNEE,Julian Champagnie,4592479,35,False,2026-11-23 19:00:00,SAC
 Tyrese's,Keegan Murray,4594327,35,False,2026-11-23 19:00:00,SAS
 Tyrese's,Keyonte George,4433627,35,False,2026-11-23 19:00:00,LAL
 you know what to do with that,Kyle Filipowski,4684793,35,False,2026-11-23 19:00:00,LAL
@@ -3128,7 +3130,6 @@ Don't Ask,Dylan Harper,5037871,37,False,2026-11-25 19:00:00,POR
 The Freak and The Felons,Ja Morant,4279888,37,False,2026-11-25 19:00:00,SAS
 Flashy like Primo,Jimmy Butler III,6430,37,False,2026-11-25 19:00:00,SAC
 The Galumphs,Jrue Holiday,3995,37,False,2026-11-25 19:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,37,False,2026-11-25 19:00:00,POR
 Tyrese's,Keegan Murray,4594327,37,False,2026-11-25 19:00:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,37,False,2026-11-25 19:00:00,SAC
 Anything Is Possible,Malik Monk,4066262,37,False,2026-11-25 19:00:00,GSW
@@ -3243,7 +3244,6 @@ KotaroLivesAlone,Jeremiah Fears,5144091,39,False,2026-11-27 18:30:00,LAC
 Flashy like Primo,Jimmy Butler III,6430,39,False,2026-11-27 18:30:00,POR
 Towns Syndrome,Jordan Poole,4277956,39,False,2026-11-27 18:30:00,LAC
 The Galumphs,Jrue Holiday,3995,39,False,2026-11-27 18:30:00,GSW
-MVPKNEE,Julian Champagnie,4592479,39,False,2026-11-27 18:30:00,LAL
 Towns Syndrome,Keaton Wagler,5254165,39,False,2026-11-27 18:30:00,NOP
 Tyrese's,Keyonte George,4433627,39,False,2026-11-27 18:30:00,DEN
 you know what to do with that,Kristaps Porzingis,3102531,39,False,2026-11-27 18:30:00,POR
@@ -3263,6 +3263,7 @@ My Sweet Glorious King,Trey Murphy III,4397688,39,False,2026-11-27 18:30:00,LAC
 The Galumphs,Victor Wembanyama,5104157,39,False,2026-11-27 18:30:00,LAL
 Don't Ask,Walker Kessler,4433136,39,False,2026-11-27 18:30:00,SAS
 Yong,Yaxel Lendeborg,5175737,39,False,2026-11-27 18:30:00,POR
+MVPKNEE,Yves Missi,5061589,39,False,2026-11-27 18:30:00,LAC
 Tyrese's,Zion Williamson,4395628,39,False,2026-11-27 18:30:00,LAC
 Anything Is Possible,AJ Dybantsa,5142718,40,False,2026-11-28 14:00:00,ORL
 Anything Is Possible,Alex Sarr,5160992,40,False,2026-11-28 14:00:00,ORL
@@ -3337,7 +3338,6 @@ My Sweet Glorious King,GG Jackson,5105550,41,False,2026-11-29 13:00:00,LAL
 Yong,Jake LaRavia,4592691,41,False,2026-11-29 13:00:00,MEM
 MVPKNEE,Jayson Tatum,4065648,41,False,2026-11-29 13:00:00,SAS
 Flashy like Primo,Jerami Grant,2991070,41,False,2026-11-29 13:00:00,LAL
-MVPKNEE,Julian Champagnie,4592479,41,False,2026-11-29 13:00:00,BOS
 Flashy like Primo,Luka Doncic,3945274,41,False,2026-11-29 13:00:00,MEM
 Tyrese's,Neemias Queta,4397424,41,False,2026-11-29 13:00:00,SAS
 The Galumphs,Paul George,4251,41,False,2026-11-29 13:00:00,SAS
@@ -3418,6 +3418,7 @@ Anything Is Possible,Saddiq Bey,4397136,41,False,2026-11-29 15:00:00,POR
 KotaroLivesAlone,Scottie Barnes,4433134,41,False,2026-11-29 15:00:00,DEN
 you know what to do with that,Toumani Camara,4431736,41,False,2026-11-29 15:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,41,False,2026-11-29 15:00:00,POR
+MVPKNEE,Yves Missi,5061589,41,False,2026-11-29 15:00:00,POR
 Tyrese's,Zion Williamson,4395628,41,False,2026-11-29 15:00:00,POR
 Yong,Brandin Podziemski,4709138,41,False,2026-11-29 17:30:00,LAC
 Don't Ask,Brandon Ingram,3913176,41,False,2026-11-29 17:30:00,GSW
@@ -3501,7 +3502,6 @@ Anything Is Possible,Devin Vassell,4395630,42,False,2026-11-30 17:00:00,MIL
 Don't Ask,Dylan Harper,5037871,42,False,2026-11-30 17:00:00,MIL
 MVPKNEE,Jaime Jaquez Jr.,4432848,42,False,2026-11-30 17:00:00,SAS
 MVPKNEE,Jayson Tatum,4065648,42,False,2026-11-30 17:00:00,DAL
-MVPKNEE,Julian Champagnie,4592479,42,False,2026-11-30 17:00:00,MIL
 My Sweet Glorious King,Kel'el Ware,5105623,42,False,2026-11-30 17:00:00,SAS
 Tyrese's,Kyrie Irving,6442,42,False,2026-11-30 17:00:00,BOS
 KotaroLivesAlone,Myles Turner,3133628,42,False,2026-11-30 17:00:00,SAS
@@ -3524,6 +3524,7 @@ Tyrese's,Keegan Murray,4594327,42,False,2026-11-30 19:00:00,NOP
 Anything Is Possible,Malik Monk,4066262,42,False,2026-11-30 19:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,42,False,2026-11-30 19:00:00,SAC
 My Sweet Glorious King,Trey Murphy III,4397688,42,False,2026-11-30 19:00:00,SAC
+MVPKNEE,Yves Missi,5061589,42,False,2026-11-30 19:00:00,SAC
 The Freak and The Felons,Zach LaVine,3064440,42,False,2026-11-30 19:00:00,NOP
 Tyrese's,Zion Williamson,4395628,42,False,2026-11-30 19:00:00,SAC
 My Sweet Glorious King,Andrew Nembhard,4395712,43,False,2026-12-01 16:00:00,CLE
@@ -3701,6 +3702,7 @@ Towns Syndrome,Shai Gilgeous-Alexander,4278073,44,False,2026-12-02 17:00:00,BKN
 My Sweet Glorious King,Trey Murphy III,4397688,44,False,2026-12-02 17:00:00,LAL
 Flashy like Primo,Tyler Herro,4395725,44,False,2026-12-02 17:00:00,NYK
 Don't Ask,Walker Kessler,4433136,44,False,2026-12-02 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,44,False,2026-12-02 17:00:00,LAL
 Tyrese's,Zion Williamson,4395628,44,False,2026-12-02 17:00:00,LAL
 Yong,Collin Gillespie,4278585,44,False,2026-12-02 18:00:00,SAC
 Flashy like Primo,Darius Acuff Jr.,5142620,44,False,2026-12-02 18:00:00,PHO
@@ -3759,7 +3761,6 @@ Yong,Jalen Smith,4397189,45,False,2026-12-03 17:00:00,CLE
 Anything Is Possible,James Harden,3992,45,False,2026-12-03 17:00:00,CHI
 Yong,Jarrett Allen,4066328,45,False,2026-12-03 17:00:00,CHI
 Don't Ask,Josh Giddey,4871145,45,False,2026-12-03 17:00:00,CLE
-MVPKNEE,Julian Champagnie,4592479,45,False,2026-12-03 17:00:00,TOR
 MVPKNEE,Kawhi Leonard,6450,45,False,2026-12-03 17:00:00,SAS
 KotaroLivesAlone,Matas Buzelis,4711294,45,False,2026-12-03 17:00:00,CLE
 The Freak and The Felons,Nic Claxton,4278067,45,False,2026-12-03 17:00:00,CLE
@@ -3929,7 +3930,6 @@ you know what to do with that,De'Aaron Fox,4066259,55,False,2026-12-13 16:00:00,
 Anything Is Possible,Devin Vassell,4395630,55,False,2026-12-13 16:00:00,LAC
 Don't Ask,Dylan Harper,5037871,55,False,2026-12-13 16:00:00,LAC
 Tyrese's,Isaiah Jackson,4432170,55,False,2026-12-13 16:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,55,False,2026-12-13 16:00:00,LAC
 Towns Syndrome,Keaton Wagler,5254165,55,False,2026-12-13 16:00:00,SAS
 Flashy like Primo,Rui Hachimura,4066648,55,False,2026-12-13 16:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,55,False,2026-12-13 16:00:00,LAC
@@ -3945,6 +3945,7 @@ Tyrese's,Keegan Murray,4594327,55,False,2026-12-13 18:00:00,NOP
 Anything Is Possible,Malik Monk,4066262,55,False,2026-12-13 18:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,55,False,2026-12-13 18:00:00,SAC
 My Sweet Glorious King,Trey Murphy III,4397688,55,False,2026-12-13 18:00:00,SAC
+MVPKNEE,Yves Missi,5061589,55,False,2026-12-13 18:00:00,SAC
 The Freak and The Felons,Zach LaVine,3064440,55,False,2026-12-13 18:00:00,NOP
 Tyrese's,Zion Williamson,4395628,55,False,2026-12-13 18:00:00,SAC
 Don't Ask,Anfernee Simons,4351851,56,False,2026-12-14 16:00:00,ORL
@@ -4074,6 +4075,7 @@ Anything Is Possible,Saddiq Bey,4397136,56,False,2026-12-14 19:00:00,LAL
 Don't Ask,Sandro Mamukelashvili,4278580,56,False,2026-12-14 19:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,56,False,2026-12-14 19:00:00,LAL
 Don't Ask,Walker Kessler,4433136,56,False,2026-12-14 19:00:00,NOP
+MVPKNEE,Yves Missi,5061589,56,False,2026-12-14 19:00:00,LAL
 Tyrese's,Zion Williamson,4395628,56,False,2026-12-14 19:00:00,LAL
 you know what to do with that,De'Aaron Fox,4066259,57,False,2026-12-15 17:00:00,CLE
 Anything Is Possible,Devin Vassell,4395630,57,False,2026-12-15 17:00:00,CLE
@@ -4082,7 +4084,6 @@ Don't Ask,Dylan Harper,5037871,57,False,2026-12-15 17:00:00,CLE
 Don't Ask,Evan Mobley,4432158,57,False,2026-12-15 17:00:00,SAS
 Anything Is Possible,James Harden,3992,57,False,2026-12-15 17:00:00,SAS
 Yong,Jarrett Allen,4066328,57,False,2026-12-15 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,57,False,2026-12-15 17:00:00,CLE
 Flashy like Primo,Peyton Watson,4576087,57,False,2026-12-15 17:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,57,False,2026-12-15 17:00:00,CLE
 Don't Ask,Tobias Harris,6440,57,False,2026-12-15 17:00:00,CLE
@@ -4165,7 +4166,6 @@ Don't Ask,Dylan Harper,5037871,58,False,2026-12-16 16:30:00,TOR
 MVPKNEE,Egor Demin,5175643,58,False,2026-12-16 16:30:00,DAL
 The Galumphs,Immanuel Quickley,4395724,58,False,2026-12-16 16:30:00,SAS
 Towns Syndrome,Jakob Poeltl,3134908,58,False,2026-12-16 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,58,False,2026-12-16 16:30:00,TOR
 KotaroLivesAlone,Julius Randle,3064514,58,False,2026-12-16 16:30:00,DAL
 MVPKNEE,Kawhi Leonard,6450,58,False,2026-12-16 16:30:00,SAS
 Tyrese's,Kyrie Irving,6442,58,False,2026-12-16 16:30:00,BKN
@@ -4224,6 +4224,7 @@ MVPKNEE,Scotty Pippen Jr.,4431785,58,False,2026-12-16 17:00:00,MIA
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,58,False,2026-12-16 17:00:00,SAC
 My Sweet Glorious King,Trey Murphy III,4397688,58,False,2026-12-16 17:00:00,NYK
 Towns Syndrome,Ty Jerome,4065733,58,False,2026-12-16 17:00:00,MIA
+MVPKNEE,Yves Missi,5061589,58,False,2026-12-16 17:00:00,NYK
 The Galumphs,Zach Edey,4600663,58,False,2026-12-16 17:00:00,MIA
 The Freak and The Felons,Zach LaVine,3064440,58,False,2026-12-16 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,58,False,2026-12-16 17:00:00,NYK
@@ -4396,7 +4397,6 @@ KotaroLivesAlone,Jeremiah Fears,5144091,60,False,2026-12-18 17:00:00,SAC
 The Freak and The Felons,Jonathan Kuminga,4433247,60,False,2026-12-18 17:00:00,LAL
 Towns Syndrome,Jordan Poole,4277956,60,False,2026-12-18 17:00:00,SAC
 Don't Ask,Josh Giddey,4871145,60,False,2026-12-18 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,60,False,2026-12-18 17:00:00,CHI
 Tyrese's,Keegan Murray,4594327,60,False,2026-12-18 17:00:00,NOP
 My Sweet Glorious King,Kel'el Ware,5105623,60,False,2026-12-18 17:00:00,PHO
 The Galumphs,Kevin Durant,3202,60,False,2026-12-18 17:00:00,MEM
@@ -4425,6 +4425,7 @@ Towns Syndrome,Ty Jerome,4065733,60,False,2026-12-18 17:00:00,HOU
 Flashy like Primo,Tyler Herro,4395725,60,False,2026-12-18 17:00:00,PHO
 The Galumphs,Victor Wembanyama,5104157,60,False,2026-12-18 17:00:00,CHI
 Don't Ask,Walker Kessler,4433136,60,False,2026-12-18 17:00:00,MIN
+MVPKNEE,Yves Missi,5061589,60,False,2026-12-18 17:00:00,SAC
 The Galumphs,Zach Edey,4600663,60,False,2026-12-18 17:00:00,HOU
 The Freak and The Felons,Zach LaVine,3064440,60,False,2026-12-18 17:00:00,NOP
 Tyrese's,Zion Williamson,4395628,60,False,2026-12-18 17:00:00,SAC
@@ -4552,7 +4553,6 @@ Tyrese's,Jalen Williams,4593803,62,False,2026-12-20 16:00:00,ATL
 The Freak and The Felons,Jared McCain,4683778,62,False,2026-12-20 16:00:00,ATL
 KotaroLivesAlone,Jeremiah Fears,5144091,62,False,2026-12-20 16:00:00,SAS
 Towns Syndrome,Jordan Poole,4277956,62,False,2026-12-20 16:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,62,False,2026-12-20 16:00:00,NOP
 you know what to do with that,Nickeil Alexander-Walker,4278039,62,False,2026-12-20 16:00:00,OKC
 The Freak and The Felons,Onyeka Okongwu,4431680,62,False,2026-12-20 16:00:00,OKC
 Anything Is Possible,Saddiq Bey,4397136,62,False,2026-12-20 16:00:00,SAS
@@ -4561,6 +4561,7 @@ Towns Syndrome,Stephon Castle,4845367,62,False,2026-12-20 16:00:00,NOP
 Don't Ask,Tobias Harris,6440,62,False,2026-12-20 16:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,62,False,2026-12-20 16:00:00,SAS
 The Galumphs,Victor Wembanyama,5104157,62,False,2026-12-20 16:00:00,NOP
+MVPKNEE,Yves Missi,5061589,62,False,2026-12-20 16:00:00,SAS
 Tyrese's,Zion Williamson,4395628,62,False,2026-12-20 16:00:00,SAS
 Tyrese's,Ausar Thompson,4684742,62,False,2026-12-20 17:00:00,BOS
 Yong,Brandin Podziemski,4709138,62,False,2026-12-20 17:00:00,MIL
@@ -4668,7 +4669,6 @@ Flashy like Primo,Jerami Grant,2991070,63,False,2026-12-21 17:00:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,63,False,2026-12-21 17:00:00,MEM
 The Freak and The Felons,Jonathan Kuminga,4433247,63,False,2026-12-21 17:00:00,PHO
 Towns Syndrome,Jordan Poole,4277956,63,False,2026-12-21 17:00:00,MEM
-MVPKNEE,Julian Champagnie,4592479,63,False,2026-12-21 17:00:00,MIL
 My Sweet Glorious King,Kel'el Ware,5105623,63,False,2026-12-21 17:00:00,SAS
 MVPKNEE,Khaman Maluach,5203685,63,False,2026-12-21 17:00:00,MIN
 Towns Syndrome,LaMelo Ball,4432816,63,False,2026-12-21 17:00:00,PHO
@@ -4685,6 +4685,7 @@ My Sweet Glorious King,Trey Murphy III,4397688,63,False,2026-12-21 17:00:00,MEM
 Towns Syndrome,Ty Jerome,4065733,63,False,2026-12-21 17:00:00,NOP
 Flashy like Primo,Tyler Herro,4395725,63,False,2026-12-21 17:00:00,SAS
 The Galumphs,Victor Wembanyama,5104157,63,False,2026-12-21 17:00:00,MIL
+MVPKNEE,Yves Missi,5061589,63,False,2026-12-21 17:00:00,MEM
 The Galumphs,Zach Edey,4600663,63,False,2026-12-21 17:00:00,NOP
 Tyrese's,Zion Williamson,4395628,63,False,2026-12-21 17:00:00,MEM
 My Sweet Glorious King,Andrew Nembhard,4395712,63,False,2026-12-21 19:00:00,LAL
@@ -4810,7 +4811,6 @@ MVPKNEE,Joel Embiid,3059318,65,False,2026-12-23 16:30:00,HOU
 Don't Ask,Josh Giddey,4871145,65,False,2026-12-23 16:30:00,MIA
 KotaroLivesAlone,Josh Hart,3062679,65,False,2026-12-23 16:30:00,UTA
 The Galumphs,Jrue Holiday,3995,65,False,2026-12-23 16:30:00,BOS
-MVPKNEE,Julian Champagnie,4592479,65,False,2026-12-23 16:30:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,65,False,2026-12-23 16:30:00,SAS
 Towns Syndrome,Karl-Anthony Towns,3136195,65,False,2026-12-23 16:30:00,UTA
 The Galumphs,Kevin Durant,3202,65,False,2026-12-23 16:30:00,PHL
@@ -4874,6 +4874,7 @@ Towns Syndrome,Shai Gilgeous-Alexander,4278073,65,False,2026-12-23 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,65,False,2026-12-23 17:00:00,OKC
 Towns Syndrome,Ty Jerome,4065733,65,False,2026-12-23 17:00:00,TOR
 Flashy like Primo,Tyler Herro,4395725,65,False,2026-12-23 17:00:00,MIN
+MVPKNEE,Yves Missi,5061589,65,False,2026-12-23 17:00:00,OKC
 The Galumphs,Zach Edey,4600663,65,False,2026-12-23 17:00:00,TOR
 Tyrese's,Zion Williamson,4395628,65,False,2026-12-23 17:00:00,OKC
 My Sweet Glorious King,Andrew Nembhard,4395712,65,False,2026-12-23 18:00:00,PHO
@@ -4926,7 +4927,6 @@ Anything Is Possible,Devin Vassell,4395630,67,False,2026-12-25 09:00:00,NYK
 Don't Ask,Dylan Harper,5037871,67,False,2026-12-25 09:00:00,NYK
 Yong,Jalen Brunson,3934672,67,False,2026-12-25 09:00:00,SAS
 KotaroLivesAlone,Josh Hart,3062679,67,False,2026-12-25 09:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,67,False,2026-12-25 09:00:00,NYK
 Towns Syndrome,Karl-Anthony Towns,3136195,67,False,2026-12-25 09:00:00,SAS
 Anything Is Possible,Mikal Bridges,3147657,67,False,2026-12-25 09:00:00,SAS
 Don't Ask,OG Anunoby,3934719,67,False,2026-12-25 09:00:00,SAS
@@ -5028,6 +5028,7 @@ you know what to do with that,Michael Porter Jr.,4278104,68,False,2026-12-26 15:
 The Freak and The Felons,Mikel Brown Jr.,5101761,68,False,2026-12-26 15:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,68,False,2026-12-26 15:00:00,BKN
 My Sweet Glorious King,Trey Murphy III,4397688,68,False,2026-12-26 15:00:00,BKN
+MVPKNEE,Yves Missi,5061589,68,False,2026-12-26 15:00:00,BKN
 Tyrese's,Zion Williamson,4395628,68,False,2026-12-26 15:00:00,BKN
 Yong,Anthony Black,4712849,68,False,2026-12-26 16:00:00,TOR
 The Galumphs,Collin Murray-Boyles,5093267,68,False,2026-12-26 16:00:00,ORL
@@ -5161,7 +5162,6 @@ The Freak and The Felons,Jalen Duren,4433621,69,False,2026-12-27 16:00:00,POR
 Don't Ask,Jalen Johnson,4701230,69,False,2026-12-27 16:00:00,SAS
 Anything Is Possible,John Collins,3908845,69,False,2026-12-27 16:00:00,POR
 The Galumphs,Jrue Holiday,3995,69,False,2026-12-27 16:00:00,DET
-MVPKNEE,Julian Champagnie,4592479,69,False,2026-12-27 16:00:00,ATL
 you know what to do with that,Nickeil Alexander-Walker,4278039,69,False,2026-12-27 16:00:00,SAS
 The Freak and The Felons,Onyeka Okongwu,4431680,69,False,2026-12-27 16:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,69,False,2026-12-27 16:00:00,ATL
@@ -5228,6 +5228,7 @@ you know what to do with that,RJ Barrett,4395625,70,False,2026-12-28 16:30:00,NO
 Anything Is Possible,Saddiq Bey,4397136,70,False,2026-12-28 16:30:00,TOR
 KotaroLivesAlone,Scottie Barnes,4433134,70,False,2026-12-28 16:30:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,70,False,2026-12-28 16:30:00,TOR
+MVPKNEE,Yves Missi,5061589,70,False,2026-12-28 16:30:00,TOR
 Tyrese's,Zion Williamson,4395628,70,False,2026-12-28 16:30:00,TOR
 KotaroLivesAlone,Derrick White,3078576,70,False,2026-12-28 17:00:00,CLE
 My Sweet Glorious King,Donovan Mitchell,3908809,70,False,2026-12-28 17:00:00,BOS
@@ -5321,7 +5322,6 @@ MVPKNEE,Jaime Jaquez Jr.,4432848,71,False,2026-12-29 17:00:00,OKC
 Tyrese's,Jalen Williams,4593803,71,False,2026-12-29 17:00:00,MIL
 The Freak and The Felons,Jared McCain,4683778,71,False,2026-12-29 17:00:00,MIL
 Flashy like Primo,Jerami Grant,2991070,71,False,2026-12-29 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,71,False,2026-12-29 17:00:00,MEM
 My Sweet Glorious King,Kel'el Ware,5105623,71,False,2026-12-29 17:00:00,OKC
 Tyrese's,Kyrie Irving,6442,71,False,2026-12-29 17:00:00,MIA
 KotaroLivesAlone,Myles Turner,3133628,71,False,2026-12-29 17:00:00,OKC
@@ -5381,6 +5381,7 @@ Anything Is Possible,John Collins,3908845,72,False,2026-12-30 16:00:00,NOP
 Towns Syndrome,Jordan Poole,4277956,72,False,2026-12-30 16:00:00,DET
 Anything Is Possible,Saddiq Bey,4397136,72,False,2026-12-30 16:00:00,DET
 My Sweet Glorious King,Trey Murphy III,4397688,72,False,2026-12-30 16:00:00,DET
+MVPKNEE,Yves Missi,5061589,72,False,2026-12-30 16:00:00,DET
 Tyrese's,Zion Williamson,4395628,72,False,2026-12-30 16:00:00,DET
 Anything Is Possible,AJ Dybantsa,5142718,72,False,2026-12-30 16:30:00,TOR
 Anything Is Possible,Alex Sarr,5160992,72,False,2026-12-30 16:30:00,TOR
@@ -5449,7 +5450,6 @@ MVPKNEE,Dennis Schroder,3032979,73,False,2026-12-31 10:00:00,SAS
 Anything Is Possible,Devin Vassell,4395630,73,False,2026-12-31 10:00:00,CHA
 Don't Ask,Dylan Harper,5037871,73,False,2026-12-31 10:00:00,CHA
 The Galumphs,Grayson Allen,3135045,73,False,2026-12-31 10:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,73,False,2026-12-31 10:00:00,CHA
 Yong,Kon Knueppel,5061575,73,False,2026-12-31 10:00:00,SAS
 KotaroLivesAlone,Moussa Diabate,4433249,73,False,2026-12-31 10:00:00,SAS
 Flashy like Primo,Naz Reid,4396971,73,False,2026-12-31 10:00:00,SAS
@@ -5536,6 +5536,7 @@ Don't Ask,Sandro Mamukelashvili,4278580,73,False,2026-12-31 17:00:00,NOP
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,73,False,2026-12-31 17:00:00,MIA
 My Sweet Glorious King,Trey Murphy III,4397688,73,False,2026-12-31 17:00:00,LAL
 Don't Ask,Walker Kessler,4433136,73,False,2026-12-31 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,73,False,2026-12-31 17:00:00,LAL
 Tyrese's,Zion Williamson,4395628,73,False,2026-12-31 17:00:00,LAL
 Yong,Collin Gillespie,4278585,73,False,2026-12-31 18:00:00,NYK
 Flashy like Primo,Devin Booker,3136193,73,False,2026-12-31 18:00:00,NYK
@@ -5556,7 +5557,6 @@ you know what to do with that,De'Aaron Fox,4066259,74,False,2027-01-01 14:00:00,
 The Freak and The Felons,Deandre Ayton,4278129,74,False,2027-01-01 14:00:00,SAS
 Anything Is Possible,Devin Vassell,4395630,74,False,2027-01-01 14:00:00,WAS
 Don't Ask,Dylan Harper,5037871,74,False,2027-01-01 14:00:00,WAS
-MVPKNEE,Julian Champagnie,4592479,74,False,2027-01-01 14:00:00,WAS
 Yong,Kyshawn George,5174563,74,False,2027-01-01 14:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,74,False,2027-01-01 14:00:00,WAS
 Don't Ask,Tobias Harris,6440,74,False,2027-01-01 14:00:00,WAS
@@ -5661,6 +5661,7 @@ Don't Ask,Rudy Gobert,3032976,75,False,2027-01-02 16:00:00,IND
 Anything Is Possible,Saddiq Bey,4397136,75,False,2027-01-02 16:00:00,MIA
 My Sweet Glorious King,Trey Murphy III,4397688,75,False,2027-01-02 16:00:00,MIA
 Tyrese's,Tyrese Haliburton,4396993,75,False,2027-01-02 16:00:00,MIN
+MVPKNEE,Yves Missi,5061589,75,False,2027-01-02 16:00:00,MIA
 Tyrese's,Zion Williamson,4395628,75,False,2027-01-02 16:00:00,MIA
 Flashy like Primo,CJ McCollum,2490149,75,False,2027-01-02 16:30:00,DAL
 My Sweet Glorious King,Cooper Flagg,5041939,75,False,2027-01-02 16:30:00,ATL
@@ -5797,7 +5798,6 @@ Towns Syndrome,Jakob Poeltl,3134908,76,False,2027-01-03 16:00:00,LAL
 Anything Is Possible,James Harden,3992,76,False,2027-01-03 16:00:00,HOU
 Yong,Jarrett Allen,4066328,76,False,2027-01-03 16:00:00,HOU
 The Freak and The Felons,Jonathan Kuminga,4433247,76,False,2027-01-03 16:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,76,False,2027-01-03 16:00:00,MIN
 MVPKNEE,Kawhi Leonard,6450,76,False,2027-01-03 16:00:00,LAL
 Towns Syndrome,Keaton Wagler,5254165,76,False,2027-01-03 16:00:00,WAS
 The Galumphs,Kevin Durant,3202,76,False,2027-01-03 16:00:00,CLE
@@ -5863,6 +5863,7 @@ Tyrese's,Kyrie Irving,6442,77,False,2027-01-04 17:00:00,NOP
 Tyrese's,P.J. Washington,4278078,77,False,2027-01-04 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,77,False,2027-01-04 17:00:00,DAL
 My Sweet Glorious King,Trey Murphy III,4397688,77,False,2027-01-04 17:00:00,DAL
+MVPKNEE,Yves Missi,5061589,77,False,2027-01-04 17:00:00,DAL
 Tyrese's,Zion Williamson,4395628,77,False,2027-01-04 17:00:00,DAL
 My Sweet Glorious King,Ace Bailey,4873138,77,False,2027-01-04 18:00:00,BKN
 Yong,Collin Gillespie,4278585,77,False,2027-01-04 18:00:00,BOS
@@ -6044,7 +6045,6 @@ The Freak and The Felons,Ja Morant,4279888,79,False,2027-01-06 17:00:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,79,False,2027-01-06 17:00:00,POR
 Towns Syndrome,Jordan Poole,4277956,79,False,2027-01-06 17:00:00,POR
 The Galumphs,Jrue Holiday,3995,79,False,2027-01-06 17:00:00,NOP
-MVPKNEE,Julian Champagnie,4592479,79,False,2027-01-06 17:00:00,IND
 The Freak and The Felons,Pascal Siakam,3149673,79,False,2027-01-06 17:00:00,SAS
 Anything Is Possible,Saddiq Bey,4397136,79,False,2027-01-06 17:00:00,POR
 Towns Syndrome,Stephon Castle,4845367,79,False,2027-01-06 17:00:00,IND
@@ -6053,6 +6053,7 @@ you know what to do with that,Toumani Camara,4431736,79,False,2027-01-06 17:00:0
 My Sweet Glorious King,Trey Murphy III,4397688,79,False,2027-01-06 17:00:00,POR
 Tyrese's,Tyrese Haliburton,4396993,79,False,2027-01-06 17:00:00,SAS
 The Galumphs,Victor Wembanyama,5104157,79,False,2027-01-06 17:00:00,IND
+MVPKNEE,Yves Missi,5061589,79,False,2027-01-06 17:00:00,POR
 Tyrese's,Zion Williamson,4395628,79,False,2027-01-06 17:00:00,POR
 Yong,Brandin Podziemski,4709138,79,False,2027-01-06 19:00:00,NYK
 Don't Ask,Draymond Green,6589,79,False,2027-01-06 19:00:00,NYK
@@ -6253,7 +6254,6 @@ Tyrese's,Jalen Suggs,4432165,81,False,2027-01-08 17:00:00,NOP
 Flashy like Primo,Jerami Grant,2991070,81,False,2027-01-08 17:00:00,SAS
 KotaroLivesAlone,Jeremiah Fears,5144091,81,False,2027-01-08 17:00:00,ORL
 Towns Syndrome,Jordan Poole,4277956,81,False,2027-01-08 17:00:00,ORL
-MVPKNEE,Julian Champagnie,4592479,81,False,2027-01-08 17:00:00,MEM
 Towns Syndrome,Nikola Vucevic,6478,81,False,2027-01-08 17:00:00,NOP
 Anything Is Possible,Paolo Banchero,4432573,81,False,2027-01-08 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,81,False,2027-01-08 17:00:00,ORL
@@ -6263,6 +6263,7 @@ Don't Ask,Tobias Harris,6440,81,False,2027-01-08 17:00:00,MEM
 My Sweet Glorious King,Trey Murphy III,4397688,81,False,2027-01-08 17:00:00,ORL
 Towns Syndrome,Ty Jerome,4065733,81,False,2027-01-08 17:00:00,SAS
 The Galumphs,Victor Wembanyama,5104157,81,False,2027-01-08 17:00:00,MEM
+MVPKNEE,Yves Missi,5061589,81,False,2027-01-08 17:00:00,ORL
 The Galumphs,Zach Edey,4600663,81,False,2027-01-08 17:00:00,SAS
 Tyrese's,Zion Williamson,4395628,81,False,2027-01-08 17:00:00,ORL
 Yong,Collin Gillespie,4278585,81,False,2027-01-08 18:30:00,DAL
@@ -6371,7 +6372,6 @@ Anything Is Possible,Devin Vassell,4395630,83,False,2027-01-10 12:00:00,ATL
 Don't Ask,Dylan Harper,5037871,83,False,2027-01-10 12:00:00,ATL
 Anything Is Possible,Dyson Daniels,4869342,83,False,2027-01-10 12:00:00,SAS
 Don't Ask,Jalen Johnson,4701230,83,False,2027-01-10 12:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,83,False,2027-01-10 12:00:00,ATL
 you know what to do with that,Nickeil Alexander-Walker,4278039,83,False,2027-01-10 12:00:00,SAS
 The Freak and The Felons,Onyeka Okongwu,4431680,83,False,2027-01-10 12:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,83,False,2027-01-10 12:00:00,ATL
@@ -6435,6 +6435,7 @@ My Sweet Glorious King,Trey Murphy III,4397688,83,False,2027-01-10 15:00:00,MIA
 Towns Syndrome,Ty Jerome,4065733,83,False,2027-01-10 15:00:00,DAL
 Tyrese's,Tyrese Maxey,4431678,83,False,2027-01-10 15:00:00,TOR
 Towns Syndrome,VJ Edgecombe,5124612,83,False,2027-01-10 15:00:00,TOR
+MVPKNEE,Yves Missi,5061589,83,False,2027-01-10 15:00:00,MIA
 The Galumphs,Zach Edey,4600663,83,False,2027-01-10 15:00:00,DAL
 Tyrese's,Zion Williamson,4395628,83,False,2027-01-10 15:00:00,MIA
 Flashy like Primo,Caleb Wilson,5095151,83,False,2027-01-10 16:00:00,PHO
@@ -6709,12 +6710,12 @@ Anything Is Possible,Devin Vassell,4395630,87,False,2027-01-14 11:00:00,NOP
 Don't Ask,Dylan Harper,5037871,87,False,2027-01-14 11:00:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,87,False,2027-01-14 11:00:00,SAS
 Towns Syndrome,Jordan Poole,4277956,87,False,2027-01-14 11:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,87,False,2027-01-14 11:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,87,False,2027-01-14 11:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,87,False,2027-01-14 11:00:00,NOP
 Don't Ask,Tobias Harris,6440,87,False,2027-01-14 11:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,87,False,2027-01-14 11:00:00,SAS
 The Galumphs,Victor Wembanyama,5104157,87,False,2027-01-14 11:00:00,NOP
+MVPKNEE,Yves Missi,5061589,87,False,2027-01-14 11:00:00,SAS
 Tyrese's,Zion Williamson,4395628,87,False,2027-01-14 11:00:00,SAS
 Don't Ask,Anfernee Simons,4351851,87,False,2027-01-14 16:00:00,BKN
 Tyrese's,Ausar Thompson,4684742,87,False,2027-01-14 16:00:00,DAL
@@ -6975,12 +6976,12 @@ Anything Is Possible,Devin Vassell,4395630,90,False,2027-01-17 07:30:00,NOP
 Don't Ask,Dylan Harper,5037871,90,False,2027-01-17 07:30:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,90,False,2027-01-17 07:30:00,SAS
 Towns Syndrome,Jordan Poole,4277956,90,False,2027-01-17 07:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,90,False,2027-01-17 07:30:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,90,False,2027-01-17 07:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,90,False,2027-01-17 07:30:00,NOP
 Don't Ask,Tobias Harris,6440,90,False,2027-01-17 07:30:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,90,False,2027-01-17 07:30:00,SAS
 The Galumphs,Victor Wembanyama,5104157,90,False,2027-01-17 07:30:00,NOP
+MVPKNEE,Yves Missi,5061589,90,False,2027-01-17 07:30:00,SAS
 Tyrese's,Zion Williamson,4395628,90,False,2027-01-17 07:30:00,SAS
 Anything Is Possible,AJ Dybantsa,5142718,90,False,2027-01-17 10:00:00,IND
 Anything Is Possible,Alex Sarr,5160992,90,False,2027-01-17 10:00:00,IND
@@ -7297,6 +7298,7 @@ Anything Is Possible,Saddiq Bey,4397136,93,False,2027-01-20 17:00:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,93,False,2027-01-20 17:00:00,NOP
 Yong,Tari Eason,4433192,93,False,2027-01-20 17:00:00,MIN
 My Sweet Glorious King,Trey Murphy III,4397688,93,False,2027-01-20 17:00:00,OKC
+MVPKNEE,Yves Missi,5061589,93,False,2027-01-20 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,93,False,2027-01-20 17:00:00,OKC
 My Sweet Glorious King,Ace Bailey,4873138,93,False,2027-01-20 18:00:00,LAC
 Don't Ask,Brandon Ingram,3913176,93,False,2027-01-20 18:00:00,UTA
@@ -7332,7 +7334,6 @@ you know what to do with that,De'Aaron Fox,4066259,93,False,2027-01-20 18:30:00,
 Anything Is Possible,Devin Vassell,4395630,93,False,2027-01-20 18:30:00,MIA
 Don't Ask,Dylan Harper,5037871,93,False,2027-01-20 18:30:00,MIA
 The Freak and The Felons,Giannis Antetokounmpo,3032977,93,False,2027-01-20 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,93,False,2027-01-20 18:30:00,MIA
 Towns Syndrome,Stephon Castle,4845367,93,False,2027-01-20 18:30:00,MIA
 Don't Ask,Tobias Harris,6440,93,False,2027-01-20 18:30:00,MIA
 The Galumphs,Victor Wembanyama,5104157,93,False,2027-01-20 18:30:00,MIA
@@ -7461,6 +7462,7 @@ MVPKNEE,Scotty Pippen Jr.,4431785,95,False,2027-01-22 17:00:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,95,False,2027-01-22 17:00:00,MEM
 My Sweet Glorious King,Trey Murphy III,4397688,95,False,2027-01-22 17:00:00,DAL
 Towns Syndrome,Ty Jerome,4065733,95,False,2027-01-22 17:00:00,OKC
+MVPKNEE,Yves Missi,5061589,95,False,2027-01-22 17:00:00,DAL
 The Galumphs,Zach Edey,4600663,95,False,2027-01-22 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,95,False,2027-01-22 17:00:00,DAL
 My Sweet Glorious King,Ace Bailey,4873138,95,False,2027-01-22 18:00:00,PHO
@@ -7483,7 +7485,6 @@ Anything Is Possible,Devin Vassell,4395630,95,False,2027-01-22 18:30:00,MIN
 Don't Ask,Dylan Harper,5037871,95,False,2027-01-22 18:30:00,MIN
 My Sweet Glorious King,Jaden McDaniels,4431671,95,False,2027-01-22 18:30:00,SAS
 The Freak and The Felons,Jonathan Kuminga,4433247,95,False,2027-01-22 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,95,False,2027-01-22 18:30:00,MIN
 Towns Syndrome,LaMelo Ball,4432816,95,False,2027-01-22 18:30:00,SAS
 Don't Ask,Rudy Gobert,3032976,95,False,2027-01-22 18:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,95,False,2027-01-22 18:30:00,MIN
@@ -7597,7 +7598,6 @@ you know what to do with that,Donovan Clingan,5105565,97,False,2027-01-24 12:30:
 Don't Ask,Dylan Harper,5037871,97,False,2027-01-24 12:30:00,POR
 The Freak and The Felons,Ja Morant,4279888,97,False,2027-01-24 12:30:00,SAS
 The Galumphs,Jrue Holiday,3995,97,False,2027-01-24 12:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,97,False,2027-01-24 12:30:00,POR
 Towns Syndrome,Stephon Castle,4845367,97,False,2027-01-24 12:30:00,POR
 Don't Ask,Tobias Harris,6440,97,False,2027-01-24 12:30:00,POR
 you know what to do with that,Toumani Camara,4431736,97,False,2027-01-24 12:30:00,SAS
@@ -7756,6 +7756,7 @@ Anything Is Possible,Saddiq Bey,4397136,98,False,2027-01-25 17:00:00,CLE
 MVPKNEE,Scotty Pippen Jr.,4431785,98,False,2027-01-25 17:00:00,MIN
 My Sweet Glorious King,Trey Murphy III,4397688,98,False,2027-01-25 17:00:00,CLE
 Towns Syndrome,Ty Jerome,4065733,98,False,2027-01-25 17:00:00,MIN
+MVPKNEE,Yves Missi,5061589,98,False,2027-01-25 17:00:00,CLE
 The Galumphs,Zach Edey,4600663,98,False,2027-01-25 17:00:00,MIN
 Tyrese's,Zion Williamson,4395628,98,False,2027-01-25 17:00:00,CLE
 Towns Syndrome,Aaron Gordon,3064290,98,False,2027-01-25 18:30:00,SAC
@@ -7807,7 +7808,6 @@ Anything Is Possible,Devin Vassell,4395630,99,False,2027-01-26 17:00:00,HOU
 Don't Ask,Dylan Harper,5037871,99,False,2027-01-26 17:00:00,HOU
 MVPKNEE,Fred VanVleet,2991230,99,False,2027-01-26 17:00:00,SAS
 Anything Is Possible,Jabari Smith Jr.,4432639,99,False,2027-01-26 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,99,False,2027-01-26 17:00:00,HOU
 The Galumphs,Kevin Durant,3202,99,False,2027-01-26 17:00:00,SAS
 Anything Is Possible,Reed Sheppard,4711272,99,False,2027-01-26 17:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,99,False,2027-01-26 17:00:00,HOU
@@ -7913,7 +7913,6 @@ MVPKNEE,Dennis Schroder,3032979,100,False,2027-01-27 17:00:00,SAS
 Anything Is Possible,Devin Vassell,4395630,100,False,2027-01-27 17:00:00,CHA
 Don't Ask,Dylan Harper,5037871,100,False,2027-01-27 17:00:00,CHA
 The Galumphs,Grayson Allen,3135045,100,False,2027-01-27 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,100,False,2027-01-27 17:00:00,CHA
 Yong,Kon Knueppel,5061575,100,False,2027-01-27 17:00:00,SAS
 KotaroLivesAlone,Moussa Diabate,4433249,100,False,2027-01-27 17:00:00,SAS
 Flashy like Primo,Naz Reid,4396971,100,False,2027-01-27 17:00:00,SAS
@@ -7933,6 +7932,7 @@ Anything Is Possible,Reed Sheppard,4711272,100,False,2027-01-27 17:30:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,100,False,2027-01-27 17:30:00,HOU
 Yong,Tari Eason,4433192,100,False,2027-01-27 17:30:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,100,False,2027-01-27 17:30:00,HOU
+MVPKNEE,Yves Missi,5061589,100,False,2027-01-27 17:30:00,HOU
 Tyrese's,Zion Williamson,4395628,100,False,2027-01-27 17:30:00,HOU
 Towns Syndrome,Aaron Gordon,3064290,100,False,2027-01-27 18:30:00,MIN
 Yong,Anthony Edwards,4594268,100,False,2027-01-27 18:30:00,DEN
@@ -8029,6 +8029,7 @@ My Sweet Glorious King,Trey Murphy III,4397688,101,False,2027-01-28 17:00:00,PHL
 Towns Syndrome,Ty Jerome,4065733,101,False,2027-01-28 17:00:00,OKC
 Tyrese's,Tyrese Maxey,4431678,101,False,2027-01-28 17:00:00,NOP
 Towns Syndrome,VJ Edgecombe,5124612,101,False,2027-01-28 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,101,False,2027-01-28 17:00:00,PHL
 The Galumphs,Zach Edey,4600663,101,False,2027-01-28 17:00:00,OKC
 Tyrese's,Zion Williamson,4395628,101,False,2027-01-28 17:00:00,PHL
 My Sweet Glorious King,Ace Bailey,4873138,101,False,2027-01-28 18:00:00,GSW
@@ -8153,7 +8154,6 @@ Anything Is Possible,Devin Vassell,4395630,103,False,2027-01-30 14:30:00,GSW
 Don't Ask,Draymond Green,6589,103,False,2027-01-30 14:30:00,SAS
 Don't Ask,Dylan Harper,5037871,103,False,2027-01-30 14:30:00,GSW
 Flashy like Primo,Jimmy Butler III,6430,103,False,2027-01-30 14:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,103,False,2027-01-30 14:30:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,103,False,2027-01-30 14:30:00,SAS
 MVPKNEE,Stephen Curry,3975,103,False,2027-01-30 14:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,103,False,2027-01-30 14:30:00,GSW
@@ -8181,6 +8181,7 @@ Towns Syndrome,Jordan Poole,4277956,103,False,2027-01-30 16:30:00,CLE
 Flashy like Primo,Peyton Watson,4576087,103,False,2027-01-30 16:30:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,103,False,2027-01-30 16:30:00,CLE
 My Sweet Glorious King,Trey Murphy III,4397688,103,False,2027-01-30 16:30:00,CLE
+MVPKNEE,Yves Missi,5061589,103,False,2027-01-30 16:30:00,CLE
 Tyrese's,Zion Williamson,4395628,103,False,2027-01-30 16:30:00,CLE
 Flashy like Primo,CJ McCollum,2490149,103,False,2027-01-30 17:00:00,MIL
 Anything Is Possible,Dyson Daniels,4869342,103,False,2027-01-30 17:00:00,MIL
@@ -8336,6 +8337,7 @@ The Freak and The Felons,Trae Young,4277905,105,False,2027-02-01 16:00:00,ATL
 My Sweet Glorious King,Trey Murphy III,4397688,105,False,2027-02-01 16:00:00,PHL
 Tyrese's,Tyrese Maxey,4431678,105,False,2027-02-01 16:00:00,NOP
 Towns Syndrome,VJ Edgecombe,5124612,105,False,2027-02-01 16:00:00,NOP
+MVPKNEE,Yves Missi,5061589,105,False,2027-02-01 16:00:00,PHL
 Tyrese's,Zion Williamson,4395628,105,False,2027-02-01 16:00:00,PHL
 My Sweet Glorious King,Andrew Nembhard,4395712,105,False,2027-02-01 16:30:00,MIA
 Towns Syndrome,Andrew Wiggins,3059319,105,False,2027-02-01 16:30:00,IND
@@ -8385,7 +8387,6 @@ Anything Is Possible,Devin Vassell,4395630,105,False,2027-02-01 19:00:00,GSW
 Don't Ask,Draymond Green,6589,105,False,2027-02-01 19:00:00,SAS
 Don't Ask,Dylan Harper,5037871,105,False,2027-02-01 19:00:00,GSW
 Flashy like Primo,Jimmy Butler III,6430,105,False,2027-02-01 19:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,105,False,2027-02-01 19:00:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,105,False,2027-02-01 19:00:00,SAS
 MVPKNEE,Stephen Curry,3975,105,False,2027-02-01 19:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,105,False,2027-02-01 19:00:00,GSW
@@ -8414,6 +8415,7 @@ Yong,Norman Powell,2595516,106,False,2027-02-02 16:00:00,DET
 Anything Is Possible,Paolo Banchero,4432573,106,False,2027-02-02 16:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,106,False,2027-02-02 16:00:00,ORL
 My Sweet Glorious King,Trey Murphy III,4397688,106,False,2027-02-02 16:00:00,ORL
+MVPKNEE,Yves Missi,5061589,106,False,2027-02-02 16:00:00,ORL
 Tyrese's,Zion Williamson,4395628,106,False,2027-02-02 16:00:00,ORL
 Towns Syndrome,Andrew Wiggins,3059319,106,False,2027-02-02 16:30:00,CHA
 My Sweet Glorious King,Bam Adebayo,4066261,106,False,2027-02-02 16:30:00,CHA
@@ -8471,7 +8473,6 @@ you know what to do with that,De'Aaron Fox,4066259,106,False,2027-02-02 19:30:00
 Anything Is Possible,Devin Vassell,4395630,106,False,2027-02-02 19:30:00,LAC
 Don't Ask,Dylan Harper,5037871,106,False,2027-02-02 19:30:00,LAC
 Tyrese's,Isaiah Jackson,4432170,106,False,2027-02-02 19:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,106,False,2027-02-02 19:30:00,LAC
 Towns Syndrome,Keaton Wagler,5254165,106,False,2027-02-02 19:30:00,SAS
 Flashy like Primo,Rui Hachimura,4066648,106,False,2027-02-02 19:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,106,False,2027-02-02 19:30:00,LAC
@@ -8569,6 +8570,7 @@ Yong,Kyshawn George,5174563,108,False,2027-02-04 16:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,108,False,2027-02-04 16:00:00,WAS
 The Freak and The Felons,Trae Young,4277905,108,False,2027-02-04 16:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,108,False,2027-02-04 16:00:00,WAS
+MVPKNEE,Yves Missi,5061589,108,False,2027-02-04 16:00:00,WAS
 Tyrese's,Zion Williamson,4395628,108,False,2027-02-04 16:00:00,WAS
 Towns Syndrome,Andrew Wiggins,3059319,108,False,2027-02-04 16:30:00,MIL
 The Galumphs,Austin Reaves,4066457,108,False,2027-02-04 16:30:00,BKN
@@ -8633,7 +8635,6 @@ Tyrese's,Jalen Suggs,4432165,108,False,2027-02-04 17:00:00,SAS
 Tyrese's,Jalen Williams,4593803,108,False,2027-02-04 17:00:00,CHI
 The Freak and The Felons,Jared McCain,4683778,108,False,2027-02-04 17:00:00,CHI
 Don't Ask,Josh Giddey,4871145,108,False,2027-02-04 17:00:00,OKC
-MVPKNEE,Julian Champagnie,4592479,108,False,2027-02-04 17:00:00,ORL
 KotaroLivesAlone,Matas Buzelis,4711294,108,False,2027-02-04 17:00:00,OKC
 The Freak and The Felons,Nic Claxton,4278067,108,False,2027-02-04 17:00:00,OKC
 Towns Syndrome,Nikola Vucevic,6478,108,False,2027-02-04 17:00:00,SAS
@@ -8826,6 +8827,7 @@ The Freak and The Felons,Nic Claxton,4278067,110,False,2027-02-06 17:00:00,NOP
 Yong,Norman Powell,2595516,110,False,2027-02-06 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,110,False,2027-02-06 17:00:00,CHI
 My Sweet Glorious King,Trey Murphy III,4397688,110,False,2027-02-06 17:00:00,CHI
+MVPKNEE,Yves Missi,5061589,110,False,2027-02-06 17:00:00,CHI
 Tyrese's,Zion Williamson,4395628,110,False,2027-02-06 17:00:00,CHI
 The Galumphs,Austin Reaves,4066457,110,False,2027-02-06 17:30:00,SAS
 you know what to do with that,Collin Sexton,4277811,110,False,2027-02-06 17:30:00,SAS
@@ -8833,7 +8835,6 @@ you know what to do with that,De'Aaron Fox,4066259,110,False,2027-02-06 17:30:00
 Anything Is Possible,Devin Vassell,4395630,110,False,2027-02-06 17:30:00,LAL
 Don't Ask,Dylan Harper,5037871,110,False,2027-02-06 17:30:00,LAL
 Yong,Jake LaRavia,4592691,110,False,2027-02-06 17:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,110,False,2027-02-06 17:30:00,LAL
 Flashy like Primo,Luka Doncic,3945274,110,False,2027-02-06 17:30:00,SAS
 you know what to do with that,Quentin Grimes,4397014,110,False,2027-02-06 17:30:00,SAS
 Don't Ask,Sandro Mamukelashvili,4278580,110,False,2027-02-06 17:30:00,SAS
@@ -8989,6 +8990,7 @@ My Sweet Glorious King,Trey Murphy III,4397688,112,False,2027-02-08 16:00:00,IND
 Tyrese's,Tyrese Haliburton,4396993,112,False,2027-02-08 16:00:00,NOP
 Tyrese's,Tyrese Maxey,4431678,112,False,2027-02-08 16:00:00,BKN
 Towns Syndrome,VJ Edgecombe,5124612,112,False,2027-02-08 16:00:00,BKN
+MVPKNEE,Yves Missi,5061589,112,False,2027-02-08 16:00:00,IND
 Tyrese's,Zion Williamson,4395628,112,False,2027-02-08 16:00:00,IND
 Yong,Anthony Black,4712849,112,False,2027-02-08 17:00:00,MIL
 Towns Syndrome,Cameron Boozer,5041935,112,False,2027-02-08 17:00:00,POR
@@ -9100,7 +9102,6 @@ The Freak and The Felons,Jared McCain,4683778,113,False,2027-02-09 17:00:00,POR
 Flashy like Primo,Jimmy Butler III,6430,113,False,2027-02-09 17:00:00,CHI
 Don't Ask,Josh Giddey,4871145,113,False,2027-02-09 17:00:00,GSW
 The Galumphs,Jrue Holiday,3995,113,False,2027-02-09 17:00:00,OKC
-MVPKNEE,Julian Champagnie,4592479,113,False,2027-02-09 17:00:00,DAL
 Tyrese's,Keegan Murray,4594327,113,False,2027-02-09 17:00:00,MIL
 My Sweet Glorious King,Kel'el Ware,5105623,113,False,2027-02-09 17:00:00,SAC
 you know what to do with that,Kristaps Porzingis,3102531,113,False,2027-02-09 17:00:00,CHI
@@ -9175,6 +9176,7 @@ Anything Is Possible,Saddiq Bey,4397136,114,False,2027-02-10 16:00:00,ATL
 The Freak and The Felons,Trae Young,4277905,114,False,2027-02-10 16:00:00,MIA
 My Sweet Glorious King,Trey Murphy III,4397688,114,False,2027-02-10 16:00:00,ATL
 Tyrese's,Tyrese Haliburton,4396993,114,False,2027-02-10 16:00:00,CLE
+MVPKNEE,Yves Missi,5061589,114,False,2027-02-10 16:00:00,ATL
 Tyrese's,Zion Williamson,4395628,114,False,2027-02-10 16:00:00,ATL
 Yong,Brandin Podziemski,4709138,114,False,2027-02-10 16:30:00,BOS
 KotaroLivesAlone,Derrick White,3078576,114,False,2027-02-10 16:30:00,GSW
@@ -9302,7 +9304,6 @@ Don't Ask,Dylan Harper,5037871,115,False,2027-02-11 18:30:00,OKC
 MVPKNEE,Isaiah Hartenstein,4222252,115,False,2027-02-11 18:30:00,SAS
 Tyrese's,Jalen Williams,4593803,115,False,2027-02-11 18:30:00,SAS
 The Freak and The Felons,Jared McCain,4683778,115,False,2027-02-11 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,115,False,2027-02-11 18:30:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,115,False,2027-02-11 18:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,115,False,2027-02-11 18:30:00,OKC
 Don't Ask,Tobias Harris,6440,115,False,2027-02-11 18:30:00,OKC
@@ -9388,6 +9389,7 @@ MVPKNEE,Scotty Pippen Jr.,4431785,116,False,2027-02-12 17:00:00,LAC
 Yong,Tari Eason,4433192,116,False,2027-02-12 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,116,False,2027-02-12 17:00:00,HOU
 Towns Syndrome,Ty Jerome,4065733,116,False,2027-02-12 17:00:00,LAC
+MVPKNEE,Yves Missi,5061589,116,False,2027-02-12 17:00:00,HOU
 The Galumphs,Zach Edey,4600663,116,False,2027-02-12 17:00:00,LAC
 Tyrese's,Zion Williamson,4395628,116,False,2027-02-12 17:00:00,HOU
 Towns Syndrome,Aaron Gordon,3064290,116,False,2027-02-12 19:30:00,LAL
@@ -9460,7 +9462,6 @@ Don't Ask,Dylan Harper,5037871,117,False,2027-02-13 16:00:00,ORL
 KotaroLivesAlone,Franz Wagner,4566434,117,False,2027-02-13 16:00:00,SAS
 MVPKNEE,Jaime Jaquez Jr.,4432848,117,False,2027-02-13 16:00:00,WAS
 Tyrese's,Jalen Suggs,4432165,117,False,2027-02-13 16:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,117,False,2027-02-13 16:00:00,ORL
 My Sweet Glorious King,Kel'el Ware,5105623,117,False,2027-02-13 16:00:00,WAS
 Yong,Kyshawn George,5174563,117,False,2027-02-13 16:00:00,MIL
 KotaroLivesAlone,Myles Turner,3133628,117,False,2027-02-13 16:00:00,WAS
@@ -9551,6 +9552,7 @@ Flashy like Primo,Rui Hachimura,4066648,118,False,2027-02-14 11:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,118,False,2027-02-14 11:00:00,LAC
 Yong,Tari Eason,4433192,118,False,2027-02-14 11:00:00,DEN
 My Sweet Glorious King,Trey Murphy III,4397688,118,False,2027-02-14 11:00:00,LAC
+MVPKNEE,Yves Missi,5061589,118,False,2027-02-14 11:00:00,LAC
 Tyrese's,Zion Williamson,4395628,118,False,2027-02-14 11:00:00,LAC
 Flashy like Primo,Caleb Wilson,5095151,118,False,2027-02-14 12:30:00,POR
 The Freak and The Felons,Damian Lillard,6606,118,False,2027-02-14 12:30:00,CHI
@@ -9595,7 +9597,6 @@ you know what to do with that,De'Aaron Fox,4066259,119,False,2027-02-15 14:00:00
 Anything Is Possible,Devin Vassell,4395630,119,False,2027-02-15 14:00:00,MIA
 Don't Ask,Dylan Harper,5037871,119,False,2027-02-15 14:00:00,MIA
 The Freak and The Felons,Giannis Antetokounmpo,3032977,119,False,2027-02-15 14:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,119,False,2027-02-15 14:00:00,MIA
 Towns Syndrome,Stephon Castle,4845367,119,False,2027-02-15 14:00:00,MIA
 Don't Ask,Tobias Harris,6440,119,False,2027-02-15 14:00:00,MIA
 The Galumphs,Victor Wembanyama,5104157,119,False,2027-02-15 14:00:00,MIA
@@ -9705,6 +9706,7 @@ Don't Ask,Sandro Mamukelashvili,4278580,120,False,2027-02-16 19:00:00,CHI
 you know what to do with that,Toumani Camara,4431736,120,False,2027-02-16 19:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,120,False,2027-02-16 19:00:00,POR
 Don't Ask,Walker Kessler,4433136,120,False,2027-02-16 19:00:00,CHI
+MVPKNEE,Yves Missi,5061589,120,False,2027-02-16 19:00:00,POR
 Tyrese's,Zion Williamson,4395628,120,False,2027-02-16 19:00:00,POR
 you know what to do with that,Alperen Sengun,4871144,120,False,2027-02-16 20:00:00,LAC
 KotaroLivesAlone,Amen Thompson,4684740,120,False,2027-02-16 20:00:00,LAC
@@ -9802,7 +9804,6 @@ Anything Is Possible,Devin Vassell,4395630,121,False,2027-02-17 17:00:00,MEM
 Don't Ask,Dylan Harper,5037871,121,False,2027-02-17 17:00:00,MEM
 My Sweet Glorious King,GG Jackson,5105550,121,False,2027-02-17 17:00:00,SAS
 Flashy like Primo,Jerami Grant,2991070,121,False,2027-02-17 17:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,121,False,2027-02-17 17:00:00,MEM
 MVPKNEE,Scotty Pippen Jr.,4431785,121,False,2027-02-17 17:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,121,False,2027-02-17 17:00:00,MEM
 Don't Ask,Tobias Harris,6440,121,False,2027-02-17 17:00:00,MEM
@@ -9855,6 +9856,7 @@ MVPKNEE,Stephen Curry,3975,121,False,2027-02-17 19:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,121,False,2027-02-17 19:00:00,GSW
 Tyrese's,Tyrese Haliburton,4396993,121,False,2027-02-17 19:00:00,SAC
 Yong,Yaxel Lendeborg,5175737,121,False,2027-02-17 19:00:00,NOP
+MVPKNEE,Yves Missi,5061589,121,False,2027-02-17 19:00:00,GSW
 The Freak and The Felons,Zach LaVine,3064440,121,False,2027-02-17 19:00:00,IND
 Tyrese's,Zion Williamson,4395628,121,False,2027-02-17 19:00:00,GSW
 Don't Ask,Brandon Ingram,3913176,121,False,2027-02-17 19:30:00,CHI
@@ -9876,7 +9878,6 @@ Anything Is Possible,Devin Vassell,4395630,122,False,2027-02-18 16:30:00,MIN
 Don't Ask,Dylan Harper,5037871,122,False,2027-02-18 16:30:00,MIN
 My Sweet Glorious King,Jaden McDaniels,4431671,122,False,2027-02-18 16:30:00,SAS
 The Freak and The Felons,Jonathan Kuminga,4433247,122,False,2027-02-18 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,122,False,2027-02-18 16:30:00,MIN
 Towns Syndrome,LaMelo Ball,4432816,122,False,2027-02-18 16:30:00,SAS
 Don't Ask,Rudy Gobert,3032976,122,False,2027-02-18 16:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,122,False,2027-02-18 16:30:00,MIN
@@ -10010,6 +10011,7 @@ Anything Is Possible,Saddiq Bey,4397136,129,False,2027-02-25 17:00:00,PHO
 The Freak and The Felons,Trae Young,4277905,129,False,2027-02-25 17:00:00,MIL
 My Sweet Glorious King,Trey Murphy III,4397688,129,False,2027-02-25 17:00:00,PHO
 Flashy like Primo,Tyler Herro,4395725,129,False,2027-02-25 17:00:00,WAS
+MVPKNEE,Yves Missi,5061589,129,False,2027-02-25 17:00:00,PHO
 Tyrese's,Zion Williamson,4395628,129,False,2027-02-25 17:00:00,PHO
 Yong,Brandin Podziemski,4709138,129,False,2027-02-25 19:00:00,DAL
 My Sweet Glorious King,Cooper Flagg,5041939,129,False,2027-02-25 19:00:00,GSW
@@ -10067,7 +10069,6 @@ Flashy like Primo,Ivica Zubac,4017837,130,False,2027-02-26 17:00:00,MIN
 My Sweet Glorious King,Jaden McDaniels,4431671,130,False,2027-02-26 17:00:00,IND
 Flashy like Primo,Jerami Grant,2991070,130,False,2027-02-26 17:00:00,SAS
 The Freak and The Felons,Jonathan Kuminga,4433247,130,False,2027-02-26 17:00:00,IND
-MVPKNEE,Julian Champagnie,4592479,130,False,2027-02-26 17:00:00,MEM
 Towns Syndrome,LaMelo Ball,4432816,130,False,2027-02-26 17:00:00,IND
 The Freak and The Felons,Pascal Siakam,3149673,130,False,2027-02-26 17:00:00,MIN
 Don't Ask,Rudy Gobert,3032976,130,False,2027-02-26 17:00:00,IND
@@ -10187,6 +10188,7 @@ The Freak and The Felons,Miles Bridges,4066383,131,False,2027-02-27 18:00:00,NOP
 KotaroLivesAlone,Oso Ighodaro,4601023,131,False,2027-02-27 18:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,131,False,2027-02-27 18:00:00,PHO
 My Sweet Glorious King,Trey Murphy III,4397688,131,False,2027-02-27 18:00:00,PHO
+MVPKNEE,Yves Missi,5061589,131,False,2027-02-27 18:00:00,PHO
 Tyrese's,Zion Williamson,4395628,131,False,2027-02-27 18:00:00,PHO
 Towns Syndrome,Aaron Gordon,3064290,132,False,2027-02-28 10:00:00,SAS
 The Galumphs,Cameron Johnson,3138196,132,False,2027-02-28 10:00:00,SAS
@@ -10196,7 +10198,6 @@ you know what to do with that,DeMar DeRozan,3978,132,False,2027-02-28 10:00:00,S
 Anything Is Possible,Devin Vassell,4395630,132,False,2027-02-28 10:00:00,DEN
 Don't Ask,Dylan Harper,5037871,132,False,2027-02-28 10:00:00,DEN
 MVPKNEE,Jamal Murray,3936299,132,False,2027-02-28 10:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,132,False,2027-02-28 10:00:00,DEN
 you know what to do with that,Nikola Jokic,3112335,132,False,2027-02-28 10:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,132,False,2027-02-28 10:00:00,DEN
 Don't Ask,Tobias Harris,6440,132,False,2027-02-28 10:00:00,DEN
@@ -10323,6 +10324,7 @@ you know what to do with that,Kyle Filipowski,4684793,133,False,2027-03-01 17:00
 Towns Syndrome,Lauri Markkanen,4066336,133,False,2027-03-01 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,133,False,2027-03-01 17:00:00,UTA
 My Sweet Glorious King,Trey Murphy III,4397688,133,False,2027-03-01 17:00:00,UTA
+MVPKNEE,Yves Missi,5061589,133,False,2027-03-01 17:00:00,UTA
 Tyrese's,Zion Williamson,4395628,133,False,2027-03-01 17:00:00,UTA
 you know what to do with that,Alperen Sengun,4871144,133,False,2027-03-01 17:30:00,GSW
 KotaroLivesAlone,Amen Thompson,4684740,133,False,2027-03-01 17:30:00,GSW
@@ -10522,6 +10524,7 @@ Anything Is Possible,Reed Sheppard,4711272,135,False,2027-03-03 17:30:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,135,False,2027-03-03 17:30:00,HOU
 Yong,Tari Eason,4433192,135,False,2027-03-03 17:30:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,135,False,2027-03-03 17:30:00,HOU
+MVPKNEE,Yves Missi,5061589,135,False,2027-03-03 17:30:00,HOU
 Tyrese's,Zion Williamson,4395628,135,False,2027-03-03 17:30:00,HOU
 Yong,Collin Gillespie,4278585,135,False,2027-03-03 18:00:00,BKN
 The Galumphs,Day'Ron Sharpe,4432194,135,False,2027-03-03 18:00:00,PHO
@@ -10543,7 +10546,6 @@ you know what to do with that,DeMar DeRozan,3978,135,False,2027-03-03 19:00:00,S
 Anything Is Possible,Devin Vassell,4395630,135,False,2027-03-03 19:00:00,DEN
 Don't Ask,Dylan Harper,5037871,135,False,2027-03-03 19:00:00,DEN
 MVPKNEE,Jamal Murray,3936299,135,False,2027-03-03 19:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,135,False,2027-03-03 19:00:00,DEN
 you know what to do with that,Nikola Jokic,3112335,135,False,2027-03-03 19:00:00,SAS
 Towns Syndrome,Stephon Castle,4845367,135,False,2027-03-03 19:00:00,DEN
 Don't Ask,Tobias Harris,6440,135,False,2027-03-03 19:00:00,DEN
@@ -10684,6 +10686,7 @@ Tyrese's,Ryan Rollins,4591725,137,False,2027-03-05 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,137,False,2027-03-05 17:00:00,MIL
 My Sweet Glorious King,Trey Murphy III,4397688,137,False,2027-03-05 17:00:00,MIL
 Flashy like Primo,Tyler Herro,4395725,137,False,2027-03-05 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,137,False,2027-03-05 17:00:00,MIL
 Tyrese's,Zion Williamson,4395628,137,False,2027-03-05 17:00:00,MIL
 Yong,Anthony Edwards,4594268,137,False,2027-03-05 18:00:00,PHO
 Don't Ask,Ayo Dosunmu,4397002,137,False,2027-03-05 18:00:00,PHO
@@ -10705,7 +10708,6 @@ Anything Is Possible,Devin Vassell,4395630,137,False,2027-03-05 18:30:00,HOU
 Don't Ask,Dylan Harper,5037871,137,False,2027-03-05 18:30:00,HOU
 MVPKNEE,Fred VanVleet,2991230,137,False,2027-03-05 18:30:00,SAS
 Anything Is Possible,Jabari Smith Jr.,4432639,137,False,2027-03-05 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,137,False,2027-03-05 18:30:00,HOU
 The Galumphs,Kevin Durant,3202,137,False,2027-03-05 18:30:00,SAS
 Anything Is Possible,Reed Sheppard,4711272,137,False,2027-03-05 18:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,137,False,2027-03-05 18:30:00,HOU
@@ -10768,6 +10770,7 @@ Anything Is Possible,Saddiq Bey,4397136,138,False,2027-03-06 17:00:00,MEM
 MVPKNEE,Scotty Pippen Jr.,4431785,138,False,2027-03-06 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,138,False,2027-03-06 17:00:00,MEM
 Towns Syndrome,Ty Jerome,4065733,138,False,2027-03-06 17:00:00,NOP
+MVPKNEE,Yves Missi,5061589,138,False,2027-03-06 17:00:00,MEM
 The Galumphs,Zach Edey,4600663,138,False,2027-03-06 17:00:00,NOP
 Tyrese's,Zion Williamson,4395628,138,False,2027-03-06 17:00:00,MEM
 Flashy like Primo,Aday Mara,5174983,138,False,2027-03-06 17:30:00,LAL
@@ -10837,7 +10840,6 @@ Anything Is Possible,Devin Vassell,4395630,139,False,2027-03-07 16:30:00,NYK
 Don't Ask,Dylan Harper,5037871,139,False,2027-03-07 16:30:00,NYK
 Yong,Jalen Brunson,3934672,139,False,2027-03-07 16:30:00,SAS
 KotaroLivesAlone,Josh Hart,3062679,139,False,2027-03-07 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,139,False,2027-03-07 16:30:00,NYK
 Towns Syndrome,Karl-Anthony Towns,3136195,139,False,2027-03-07 16:30:00,SAS
 Anything Is Possible,Mikal Bridges,3147657,139,False,2027-03-07 16:30:00,SAS
 Don't Ask,OG Anunoby,3934719,139,False,2027-03-07 16:30:00,SAS
@@ -10927,6 +10929,7 @@ Anything Is Possible,Saddiq Bey,4397136,140,False,2027-03-08 17:00:00,MIN
 MVPKNEE,Scotty Pippen Jr.,4431785,140,False,2027-03-08 17:00:00,ATL
 My Sweet Glorious King,Trey Murphy III,4397688,140,False,2027-03-08 17:00:00,MIN
 Towns Syndrome,Ty Jerome,4065733,140,False,2027-03-08 17:00:00,ATL
+MVPKNEE,Yves Missi,5061589,140,False,2027-03-08 17:00:00,MIN
 The Galumphs,Zach Edey,4600663,140,False,2027-03-08 17:00:00,ATL
 Tyrese's,Zion Williamson,4395628,140,False,2027-03-08 17:00:00,MIN
 Flashy like Primo,Aday Mara,5174983,140,False,2027-03-08 18:30:00,DAL
@@ -11015,7 +11018,6 @@ MVPKNEE,Jayson Tatum,4065648,141,False,2027-03-09 17:00:00,CHI
 Flashy like Primo,Jerami Grant,2991070,141,False,2027-03-09 17:00:00,DAL
 Anything Is Possible,John Collins,3908845,141,False,2027-03-09 17:00:00,CLE
 Don't Ask,Josh Giddey,4871145,141,False,2027-03-09 17:00:00,BOS
-MVPKNEE,Julian Champagnie,4592479,141,False,2027-03-09 17:00:00,WAS
 Tyrese's,Kyrie Irving,6442,141,False,2027-03-09 17:00:00,MEM
 Yong,Kyshawn George,5174563,141,False,2027-03-09 17:00:00,SAS
 KotaroLivesAlone,Matas Buzelis,4711294,141,False,2027-03-09 17:00:00,BOS
@@ -11069,6 +11071,7 @@ Towns Syndrome,Nikola Vucevic,6478,142,False,2027-03-10 16:00:00,MIA
 Anything Is Possible,Paolo Banchero,4432573,142,False,2027-03-10 16:00:00,MIA
 Anything Is Possible,Saddiq Bey,4397136,142,False,2027-03-10 16:00:00,CHA
 My Sweet Glorious King,Trey Murphy III,4397688,142,False,2027-03-10 16:00:00,CHA
+MVPKNEE,Yves Missi,5061589,142,False,2027-03-10 16:00:00,CHA
 Tyrese's,Zion Williamson,4395628,142,False,2027-03-10 16:00:00,CHA
 Flashy like Primo,Aday Mara,5174983,142,False,2027-03-10 16:30:00,TOR
 My Sweet Glorious King,Ajay Mitchell,4900671,142,False,2027-03-10 16:30:00,TOR
@@ -11175,7 +11178,6 @@ Yong,Jaylen Brown,3917376,143,False,2027-03-11 16:30:00,SAS
 MVPKNEE,Jayson Tatum,4065648,143,False,2027-03-11 16:30:00,MEM
 Flashy like Primo,Jerami Grant,2991070,143,False,2027-03-11 16:30:00,BOS
 MVPKNEE,Joel Embiid,3059318,143,False,2027-03-11 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,143,False,2027-03-11 16:30:00,PHL
 My Sweet Glorious King,LeBron James,1966,143,False,2027-03-11 16:30:00,SAS
 Tyrese's,Neemias Queta,4397424,143,False,2027-03-11 16:30:00,MEM
 The Galumphs,Paul George,4251,143,False,2027-03-11 16:30:00,MEM
@@ -11280,6 +11282,7 @@ Anything Is Possible,Saddiq Bey,4397136,144,False,2027-03-12 17:00:00,TOR
 KotaroLivesAlone,Scottie Barnes,4433134,144,False,2027-03-12 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,144,False,2027-03-12 17:00:00,TOR
 Flashy like Primo,Tyler Herro,4395725,144,False,2027-03-12 17:00:00,MIA
+MVPKNEE,Yves Missi,5061589,144,False,2027-03-12 17:00:00,TOR
 Tyrese's,Zion Williamson,4395628,144,False,2027-03-12 17:00:00,TOR
 My Sweet Glorious King,Ace Bailey,4873138,144,False,2027-03-12 18:30:00,SAC
 Flashy like Primo,Darius Acuff Jr.,5142620,144,False,2027-03-12 18:30:00,UTA
@@ -11383,6 +11386,7 @@ Anything Is Possible,Saddiq Bey,4397136,145,False,2027-03-13 17:00:00,DAL
 MVPKNEE,Scotty Pippen Jr.,4431785,145,False,2027-03-13 17:00:00,CHI
 My Sweet Glorious King,Trey Murphy III,4397688,145,False,2027-03-13 17:00:00,DAL
 Towns Syndrome,Ty Jerome,4065733,145,False,2027-03-13 17:00:00,CHI
+MVPKNEE,Yves Missi,5061589,145,False,2027-03-13 17:00:00,DAL
 The Galumphs,Zach Edey,4600663,145,False,2027-03-13 17:00:00,CHI
 Tyrese's,Zion Williamson,4395628,145,False,2027-03-13 17:00:00,DAL
 Don't Ask,Anfernee Simons,4351851,145,False,2027-03-13 17:30:00,MIN
@@ -11430,7 +11434,6 @@ Don't Ask,Dylan Harper,5037871,146,False,2027-03-14 11:30:00,OKC
 MVPKNEE,Isaiah Hartenstein,4222252,146,False,2027-03-14 11:30:00,SAS
 Tyrese's,Jalen Williams,4593803,146,False,2027-03-14 11:30:00,SAS
 The Freak and The Felons,Jared McCain,4683778,146,False,2027-03-14 11:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,146,False,2027-03-14 11:30:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,146,False,2027-03-14 11:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,146,False,2027-03-14 11:30:00,OKC
 Don't Ask,Tobias Harris,6440,146,False,2027-03-14 11:30:00,OKC
@@ -11615,6 +11618,7 @@ Towns Syndrome,Shai Gilgeous-Alexander,4278073,148,False,2027-03-16 17:00:00,CHA
 My Sweet Glorious King,Trey Murphy III,4397688,148,False,2027-03-16 17:00:00,MIN
 Flashy like Primo,Tyler Herro,4395725,148,False,2027-03-16 17:00:00,ORL
 Tyrese's,Tyrese Haliburton,4396993,148,False,2027-03-16 17:00:00,DET
+MVPKNEE,Yves Missi,5061589,148,False,2027-03-16 17:00:00,MIN
 Tyrese's,Zion Williamson,4395628,148,False,2027-03-16 17:00:00,MIN
 you know what to do with that,Alperen Sengun,4871144,148,False,2027-03-16 17:30:00,SAS
 KotaroLivesAlone,Amen Thompson,4684740,148,False,2027-03-16 17:30:00,SAS
@@ -11623,7 +11627,6 @@ Anything Is Possible,Devin Vassell,4395630,148,False,2027-03-16 17:30:00,HOU
 Don't Ask,Dylan Harper,5037871,148,False,2027-03-16 17:30:00,HOU
 MVPKNEE,Fred VanVleet,2991230,148,False,2027-03-16 17:30:00,SAS
 Anything Is Possible,Jabari Smith Jr.,4432639,148,False,2027-03-16 17:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,148,False,2027-03-16 17:30:00,HOU
 The Galumphs,Kevin Durant,3202,148,False,2027-03-16 17:30:00,SAS
 Anything Is Possible,Reed Sheppard,4711272,148,False,2027-03-16 17:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,148,False,2027-03-16 17:30:00,HOU
@@ -11813,7 +11816,6 @@ The Freak and The Felons,Jalen Duren,4433621,150,False,2027-03-18 17:00:00,MIL
 KotaroLivesAlone,Jeremiah Fears,5144091,150,False,2027-03-18 17:00:00,CHA
 Anything Is Possible,John Collins,3908845,150,False,2027-03-18 17:00:00,MIL
 Towns Syndrome,Jordan Poole,4277956,150,False,2027-03-18 17:00:00,CHA
-MVPKNEE,Julian Champagnie,4592479,150,False,2027-03-18 17:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,150,False,2027-03-18 17:00:00,SAS
 My Sweet Glorious King,Kel'el Ware,5105623,150,False,2027-03-18 17:00:00,DET
 Yong,Kon Knueppel,5061575,150,False,2027-03-18 17:00:00,NOP
@@ -11829,6 +11831,7 @@ Don't Ask,Tobias Harris,6440,150,False,2027-03-18 17:00:00,BKN
 My Sweet Glorious King,Trey Murphy III,4397688,150,False,2027-03-18 17:00:00,CHA
 Flashy like Primo,Tyler Herro,4395725,150,False,2027-03-18 17:00:00,DET
 The Galumphs,Victor Wembanyama,5104157,150,False,2027-03-18 17:00:00,BKN
+MVPKNEE,Yves Missi,5061589,150,False,2027-03-18 17:00:00,CHA
 Tyrese's,Zion Williamson,4395628,150,False,2027-03-18 17:00:00,CHA
 Towns Syndrome,Aaron Gordon,3064290,150,False,2027-03-18 18:00:00,CLE
 My Sweet Glorious King,Ace Bailey,4873138,150,False,2027-03-18 18:00:00,MIN
@@ -11890,7 +11893,6 @@ MVPKNEE,Fred VanVleet,2991230,151,False,2027-03-19 17:00:00,NOP
 Anything Is Possible,Jabari Smith Jr.,4432639,151,False,2027-03-19 17:00:00,NOP
 KotaroLivesAlone,Jeremiah Fears,5144091,151,False,2027-03-19 17:00:00,HOU
 Towns Syndrome,Jordan Poole,4277956,151,False,2027-03-19 17:00:00,HOU
-MVPKNEE,Julian Champagnie,4592479,151,False,2027-03-19 17:00:00,DAL
 The Galumphs,Kevin Durant,3202,151,False,2027-03-19 17:00:00,NOP
 Tyrese's,Kyrie Irving,6442,151,False,2027-03-19 17:00:00,SAS
 Tyrese's,P.J. Washington,4278078,151,False,2027-03-19 17:00:00,SAS
@@ -11901,6 +11903,7 @@ Yong,Tari Eason,4433192,151,False,2027-03-19 17:00:00,NOP
 Don't Ask,Tobias Harris,6440,151,False,2027-03-19 17:00:00,DAL
 My Sweet Glorious King,Trey Murphy III,4397688,151,False,2027-03-19 17:00:00,HOU
 The Galumphs,Victor Wembanyama,5104157,151,False,2027-03-19 17:00:00,DAL
+MVPKNEE,Yves Missi,5061589,151,False,2027-03-19 17:00:00,HOU
 Tyrese's,Zion Williamson,4395628,151,False,2027-03-19 17:00:00,HOU
 The Galumphs,Austin Reaves,4066457,151,False,2027-03-19 19:00:00,ATL
 Yong,Brandin Podziemski,4709138,151,False,2027-03-19 19:00:00,POR
@@ -12039,6 +12042,7 @@ The Galumphs,Paul George,4251,153,False,2027-03-21 12:00:00,NOP
 My Sweet Glorious King,Payton Pritchard,4066354,153,False,2027-03-21 12:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,153,False,2027-03-21 12:00:00,BOS
 My Sweet Glorious King,Trey Murphy III,4397688,153,False,2027-03-21 12:00:00,BOS
+MVPKNEE,Yves Missi,5061589,153,False,2027-03-21 12:00:00,BOS
 The Freak and The Felons,Zach LaVine,3064440,153,False,2027-03-21 12:00:00,BKN
 Tyrese's,Zion Williamson,4395628,153,False,2027-03-21 12:00:00,BOS
 My Sweet Glorious King,Ace Bailey,4873138,153,False,2027-03-21 14:00:00,TOR
@@ -12083,7 +12087,6 @@ Anything Is Possible,Devin Vassell,4395630,153,False,2027-03-21 16:30:00,PHL
 Don't Ask,Dylan Harper,5037871,153,False,2027-03-21 16:30:00,PHL
 Yong,Jaylen Brown,3917376,153,False,2027-03-21 16:30:00,SAS
 MVPKNEE,Joel Embiid,3059318,153,False,2027-03-21 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,153,False,2027-03-21 16:30:00,PHL
 My Sweet Glorious King,LeBron James,1966,153,False,2027-03-21 16:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,153,False,2027-03-21 16:30:00,PHL
 Don't Ask,Tobias Harris,6440,153,False,2027-03-21 16:30:00,PHL
@@ -12211,6 +12214,7 @@ The Galumphs,Paul George,4251,155,False,2027-03-23 16:30:00,BKN
 My Sweet Glorious King,Payton Pritchard,4066354,155,False,2027-03-23 16:30:00,BKN
 Anything Is Possible,Saddiq Bey,4397136,155,False,2027-03-23 16:30:00,NYK
 My Sweet Glorious King,Trey Murphy III,4397688,155,False,2027-03-23 16:30:00,NYK
+MVPKNEE,Yves Missi,5061589,155,False,2027-03-23 16:30:00,NYK
 Tyrese's,Zion Williamson,4395628,155,False,2027-03-23 16:30:00,NYK
 Towns Syndrome,Andrew Wiggins,3059319,155,False,2027-03-23 17:00:00,LAL
 The Galumphs,Austin Reaves,4066457,155,False,2027-03-23 17:00:00,MIA
@@ -12309,7 +12313,6 @@ Anything Is Possible,Jabari Smith Jr.,4432639,156,False,2027-03-24 16:30:00,NYK
 Yong,Jalen Brunson,3934672,156,False,2027-03-24 16:30:00,HOU
 MVPKNEE,Jayson Tatum,4065648,156,False,2027-03-24 16:30:00,SAS
 KotaroLivesAlone,Josh Hart,3062679,156,False,2027-03-24 16:30:00,HOU
-MVPKNEE,Julian Champagnie,4592479,156,False,2027-03-24 16:30:00,BOS
 Towns Syndrome,Karl-Anthony Towns,3136195,156,False,2027-03-24 16:30:00,HOU
 The Galumphs,Kevin Durant,3202,156,False,2027-03-24 16:30:00,NYK
 Anything Is Possible,Mikal Bridges,3147657,156,False,2027-03-24 16:30:00,HOU
@@ -12413,7 +12416,6 @@ The Freak and The Felons,Jalen Duren,4433621,157,False,2027-03-25 16:00:00,HOU
 Anything Is Possible,James Harden,3992,157,False,2027-03-25 16:00:00,LAL
 Yong,Jarrett Allen,4066328,157,False,2027-03-25 16:00:00,LAL
 Anything Is Possible,John Collins,3908845,157,False,2027-03-25 16:00:00,HOU
-MVPKNEE,Julian Champagnie,4592479,157,False,2027-03-25 16:00:00,IND
 The Galumphs,Kevin Durant,3202,157,False,2027-03-25 16:00:00,DET
 Flashy like Primo,Luka Doncic,3945274,157,False,2027-03-25 16:00:00,CLE
 The Freak and The Felons,Pascal Siakam,3149673,157,False,2027-03-25 16:00:00,SAS
@@ -12523,6 +12525,7 @@ Flashy like Primo,Rui Hachimura,4066648,158,False,2027-03-26 17:00:00,OKC
 Anything Is Possible,Saddiq Bey,4397136,158,False,2027-03-26 17:00:00,DAL
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,158,False,2027-03-26 17:00:00,LAC
 My Sweet Glorious King,Trey Murphy III,4397688,158,False,2027-03-26 17:00:00,DAL
+MVPKNEE,Yves Missi,5061589,158,False,2027-03-26 17:00:00,DAL
 Tyrese's,Zion Williamson,4395628,158,False,2027-03-26 17:00:00,DAL
 Don't Ask,Anfernee Simons,4351851,158,False,2027-03-26 19:00:00,POR
 Yong,Collin Gillespie,4278585,158,False,2027-03-26 19:00:00,MIL
@@ -12555,7 +12558,6 @@ Anything Is Possible,Devin Vassell,4395630,159,False,2027-03-27 12:00:00,DET
 Don't Ask,Dylan Harper,5037871,159,False,2027-03-27 12:00:00,DET
 The Freak and The Felons,Jalen Duren,4433621,159,False,2027-03-27 12:00:00,SAS
 Anything Is Possible,John Collins,3908845,159,False,2027-03-27 12:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,159,False,2027-03-27 12:00:00,DET
 Towns Syndrome,Stephon Castle,4845367,159,False,2027-03-27 12:00:00,DET
 Don't Ask,Tobias Harris,6440,159,False,2027-03-27 12:00:00,DET
 The Galumphs,Victor Wembanyama,5104157,159,False,2027-03-27 12:00:00,DET
@@ -12697,6 +12699,7 @@ The Galumphs,Paul George,4251,160,False,2027-03-28 16:00:00,NOP
 My Sweet Glorious King,Payton Pritchard,4066354,160,False,2027-03-28 16:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,160,False,2027-03-28 16:00:00,BOS
 My Sweet Glorious King,Trey Murphy III,4397688,160,False,2027-03-28 16:00:00,BOS
+MVPKNEE,Yves Missi,5061589,160,False,2027-03-28 16:00:00,BOS
 Tyrese's,Zion Williamson,4395628,160,False,2027-03-28 16:00:00,BOS
 Flashy like Primo,Aday Mara,5174983,160,False,2027-03-28 16:30:00,MIN
 My Sweet Glorious King,Ajay Mitchell,4900671,160,False,2027-03-28 16:30:00,MIN
@@ -12806,7 +12809,6 @@ Anything Is Possible,Devin Vassell,4395630,161,False,2027-03-29 18:30:00,PHO
 Yong,Dillon Brooks,3155526,161,False,2027-03-29 18:30:00,SAS
 Don't Ask,Dylan Harper,5037871,161,False,2027-03-29 18:30:00,PHO
 My Sweet Glorious King,Jalen Green,4437244,161,False,2027-03-29 18:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,161,False,2027-03-29 18:30:00,PHO
 MVPKNEE,Khaman Maluach,5203685,161,False,2027-03-29 18:30:00,SAS
 The Freak and The Felons,Miles Bridges,4066383,161,False,2027-03-29 18:30:00,SAS
 KotaroLivesAlone,Oso Ighodaro,4601023,161,False,2027-03-29 18:30:00,SAS
@@ -12971,7 +12973,6 @@ My Sweet Glorious King,Jalen Green,4437244,163,False,2027-03-31 17:00:00,SAS
 KotaroLivesAlone,Jeremiah Fears,5144091,163,False,2027-03-31 17:00:00,MIL
 The Freak and The Felons,Jonathan Kuminga,4433247,163,False,2027-03-31 17:00:00,SAC
 Towns Syndrome,Jordan Poole,4277956,163,False,2027-03-31 17:00:00,MIL
-MVPKNEE,Julian Champagnie,4592479,163,False,2027-03-31 17:00:00,PHO
 Tyrese's,Keegan Murray,4594327,163,False,2027-03-31 17:00:00,MIN
 My Sweet Glorious King,Kel'el Ware,5105623,163,False,2027-03-31 17:00:00,NOP
 MVPKNEE,Khaman Maluach,5203685,163,False,2027-03-31 17:00:00,SAS
@@ -12988,6 +12989,7 @@ Don't Ask,Tobias Harris,6440,163,False,2027-03-31 17:00:00,PHO
 My Sweet Glorious King,Trey Murphy III,4397688,163,False,2027-03-31 17:00:00,MIL
 Flashy like Primo,Tyler Herro,4395725,163,False,2027-03-31 17:00:00,NOP
 The Galumphs,Victor Wembanyama,5104157,163,False,2027-03-31 17:00:00,PHO
+MVPKNEE,Yves Missi,5061589,163,False,2027-03-31 17:00:00,MIL
 The Freak and The Felons,Zach LaVine,3064440,163,False,2027-03-31 17:00:00,MIN
 Tyrese's,Zion Williamson,4395628,163,False,2027-03-31 17:00:00,MIL
 Towns Syndrome,Aaron Gordon,3064290,163,False,2027-03-31 18:30:00,DAL
@@ -13193,7 +13195,6 @@ you know what to do with that,De'Aaron Fox,4066259,165,False,2027-04-02 19:30:00
 Anything Is Possible,Devin Vassell,4395630,165,False,2027-04-02 19:30:00,LAC
 Don't Ask,Dylan Harper,5037871,165,False,2027-04-02 19:30:00,LAC
 Tyrese's,Isaiah Jackson,4432170,165,False,2027-04-02 19:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,165,False,2027-04-02 19:30:00,LAC
 Towns Syndrome,Keaton Wagler,5254165,165,False,2027-04-02 19:30:00,SAS
 Flashy like Primo,Rui Hachimura,4066648,165,False,2027-04-02 19:30:00,SAS
 Towns Syndrome,Stephon Castle,4845367,165,False,2027-04-02 19:30:00,LAC
@@ -13214,6 +13215,7 @@ Towns Syndrome,Jordan Poole,4277956,166,False,2027-04-03 14:00:00,OKC
 Anything Is Possible,Saddiq Bey,4397136,166,False,2027-04-03 14:00:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,166,False,2027-04-03 14:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,166,False,2027-04-03 14:00:00,OKC
+MVPKNEE,Yves Missi,5061589,166,False,2027-04-03 14:00:00,OKC
 Tyrese's,Zion Williamson,4395628,166,False,2027-04-03 14:00:00,OKC
 Anything Is Possible,AJ Dybantsa,5142718,166,False,2027-04-03 16:00:00,ORL
 Anything Is Possible,Alex Sarr,5160992,166,False,2027-04-03 16:00:00,ORL
@@ -13367,7 +13369,6 @@ you know what to do with that,De'Aaron Fox,4066259,167,False,2027-04-04 19:00:00
 Anything Is Possible,Devin Vassell,4395630,167,False,2027-04-04 19:00:00,LAL
 Don't Ask,Dylan Harper,5037871,167,False,2027-04-04 19:00:00,LAL
 Yong,Jake LaRavia,4592691,167,False,2027-04-04 19:00:00,SAS
-MVPKNEE,Julian Champagnie,4592479,167,False,2027-04-04 19:00:00,LAL
 Flashy like Primo,Luka Doncic,3945274,167,False,2027-04-04 19:00:00,SAS
 you know what to do with that,Quentin Grimes,4397014,167,False,2027-04-04 19:00:00,SAS
 Don't Ask,Sandro Mamukelashvili,4278580,167,False,2027-04-04 19:00:00,SAS
@@ -13408,6 +13409,7 @@ Yong,Kyshawn George,5174563,168,False,2027-04-05 17:00:00,NOP
 Anything Is Possible,Saddiq Bey,4397136,168,False,2027-04-05 17:00:00,WAS
 The Freak and The Felons,Trae Young,4277905,168,False,2027-04-05 17:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,168,False,2027-04-05 17:00:00,WAS
+MVPKNEE,Yves Missi,5061589,168,False,2027-04-05 17:00:00,WAS
 Tyrese's,Zion Williamson,4395628,168,False,2027-04-05 17:00:00,WAS
 My Sweet Glorious King,Andrew Nembhard,4395712,169,False,2027-04-06 16:00:00,CHA
 MVPKNEE,Brandon Miller,4433287,169,False,2027-04-06 16:00:00,IND
@@ -13454,7 +13456,6 @@ Flashy like Primo,Jerami Grant,2991070,169,False,2027-04-06 17:00:00,DET
 Anything Is Possible,John Collins,3908845,169,False,2027-04-06 17:00:00,MEM
 Don't Ask,Josh Giddey,4871145,169,False,2027-04-06 17:00:00,MIL
 KotaroLivesAlone,Josh Hart,3062679,169,False,2027-04-06 17:00:00,ATL
-MVPKNEE,Julian Champagnie,4592479,169,False,2027-04-06 17:00:00,SAC
 Towns Syndrome,Karl-Anthony Towns,3136195,169,False,2027-04-06 17:00:00,ATL
 Tyrese's,Keegan Murray,4594327,169,False,2027-04-06 17:00:00,SAS
 My Sweet Glorious King,Kel'el Ware,5105623,169,False,2027-04-06 17:00:00,CHI
@@ -13503,6 +13504,7 @@ you know what to do with that,Nikola Jokic,3112335,169,False,2027-04-06 18:00:00
 Anything Is Possible,Saddiq Bey,4397136,169,False,2027-04-06 18:00:00,DEN
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,169,False,2027-04-06 18:00:00,UTA
 My Sweet Glorious King,Trey Murphy III,4397688,169,False,2027-04-06 18:00:00,DEN
+MVPKNEE,Yves Missi,5061589,169,False,2027-04-06 18:00:00,DEN
 Tyrese's,Zion Williamson,4395628,169,False,2027-04-06 18:00:00,DEN
 The Galumphs,Austin Reaves,4066457,169,False,2027-04-06 19:00:00,DAL
 you know what to do with that,Collin Sexton,4277811,169,False,2027-04-06 19:00:00,DAL
@@ -13571,7 +13573,6 @@ The Galumphs,Immanuel Quickley,4395724,170,False,2027-04-07 16:30:00,BKN
 Towns Syndrome,Jakob Poeltl,3134908,170,False,2027-04-07 16:30:00,BKN
 Anything Is Possible,James Harden,3992,170,False,2027-04-07 16:30:00,SAS
 Yong,Jarrett Allen,4066328,170,False,2027-04-07 16:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,170,False,2027-04-07 16:30:00,CLE
 KotaroLivesAlone,Julius Randle,3064514,170,False,2027-04-07 16:30:00,TOR
 MVPKNEE,Kawhi Leonard,6450,170,False,2027-04-07 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,170,False,2027-04-07 16:30:00,TOR
@@ -13688,6 +13689,7 @@ you know what to do with that,Nikola Jokic,3112335,171,False,2027-04-08 18:00:00
 Flashy like Primo,Rui Hachimura,4066648,171,False,2027-04-08 18:00:00,DEN
 Anything Is Possible,Saddiq Bey,4397136,171,False,2027-04-08 18:00:00,UTA
 My Sweet Glorious King,Trey Murphy III,4397688,171,False,2027-04-08 18:00:00,UTA
+MVPKNEE,Yves Missi,5061589,171,False,2027-04-08 18:00:00,UTA
 Tyrese's,Zion Williamson,4395628,171,False,2027-04-08 18:00:00,UTA
 Flashy like Primo,Aday Mara,5174983,171,False,2027-04-08 18:30:00,GSW
 My Sweet Glorious King,Ajay Mitchell,4900671,171,False,2027-04-08 18:30:00,GSW
@@ -13821,7 +13823,6 @@ Don't Ask,Dylan Harper,5037871,172,False,2027-04-09 18:30:00,DEN
 Tyrese's,Isaiah Jackson,4432170,172,False,2027-04-09 18:30:00,UTA
 MVPKNEE,Jamal Murray,3936299,172,False,2027-04-09 18:30:00,SAS
 The Galumphs,Jaren Jackson Jr.,4277961,172,False,2027-04-09 18:30:00,LAC
-MVPKNEE,Julian Champagnie,4592479,172,False,2027-04-09 18:30:00,DEN
 Towns Syndrome,Keaton Wagler,5254165,172,False,2027-04-09 18:30:00,UTA
 Tyrese's,Keyonte George,4433627,172,False,2027-04-09 18:30:00,LAC
 you know what to do with that,Kyle Filipowski,4684793,172,False,2027-04-09 18:30:00,LAC
@@ -13953,6 +13954,7 @@ Flashy like Primo,Tyler Herro,4395725,174,False,2027-04-11 15:00:00,BOS
 Tyrese's,Tyrese Haliburton,4396993,174,False,2027-04-11 15:00:00,NYK
 Tyrese's,Tyrese Maxey,4431678,174,False,2027-04-11 15:00:00,CHA
 Towns Syndrome,VJ Edgecombe,5124612,174,False,2027-04-11 15:00:00,CHA
+MVPKNEE,Yves Missi,5061589,174,False,2027-04-11 15:00:00,CHI
 Tyrese's,Zion Williamson,4395628,174,False,2027-04-11 15:00:00,CHI
 Towns Syndrome,Aaron Gordon,3064290,174,False,2027-04-11 17:30:00,OKC
 My Sweet Glorious King,Ace Bailey,4873138,174,False,2027-04-11 17:30:00,GSW
@@ -14008,7 +14010,6 @@ Flashy like Primo,Jerami Grant,2991070,174,False,2027-04-11 17:30:00,DAL
 Flashy like Primo,Jimmy Butler III,6430,174,False,2027-04-11 17:30:00,UTA
 The Freak and The Felons,Jonathan Kuminga,4433247,174,False,2027-04-11 17:30:00,HOU
 The Galumphs,Jrue Holiday,3995,174,False,2027-04-11 17:30:00,SAS
-MVPKNEE,Julian Champagnie,4592479,174,False,2027-04-11 17:30:00,POR
 Towns Syndrome,Keaton Wagler,5254165,174,False,2027-04-11 17:30:00,SAC
 Tyrese's,Keegan Murray,4594327,174,False,2027-04-11 17:30:00,LAC
 The Galumphs,Kevin Durant,3202,174,False,2027-04-11 17:30:00,MIN
