@@ -3,7 +3,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from model import (availability, best_lineup_points, matchup_remaining_periods, model_fppg,
+from model import (availability, top_n_points, matchup_remaining_periods, model_fppg,
                    period_date_anchor, prior_fppg, team_expected_remaining, win_probability)
 
 NOW = datetime(2026, 10, 22, 5, 0)
@@ -80,33 +80,52 @@ def test_period_date_anchor():
     assert period_date_anchor(1, {}, date(2026, 10, 20)) == date(2026, 10, 20)
 
 
-def test_lineup_cap_and_slot_specificity():
-    slots = {"C": 1, "UT": 1}
-    cands = [(50, {"C", "UT"}), (40, {"PG", "UT"}), (30, {"C", "UT"})]
-    # 50 takes C, 40 takes UT, 30 sits
-    assert best_lineup_points(cands, slots) == 90
+def test_top_n_cap():
+    assert top_n_points([50, 40, 30], 2) == 90            # more players than the cap -> best 2
+    assert top_n_points([30, 50], 10) == 80               # fewer than the cap -> all of them
+    assert top_n_points([], 10) == 0
+
+
+def test_daily_cap_13_play_vs_8_play():
+    def p(day_list):
+        return {"fppg": 30, "injury_status": "ACTIVE", "expected_return": None,
+                "schedule": {d: game(d + 19) for d in day_list}}
+    # 13 players have a game on period 4, only 8 of them on period 5
+    roster = [p([4, 5]) for _ in range(8)] + [p([4]) for _ in range(5)]
+    pts, games = team_expected_remaining(roster, [4, 5], NOW, 10)
+    assert games == 10 + 8 and pts == 30 * 18
+
+
+def test_out_players_never_count_toward_the_cap():
+    healthy = [{"fppg": 30, "injury_status": "ACTIVE", "expected_return": None,
+                "schedule": {4: game(23)}} for _ in range(9)]
+    hurt = [{"fppg": 60, "injury_status": "OUT", "expected_return": None,
+             "schedule": {4: game(23)}} for _ in range(3)]
+    pts, games = team_expected_remaining(healthy + hurt, [4], NOW, 10)
+    assert games == 9 and pts == 270
 
 
 def test_out_player_returns_after_expected_date():
     assert availability("OUT", datetime(2026, 10, 23), date(2026, 10, 25)) == 0.0
     assert availability("OUT", datetime(2026, 10, 26), date(2026, 10, 25)) == 0.8
     assert availability(None, datetime(2026, 10, 26), None) == 1.0
+    assert availability("DAY_TO_DAY", datetime(2026, 10, 26), None) == 1.0
 
 
 def test_started_games_and_other_weeks_are_ignored():
     players = [{
-        "fppg": 40, "slots": {"UT"}, "injury_status": "ACTIVE", "expected_return": None,
+        "fppg": 40, "injury_status": "ACTIVE", "expected_return": None,
         # period 3 already tipped off (in ESPN's live score), 4 & 5 upcoming, 9 is next week
         "schedule": {3: game(22, 1), 4: game(23), 5: game(24), 9: game(30)},
     }]
-    pts, games = team_expected_remaining(players, [3, 4, 5, 6], NOW, {"UT": 1})
+    pts, games = team_expected_remaining(players, [3, 4, 5, 6], NOW, 1)
     assert pts == 80 and games == 2
 
 
 def test_dropped_player_points_stay_banked_and_pickup_only_adds_future_games():
     # Team A banked 200 incl. 60 from a player since dropped. Pickup has 2 games left.
-    pickup = {"fppg": 30, "slots": {"UT"}, "injury_status": "ACTIVE", "expected_return": None,
+    pickup = {"fppg": 30, "injury_status": "ACTIVE", "expected_return": None,
               "schedule": {4: game(23), 5: game(24)}}
-    rem_a, _ = team_expected_remaining([pickup], [4, 5], NOW, {"UT": 1})
+    rem_a, _ = team_expected_remaining([pickup], [4, 5], NOW, 1)
     p, _, exp_a, exp_b = win_probability(200, rem_a, 200, 40)
     assert (exp_a, exp_b) == (260, 240) and p > 0.5

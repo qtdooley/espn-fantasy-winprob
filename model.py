@@ -11,19 +11,16 @@ Model, per matchup:
 "banked" is ESPN's own live matchup score, so it already contains points scored
 by players who have since been dropped and excludes bench points.
 "expected_remaining" is built from the CURRENT roster only, game by game, for the
-games left in this matchup period, filling the active lineup each day.
+games left in this matchup period, counting each day's top MAX_PER_DAY players.
 """
 
 from datetime import date, datetime, timedelta
 from math import erf, sqrt
 
-# Most specific slot first, so flexible players don't steal a slot someone else needs.
-SLOT_ORDER = ["PG", "SG", "SF", "PF", "C", "SG/SF", "G/F", "PF/C", "F/C", "G", "F", "UT"]
-
 # Probability a player suits up for a game, by ESPN injuryStatus.
 DEFAULT_AVAILABILITY = {
     "ACTIVE": 1.0,
-    "DAY_TO_DAY": 0.75,
+    "DAY_TO_DAY": 1.0,   # treated as fully healthy
     "QUESTIONABLE": 0.5,
     "DOUBTFUL": 0.25,
     "OUT": 0.0,
@@ -99,28 +96,18 @@ def availability(status, game_dt: datetime, expected_return: date | None,
     return p
 
 
-def best_lineup_points(candidates, slot_counts: dict) -> float:
-    """
-    candidates: list of (expected_points, eligible_slot_names) for players with a game today.
-    slot_counts: active slot name -> count (no BE / IR).
-    Greedy: best player first, into the most specific open slot he is eligible for.
-    """
-    open_slots = dict(slot_counts)
-    total = 0.0
-    for pts, eligible in sorted(candidates, key=lambda c: c[0], reverse=True):
-        for slot in SLOT_ORDER:
-            if open_slots.get(slot, 0) > 0 and slot in eligible:
-                open_slots[slot] -= 1
-                total += pts
-                break
-    return total
+def top_n_points(candidate_points, max_per_day: int = 10) -> float:
+    """Sum of the best `max_per_day` expected scores among players with a game that day."""
+    return sum(sorted(candidate_points, reverse=True)[:max_per_day])
 
 
-def team_expected_remaining(players, scoring_periods, now: datetime, slot_counts: dict):
+def team_expected_remaining(players, scoring_periods, now: datetime, max_per_day: int = 10):
     """
-    players: dicts with keys fppg, slots (set of slot names), injury_status,
-             expected_return (date|None), schedule ({period_int: {'date': datetime}}).
+    players: dicts with keys fppg, injury_status, expected_return (date|None),
+             schedule ({period_int: {'date': datetime}}).
     scoring_periods: remaining scoring-period ids (ints) in this matchup.
+    Each day: every available player with a game, worth fppg x P(plays);
+    take the top `max_per_day` (13 play -> best 10; 8 play -> all 8). Positions are ignored.
     Only games that tip off after `now` count; anything already started is in ESPN's live score.
     Returns (expected_points, expected_games_used).
     """
@@ -133,9 +120,9 @@ def team_expected_remaining(players, scoring_periods, now: datetime, slot_counts
                 continue
             a = availability(p["injury_status"], g["date"], p["expected_return"])
             if a > 0:
-                cands.append((p["fppg"] * a, p["slots"]))
-        total += best_lineup_points(cands, slot_counts)
-        games += min(len(cands), sum(slot_counts.values()))
+                cands.append(p["fppg"] * a)
+        total += top_n_points(cands, max_per_day)
+        games += min(len(cands), max_per_day)
     return total, games
 
 

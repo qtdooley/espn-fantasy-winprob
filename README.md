@@ -1,6 +1,6 @@
 # ESPN Fantasy Basketball — daily pull + weekly win probability
 
-A GitHub Action runs `pull.py` every morning (~5am Pacific). It pulls your league from ESPN,
+A GitHub Action runs `pull.py` every morning (~5am Pacific, with a 7:43am backup). It pulls your league from ESPN,
 estimates each team's points for the rest of the matchup, converts that into a win
 probability with a z-score, and commits the CSVs to `data/`.
 
@@ -35,6 +35,7 @@ probability with a z-score, and commits the CSVs to `data/`.
    | `SD_BASIS`  | `remaining` | Apply `SD_PCT` to expected **remaining** points or **total** |
    | `MIN_FPPG`  | `25`        | Floor on every player's projected fantasy points per game  |
    | `PRIOR_GAMES` | `5`       | How many games the projection / last-season basis is worth |
+   | `MAX_PER_DAY` | `10`      | Most players counted on any one day                        |
    | `MATCHUP_END` | *(unset)* | Last day of the current matchup, `YYYY-MM-DD`; only if the summary's dates are wrong. Delete it after that week. |
 
 6. **Run it once by hand:** **Actions** tab → *Daily ESPN pull* → **Run workflow**.
@@ -72,11 +73,11 @@ P(A wins)           = Φ(z)
 - **Matchup days:** from today through the matchup's last Sunday. Multi-week matchups
   (All-Star break) are handled from your league settings. If ESPN's dates ever differ, set
   `MATCHUP_END`. The run summary prints the dates it used.
-- **P(plays)** comes from ESPN's injury status: active 1.0, day-to-day 0.75, out 0
+- **P(plays)** comes from ESPN's injury status: active and day-to-day 1.0, out 0
   (0.8 once the expected return date passes). Tune these in `model.py`.
-- **Lineup cap:** each day, only as many players as your league's starting slots can score,
-  filled best-first into the most specific eligible slot. Slot counts are read from your
-  league settings.
+- **Daily cap of 10** (`MAX_PER_DAY`): each day, every available player with a game is
+  ranked by expected points and the top 10 count. If 13 play, the best 10 count; if 8 play,
+  all 8 count. Positions are ignored.
 - **Why σ on remaining by default:** banked points are certain, so the uncertainty should
   shrink to zero as the week ends. With `SD_BASIS=total`, σ stays large even on Sunday
   night, and a 40-point lead with one game left would still look close to a coin flip.
@@ -107,8 +108,10 @@ P(A wins)           = Φ(z)
 
 - Built for **H2H points** leagues. Category leagues need a different model.
 - Weekly games-played caps and acquisition limits aren't modeled.
-- The daily lineup fill is greedy, not a full optimizer. It's exact for standard
-  PG/SG/SF/PF/C/G/F/UT lineups in nearly all cases.
+- The daily cap ignores positions, so on a rare day where many of one position play,
+  the projection can count a lineup ESPN wouldn't allow.
+- GitHub's scheduler is best-effort: a scheduled run can start late or be skipped when
+  GitHub is busy. The workflow has a backup run at 7:43am Pacific for that reason.
 
 ## Tests
 

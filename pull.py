@@ -13,7 +13,8 @@ Env vars: ESPN_LEAGUE_ID, ESPN_YEAR (2027 = the 2026-27 season), ESPN_S2, ESPN_S
           SD_PCT (default 0.25), SD_BASIS ("remaining" default, or "total"),
           MIN_FPPG (default 25: floor on every player's projected FPPG),
           PRIOR_GAMES (default 5: weight of projection / last season, in games),
-          MATCHUP_END (optional YYYY-MM-DD override for the matchup's last day)
+          MATCHUP_END (optional YYYY-MM-DD override for the matchup's last day),
+          MAX_PER_DAY (default 10: most players counted on any one day)
 """
 
 import os
@@ -39,10 +40,7 @@ MATCHUP_END = (date.fromisoformat(os.environ["MATCHUP_END"])
                if os.environ.get("MATCHUP_END") else None)
 OUT = Path(os.environ.get("ESPN_OUT_DIR") or "data")
 
-# ESPN lineupSlotId -> name for active slots (12 = BE, 13 = IR are excluded)
-SLOT_ID_NAME = {0: "PG", 1: "SG", 2: "SF", 3: "PF", 4: "C", 5: "G", 6: "F",
-                7: "SG/SF", 8: "G/F", 9: "PF/C", 10: "F/C", 11: "UT"}
-DEFAULT_SLOTS = {"PG": 1, "SG": 1, "SF": 1, "PF": 1, "C": 1, "G": 1, "F": 1, "UT": 3}
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY") or 10)  # most players counted on any one day
 
 
 def fppg(player, split):
@@ -75,19 +73,6 @@ def last_season_fppg(league, player_ids) -> dict:
     return out
 
 
-def active_slot_counts(league) -> dict:
-    """Read the league's starting-lineup slots from ESPN settings (one small request)."""
-    try:
-        data = league.espn_request.league_get(params={"view": "mSettings"})
-        counts = data["settings"]["rosterSettings"]["lineupSlotCounts"]
-        slots = {SLOT_ID_NAME[int(k)]: v for k, v in counts.items()
-                 if int(k) in SLOT_ID_NAME and v > 0}
-        return slots or DEFAULT_SLOTS
-    except Exception as e:  # never let this kill the daily run
-        print(f"Could not read lineup slots ({e}); using default 10-man lineup")
-        return DEFAULT_SLOTS
-
-
 def append_dedup(df: pd.DataFrame, path: Path, keys: list):
     """Append rows to a CSV log, keeping the newest row for each key (safe to re-run)."""
     if df.empty:
@@ -104,7 +89,6 @@ def main():
     league = League(league_id=LEAGUE_ID, year=YEAR, espn_s2=ESPN_S2, swid=SWID)
     now = datetime.now()
     today = date.today()
-    slot_counts = active_slot_counts(league)
 
     # ---------- Which days (scoring periods) are left in this matchup ----------
     cur_period = league.scoringPeriodId
@@ -137,7 +121,6 @@ def main():
                              if k in remaining_periods and g["date"] > now)
             model_players[team.team_id].append({
                 "fppg": rate,
-                "slots": set(p.eligibleSlots),
                 "injury_status": p.injuryStatus,
                 "expected_return": p.expected_return_date,
                 "schedule": schedule,
@@ -194,8 +177,8 @@ def main():
         if not box.home_team or not box.away_team:  # bye week
             continue
         home, away = box.home_team, box.away_team
-        rem_h, g_h = team_expected_remaining(model_players[home.team_id], remaining_periods, now, slot_counts)
-        rem_a, g_a = team_expected_remaining(model_players[away.team_id], remaining_periods, now, slot_counts)
+        rem_h, g_h = team_expected_remaining(model_players[home.team_id], remaining_periods, now, MAX_PER_DAY)
+        rem_a, g_a = team_expected_remaining(model_players[away.team_id], remaining_periods, now, MAX_PER_DAY)
         p_home, z, exp_h, exp_a = win_probability(
             box.home_score, rem_h, box.away_score, rem_a, SD_PCT, SD_BASIS)
         wp_rows.append({
@@ -217,7 +200,8 @@ def main():
 
     # ---------- Summary (shows on the GitHub Actions run page) ----------
     lines = [f"### Matchup {matchup_id}: {wk_start:%a %b %-d} – {wk_end:%a %b %-d}  "
-             f"({len(remaining_periods)} days left, σ = {SD_PCT:.0%} of {SD_BASIS})", "",
+             f"({len(remaining_periods)} days left, top {MAX_PER_DAY} players/day, "
+             f"σ = {SD_PCT:.0%} of {SD_BASIS})", "",
              "If these dates don't match ESPN's matchup dates, set the repo variable "
              "`MATCHUP_END` (YYYY-MM-DD).", "",
              "| Home | Now | Games left | Exp | Win % | Away | Now | Games left | Exp | Win % |",
