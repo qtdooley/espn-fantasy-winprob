@@ -2,11 +2,22 @@ name: Daily ESPN pull
 
 on:
   schedule:
-    - cron: "17 12 * * *"   # 12:17 UTC = 5:17am PDT / 4:17am PST, after ESPN's overnight stat corrections
+    # GitHub's scheduler is best-effort: runs can start late or be skipped under load.
+    # The second time is a backup; if the first already ran, it re-pulls but won't re-email.
+    - cron: "17 12 * * *"   # 12:17 UTC = 5:17am PDT / 4:17am PST
+    - cron: "43 14 * * *"   # 14:43 UTC = 7:43am PDT / 6:43am PST (backup)
   workflow_dispatch:         # adds a "Run workflow" button for manual runs
+    inputs:
+      email:
+        description: "Send email? auto = once per day; always = send now; never = skip"
+        type: choice
+        options: [auto, always, never]
+        default: auto
 
 permissions:
-  contents: write            # lets the job commit the CSVs back to the repo
+  contents: write            # commit the CSVs back to the repo
+  pages: write               # publish the web page (only if ENABLE_SITE = true)
+  id-token: write
 
 concurrency:
   group: daily-pull
@@ -15,9 +26,11 @@ concurrency:
 jobs:
   pull:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    outputs:
+      site_artifact: ${{ steps.upload.outputs.artifact_id }}
     env:
-      TZ: America/Los_Angeles   # game times in the CSVs come out in Pacific time
+      TZ: America/Los_Angeles   # game times and dates come out in Pacific time
     steps:
       - uses: actions/checkout@v6
 
@@ -28,16 +41,28 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Pull ESPN data and compute win probabilities
+      - name: Pull leagues, build page, send email
         env:
           ESPN_LEAGUE_ID: ${{ secrets.ESPN_LEAGUE_ID }}
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
+          ESPN_S2_2: ${{ secrets.ESPN_S2_2 }}       # only if a league is on another ESPN account
+          ESPN_SWID_2: ${{ secrets.ESPN_SWID_2 }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_MODE: ${{ inputs.email }}
+          EMAIL_DAYS: ${{ vars.EMAIL_DAYS }}
+          ENABLE_SITE: ${{ vars.ENABLE_SITE }}
+          SITE_URL: ${{ vars.SITE_URL }}
           ESPN_YEAR: ${{ vars.ESPN_YEAR }}
           SD_PCT: ${{ vars.SD_PCT }}
           SD_BASIS: ${{ vars.SD_BASIS }}
           MIN_FPPG: ${{ vars.MIN_FPPG }}
-        run: python pull.py
+          PRIOR_GAMES: ${{ vars.PRIOR_GAMES }}
+          MATCHUP_END: ${{ vars.MATCHUP_END }}
+          MAX_PER_DAY: ${{ vars.MAX_PER_DAY }}
+        run: python run_all.py
 
       - name: Commit data
         run: |
@@ -53,3 +78,28 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - name: Upload web page
+        id: upload
+        if: ${{ !cancelled() && vars.ENABLE_SITE == 'true' && hashFiles('site/index.html') != '' }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Mark run failed if any league failed
+        run: |
+          if [ -f failed.txt ]; then
+            echo "These failed (details in the step above): $(cat failed.txt)"
+            exit 1
+          fi
+
+  deploy:
+    needs: pull
+    if: ${{ !cancelled() && needs.pull.outputs.site_artifact != '' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
