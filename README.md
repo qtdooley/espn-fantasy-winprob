@@ -1,8 +1,9 @@
 # ESPN Fantasy Basketball — daily pull + weekly win probability
 
-A GitHub Action runs `pull.py` every morning (~5am Pacific, with a 7:43am backup). It pulls your league from ESPN,
-estimates each team's points for the rest of the matchup, converts that into a win
-probability with a z-score, and commits the CSVs to `data/`.
+A GitHub Action runs `run_all.py` every morning (~5am Pacific, with a 7:43am backup). For
+every league in `leagues.json` it pulls ESPN, estimates each team's points for the rest of
+the matchup, converts that into a win probability with a z-score, and commits the CSVs to
+`data/<league>/`. Optionally it also publishes a web page and emails the results.
 
 ## Setup (about 10 minutes)
 
@@ -44,6 +45,80 @@ probability with a z-score, and commits the CSVs to `data/`.
 **Cookie maintenance:** the cookies are tied to your ESPN login. If you log out or ESPN
 forces a re-login, they can stop working and the run fails with a 401. Repeat
 step 3 and update the two secrets. Never put them in code or commit them.
+
+## More leagues
+
+Edit `leagues.json` (pencil icon on GitHub). One line per league:
+
+```json
+[
+  {"slug": "main",    "league_id": 403382108},
+  {"slug": "league2", "league_id": 87654321}
+]
+```
+
+- `slug`: short name, lowercase. Used for the data folder `data/<slug>/` and `EMAIL_TO`.
+- `name` (optional): display name; otherwise ESPN's league name is used.
+- `cookies` (optional): leave it out if you're in the league with the same ESPN login,
+  since the same two cookies work for every league you're in. If the league belongs to a
+  different ESPN account, add `"cookies": "2"` and create secrets `ESPN_S2_2` and
+  `ESPN_SWID_2` from that account.
+
+A league that fails (bad ID, no access) doesn't stop the others. The run shows red and
+the log names the league.
+
+## Shareable web page (GitHub Pages)
+
+**Free GitHub accounts can only publish Pages from a public repo.** The choice:
+
+- **Make the repo public** (Settings → General → Danger Zone → Change visibility). Your
+  cookies and email password are secrets: they stay encrypted and never appear in the
+  code, logs, or page. What becomes visible: the code, `leagues.json` (league IDs alone
+  don't grant access to a private ESPN league), and the CSVs in `data/` (rosters and
+  win odds).
+- **Or keep it private with GitHub Pro** (about $4/month), which allows Pages on private repos.
+
+Either way, the page itself is public to anyone with the link.
+
+To turn it on:
+1. Settings → **Pages** → under "Build and deployment", set **Source** to **GitHub Actions**.
+2. Settings → Secrets and variables → Actions → **Variables** tab → New variable:
+   `ENABLE_SITE` = `true`.
+3. Run the workflow. The page goes live at `https://<your-username>.github.io/<repo-name>/`.
+   The deploy job's box on the run page links to it.
+
+## Daily email (Gmail)
+
+Each league gets one email per day, sent BCC so recipients don't see each other's
+addresses. The backup run won't send a second copy.
+
+1. Turn on **2-Step Verification** for the Gmail account you'll send from
+   (myaccount.google.com → Security).
+2. Create an **app password**: myaccount.google.com/apppasswords → name it
+   "fantasy" → copy the 16-character password. Google blocks your normal password for this.
+3. Add three **secrets**:
+
+   | Secret | Value |
+   |---|---|
+   | `EMAIL_USER` | the Gmail address that sends |
+   | `EMAIL_APP_PASSWORD` | the 16-character app password |
+   | `EMAIL_TO` | who gets what, one line per group (below) |
+
+   `EMAIL_TO` format:
+   ```
+   main: friend1@gmail.com, friend2@yahoo.com
+   league2: coworker@company.com
+   you@gmail.com
+   ```
+   A line starting with a league's slug only gets that league. A line without a prefix
+   gets every league.
+4. Optional **variable** `EMAIL_DAYS`, for example `Mon,Thu`, to email only on those days.
+   The default is every day.
+
+**Run workflow** has an *email* choice: `auto` (once a day), `always` (send now, even if
+already sent today), or `never`.
+
+Gmail allows about 500 emails a day from a personal account, far more than this needs.
 
 ## The model
 
@@ -94,7 +169,10 @@ P(A wins)           = Φ(z)
 | Moves you'll make later this week | Can't be known ahead of time. Probabilities update each morning to reflect the new roster. |
 | Player history | `history/player_points.csv` credits each day's points to whichever team rostered the player **that day**, so a dropped player's past points stay with the team that earned them. |
 
-## Files in `data/`
+## Files in `data/<league>/`
+
+The first time this runs, files from the old one-league layout (directly in `data/`) are
+moved into `data/<first league's slug>/`, history included.
 
 | File | Contents |
 |---|---|
@@ -103,6 +181,8 @@ P(A wins)           = Φ(z)
 | `yesterday_points.csv` | Each player's fantasy points yesterday |
 | `win_probability.csv` | Today's matchups: banked, expected remaining, expected total, z, win % |
 | `history/*.csv` | Growing daily logs of the two files above |
+| `meta.json` | League name, matchup dates, last update (used by the page and email) |
+| `last_email.txt` | Date that league's email last went out |
 
 ## Limits
 

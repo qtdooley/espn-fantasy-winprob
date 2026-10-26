@@ -17,6 +17,7 @@ Env vars: ESPN_LEAGUE_ID, ESPN_YEAR (2027 = the 2026-27 season), ESPN_S2, ESPN_S
           MAX_PER_DAY (default 10: most players counted on any one day)
 """
 
+import json
 import os
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -27,7 +28,6 @@ from espn_api.basketball import League
 from model import (matchup_remaining_periods, model_fppg, period_date_anchor, prior_fppg,
                    team_expected_remaining, win_probability)
 
-LEAGUE_ID = int(os.environ["ESPN_LEAGUE_ID"])
 YEAR = int(os.environ.get("ESPN_YEAR") or 2027)
 ESPN_S2 = os.environ.get("ESPN_S2") or None
 SWID = os.environ.get("ESPN_SWID") or None
@@ -38,7 +38,7 @@ PRIOR_GAMES = float(os.environ.get("PRIOR_GAMES") or 5)  # weight of projection/
 # Last day of the current matchup (YYYY-MM-DD) if ESPN's differs from "the coming Sunday"
 MATCHUP_END = (date.fromisoformat(os.environ["MATCHUP_END"])
                if os.environ.get("MATCHUP_END") else None)
-OUT = Path(os.environ.get("ESPN_OUT_DIR") or "data")
+OUT_DEFAULT = Path(os.environ.get("ESPN_OUT_DIR") or "data")
 
 MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY") or 10)  # most players counted on any one day
 
@@ -84,9 +84,14 @@ def append_dedup(df: pd.DataFrame, path: Path, keys: list):
     df.drop_duplicates(subset=keys, keep="last").to_csv(path, index=False)
 
 
-def main():
+def main(league_id=None, out_dir=None, espn_s2=None, swid=None, label=None):
+    """Pull one league into out_dir. Returns that league's meta dict (also saved as meta.json)."""
+    league_id = int(league_id or os.environ["ESPN_LEAGUE_ID"])
+    OUT = Path(out_dir) if out_dir else OUT_DEFAULT
+    league = League(league_id=league_id, year=YEAR,
+                    espn_s2=espn_s2 or ESPN_S2, swid=swid or SWID)
     (OUT / "history").mkdir(parents=True, exist_ok=True)
-    league = League(league_id=LEAGUE_ID, year=YEAR, espn_s2=ESPN_S2, swid=SWID)
+    label = label or league.settings.name
     now = datetime.now()
     today = date.today()
 
@@ -199,7 +204,15 @@ def main():
                  ["run_date", "matchup_period", "home_team"])
 
     # ---------- Summary (shows on the GitHub Actions run page) ----------
-    lines = [f"### Matchup {matchup_id}: {wk_start:%a %b %-d} – {wk_end:%a %b %-d}  "
+    meta = {
+        "league_name": label, "espn_league_name": league.settings.name,
+        "matchup_period": matchup_id, "matchup_start": str(wk_start), "matchup_end": str(wk_end),
+        "days_left": len(remaining_periods), "updated_at": now.isoformat(timespec="minutes"),
+        "max_per_day": MAX_PER_DAY, "sd_pct": SD_PCT, "sd_basis": SD_BASIS, "min_fppg": MIN_FPPG,
+    }
+    (OUT / "meta.json").write_text(json.dumps(meta, indent=2))
+
+    lines = [f"## {label}", "", f"### Matchup {matchup_id}: {wk_start:%a %b %-d} – {wk_end:%a %b %-d}  "
              f"({len(remaining_periods)} days left, top {MAX_PER_DAY} players/day, "
              f"σ = {SD_PCT:.0%} of {SD_BASIS})", "",
              "If these dates don't match ESPN's matchup dates, set the repo variable "
@@ -216,6 +229,7 @@ def main():
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
             f.write(summary + "\n")
+    return meta
 
 
 if __name__ == "__main__":
