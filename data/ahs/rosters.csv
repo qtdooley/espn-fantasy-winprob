@@ -1,0 +1,170 @@
+fantasy_team,team_id,player,player_id,nba_team,position,lineup_slot,injury_status,injured,expected_return,games_played,fppg_season,fppg_last30,fppg_projected,fppg_last_season,fppg_prior,fppg_model,games_left_this_matchup
+Brunson’s Burners,1,Luka Doncic,3945274,LAL,PG,PG,ACTIVE,False,,3,54.0,54.0,60.63,59.14,59.89,57.68,0
+Brunson’s Burners,1,Karl-Anthony Towns,3136195,NYK,C,UT,ACTIVE,False,,3,40.0,40.0,44.09,39.29,41.69,41.06,0
+Brunson’s Burners,1,Evan Mobley,4432158,CLE,PF,BE,ACTIVE,False,,2,43.5,43.5,43.33,40.89,42.11,42.51,0
+Brunson’s Burners,1,Damian Lillard,6606,POR,PG,G,ACTIVE,False,,2,40.0,40.0,38.62,,38.62,39.01,0
+Brunson’s Burners,1,Lauri Markkanen,4066336,UTA,PF,SF,ACTIVE,False,,3,32.0,32.0,38.65,42.05,40.35,37.22,0
+Brunson’s Burners,1,Rudy Gobert,3032976,MIN,C,C,ACTIVE,False,,3,19.0,19.0,34.31,33.01,33.66,28.16,0
+Brunson’s Burners,1,CJ McCollum,2490149,ATL,SG,UT,ACTIVE,False,,3,23.67,23.67,32.44,31.86,32.15,28.97,0
+Brunson’s Burners,1,Jalen Green,4437244,PHO,SG,BE,ACTIVE,False,,2,13.5,13.5,32.43,26.84,29.63,25.02,0
+Brunson’s Burners,1,Immanuel Quickley,4395724,TOR,PG,SG,ACTIVE,False,,3,31.67,31.67,34.92,35.49,35.2,33.88,0
+Brunson’s Burners,1,Jabari Smith Jr.,4432639,HOU,PF,BE,ACTIVE,False,,3,34.0,34.0,27.64,30.64,29.14,30.96,0
+Brunson’s Burners,1,Aaron Gordon,3064290,DEN,PF,UT,ACTIVE,False,,2,30.5,30.5,28.91,29.22,29.06,29.47,0
+Brunson’s Burners,1,P.J. Washington,4278078,DAL,PF,PF,ACTIVE,False,,3,24.67,24.67,26.91,28.71,27.81,26.63,0
+Brunson’s Burners,1,Bobby Portis,3064482,MIA,PF,F,ACTIVE,False,,3,24.67,24.67,25.98,25.82,25.9,25.44,0
+"Old Heads, Young Blood",2,Victor Wembanyama,5104157,SAS,C,BE,ACTIVE,False,,3,43.33,43.33,60.51,55.41,57.96,52.47,0
+"Old Heads, Young Blood",2,Devin Booker,3136193,PHO,PG,PG,ACTIVE,False,,2,53.0,53.0,43.24,39.22,41.23,44.59,0
+"Old Heads, Young Blood",2,Kevin Durant,3202,HOU,PF,F,ACTIVE,False,,3,38.0,38.0,42.9,43.83,43.36,41.35,0
+"Old Heads, Young Blood",2,Desmond Bane,4066320,ORL,SG,SG,ACTIVE,False,,3,21.67,21.67,38.25,35.62,36.94,31.21,0
+"Old Heads, Young Blood",2,LeBron James,1966,PHL,SF,PF,ACTIVE,False,,3,35.33,35.33,42.48,42.92,42.7,39.94,0
+"Old Heads, Young Blood",2,Zion Williamson,4395628,NOP,PF,UT,ACTIVE,False,,3,37.67,37.67,39.97,35.6,37.78,37.74,0
+"Old Heads, Young Blood",2,Norman Powell,2595516,CHI,SG,G,ACTIVE,False,,3,27.0,27.0,35.97,32.53,34.25,31.53,0
+"Old Heads, Young Blood",2,Fred VanVleet,2991230,HOU,PG,UT,ACTIVE,False,,2,41.5,41.5,33.43,,33.43,35.74,0
+"Old Heads, Young Blood",2,Ryan Rollins,4591725,MIL,SG,UT,ACTIVE,False,,3,24.0,24.0,31.86,36.53,34.2,30.37,0
+"Old Heads, Young Blood",2,Myles Turner,3133628,MIL,C,BE,ACTIVE,False,,3,18.33,18.33,28.41,27.42,27.91,25.0,0
+"Old Heads, Young Blood",2,Yaxel Lendeborg,5175737,GSW,SF,BE,ACTIVE,False,,3,36.0,36.0,23.49,,23.49,28.18,0
+"Old Heads, Young Blood",2,Cameron Johnson,3138196,DEN,SF,IR,DAY_TO_DAY,False,,1,11.0,11.0,26.09,25.06,25.57,25.0,0
+"Old Heads, Young Blood",2,Paul Reed,4278562,DET,C,C,ACTIVE,False,,3,27.67,27.67,20.4,21.0,20.7,25.0,0
+"Old Heads, Young Blood",2,Ziaire Williams,4433137,LAL,SF,SF,ACTIVE,False,,3,25.33,25.33,19.68,19.59,19.63,25.0,0
+Lil Dicky Ball,3,Cade Cunningham,4432166,DET,PG,PG,ACTIVE,False,,3,44.67,44.67,50.45,50.41,50.43,48.27,0
+Lil Dicky Ball,3,Jamal Murray,3936299,DEN,PG,G,ACTIVE,False,,2,37.0,37.0,43.93,46.64,45.28,42.92,0
+Lil Dicky Ball,3,Bam Adebayo,4066261,MIA,C,BE,ACTIVE,False,,3,30.33,30.33,39.63,39.23,39.43,36.02,0
+Lil Dicky Ball,3,Pascal Siakam,3149673,IND,PF,PF,ACTIVE,False,,3,35.33,35.33,41.11,39.03,40.07,38.29,0
+Lil Dicky Ball,3,Trey Murphy III,4397688,NOP,SF,UT,ACTIVE,False,,3,26.67,26.67,36.75,40.5,38.62,34.14,0
+Lil Dicky Ball,3,Cameron Boozer,5041935,MEM,PF,F,ACTIVE,False,,3,32.33,32.33,34.33,,34.33,33.58,0
+Lil Dicky Ball,3,Matas Buzelis,4711294,CHI,SF,UT,ACTIVE,False,,3,20.33,20.33,32.54,31.55,32.05,27.65,0
+Lil Dicky Ball,3,Zach Edey,4600663,MEM,C,C,OUT,True,,2,30.5,30.5,33.16,34.18,33.67,32.76,0
+Lil Dicky Ball,3,Jeremiah Fears,5144091,NOP,SG,BE,ACTIVE,False,,3,8.67,8.67,27.3,25.56,26.43,25.0,0
+Lil Dicky Ball,3,Zach LaVine,3064440,SAC,SG,SF,ACTIVE,False,,3,41.0,41.0,32.02,28.13,30.08,34.17,0
+Lil Dicky Ball,3,Quentin Grimes,4397014,LAL,SG,SG,ACTIVE,False,,3,22.0,22.0,28.11,25.11,26.61,25.0,0
+Lil Dicky Ball,3,Nic Claxton,4278067,CHI,C,IR,OUT,True,,0,0.0,0.0,30.29,30.26,30.27,30.27,0
+Lil Dicky Ball,3,Anthony Black,4712849,ORL,PG,IR,ACTIVE,False,,1,44.0,44.0,28.16,29.84,29.0,31.5,0
+Lil Dicky Ball,3,Draymond Green,6589,GSW,PF,BE,ACTIVE,False,,2,18.5,18.5,28.45,25.62,27.04,25.0,0
+Lil Dicky Ball,3,Anfernee Simons,4351851,PHL,SG,UT,ACTIVE,False,,4,10.25,10.25,23.39,22.76,23.08,25.0,0
+Aspiration Risk,5,Anthony Edwards,4594268,MIN,SG,SG,ACTIVE,False,,3,43.67,43.67,47.25,45.57,46.41,45.38,0
+Aspiration Risk,5,Trae Young,4277905,WAS,PG,PG,ACTIVE,False,,3,43.0,43.0,44.35,34.4,39.38,40.73,0
+Aspiration Risk,5,Kawhi Leonard,6450,TOR,SF,SF,OUT,True,,2,37.5,37.5,45.75,48.66,47.2,44.43,0
+Aspiration Risk,5,Paolo Banchero,4432573,ORL,PF,IR,OUT,True,,2,45.0,45.0,39.0,37.86,38.43,40.31,0
+Aspiration Risk,5,Nickeil Alexander-Walker,4278039,ATL,SG,G,ACTIVE,False,,3,40.33,40.33,34.05,36.38,35.22,37.13,0
+Aspiration Risk,5,Dylan Harper,5037871,SAS,PG,UT,ACTIVE,False,,3,31.33,31.33,32.26,25.09,28.67,29.67,0
+Aspiration Risk,5,AJ Dybantsa,5142718,WAS,SF,IR,OUT,True,,0,0.0,0.0,32.92,,32.92,32.92,0
+Aspiration Risk,5,Payton Pritchard,4066354,BOS,PG,UT,ACTIVE,False,,2,14.5,14.5,31.56,33.48,32.52,27.37,0
+Aspiration Risk,5,John Collins,3908845,DET,PF,PF,ACTIVE,False,,3,29.67,29.67,31.78,26.35,29.07,29.29,0
+Aspiration Risk,5,Mitchell Robinson,4351852,BOS,C,UT,ACTIVE,False,,2,16.5,16.5,30.3,23.7,27.0,25.0,0
+Aspiration Risk,5,Toumani Camara,4431736,POR,PF,F,ACTIVE,False,,2,35.0,35.0,23.77,27.11,25.44,28.17,0
+Aspiration Risk,5,Moussa Diabate,4433249,CHA,PF,BE,ACTIVE,False,,3,29.33,29.33,24.0,25.95,24.98,26.61,0
+Aspiration Risk,5,Andre Drummond,6585,NYK,C,C,ACTIVE,False,,3,19.0,19.0,20.7,20.68,20.69,25.0,0
+Aspiration Risk,5,Aaron Wiggins,4397183,ATL,SG,BE,ACTIVE,False,,3,32.33,32.33,19.24,18.78,19.01,25.0,0
+Aspiration Risk,5,Collin Gillespie,4278585,PHO,PG,BE,ACTIVE,False,,2,21.0,21.0,28.48,29.7,29.09,26.78,0
+lee lee,6,Giannis Antetokounmpo,3032977,MIA,PF,PF,ACTIVE,False,,3,42.67,42.67,57.55,49.36,53.45,49.41,0
+lee lee,6,Domantas Sabonis,3155942,SAC,C,C,ACTIVE,False,,3,51.0,51.0,46.7,34.84,40.77,44.61,0
+lee lee,6,James Harden,3992,CLE,PG,PG,ACTIVE,False,,2,24.0,24.0,42.08,43.5,42.79,37.42,0
+lee lee,6,Jalen Williams,4593803,OKC,PF,UT,DAY_TO_DAY,False,,3,26.33,26.33,40.96,34.3,37.63,33.39,0
+lee lee,6,Derrick White,3078576,BOS,SG,SG,ACTIVE,False,,2,32.5,32.5,37.01,37.21,37.11,35.79,0
+lee lee,6,Onyeka Okongwu,4431680,ATL,C,BE,ACTIVE,False,,3,19.33,19.33,34.81,35.11,34.96,29.1,0
+lee lee,6,Miles Bridges,4066383,PHO,SF,F,ACTIVE,False,,2,24.5,24.5,33.92,30.92,32.42,30.16,0
+lee lee,6,Kevin Porter Jr.,4397140,FA,SG,BE,ACTIVE,False,,0,0.0,0.0,33.02,42.05,37.53,37.53,0
+lee lee,6,Neemias Queta,4397424,BOS,C,BE,ACTIVE,False,,2,24.0,24.0,27.19,29.68,28.44,27.17,0
+lee lee,6,Kris Dunn,2991139,LAC,PG,G,ACTIVE,False,,3,43.33,43.33,20.0,22.6,21.3,29.56,0
+lee lee,6,Julian Champagnie,4592479,SAS,SF,SF,ACTIVE,False,,3,30.67,30.67,23.34,24.23,23.79,26.37,0
+lee lee,6,Naji Marshall,4278594,DAL,SF,UT,OUT,True,,3,31.0,31.0,22.39,28.09,25.24,27.4,0
+lee lee,6,Precious Achiuwa,4431679,SAC,PF,UT,ACTIVE,False,,3,32.67,32.67,24.1,24.08,24.09,27.31,0
+Victor Krum,7,Josh Giddey,4871145,CHI,PG,PG,ACTIVE,False,,3,21.67,21.67,46.16,41.94,44.05,35.66,0
+Victor Krum,7,Scottie Barnes,4433134,TOR,SF,SG,ACTIVE,False,,3,32.33,32.33,43.68,44.05,43.86,39.54,0
+Victor Krum,7,Stephon Castle,4845367,SAS,PG,BE,ACTIVE,False,,3,36.0,36.0,36.86,35.01,35.94,35.96,0
+Victor Krum,7,Dyson Daniels,4869342,ATL,SG,BE,ACTIVE,False,,3,48.0,48.0,35.65,36.46,36.05,40.53,0
+Victor Krum,7,VJ Edgecombe,5124612,PHL,SG,G,OUT,True,,3,33.0,33.0,33.69,34.0,33.84,33.53,0
+Victor Krum,7,Caleb Wilson,5095151,CHI,SF,BE,ACTIVE,False,,3,34.67,34.67,34.9,,34.9,34.81,0
+Victor Krum,7,Joel Embiid,3059318,PHL,C,C,OUT,True,,3,40.33,40.33,45.35,43.5,44.42,42.89,0
+Victor Krum,7,OG Anunoby,3934719,NYK,SF,SF,ACTIVE,False,,3,26.67,26.67,33.09,33.04,33.06,30.67,0
+Victor Krum,7,Rui Hachimura,4066648,LAC,PF,PF,ACTIVE,False,,3,13.0,13.0,23.97,20.37,22.17,25.0,0
+Victor Krum,7,Wendell Carter Jr.,4277847,ORL,C,UT,ACTIVE,False,,3,37.0,37.0,23.04,26.64,24.84,29.4,0
+Victor Krum,7,Jaylen Wells,5112087,MEM,SF,UT,ACTIVE,False,,3,33.33,33.33,19.28,20.8,20.04,25.02,0
+Victor Krum,7,Derrick Jones Jr.,3936099,LAC,SF,F,ACTIVE,False,,3,27.0,27.0,21.1,22.94,22.02,25.0,0
+Victor Krum,7,Duncan Robinson,3157465,DET,SF,UT,ACTIVE,False,,3,30.33,30.33,21.61,22.71,22.16,25.22,0
+Jared Dubley,8,Jayson Tatum,4065648,BOS,PF,PF,ACTIVE,False,,2,48.0,48.0,48.1,42.62,45.36,46.11,0
+Jared Dubley,8,Donovan Mitchell,3908809,CLE,SG,G,ACTIVE,False,,2,44.0,44.0,46.48,46.9,46.69,45.92,0
+Jared Dubley,8,Deni Avdija,4683021,POR,SF,F,ACTIVE,False,,2,39.5,39.5,40.38,41.24,40.81,40.44,0
+Jared Dubley,8,Keyonte George,4433627,UTA,PG,PG,ACTIVE,False,,3,39.0,39.0,36.76,39.07,37.91,38.32,0
+Jared Dubley,8,Michael Porter Jr.,4278104,BKN,SF,SF,ACTIVE,False,,3,37.0,37.0,38.93,39.31,39.12,38.33,0
+Jared Dubley,8,Donovan Clingan,5105565,POR,C,C,ACTIVE,False,,2,28.5,28.5,33.86,35.1,34.48,32.77,0
+Jared Dubley,8,Alex Sarr,5160992,WAS,C,UT,ACTIVE,False,,3,24.33,24.33,36.61,36.48,36.55,31.96,0
+Jared Dubley,8,Coby White,4395651,CHA,PG,IR,OUT,True,,0,0.0,0.0,32.86,26.12,29.49,29.49,0
+Jared Dubley,8,Jaime Jaquez Jr.,4432848,MIL,SF,UT,ACTIVE,False,,3,32.33,32.33,28.22,29.81,29.02,30.26,0
+Jared Dubley,8,Kyshawn George,5174563,WAS,SG,BE,ACTIVE,False,,3,29.0,29.0,30.15,31.23,30.69,30.06,0
+Jared Dubley,8,Daniel Gafford,4278049,DAL,C,BE,ACTIVE,False,,3,27.0,27.0,29.32,25.15,27.23,27.15,0
+Jared Dubley,8,Saddiq Bey,4397136,NOP,SF,BE,ACTIVE,False,,3,23.33,23.33,25.87,30.67,28.27,26.42,0
+Jared Dubley,8,Jimmy Butler III,6430,GSW,SF,IR,OUT,True,,0,0.0,0.0,38.77,39.05,38.91,38.91,0
+Jared Dubley,8,Cason Wallace,4683692,OKC,SG,SG,DAY_TO_DAY,False,,3,18.33,18.33,24.12,24.31,24.21,25.0,0
+Jared Dubley,8,Day'Ron Sharpe,4432194,BKN,C,UT,ACTIVE,False,,3,20.33,20.33,27.03,23.15,25.09,25.0,0
+walk and ball torture,10,LaMelo Ball,4432816,MIN,PG,PG,ACTIVE,False,,3,36.33,36.33,46.43,39.69,43.06,40.54,0
+walk and ball torture,10,Tyrese Haliburton,4396993,IND,PG,SG,ACTIVE,False,,3,50.33,50.33,48.62,,48.62,49.26,0
+walk and ball torture,10,Jaylen Brown,3917376,PHL,SF,SF,ACTIVE,False,,4,36.0,36.0,38.61,43.59,41.1,38.83,0
+walk and ball torture,10,Julius Randle,3064514,BKN,PF,PF,ACTIVE,False,,3,36.67,36.67,37.04,37.23,37.13,36.96,0
+walk and ball torture,10,Walker Kessler,4433136,LAL,C,C,ACTIVE,False,,3,45.0,45.0,38.61,40.6,39.61,41.63,0
+walk and ball torture,10,Darius Garland,4396907,LAC,PG,G,ACTIVE,False,,3,31.67,31.67,40.38,34.42,37.4,35.25,0
+walk and ball torture,10,Darius Acuff Jr.,5142620,SAC,PG,UT,ACTIVE,False,,3,26.0,26.0,30.4,,30.4,28.75,0
+walk and ball torture,10,Jaden McDaniels,4431671,MIN,SF,F,ACTIVE,False,,3,36.33,36.33,29.73,30.75,30.24,32.52,0
+walk and ball torture,10,Andrew Nembhard,4395712,IND,PG,UT,ACTIVE,False,,3,31.33,31.33,28.18,34.05,31.11,31.2,0
+walk and ball torture,10,Dereck Lively II,4683688,DAL,C,IR,OUT,True,,0,0.0,0.0,27.42,19.29,23.36,25.0,0
+walk and ball torture,10,Davion Mitchell,4278053,MIA,PG,BE,ACTIVE,False,,3,37.33,37.33,25.52,27.19,26.36,30.47,0
+walk and ball torture,10,Brook Lopez,3448,LAC,C,BE,ACTIVE,False,,3,35.0,35.0,26.21,20.33,23.27,27.67,0
+walk and ball torture,10,Jaxson Hayes,4397077,UTA,C,UT,ACTIVE,False,,3,34.0,34.0,16.52,18.68,17.6,25.0,0
+walk and ball torture,10,Tre Jones,4395626,CHI,PG,BE,ACTIVE,False,,3,24.33,24.33,25.76,31.57,28.66,27.04,0
+the emergency room,11,Jalen Johnson,4701230,ATL,PF,F,ACTIVE,False,,3,52.67,52.67,49.99,48.56,49.28,50.55,0
+the emergency room,11,Amen Thompson,4684740,HOU,SF,BE,ACTIVE,False,,3,41.67,41.67,39.96,40.43,40.2,40.75,0
+the emergency room,11,Anthony Davis,6583,WAS,C,C,ACTIVE,False,,3,33.0,33.0,49.56,43.5,46.53,41.46,0
+the emergency room,11,Kon Knueppel,5061575,CHA,SF,IR,OUT,True,,0,0.0,0.0,35.17,32.69,33.93,33.93,0
+the emergency room,11,Ty Jerome,4065733,MEM,SG,PG,ACTIVE,False,,3,55.0,55.0,39.8,37.13,38.47,44.67,0
+the emergency room,11,Tyler Herro,4395725,MIL,SG,BE,ACTIVE,False,,3,37.0,37.0,38.81,35.55,37.18,37.11,0
+the emergency room,11,Kel'el Ware,5105623,MIL,C,UT,ACTIVE,False,,3,22.67,22.67,33.78,28.71,31.25,28.03,0
+the emergency room,11,Derik Queen,4869780,NOP,C,UT,ACTIVE,False,,3,31.0,31.0,30.49,28.33,29.41,30.01,0
+the emergency room,11,Ayo Dosunmu,4397002,MIN,SG,SG,ACTIVE,False,,3,28.0,28.0,30.36,28.97,29.66,29.04,0
+the emergency room,11,Jonathan Kuminga,4433247,MIN,PF,PF,ACTIVE,False,,3,32.67,32.67,26.25,21.67,23.96,27.23,0
+the emergency room,11,Ace Bailey,4873138,UTA,SF,SF,ACTIVE,False,,3,29.33,29.33,26.75,24.89,25.82,27.14,0
+the emergency room,11,Jaylon Tyson,4683747,CLE,SG,BE,ACTIVE,False,,2,21.5,21.5,25.56,26.2,25.88,25.0,0
+the emergency room,11,Keon Ellis,4702177,BKN,SG,UT,ACTIVE,False,,3,25.67,25.67,18.1,16.93,17.52,25.0,0
+the emergency room,11,Alex Caruso,2991350,OKC,SG,G,ACTIVE,False,,3,32.33,32.33,24.04,17.5,20.77,25.1,0
+Only Franz,12,Nikola Jokic,3112335,DEN,C,UT,ACTIVE,False,,2,53.0,53.0,67.19,66.31,66.75,62.82,0
+Only Franz,12,Jalen Duren,4433621,DET,C,IR,OUT,True,,2,31.5,31.5,42.21,38.77,40.49,37.92,0
+Only Franz,12,Austin Reaves,4066457,LAL,SG,SG,ACTIVE,False,,3,48.67,48.67,43.33,40.06,41.7,44.31,0
+Only Franz,12,Franz Wagner,4566434,ORL,SF,SF,ACTIVE,False,,3,33.67,33.67,38.64,33.88,36.26,35.29,0
+Only Franz,12,Brandon Miller,4433287,CHA,SF,F,ACTIVE,False,,3,20.33,20.33,37.41,34.18,35.8,30.0,0
+Only Franz,12,Ja Morant,4279888,POR,PG,BE,ACTIVE,False,,2,38.5,38.5,37.54,34.4,35.97,36.69,0
+Only Franz,12,Ivica Zubac,4017837,IND,C,C,DAY_TO_DAY,False,,3,21.67,21.67,35.46,31.44,33.45,29.03,0
+Only Franz,12,Ausar Thompson,4684742,DET,SF,PF,OUT,True,,2,24.0,24.0,30.8,29.97,30.38,28.56,0
+Only Franz,12,Josh Hart,3062679,NYK,SF,G,ACTIVE,False,,3,34.0,34.0,33.01,31.8,32.41,33.0,0
+Only Franz,12,Brandon Ingram,3913176,LAC,SF,IR,OUT,True,,0,0.0,0.0,38.47,35.61,37.04,37.04,0
+Only Franz,12,Isaiah Hartenstein,4222252,OKC,C,UT,ACTIVE,False,,3,18.67,18.67,30.52,30.0,30.26,25.91,0
+Only Franz,12,Jrue Holiday,3995,POR,PG,BE,ACTIVE,False,,2,28.5,28.5,28.07,33.08,30.57,29.98,0
+Only Franz,12,Kyle Kuzma,3134907,MIL,PF,BE,ACTIVE,False,,3,26.0,26.0,23.28,24.0,23.64,25.0,0
+Only Franz,12,Ajay Mitchell,4900671,OKC,PG,PG,ACTIVE,False,,3,29.0,29.0,25.18,27.93,26.55,27.47,0
+Only Franz,12,Mikal Bridges,3147657,NYK,SF,UT,ACTIVE,False,,3,9.33,9.33,32.84,33.3,33.07,25.0,0
+BLACK FLAGG,13,Cooper Flagg,5041939,DAL,SF,SF,OUT,True,,2,48.0,48.0,45.36,39.69,42.52,44.09,0
+BLACK FLAGG,13,Tyrese Maxey,4431678,PHL,PG,PG,ACTIVE,False,,4,50.0,50.0,45.13,52.16,48.64,49.25,0
+BLACK FLAGG,13,Stephen Curry,3975,GSW,PG,G,ACTIVE,False,,2,32.0,32.0,43.05,42.93,42.99,39.85,0
+BLACK FLAGG,13,Kyrie Irving,6442,DAL,PG,UT,ACTIVE,False,,2,32.0,32.0,44.2,,44.2,40.71,0
+BLACK FLAGG,13,Dejounte Murray,3907497,NOP,SG,UT,ACTIVE,False,,3,47.0,47.0,39.04,36.0,37.52,41.07,0
+BLACK FLAGG,13,Chet Holmgren,4433255,OKC,C,PF,ACTIVE,False,,3,34.33,34.33,37.94,38.04,37.99,36.62,0
+BLACK FLAGG,13,Jaren Jackson Jr.,4277961,UTA,C,C,ACTIVE,False,,3,30.0,30.0,38.11,34.88,36.5,34.06,0
+BLACK FLAGG,13,Paul George,4251,BOS,SF,BE,ACTIVE,False,,2,52.0,52.0,38.47,35.27,36.87,41.19,0
+BLACK FLAGG,13,Cedric Coward,4903027,MEM,SF,IR,ACTIVE,False,,2,28.5,28.5,29.74,26.39,28.06,28.19,0
+BLACK FLAGG,13,Collin Murray-Boyles,5093267,TOR,PF,F,ACTIVE,False,,3,19.33,19.33,24.83,23.11,23.97,25.0,0
+BLACK FLAGG,13,Khaman Maluach,5203685,PHO,C,BE,ACTIVE,False,,2,22.0,22.0,22.14,8.46,15.3,25.0,0
+BLACK FLAGG,13,Grayson Allen,3135045,CHA,SG,BE,ACTIVE,False,,3,28.0,28.0,26.6,30.47,28.54,28.33,0
+BLACK FLAGG,13,Brandin Podziemski,4709138,GSW,SG,IR,ACTIVE,False,,1,33.0,33.0,30.84,28.49,29.66,30.22,0
+BLACK FLAGG,13,Jalen Suggs,4432165,ORL,PG,SG,DAY_TO_DAY,False,,3,25.0,25.0,29.1,33.79,31.45,29.03,0
+BLACK FLAGG,13,Egor Demin,5175643,BKN,PG,UT,ACTIVE,False,,3,16.33,16.33,30.04,21.79,25.91,25.0,0
+T's Top Team,14,Shai Gilgeous-Alexander,4278073,OKC,PG,PG,ACTIVE,False,,3,50.0,50.0,56.84,55.49,56.17,53.85,0
+T's Top Team,14,Jalen Brunson,3934672,NYK,PG,G,ACTIVE,False,,3,29.33,29.33,43.83,42.18,43.0,37.88,0
+T's Top Team,14,Alperen Sengun,4871144,HOU,C,C,ACTIVE,False,,3,42.0,42.0,43.01,43.86,43.44,42.9,0
+T's Top Team,14,De'Aaron Fox,4066259,SAS,PG,UT,ACTIVE,False,,3,44.0,44.0,38.15,36.71,37.43,39.89,0
+T's Top Team,14,Naz Reid,4396971,CHA,C,F,ACTIVE,False,,3,35.33,35.33,35.51,29.6,32.55,33.6,0
+T's Top Team,14,Jarrett Allen,4066328,CLE,C,UT,ACTIVE,False,,2,33.5,33.5,36.86,33.3,35.08,34.63,0
+T's Top Team,14,RJ Barrett,4395625,TOR,SF,SF,ACTIVE,False,,3,34.33,34.33,32.56,32.02,32.29,33.06,0
+T's Top Team,14,Reed Sheppard,4711272,HOU,SG,UT,ACTIVE,False,,2,29.5,29.5,29.92,29.73,29.83,29.73,0
+T's Top Team,14,Tobias Harris,6440,SAS,PF,BE,OUT,True,,0,0.0,0.0,30.07,27.03,28.55,28.55,0
+T's Top Team,14,Peyton Watson,4576087,CLE,SF,BE,ACTIVE,False,,2,18.0,18.0,29.25,28.74,28.99,25.85,0
+T's Top Team,14,Christian Braun,4431767,DEN,SG,BE,ACTIVE,False,,2,23.5,23.5,23.14,24.89,24.02,25.0,0
+T's Top Team,14,Obi Toppin,4278355,IND,PF,PF,ACTIVE,False,,3,30.33,30.33,21.86,21.88,21.87,25.04,0
+T's Top Team,14,Keaton Wagler,5254165,LAC,PG,SG,ACTIVE,False,,3,23.67,23.67,24.36,,24.36,25.0,0
