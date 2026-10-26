@@ -1,0 +1,7 @@
+run_date,matchup_period,home_team,away_team,home_banked,away_banked,home_exp_remaining,away_exp_remaining,home_exp_games,away_exp_games,home_exp_total,away_exp_total,z,home_win_prob,away_win_prob,sd_pct,sd_basis,matchup_start,matchup_end
+2026-10-25,1,MVPKNEE,Tyrese's,1059.0,1257.0,0.0,0.0,0,0,1059.0,1257.0,-inf,0.0,1.0,0.25,remaining,2026-10-20,2026-10-25
+2026-10-25,1,KotaroLivesAlone,Don't Ask,1026.0,1204.0,0.0,0.0,0,0,1026.0,1204.0,-inf,0.0,1.0,0.25,remaining,2026-10-20,2026-10-25
+2026-10-25,1,Anything Is Possible,The Freak and The Felons,1130.0,1081.0,0.0,0.0,0,0,1130.0,1081.0,inf,1.0,0.0,0.25,remaining,2026-10-20,2026-10-25
+2026-10-25,1,you know what to do with that,The Galumphs,1199.0,1234.0,0.0,0.0,0,0,1199.0,1234.0,-inf,0.0,1.0,0.25,remaining,2026-10-20,2026-10-25
+2026-10-25,1,My Sweet Glorious King,Yong,1179.0,1132.0,0.0,0.0,0,0,1179.0,1132.0,inf,1.0,0.0,0.25,remaining,2026-10-20,2026-10-25
+2026-10-25,1,Towns Syndrome,Flashy like Primo,1198.0,1092.0,0.0,0.0,0,0,1198.0,1092.0,inf,1.0,0.0,0.25,remaining,2026-10-20,2026-10-25
