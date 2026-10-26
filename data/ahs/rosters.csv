@@ -41,7 +41,7 @@ Lil Dicky Ball,3,Nic Claxton,4278067,CHI,C,IR,OUT,True,,0,0.0,0.0,30.29,30.26,30
 Lil Dicky Ball,3,Anthony Black,4712849,ORL,PG,BE,ACTIVE,False,,1,44.0,44.0,28.16,29.84,29.0,31.5,3
 Lil Dicky Ball,3,Draymond Green,6589,GSW,PF,UT,ACTIVE,False,,2,18.5,18.5,28.45,25.62,27.04,25.0,4
 Lil Dicky Ball,3,Anfernee Simons,4351851,PHL,SG,BE,ACTIVE,False,,4,10.25,10.25,23.39,22.76,23.08,25.0,3
-Aspiration Risk,5,Anthony Edwards,4594268,MIN,SG,SG,ACTIVE,False,,3,43.67,43.67,47.25,45.57,46.41,45.38,4
+Aspiration Risk,5,Anthony Edwards,4594268,MIN,SG,SG,DAY_TO_DAY,False,,3,43.67,43.67,47.25,45.57,46.41,45.38,4
 Aspiration Risk,5,Trae Young,4277905,WAS,PG,PG,ACTIVE,False,,3,43.0,43.0,44.35,34.4,39.38,40.73,3
 Aspiration Risk,5,Kawhi Leonard,6450,TOR,SF,SF,DAY_TO_DAY,False,,2,37.5,37.5,45.75,48.66,47.2,44.43,3
 Aspiration Risk,5,Paolo Banchero,4432573,ORL,PF,IR,OUT,True,,2,45.0,45.0,39.0,37.86,38.43,40.31,3
@@ -95,7 +95,7 @@ Jared Dubley,8,Kyshawn George,5174563,WAS,SG,SF,ACTIVE,False,,3,29.0,29.0,30.15,
 Jared Dubley,8,Daniel Gafford,4278049,DAL,C,C,ACTIVE,False,,3,27.0,27.0,29.32,25.15,27.23,27.15,3
 Jared Dubley,8,Saddiq Bey,4397136,NOP,SF,BE,ACTIVE,False,,3,23.33,23.33,25.87,30.67,28.27,26.42,3
 Jared Dubley,8,Jimmy Butler III,6430,GSW,SF,IR,OUT,True,,0,0.0,0.0,38.77,39.05,38.91,38.91,4
-Jared Dubley,8,Cason Wallace,4683692,OKC,SG,SG,DAY_TO_DAY,False,,3,18.33,18.33,24.12,24.31,24.21,25.0,3
+Jared Dubley,8,Cason Wallace,4683692,OKC,SG,SG,OUT,True,,3,18.33,18.33,24.12,24.31,24.21,25.0,3
 Jared Dubley,8,Day'Ron Sharpe,4432194,BKN,C,BE,ACTIVE,False,,3,20.33,20.33,27.03,23.15,25.09,25.0,3
 walk and ball torture,10,LaMelo Ball,4432816,MIN,PG,PG,ACTIVE,False,,3,36.33,36.33,46.43,39.69,43.06,40.54,4
 walk and ball torture,10,Tyrese Haliburton,4396993,IND,PG,SG,ACTIVE,False,,3,50.33,50.33,48.62,,48.62,49.26,4
@@ -105,7 +105,7 @@ walk and ball torture,10,Walker Kessler,4433136,LAL,C,C,ACTIVE,False,,3,45.0,45.
 walk and ball torture,10,Darius Garland,4396907,LAC,PG,BE,ACTIVE,False,,3,31.67,31.67,40.38,34.42,37.4,35.25,3
 walk and ball torture,10,Darius Acuff Jr.,5142620,SAC,PG,BE,ACTIVE,False,,3,26.0,26.0,30.4,,30.4,28.75,3
 walk and ball torture,10,Jaden McDaniels,4431671,MIN,SF,F,ACTIVE,False,,3,36.33,36.33,29.73,30.75,30.24,32.52,4
-walk and ball torture,10,Andrew Nembhard,4395712,IND,PG,UT,ACTIVE,False,,3,31.33,31.33,28.18,34.05,31.11,31.2,4
+walk and ball torture,10,Andrew Nembhard,4395712,IND,PG,UT,DAY_TO_DAY,False,,3,31.33,31.33,28.18,34.05,31.11,31.2,4
 walk and ball torture,10,Dereck Lively II,4683688,DAL,C,IR,OUT,True,,0,0.0,0.0,27.42,19.29,23.36,25.0,3
 walk and ball torture,10,Davion Mitchell,4278053,MIA,PG,UT,ACTIVE,False,,3,37.33,37.33,25.52,27.19,26.36,30.47,3
 walk and ball torture,10,Brook Lopez,3448,LAC,C,BE,ACTIVE,False,,3,35.0,35.0,26.21,20.33,23.27,27.67,3
@@ -131,7 +131,7 @@ Only Franz,12,Austin Reaves,4066457,LAL,SG,SG,ACTIVE,False,,3,48.67,48.67,43.33,
 Only Franz,12,Franz Wagner,4566434,ORL,SF,SF,ACTIVE,False,,3,33.67,33.67,38.64,33.88,36.26,35.29,3
 Only Franz,12,Brandon Miller,4433287,CHA,SF,F,ACTIVE,False,,3,20.0,20.0,37.41,34.18,35.8,29.87,4
 Only Franz,12,Ja Morant,4279888,POR,PG,BE,ACTIVE,False,,2,38.5,38.5,37.54,34.4,35.97,36.69,3
-Only Franz,12,Ivica Zubac,4017837,IND,C,C,DAY_TO_DAY,False,,3,21.67,21.67,35.46,31.44,33.45,29.03,4
+Only Franz,12,Ivica Zubac,4017837,IND,C,C,OUT,True,,3,21.67,21.67,35.46,31.44,33.45,29.03,4
 Only Franz,12,Ausar Thompson,4684742,DET,SF,PF,DAY_TO_DAY,False,,2,24.0,24.0,30.8,29.97,30.38,28.56,3
 Only Franz,12,Josh Hart,3062679,NYK,SF,G,ACTIVE,False,,3,34.0,34.0,33.01,31.8,32.41,33.0,3
 Only Franz,12,Brandon Ingram,3913176,LAC,SF,IR,OUT,True,,0,0.0,0.0,38.47,35.61,37.04,37.04,3
@@ -145,7 +145,7 @@ BLACK FLAGG,13,Tyrese Maxey,4431678,PHL,PG,BE,ACTIVE,False,,4,50.0,50.0,45.13,52
 BLACK FLAGG,13,Stephen Curry,3975,GSW,PG,UT,ACTIVE,False,,2,32.0,32.0,43.05,42.93,42.99,39.85,4
 BLACK FLAGG,13,Kyrie Irving,6442,DAL,PG,G,ACTIVE,False,,2,32.0,32.0,44.2,,44.2,40.71,3
 BLACK FLAGG,13,Dejounte Murray,3907497,NOP,SG,BE,ACTIVE,False,,3,47.0,47.0,39.04,36.0,37.52,41.07,3
-BLACK FLAGG,13,Chet Holmgren,4433255,OKC,C,PF,ACTIVE,False,,3,34.33,34.33,37.94,38.04,37.99,36.62,3
+BLACK FLAGG,13,Chet Holmgren,4433255,OKC,C,PF,OUT,True,,3,34.33,34.33,37.94,38.04,37.99,36.62,3
 BLACK FLAGG,13,Jaren Jackson Jr.,4277961,UTA,C,UT,ACTIVE,False,,3,30.0,30.0,38.11,34.88,36.5,34.06,3
 BLACK FLAGG,13,Paul George,4251,BOS,SF,SF,ACTIVE,False,,2,52.0,52.0,38.47,35.27,36.87,41.19,4
 BLACK FLAGG,13,Cedric Coward,4903027,MEM,SF,F,ACTIVE,False,,2,28.5,28.5,29.74,26.39,28.06,28.19,3
