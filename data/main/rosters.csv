@@ -54,14 +54,14 @@ Don't Ask,4,Walker Kessler,4433136,LAL,C,C,ACTIVE,False,,3,45.0,45.0,38.61,40.6,
 Don't Ask,4,Rudy Gobert,3032976,MIN,C,BE,ACTIVE,False,,4,19.5,19.5,34.31,33.01,33.66,27.37,3
 Don't Ask,4,Dylan Harper,5037871,SAS,PG,G,ACTIVE,False,,3,31.33,31.33,32.26,25.09,28.67,29.67,3
 Don't Ask,4,OG Anunoby,3934719,NYK,SF,F,ACTIVE,False,,3,26.67,26.67,33.09,33.04,33.06,30.67,3
-Don't Ask,4,Ayo Dosunmu,4397002,MIN,SG,UT,ACTIVE,False,,4,23.75,23.75,30.36,28.97,29.66,27.04,3
+Don't Ask,4,Ayo Dosunmu,4397002,MIN,SG,BE,ACTIVE,False,,4,23.75,23.75,30.36,28.97,29.66,27.04,3
 Don't Ask,4,Daniel Gafford,4278049,DAL,C,UT,ACTIVE,False,,4,29.25,29.25,29.32,25.15,27.23,28.13,2
 Don't Ask,4,Brandon Ingram,3913176,LAC,SF,IR,OUT,True,,0,0.0,0.0,38.47,35.61,37.04,37.04,3
 Don't Ask,4,Davion Mitchell,4278053,MIA,PG,BE,ACTIVE,False,,4,36.25,36.25,25.52,27.19,26.36,30.75,2
 Don't Ask,4,Draymond Green,6589,GSW,PF,BE,ACTIVE,False,,3,16.33,16.33,28.45,25.62,27.04,25.0,3
 Don't Ask,4,Tobias Harris,6440,SAS,PF,IR,OUT,True,,0,0.0,0.0,30.07,27.03,28.55,28.55,3
-Don't Ask,4,Jaylen Wells,5112087,MEM,SF,BE,ACTIVE,False,,4,30.0,30.0,19.28,20.8,20.04,25.0,2
 Don't Ask,4,Mitchell Robinson,4351852,BOS,C,UT,ACTIVE,False,,3,15.67,15.67,30.3,23.7,27.0,25.0,3
+Don't Ask,4,Miles McBride,4431823,NYK,SG,UT,ACTIVE,False,,3,16.33,16.33,19.71,23.24,21.48,25.0,3
 you know what to do with that,5,Nikola Jokic,3112335,DEN,C,UT,ACTIVE,False,,3,55.33,55.33,67.19,66.31,66.75,62.47,2
 you know what to do with that,5,Alperen Sengun,4871144,HOU,C,UT,ACTIVE,False,,4,51.0,51.0,43.01,43.86,43.44,46.8,3
 you know what to do with that,5,Deni Avdija,4683021,POR,SF,F,ACTIVE,False,,2,39.5,39.5,40.38,41.24,40.81,40.44,3
@@ -96,7 +96,7 @@ The Galumphs,7,Kevin Durant,3202,HOU,PF,F,ACTIVE,False,,4,40.5,40.5,42.9,43.83,4
 The Galumphs,7,Austin Reaves,4066457,LAL,SG,G,ACTIVE,False,,3,48.67,48.67,43.33,40.06,41.7,44.31,4
 The Galumphs,7,Dejounte Murray,3907497,NOP,SG,G,ACTIVE,False,,3,47.0,47.0,39.04,36.0,37.52,41.07,3
 The Galumphs,7,Chet Holmgren,4433255,OKC,C,F,DAY_TO_DAY,False,,3,34.33,34.33,37.94,38.04,37.99,36.62,2
-The Galumphs,7,Jaren Jackson Jr.,4277961,UTA,C,UT,DAY_TO_DAY,False,,4,25.25,25.25,38.11,34.88,36.5,31.5,2
+The Galumphs,7,Jaren Jackson Jr.,4277961,UTA,C,IR,OUT,True,,4,25.25,25.25,38.11,34.88,36.5,31.5,2
 The Galumphs,7,Paul George,4251,BOS,SF,F,ACTIVE,False,,3,39.67,39.67,38.47,35.27,36.87,37.92,3
 The Galumphs,7,Immanuel Quickley,4395724,TOR,PG,UT,ACTIVE,False,,3,31.67,31.67,34.92,35.49,35.2,33.88,3
 The Galumphs,7,Zach Edey,4600663,MEM,C,BE,ACTIVE,False,,3,24.0,24.0,33.16,34.18,33.67,30.04,2
@@ -148,7 +148,7 @@ Towns Syndrome,10,Jakob Poeltl,3134908,TOR,C,UT,ACTIVE,False,,3,13.0,13.0,31.65,
 Towns Syndrome,10,Andrew Wiggins,3059319,MIA,SF,F,ACTIVE,False,,4,15.25,15.25,32.03,31.97,32.0,25.0,2
 Towns Syndrome,10,Keaton Wagler,5254165,LAC,PG,BE,ACTIVE,False,,3,23.67,23.67,24.36,,24.36,25.0,3
 Towns Syndrome,10,Aaron Gordon,3064290,DEN,PF,BE,ACTIVE,False,,3,24.0,24.0,28.91,29.22,29.06,27.17,2
-Towns Syndrome,10,Jordan Poole,4277956,NOP,SG,BE,ACTIVE,False,,3,20.33,20.33,21.98,20.9,21.44,25.0,3
+Towns Syndrome,10,Jordan Poole,4277956,NOP,SG,BE,DAY_TO_DAY,False,,3,20.33,20.33,21.98,20.9,21.44,25.0,3
 Towns Syndrome,10,De'Anthony Melton,4066436,GSW,PG,BE,ACTIVE,False,,4,22.5,22.5,24.0,23.86,23.93,25.0,3
 Towns Syndrome,10,Matisse Thybulle,3907498,LAL,SF,UT,ACTIVE,False,,3,27.0,27.0,19.22,18.33,18.77,25.0,4
 The Freak and The Felons,11,Giannis Antetokounmpo,3032977,MIA,PF,C,ACTIVE,False,,4,46.5,46.5,57.55,49.36,53.45,50.36,2
