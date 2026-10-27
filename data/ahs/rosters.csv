@@ -60,7 +60,7 @@ lee lee,6,Giannis Antetokounmpo,3032977,MIA,PF,PF,ACTIVE,False,,4,46.5,46.5,57.5
 lee lee,6,Domantas Sabonis,3155942,SAC,C,C,ACTIVE,False,,3,51.0,51.0,46.7,34.84,40.77,44.61,3
 lee lee,6,James Harden,3992,CLE,PG,PG,ACTIVE,False,,3,30.67,30.67,42.08,43.5,42.79,38.24,3
 lee lee,6,Jalen Williams,4593803,OKC,PF,IR,OUT,True,,3,26.33,26.33,40.96,34.3,37.63,33.39,2
-lee lee,6,Derrick White,3078576,BOS,SG,SG,ACTIVE,False,,3,29.67,29.67,37.01,37.21,37.11,34.32,3
+lee lee,6,Derrick White,3078576,BOS,SG,SG,DAY_TO_DAY,False,,3,29.67,29.67,37.01,37.21,37.11,34.32,3
 lee lee,6,Onyeka Okongwu,4431680,ATL,C,BE,ACTIVE,False,,4,22.75,22.75,34.81,35.11,34.96,29.53,3
 lee lee,6,Miles Bridges,4066383,PHO,SF,F,ACTIVE,False,,3,24.67,24.67,33.92,30.92,32.42,29.51,1
 lee lee,6,Kevin Porter Jr.,4397140,FA,SG,BE,ACTIVE,False,,0,0.0,0.0,33.02,42.05,37.53,37.53,0
@@ -88,16 +88,16 @@ Jared Dubley,8,Donovan Mitchell,3908809,CLE,SG,SG,ACTIVE,False,,3,47.67,47.67,46
 Jared Dubley,8,Deni Avdija,4683021,POR,SF,F,ACTIVE,False,,2,39.5,39.5,40.38,41.24,40.81,40.44,3
 Jared Dubley,8,Keyonte George,4433627,UTA,PG,G,ACTIVE,False,,4,38.5,38.5,36.76,39.07,37.91,38.17,2
 Jared Dubley,8,Michael Porter Jr.,4278104,BKN,SF,PF,ACTIVE,False,,3,37.0,37.0,38.93,39.31,39.12,38.33,3
-Jared Dubley,8,Donovan Clingan,5105565,POR,C,UT,ACTIVE,False,,2,28.5,28.5,33.86,35.1,34.48,32.77,3
+Jared Dubley,8,Donovan Clingan,5105565,POR,C,C,ACTIVE,False,,2,28.5,28.5,33.86,35.1,34.48,32.77,3
 Jared Dubley,8,Alex Sarr,5160992,WAS,C,UT,ACTIVE,False,,4,25.25,25.25,36.61,36.48,36.55,31.53,2
 Jared Dubley,8,Coby White,4395651,CHA,PG,IR,OUT,True,,0,0.0,0.0,32.86,26.12,29.49,29.49,3
 Jared Dubley,8,Jaime Jaquez Jr.,4432848,MIL,SF,UT,ACTIVE,False,,4,27.5,27.5,28.22,29.81,29.02,28.34,2
 Jared Dubley,8,Kyshawn George,5174563,WAS,SG,BE,ACTIVE,False,,4,28.75,28.75,30.15,31.23,30.69,29.83,2
-Jared Dubley,8,Daniel Gafford,4278049,DAL,C,BE,ACTIVE,False,,4,29.25,29.25,29.32,25.15,27.23,28.13,2
+Jared Dubley,8,Daniel Gafford,4278049,DAL,C,UT,ACTIVE,False,,4,29.25,29.25,29.32,25.15,27.23,28.13,2
 Jared Dubley,8,Saddiq Bey,4397136,NOP,SF,BE,ACTIVE,False,,3,23.33,23.33,25.87,30.67,28.27,26.42,3
 Jared Dubley,8,Jimmy Butler III,6430,GSW,SF,IR,OUT,True,,0,0.0,0.0,38.77,39.05,38.91,38.91,3
-Jared Dubley,8,Day'Ron Sharpe,4432194,BKN,C,C,ACTIVE,False,,3,20.33,20.33,27.03,23.15,25.09,25.0,3
 Jared Dubley,8,Egor Demin,5175643,BKN,PG,PG,ACTIVE,False,,3,16.33,16.33,30.04,21.79,25.91,25.0,3
+Jared Dubley,8,Ja'Kobe Walter,4684272,TOR,SG,BE,ACTIVE,False,,3,33.67,33.67,17.58,16.93,17.25,25.0,3
 walk and ball torture,10,LaMelo Ball,4432816,MIN,PG,PG,ACTIVE,False,,4,30.0,30.0,46.43,39.69,43.06,37.26,3
 walk and ball torture,10,Tyrese Haliburton,4396993,IND,PG,SG,ACTIVE,False,,4,51.25,51.25,48.62,,48.62,49.79,3
 walk and ball torture,10,Jaylen Brown,3917376,PHL,SF,SF,ACTIVE,False,,4,36.0,36.0,38.61,43.59,41.1,38.83,3
