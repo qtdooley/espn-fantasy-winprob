@@ -1,186 +1,183 @@
 fantasy_team,team_id,player,player_id,nba_team,position,lineup_slot,injury_status,injured,expected_return,games_played,fppg_season,fppg_last30,fppg_projected,fppg_last_season,fppg_prior,fppg_model,games_left_this_matchup
-Tyrese's,1,Tyrese Maxey,4431678,PHL,PG,G,ACTIVE,False,,4,50.0,50.0,45.13,52.16,48.64,49.25,3
-Tyrese's,1,Tyrese Haliburton,4396993,IND,PG,IR,OUT,True,,4,51.25,51.25,48.62,,48.62,49.79,3
-Tyrese's,1,Kyrie Irving,6442,DAL,PG,G,DAY_TO_DAY,False,,3,34.33,34.33,44.2,,44.2,40.5,2
-Tyrese's,1,Keyonte George,4433627,UTA,PG,UT,ACTIVE,False,,4,38.5,38.5,36.76,39.07,37.91,38.17,2
-Tyrese's,1,Zion Williamson,4395628,NOP,PF,C,ACTIVE,False,,3,37.67,37.67,39.97,35.6,37.78,37.74,3
-Tyrese's,1,Ryan Rollins,4591725,MIL,SG,G,ACTIVE,False,,4,25.5,25.5,31.86,36.53,34.2,30.33,2
-Tyrese's,1,Ausar Thompson,4684742,DET,SF,F,DAY_TO_DAY,False,,3,24.0,24.0,30.8,29.97,30.38,27.99,2
-Tyrese's,1,Cedric Coward,4903027,MEM,SF,BE,ACTIVE,False,,3,31.67,31.67,29.74,26.39,28.06,29.42,2
-Tyrese's,1,Jalen Suggs,4432165,ORL,PG,IR,OUT,True,,3,25.0,25.0,29.1,33.79,31.45,29.03,3
-Tyrese's,1,Isaiah Jackson,4432170,LAC,PF,F,ACTIVE,False,,3,27.33,27.33,20.63,18.47,19.55,25.0,3
-Tyrese's,1,Naji Marshall,4278594,DAL,SF,BE,DAY_TO_DAY,False,,3,30.67,30.67,22.39,28.09,25.24,27.28,2
-Tyrese's,1,Paul Reed,4278562,DET,C,UT,ACTIVE,False,,4,32.5,32.5,20.4,21.0,20.7,25.94,2
-Tyrese's,1,Tari Eason,4433192,HOU,SF,F,ACTIVE,False,,4,24.75,24.75,23.24,23.33,23.28,25.0,3
-Tyrese's,1,Jay Huff,4065731,IND,C,BE,ACTIVE,False,,3,16.33,16.33,0.0,25.0,25.0,25.0,3
-Tyrese's,1,Tristan da Silva,4702382,ORL,SF,UT,ACTIVE,False,,3,24.67,24.67,17.17,20.45,18.81,25.0,3
-Tyrese's,1,Terrence Shannon Jr.,4432847,MIN,SG,BE,ACTIVE,False,,4,22.25,22.25,14.93,8.79,11.86,25.0,3
-Yong,2,Anthony Edwards,4594268,MIN,SG,IR,OUT,True,,4,51.25,51.25,47.25,45.57,46.41,48.56,3
-Yong,2,Jalen Brunson,3934672,NYK,PG,G,ACTIVE,False,,4,28.25,28.25,43.83,42.18,43.0,36.45,2
-Yong,2,Desmond Bane,4066320,ORL,SG,G,ACTIVE,False,,3,20.33,20.33,38.25,35.62,36.94,30.71,3
-Yong,2,Jaylen Brown,3917376,PHL,SF,G,ACTIVE,False,,4,36.0,36.0,38.61,43.59,41.1,38.83,3
-Yong,2,Kon Knueppel,5061575,CHA,SF,IR,OUT,True,,0,0.0,0.0,35.17,32.69,33.93,33.93,3
-Yong,2,Jarrett Allen,4066328,CLE,C,C,ACTIVE,False,,3,33.67,33.67,36.86,33.3,35.08,34.55,3
-Yong,2,Norman Powell,2595516,CHI,SG,F,ACTIVE,False,,4,30.0,30.0,35.97,32.53,34.25,32.36,2
-Yong,2,Brandin Podziemski,4709138,GSW,SG,UT,ACTIVE,False,,2,37.5,37.5,30.84,28.49,29.66,31.9,3
-Yong,2,Yaxel Lendeborg,5175737,GSW,SF,F,DAY_TO_DAY,False,,4,40.0,40.0,23.49,,23.49,30.83,3
+Tyrese's,1,Tyrese Maxey,4431678,PHL,PG,G,ACTIVE,False,,5,47.2,47.2,45.13,52.16,48.64,47.92,2
+Tyrese's,1,Tyrese Haliburton,4396993,IND,PG,IR,OUT,True,,4,51.25,51.25,48.62,,48.62,49.79,2
+Tyrese's,1,Kyrie Irving,6442,DAL,PG,UT,ACTIVE,False,,4,35.75,35.75,44.2,,44.2,40.44,1
+Tyrese's,1,Keyonte George,4433627,UTA,PG,UT,ACTIVE,False,,5,37.0,37.0,36.76,39.07,37.91,37.46,1
+Tyrese's,1,Zion Williamson,4395628,NOP,PF,C,ACTIVE,False,,4,40.5,40.5,39.97,35.6,37.78,38.99,2
+Tyrese's,1,Ryan Rollins,4591725,MIL,SG,UT,ACTIVE,False,,5,22.4,22.4,31.86,36.53,34.2,28.3,1
+Tyrese's,1,Ausar Thompson,4684742,DET,SF,F,ACTIVE,False,,4,25.5,25.5,30.8,29.97,30.38,28.21,1
+Tyrese's,1,Cedric Coward,4903027,MEM,SF,G,ACTIVE,False,,3,31.33,31.33,29.74,26.39,28.06,29.29,2
+Tyrese's,1,Jalen Suggs,4432165,ORL,PG,IR,OUT,True,,3,25.0,25.0,29.1,33.79,31.45,29.03,2
+Tyrese's,1,Isaiah Jackson,4432170,LAC,PF,F,ACTIVE,False,,4,22.5,22.5,20.63,18.47,19.55,25.0,2
+Tyrese's,1,Naji Marshall,4278594,DAL,SF,BE,DAY_TO_DAY,False,,3,30.67,30.67,22.39,28.09,25.24,27.28,1
+Tyrese's,1,Paul Reed,4278562,DET,C,BE,ACTIVE,False,,5,33.0,33.0,20.4,21.0,20.7,26.85,1
+Tyrese's,1,Tari Eason,4433192,HOU,SF,F,ACTIVE,False,,5,24.8,24.8,23.24,23.33,23.28,25.0,2
+Tyrese's,1,Jay Huff,4065731,IND,C,BE,ACTIVE,False,,4,15.0,15.0,0.0,25.0,25.0,25.0,2
+Tyrese's,1,Tristan da Silva,4702382,ORL,SF,BE,ACTIVE,False,,4,26.5,26.5,17.17,20.45,18.81,25.0,2
+Tyrese's,1,Terrence Shannon Jr.,4432847,MIN,SG,BE,ACTIVE,False,,5,22.4,22.4,14.93,8.79,11.86,25.0,2
+Yong,2,Anthony Edwards,4594268,MIN,SG,IR,OUT,True,,4,51.25,51.25,47.25,45.57,46.41,48.56,2
+Yong,2,Jalen Brunson,3934672,NYK,PG,G,ACTIVE,False,,5,35.0,35.0,43.83,42.18,43.0,39.0,1
+Yong,2,Desmond Bane,4066320,ORL,SG,G,ACTIVE,False,,4,23.25,23.25,38.25,35.62,36.94,30.85,2
+Yong,2,Jaylen Brown,3917376,PHL,SF,F,ACTIVE,False,,5,35.6,35.6,38.61,43.59,41.1,38.35,2
+Yong,2,Kon Knueppel,5061575,CHA,SF,IR,OUT,True,,0,0.0,0.0,35.17,32.69,33.93,33.93,2
+Yong,2,Jarrett Allen,4066328,CLE,C,C,ACTIVE,False,,4,35.25,35.25,36.86,33.3,35.08,35.16,2
+Yong,2,Norman Powell,2595516,CHI,SG,UT,ACTIVE,False,,5,31.6,31.6,35.97,32.53,34.25,32.92,1
+Yong,2,Brandin Podziemski,4709138,GSW,SG,UT,ACTIVE,False,,3,30.67,30.67,30.84,28.49,29.66,30.04,2
+Yong,2,Yaxel Lendeborg,5175737,GSW,SF,F,ACTIVE,False,,5,38.6,38.6,23.49,,23.49,31.04,2
 Yong,2,Collin Gillespie,4278585,PHO,PG,BE,ACTIVE,False,,3,20.0,20.0,28.48,29.7,29.09,25.68,1
-Yong,2,Kyshawn George,5174563,WAS,SG,F,ACTIVE,False,,4,28.75,28.75,30.15,31.23,30.69,29.83,2
-Yong,2,Anthony Black,4712849,ORL,PG,UT,DAY_TO_DAY,False,,1,44.0,44.0,28.16,29.84,29.0,31.5,3
-Yong,2,Jalen Smith,4397189,CHI,PF,UT,ACTIVE,False,,4,24.0,24.0,22.36,23.17,22.77,25.0,2
+Yong,2,Kyshawn George,5174563,WAS,SG,F,ACTIVE,False,,5,29.4,29.4,30.15,31.23,30.69,30.04,1
+Yong,2,Anthony Black,4712849,ORL,PG,BE,ACTIVE,False,,2,27.5,27.5,28.16,29.84,29.0,28.57,2
+Yong,2,Jalen Smith,4397189,CHI,PF,BE,ACTIVE,False,,5,30.2,30.2,22.36,23.17,22.77,26.48,1
 Yong,2,Neemias Queta,4397424,BOS,C,BE,ACTIVE,False,,4,20.5,20.5,27.19,29.68,28.44,25.0,2
-Yong,2,Sidy Cissoko,5081727,POR,SG,BE,ACTIVE,False,,3,19.0,19.0,10.61,11.97,11.29,25.0,2
-Yong,2,Santi Aldama,4593125,DAL,PF,BE,OUT,True,,0,0.0,0.0,25.03,30.53,27.78,27.78,2
-Anything Is Possible,3,Cade Cunningham,4432166,DET,PG,G,ACTIVE,False,,4,43.0,43.0,50.45,50.41,50.43,47.13,2
-Anything Is Possible,3,Domantas Sabonis,3155942,SAC,C,BE,ACTIVE,False,,4,50.75,50.75,46.7,34.84,40.77,45.21,2
-Anything Is Possible,3,James Harden,3992,CLE,PG,G,ACTIVE,False,,3,30.67,30.67,42.08,43.5,42.79,38.24,3
-Anything Is Possible,3,Paolo Banchero,4432573,ORL,PF,IR,OUT,True,,2,45.0,45.0,39.0,37.86,38.43,40.31,3
-Anything Is Possible,3,Dyson Daniels,4869342,ATL,SG,UT,ACTIVE,False,,4,39.0,39.0,35.65,36.46,36.05,37.36,3
-Anything Is Possible,3,Mikal Bridges,3147657,NYK,SF,G,ACTIVE,False,,4,13.25,13.25,32.84,33.3,33.07,25.0,2
-Anything Is Possible,3,Alex Sarr,5160992,WAS,C,C,ACTIVE,False,,4,25.25,25.25,36.61,36.48,36.55,31.53,2
-Anything Is Possible,3,AJ Dybantsa,5142718,WAS,SF,IR,ACTIVE,False,,0,0.0,0.0,32.92,,32.92,32.92,2
-Anything Is Possible,3,Reed Sheppard,4711272,HOU,SG,UT,ACTIVE,False,,3,28.67,28.67,29.92,29.73,29.83,29.39,3
-Anything Is Possible,3,John Collins,3908845,DET,PF,F,ACTIVE,False,,4,27.5,27.5,31.78,26.35,29.07,28.37,2
-Anything Is Possible,3,Jabari Smith Jr.,4432639,HOU,PF,F,ACTIVE,False,,4,37.5,37.5,27.64,30.64,29.14,32.86,3
-Anything Is Possible,3,Devin Vassell,4395630,SAS,SG,F,ACTIVE,False,,4,26.0,26.0,26.83,26.72,26.77,26.43,2
-Anything Is Possible,3,Obi Toppin,4278355,IND,PF,BE,DAY_TO_DAY,False,,4,30.0,30.0,21.86,21.88,21.87,25.48,3
-Anything Is Possible,3,Jeremiah Fears,5144091,NOP,SG,BE,ACTIVE,False,,3,8.67,8.67,27.3,25.56,26.43,25.0,3
-Anything Is Possible,3,Ziaire Williams,4433137,LAL,SF,BE,ACTIVE,False,,4,26.75,26.75,19.68,19.59,19.63,25.0,3
-Anything Is Possible,3,Dennis Schroder,3032979,CHA,PG,UT,ACTIVE,False,,4,21.5,21.5,23.0,22.36,22.68,25.0,3
-Don't Ask,4,Jalen Johnson,4701230,ATL,PF,F,ACTIVE,False,,4,48.25,48.25,49.99,48.56,49.28,48.82,3
-Don't Ask,4,Josh Giddey,4871145,CHI,PG,G,ACTIVE,False,,4,22.75,22.75,46.16,41.94,44.05,34.58,2
-Don't Ask,4,Evan Mobley,4432158,CLE,PF,F,ACTIVE,False,,3,42.33,42.33,43.33,40.89,42.11,42.19,3
-Don't Ask,4,Darius Garland,4396907,LAC,PG,G,ACTIVE,False,,3,31.67,31.67,40.38,34.42,37.4,35.25,3
-Don't Ask,4,Walker Kessler,4433136,LAL,C,UT,ACTIVE,False,,4,40.0,40.0,38.61,40.6,39.61,39.78,3
-Don't Ask,4,Rudy Gobert,3032976,MIN,C,UT,ACTIVE,False,,4,19.5,19.5,34.31,33.01,33.66,27.37,3
-Don't Ask,4,Dylan Harper,5037871,SAS,PG,G,ACTIVE,False,,4,34.0,34.0,32.26,25.09,28.67,31.04,2
-Don't Ask,4,OG Anunoby,3934719,NYK,SF,F,ACTIVE,False,,4,28.0,28.0,33.09,33.04,33.06,30.81,2
-Don't Ask,4,Ayo Dosunmu,4397002,MIN,SG,BE,ACTIVE,False,,4,23.75,23.75,30.36,28.97,29.66,27.04,3
-Don't Ask,4,Daniel Gafford,4278049,DAL,C,C,ACTIVE,False,,4,29.25,29.25,29.32,25.15,27.23,28.13,2
-Don't Ask,4,Brandon Ingram,3913176,LAC,SF,IR,OUT,True,,0,0.0,0.0,38.47,35.61,37.04,37.04,3
-Don't Ask,4,Davion Mitchell,4278053,MIA,PG,UT,ACTIVE,False,,4,36.25,36.25,25.52,27.19,26.36,30.75,2
-Don't Ask,4,Draymond Green,6589,GSW,PF,BE,ACTIVE,False,,3,16.33,16.33,28.45,25.62,27.04,25.0,3
-Don't Ask,4,Tobias Harris,6440,SAS,PF,IR,OUT,True,,0,0.0,0.0,30.07,27.03,28.55,28.55,2
+Yong,2,Sidy Cissoko,5081727,POR,SG,UT,ACTIVE,False,,3,19.0,19.0,10.61,11.97,11.29,25.0,2
+Yong,2,Santi Aldama,4593125,DAL,PF,BE,OUT,True,,0,0.0,0.0,25.03,30.53,27.78,27.78,1
+Anything Is Possible,3,Cade Cunningham,4432166,DET,PG,UT,ACTIVE,False,,5,45.4,45.4,50.45,50.41,50.43,47.91,1
+Anything Is Possible,3,Domantas Sabonis,3155942,SAC,C,C,ACTIVE,False,,4,51.0,51.0,46.7,34.84,40.77,45.32,2
+Anything Is Possible,3,James Harden,3992,CLE,PG,G,ACTIVE,False,,4,29.0,29.0,42.08,43.5,42.79,36.66,2
+Anything Is Possible,3,Paolo Banchero,4432573,ORL,PF,IR,OUT,True,,2,45.0,45.0,39.0,37.86,38.43,40.31,2
+Anything Is Possible,3,Dyson Daniels,4869342,ATL,SG,G,ACTIVE,False,,5,39.0,39.0,35.65,36.46,36.05,37.53,2
+Anything Is Possible,3,Mikal Bridges,3147657,NYK,SF,F,ACTIVE,False,,5,10.6,10.6,32.84,33.3,33.07,25.0,1
+Anything Is Possible,3,Alex Sarr,5160992,WAS,C,F,ACTIVE,False,,5,29.8,29.8,36.61,36.48,36.55,33.17,1
+Anything Is Possible,3,AJ Dybantsa,5142718,WAS,SF,BE,ACTIVE,False,,1,26.0,26.0,32.92,,32.92,31.77,1
+Anything Is Possible,3,Reed Sheppard,4711272,HOU,SG,UT,ACTIVE,False,,4,26.0,26.0,29.92,29.73,29.83,28.12,2
+Anything Is Possible,3,John Collins,3908845,DET,PF,F,ACTIVE,False,,5,22.4,22.4,31.78,26.35,29.07,25.73,1
+Anything Is Possible,3,Jabari Smith Jr.,4432639,HOU,PF,UT,ACTIVE,False,,5,35.4,35.4,27.64,30.64,29.14,32.27,2
+Anything Is Possible,3,Devin Vassell,4395630,SAS,SG,BE,ACTIVE,False,,5,28.6,28.6,26.83,26.72,26.77,27.69,1
+Anything Is Possible,3,Obi Toppin,4278355,IND,PF,BE,ACTIVE,False,,5,27.2,27.2,21.86,21.88,21.87,25.0,2
+Anything Is Possible,3,Jeremiah Fears,5144091,NOP,SG,G,ACTIVE,False,,4,10.5,10.5,27.3,25.56,26.43,25.0,2
+Anything Is Possible,3,Dennis Schroder,3032979,CHA,PG,BE,ACTIVE,False,,5,21.6,21.6,23.0,22.36,22.68,25.0,2
+Don't Ask,4,Jalen Johnson,4701230,ATL,PF,F,ACTIVE,False,,5,47.0,47.0,49.99,48.56,49.28,48.14,2
+Don't Ask,4,Josh Giddey,4871145,CHI,PG,G,ACTIVE,False,,5,26.2,26.2,46.16,41.94,44.05,35.12,1
+Don't Ask,4,Evan Mobley,4432158,CLE,PF,C,ACTIVE,False,,4,42.25,42.25,43.33,40.89,42.11,42.17,2
+Don't Ask,4,Darius Garland,4396907,LAC,PG,G,ACTIVE,False,,4,27.75,27.75,40.38,34.42,37.4,33.11,2
+Don't Ask,4,Walker Kessler,4433136,LAL,C,UT,ACTIVE,False,,5,38.6,38.6,38.61,40.6,39.61,39.1,2
+Don't Ask,4,Rudy Gobert,3032976,MIN,C,UT,ACTIVE,False,,5,16.8,16.8,34.31,33.01,33.66,25.23,2
+Don't Ask,4,Dylan Harper,5037871,SAS,PG,UT,ACTIVE,False,,5,33.0,33.0,32.26,25.09,28.67,30.84,1
+Don't Ask,4,OG Anunoby,3934719,NYK,SF,BE,ACTIVE,False,,5,28.0,28.0,33.09,33.04,33.06,30.53,1
+Don't Ask,4,Ayo Dosunmu,4397002,MIN,SG,BE,ACTIVE,False,,5,28.4,28.4,30.36,28.97,29.66,29.03,2
+Don't Ask,4,Daniel Gafford,4278049,DAL,C,BE,ACTIVE,False,,5,29.2,29.2,29.32,25.15,27.23,28.22,1
+Don't Ask,4,Brandon Ingram,3913176,LAC,SF,IR,OUT,True,,0,0.0,0.0,38.47,35.61,37.04,37.04,2
+Don't Ask,4,Davion Mitchell,4278053,MIA,PG,BE,ACTIVE,False,,5,35.6,35.6,25.52,27.19,26.36,30.98,1
+Don't Ask,4,Draymond Green,6589,GSW,PF,F,ACTIVE,False,,4,18.25,18.25,28.45,25.62,27.04,25.0,2
+Don't Ask,4,Tobias Harris,6440,SAS,PF,IR,OUT,True,,0,0.0,0.0,30.07,27.03,28.55,28.55,1
 Don't Ask,4,Mitchell Robinson,4351852,BOS,C,BE,ACTIVE,False,,4,15.0,15.0,30.3,23.7,27.0,25.0,2
-Don't Ask,4,Miles McBride,4431823,NYK,SG,BE,ACTIVE,False,,4,14.5,14.5,19.71,23.24,21.48,25.0,2
-you know what to do with that,5,Nikola Jokic,3112335,DEN,C,C,ACTIVE,False,,3,55.33,55.33,67.19,66.31,66.75,62.47,2
-you know what to do with that,5,Alperen Sengun,4871144,HOU,C,UT,OUT,True,,4,51.0,51.0,43.01,43.86,43.44,46.8,3
-you know what to do with that,5,Deni Avdija,4683021,POR,SF,BE,ACTIVE,False,,3,41.0,41.0,40.38,41.24,40.81,40.88,2
-you know what to do with that,5,Nickeil Alexander-Walker,4278039,ATL,SG,G,ACTIVE,False,,4,34.0,34.0,34.05,36.38,35.22,34.68,3
-you know what to do with that,5,Michael Porter Jr.,4278104,BKN,SF,BE,ACTIVE,False,,4,40.25,40.25,38.93,39.31,39.12,39.62,2
-you know what to do with that,5,De'Aaron Fox,4066259,SAS,PG,G,ACTIVE,False,,4,38.5,38.5,38.15,36.71,37.43,37.91,2
-you know what to do with that,5,Donovan Clingan,5105565,POR,C,BE,ACTIVE,False,,3,27.0,27.0,33.86,35.1,34.48,31.68,2
-you know what to do with that,5,RJ Barrett,4395625,TOR,SF,F,ACTIVE,False,,3,34.33,34.33,32.56,32.02,32.29,33.06,3
-you know what to do with that,5,Quentin Grimes,4397014,LAL,SG,F,ACTIVE,False,,4,17.0,17.0,28.11,25.11,26.61,25.0,3
-you know what to do with that,5,Kristaps Porzingis,3102531,GSW,C,IR,OUT,True,,0,0.0,0.0,36.95,30.97,33.96,33.96,3
-you know what to do with that,5,Toumani Camara,4431736,POR,PF,BE,ACTIVE,False,,3,32.0,32.0,23.77,27.11,25.44,27.9,2
-you know what to do with that,5,Alex Caruso,2991350,OKC,SG,IR,OUT,True,,4,29.5,29.5,24.04,17.5,20.77,25.0,2
-you know what to do with that,5,Derrick Jones Jr.,3936099,LAC,SF,F,ACTIVE,False,,3,27.0,27.0,21.1,22.94,22.02,25.0,3
-you know what to do with that,5,Ja'Kobe Walter,4684272,TOR,SG,G,ACTIVE,False,,3,33.67,33.67,17.58,16.93,17.25,25.0,3
-you know what to do with that,5,Mo Bamba,4277919,UTA,C,UT,ACTIVE,False,,1,43.0,43.0,0.0,10.25,10.25,25.0,2
-you know what to do with that,5,Kenrich Williams,3133626,OKC,SF,UT,ACTIVE,False,,4,8.5,8.5,14.17,13.95,14.06,25.0,2
-KotaroLivesAlone,6,Scottie Barnes,4433134,TOR,SF,G,ACTIVE,False,,3,32.33,32.33,43.68,44.05,43.86,39.54,3
-KotaroLivesAlone,6,Amen Thompson,4684740,HOU,SF,G,ACTIVE,False,,4,35.5,35.5,39.96,40.43,40.2,38.11,3
-KotaroLivesAlone,6,Derrick White,3078576,BOS,SG,BE,ACTIVE,False,,4,28.5,28.5,37.01,37.21,37.11,33.28,2
-KotaroLivesAlone,6,Julius Randle,3064514,BKN,PF,BE,ACTIVE,False,,4,36.5,36.5,37.04,37.23,37.13,36.85,2
-KotaroLivesAlone,6,Franz Wagner,4566434,ORL,SF,F,ACTIVE,False,,3,33.67,33.67,38.64,33.88,36.26,35.29,3
-KotaroLivesAlone,6,Matas Buzelis,4711294,CHI,SF,F,ACTIVE,False,,4,19.5,19.5,32.54,31.55,32.05,26.47,2
-KotaroLivesAlone,6,Josh Hart,3062679,NYK,SF,G,ACTIVE,False,,4,34.5,34.5,33.01,31.8,32.41,33.34,2
-KotaroLivesAlone,6,Darryn Peterson,5041955,UTA,SG,UT,ACTIVE,False,,4,22.0,22.0,29.07,,29.07,25.93,2
-KotaroLivesAlone,6,Derik Queen,4869780,NOP,C,F,ACTIVE,False,,3,31.0,31.0,30.49,28.33,29.41,30.01,3
-KotaroLivesAlone,6,Myles Turner,3133628,MIL,C,UT,ACTIVE,False,,4,22.25,22.25,28.41,27.42,27.91,25.4,2
-KotaroLivesAlone,6,Moussa Diabate,4433249,CHA,PF,C,ACTIVE,False,,4,34.25,34.25,24.0,25.95,24.98,29.1,3
-KotaroLivesAlone,6,Christian Braun,4431767,DEN,SG,BE,ACTIVE,False,,3,23.33,23.33,23.14,24.89,24.02,25.0,2
-KotaroLivesAlone,6,Bilal Coulibaly,5104155,WAS,SF,UT,ACTIVE,False,,4,21.0,21.0,22.99,26.48,24.73,25.0,2
-KotaroLivesAlone,6,P.J. Washington,4278078,DAL,PF,BE,ACTIVE,False,,4,28.5,28.5,26.91,28.71,27.81,28.12,2
-The Galumphs,7,Victor Wembanyama,5104157,SAS,C,C,ACTIVE,False,,4,52.0,52.0,60.51,55.41,57.96,55.31,2
-The Galumphs,7,Kevin Durant,3202,HOU,PF,F,ACTIVE,False,,4,40.5,40.5,42.9,43.83,43.36,42.09,3
-The Galumphs,7,Austin Reaves,4066457,LAL,SG,G,ACTIVE,False,,4,49.0,49.0,43.33,40.06,41.7,44.94,3
-The Galumphs,7,Dejounte Murray,3907497,NOP,SG,G,ACTIVE,False,,3,47.0,47.0,39.04,36.0,37.52,41.07,3
-The Galumphs,7,Chet Holmgren,4433255,OKC,C,F,OUT,True,,3,34.33,34.33,37.94,38.04,37.99,36.62,2
-The Galumphs,7,Jaren Jackson Jr.,4277961,UTA,C,IR,OUT,True,,4,25.25,25.25,38.11,34.88,36.5,31.5,2
-The Galumphs,7,Paul George,4251,BOS,SF,UT,ACTIVE,False,,4,40.75,40.75,38.47,35.27,36.87,38.59,2
-The Galumphs,7,Immanuel Quickley,4395724,TOR,PG,G,ACTIVE,False,,3,31.67,31.67,34.92,35.49,35.2,33.88,3
-The Galumphs,7,Zach Edey,4600663,MEM,C,BE,ACTIVE,False,,3,24.0,24.0,33.16,34.18,33.67,30.04,2
-The Galumphs,7,Day'Ron Sharpe,4432194,BKN,C,BE,ACTIVE,False,,4,19.25,19.25,27.03,23.15,25.09,25.0,2
-The Galumphs,7,Collin Murray-Boyles,5093267,TOR,PF,UT,ACTIVE,False,,3,19.33,19.33,24.83,23.11,23.97,25.0,3
-The Galumphs,7,Cameron Johnson,3138196,DEN,SF,F,DAY_TO_DAY,False,,1,11.0,11.0,26.09,25.06,25.57,25.0,2
-The Galumphs,7,Grayson Allen,3135045,CHA,SG,UT,ACTIVE,False,,4,24.75,24.75,26.6,30.47,28.54,26.85,3
-The Galumphs,7,Jrue Holiday,3995,POR,PG,BE,ACTIVE,False,,3,31.67,31.67,28.07,33.08,30.57,30.99,2
-Flashy like Primo,8,Luka Doncic,3945274,LAL,PG,G,ACTIVE,False,,4,58.0,58.0,60.63,59.14,59.89,59.05,3
-Flashy like Primo,8,Devin Booker,3136193,PHO,PG,BE,ACTIVE,False,,3,40.0,40.0,43.24,39.22,41.23,40.77,1
-Flashy like Primo,8,Anthony Davis,6583,WAS,C,C,ACTIVE,False,,4,36.25,36.25,49.56,43.5,46.53,41.96,2
-Flashy like Primo,8,Naz Reid,4396971,CHA,C,F,ACTIVE,False,,4,32.25,32.25,35.51,29.6,32.55,32.42,3
-Flashy like Primo,8,Tyler Herro,4395725,MIL,SG,G,ACTIVE,False,,4,40.25,40.25,38.81,35.55,37.18,38.54,2
-Flashy like Primo,8,Caleb Wilson,5095151,CHI,SF,F,ACTIVE,False,,4,34.0,34.0,34.9,,34.9,34.5,2
-Flashy like Primo,8,Ivica Zubac,4017837,IND,C,BE,OUT,True,,3,21.67,21.67,35.46,31.44,33.45,29.03,3
-Flashy like Primo,8,CJ McCollum,2490149,ATL,SG,G,ACTIVE,False,,4,29.0,29.0,32.44,31.86,32.15,30.75,3
-Flashy like Primo,8,Darius Acuff Jr.,5142620,SAC,PG,BE,ACTIVE,False,,4,25.75,25.75,30.4,,30.4,28.33,2
-Flashy like Primo,8,Peyton Watson,4576087,CLE,SF,F,ACTIVE,False,,3,27.0,27.0,29.25,28.74,28.99,28.25,3
-Flashy like Primo,8,Rui Hachimura,4066648,LAC,PF,IR,OUT,True,,3,13.0,13.0,23.97,20.37,22.17,25.0,3
-Flashy like Primo,8,Jimmy Butler III,6430,GSW,SF,IR,OUT,True,,0,0.0,0.0,38.77,39.05,38.91,38.91,3
-Flashy like Primo,8,Jared McCain,4683778,OKC,SG,UT,ACTIVE,False,,4,17.5,17.5,20.19,14.06,17.12,25.0,2
-Flashy like Primo,8,Pelle Larsson,4601025,MIA,SG,UT,ACTIVE,False,,4,23.0,23.0,0.0,22.63,22.63,25.0,2
-Flashy like Primo,8,Sandro Mamukelashvili,4278580,LAL,C,UT,ACTIVE,False,,4,21.5,21.5,0.0,24.75,24.75,25.0,3
-MVPKNEE,9,Jayson Tatum,4065648,BOS,PF,BE,ACTIVE,False,,4,49.25,49.25,48.1,42.62,45.36,47.09,2
-MVPKNEE,9,Jamal Murray,3936299,DEN,PG,G,ACTIVE,False,,3,42.33,42.33,43.93,46.64,45.28,44.18,2
-MVPKNEE,9,Stephen Curry,3975,GSW,PG,G,ACTIVE,False,,3,36.67,36.67,43.05,42.93,42.99,40.62,3
-MVPKNEE,9,Kawhi Leonard,6450,TOR,SF,IR,OUT,True,,2,37.5,37.5,45.75,48.66,47.2,44.43,3
-MVPKNEE,9,Brandon Miller,4433287,CHA,SF,F,ACTIVE,False,,4,32.25,32.25,37.41,34.18,35.8,34.22,3
-MVPKNEE,9,Joel Embiid,3059318,PHL,C,C,ACTIVE,False,,3,40.33,40.33,45.35,43.5,44.42,42.89,3
-MVPKNEE,9,Coby White,4395651,CHA,PG,BE,OUT,True,,0,0.0,0.0,32.86,26.12,29.49,29.49,3
-MVPKNEE,9,Fred VanVleet,2991230,HOU,PG,G,ACTIVE,False,,3,31.67,31.67,33.43,,33.43,32.77,3
-MVPKNEE,9,Jaime Jaquez Jr.,4432848,MIL,SF,F,ACTIVE,False,,4,27.5,27.5,28.22,29.81,29.02,28.34,2
-MVPKNEE,9,Isaiah Hartenstein,4222252,OKC,C,UT,ACTIVE,False,,4,23.25,23.25,30.52,30.0,30.26,27.14,2
+Don't Ask,4,De'Andre Hunter,4065732,SAC,SF,F,ACTIVE,False,,4,18.5,18.5,23.88,21.0,22.44,25.0,2
+you know what to do with that,5,Nikola Jokic,3112335,DEN,C,UT,ACTIVE,False,,4,53.25,53.25,67.19,66.31,66.75,60.75,1
+you know what to do with that,5,Alperen Sengun,4871144,HOU,C,UT,DAY_TO_DAY,False,,4,51.0,51.0,43.01,43.86,43.44,46.8,2
+you know what to do with that,5,Deni Avdija,4683021,POR,SF,F,ACTIVE,False,,3,41.0,41.0,40.38,41.24,40.81,40.88,2
+you know what to do with that,5,Nickeil Alexander-Walker,4278039,ATL,SG,G,ACTIVE,False,,5,33.4,33.4,34.05,36.38,35.22,34.31,2
+you know what to do with that,5,Michael Porter Jr.,4278104,BKN,SF,F,ACTIVE,False,,4,40.25,40.25,38.93,39.31,39.12,39.62,2
+you know what to do with that,5,De'Aaron Fox,4066259,SAS,PG,G,ACTIVE,False,,5,37.4,37.4,38.15,36.71,37.43,37.41,1
+you know what to do with that,5,Donovan Clingan,5105565,POR,C,C,ACTIVE,False,,3,27.33,27.33,33.86,35.1,34.48,31.8,2
+you know what to do with that,5,RJ Barrett,4395625,TOR,SF,G,ACTIVE,False,,4,38.75,38.75,32.56,32.02,32.29,35.16,2
+you know what to do with that,5,Quentin Grimes,4397014,LAL,SG,BE,ACTIVE,False,,5,22.2,22.2,28.11,25.11,26.61,25.0,2
+you know what to do with that,5,Kristaps Porzingis,3102531,GSW,C,IR,OUT,True,,0,0.0,0.0,36.95,30.97,33.96,33.96,2
+you know what to do with that,5,Toumani Camara,4431736,POR,PF,F,ACTIVE,False,,3,31.67,31.67,23.77,27.11,25.44,27.78,2
+you know what to do with that,5,Alex Caruso,2991350,OKC,SG,IR,OUT,True,,4,29.5,29.5,24.04,17.5,20.77,25.0,1
+you know what to do with that,5,Derrick Jones Jr.,3936099,LAC,SF,BE,ACTIVE,False,,4,31.5,31.5,21.1,22.94,22.02,26.23,2
+you know what to do with that,5,Ja'Kobe Walter,4684272,TOR,SG,BE,ACTIVE,False,,4,33.0,33.0,17.58,16.93,17.25,25.0,2
+you know what to do with that,5,Mo Bamba,4277919,UTA,C,BE,ACTIVE,False,,2,30.5,30.5,0.0,10.25,10.25,25.0,1
+you know what to do with that,5,Robert Williams III,4066211,POR,C,UT,ACTIVE,False,,3,27.67,27.67,26.92,23.92,25.42,26.26,2
+KotaroLivesAlone,6,Scottie Barnes,4433134,TOR,SF,G,ACTIVE,False,,4,40.0,40.0,43.68,44.05,43.86,42.15,2
+KotaroLivesAlone,6,Amen Thompson,4684740,HOU,SF,G,ACTIVE,False,,5,36.0,36.0,39.96,40.43,40.2,38.1,2
+KotaroLivesAlone,6,Derrick White,3078576,BOS,SG,G,ACTIVE,False,,4,28.5,28.5,37.01,37.21,37.11,33.28,2
+KotaroLivesAlone,6,Julius Randle,3064514,BKN,PF,F,ACTIVE,False,,4,36.5,36.5,37.04,37.23,37.13,36.85,2
+KotaroLivesAlone,6,Franz Wagner,4566434,ORL,SF,F,ACTIVE,False,,4,30.0,30.0,38.64,33.88,36.26,33.48,2
+KotaroLivesAlone,6,Matas Buzelis,4711294,CHI,SF,F,ACTIVE,False,,5,20.8,20.8,32.54,31.55,32.05,26.42,1
+KotaroLivesAlone,6,Josh Hart,3062679,NYK,SF,UT,ACTIVE,False,,5,30.0,30.0,33.01,31.8,32.41,31.2,1
+KotaroLivesAlone,6,Darryn Peterson,5041955,UTA,SG,UT,ACTIVE,False,,5,23.0,23.0,29.07,,29.07,26.04,1
+KotaroLivesAlone,6,Derik Queen,4869780,NOP,C,C,ACTIVE,False,,4,27.5,27.5,30.49,28.33,29.41,28.56,2
+KotaroLivesAlone,6,Myles Turner,3133628,MIL,C,UT,ACTIVE,False,,5,20.8,20.8,28.41,27.42,27.91,25.0,1
+KotaroLivesAlone,6,Moussa Diabate,4433249,CHA,PF,BE,ACTIVE,False,,5,30.8,30.8,24.0,25.95,24.98,27.89,2
+KotaroLivesAlone,6,Christian Braun,4431767,DEN,SG,BE,ACTIVE,False,,4,26.75,26.75,23.14,24.89,24.02,25.23,1
+KotaroLivesAlone,6,Bilal Coulibaly,5104155,WAS,SF,BE,ACTIVE,False,,5,25.4,25.4,22.99,26.48,24.73,25.07,1
+KotaroLivesAlone,6,P.J. Washington,4278078,DAL,PF,BE,ACTIVE,False,,5,28.6,28.6,26.91,28.71,27.81,28.21,1
+The Galumphs,7,Victor Wembanyama,5104157,SAS,C,UT,ACTIVE,False,,5,58.2,58.2,60.51,55.41,57.96,58.08,1
+The Galumphs,7,Kevin Durant,3202,HOU,PF,F,ACTIVE,False,,5,39.8,39.8,42.9,43.83,43.36,41.58,2
+The Galumphs,7,Austin Reaves,4066457,LAL,SG,G,ACTIVE,False,,5,40.8,40.8,43.33,40.06,41.7,41.25,2
+The Galumphs,7,Dejounte Murray,3907497,NOP,SG,G,ACTIVE,False,,4,41.5,41.5,39.04,36.0,37.52,39.29,2
+The Galumphs,7,Chet Holmgren,4433255,OKC,C,F,DAY_TO_DAY,False,,3,34.33,34.33,37.94,38.04,37.99,36.62,1
+The Galumphs,7,Jaren Jackson Jr.,4277961,UTA,C,IR,OUT,True,,4,25.25,25.25,38.11,34.88,36.5,31.5,1
+The Galumphs,7,Paul George,4251,BOS,SF,F,ACTIVE,False,,4,40.75,40.75,38.47,35.27,36.87,38.59,2
+The Galumphs,7,Immanuel Quickley,4395724,TOR,PG,UT,ACTIVE,False,,4,33.25,33.25,34.92,35.49,35.2,34.34,2
+The Galumphs,7,Zach Edey,4600663,MEM,C,C,ACTIVE,False,,3,24.0,24.0,33.16,34.18,33.67,30.04,2
+The Galumphs,7,Day'Ron Sharpe,4432194,BKN,C,UT,ACTIVE,False,,4,19.25,19.25,27.03,23.15,25.09,25.0,2
+The Galumphs,7,Collin Murray-Boyles,5093267,TOR,PF,BE,ACTIVE,False,,4,17.25,17.25,24.83,23.11,23.97,25.0,2
+The Galumphs,7,Grayson Allen,3135045,CHA,SG,BE,ACTIVE,False,,5,24.0,24.0,26.6,30.47,28.54,26.27,2
+The Galumphs,7,Jrue Holiday,3995,POR,PG,G,ACTIVE,False,,3,31.67,31.67,28.07,33.08,30.57,30.99,2
+The Galumphs,7,Jaxson Hayes,4397077,UTA,C,BE,ACTIVE,False,,4,32.25,32.25,16.52,18.68,17.6,25.0,1
+Flashy like Primo,8,Luka Doncic,3945274,LAL,PG,G,DAY_TO_DAY,False,,4,58.0,58.0,60.63,59.14,59.89,59.05,2
+Flashy like Primo,8,Devin Booker,3136193,PHO,PG,UT,ACTIVE,False,,3,40.0,40.0,43.24,39.22,41.23,40.77,1
+Flashy like Primo,8,Anthony Davis,6583,WAS,C,C,ACTIVE,False,,5,37.6,37.6,49.56,43.5,46.53,42.06,1
+Flashy like Primo,8,Naz Reid,4396971,CHA,C,F,ACTIVE,False,,5,28.6,28.6,35.51,29.6,32.55,30.58,2
+Flashy like Primo,8,Tyler Herro,4395725,MIL,SG,UT,ACTIVE,False,,5,39.2,39.2,38.81,35.55,37.18,38.19,1
+Flashy like Primo,8,Caleb Wilson,5095151,CHI,SF,UT,ACTIVE,False,,5,35.6,35.6,34.9,,34.9,35.25,1
+Flashy like Primo,8,Ivica Zubac,4017837,IND,C,BE,DAY_TO_DAY,False,,3,21.67,21.67,35.46,31.44,33.45,29.03,2
+Flashy like Primo,8,CJ McCollum,2490149,ATL,SG,G,ACTIVE,False,,5,26.6,26.6,32.44,31.86,32.15,29.38,2
+Flashy like Primo,8,Darius Acuff Jr.,5142620,SAC,PG,G,ACTIVE,False,,4,25.75,25.75,30.4,,30.4,28.33,2
+Flashy like Primo,8,Peyton Watson,4576087,CLE,SF,F,ACTIVE,False,,4,28.75,28.75,29.25,28.74,28.99,28.89,2
+Flashy like Primo,8,Rui Hachimura,4066648,LAC,PF,IR,DAY_TO_DAY,False,,3,13.0,13.0,23.97,20.37,22.17,25.0,2
+Flashy like Primo,8,Jimmy Butler III,6430,GSW,SF,IR,OUT,True,,0,0.0,0.0,38.77,39.05,38.91,38.91,2
+Flashy like Primo,8,Jared McCain,4683778,OKC,SG,BE,ACTIVE,False,,5,15.6,15.6,20.19,14.06,17.12,25.0,1
+Flashy like Primo,8,Pelle Larsson,4601025,MIA,SG,BE,ACTIVE,False,,5,26.4,26.4,0.0,22.63,22.63,25.0,1
+Flashy like Primo,8,Sandro Mamukelashvili,4278580,LAL,C,F,ACTIVE,False,,5,23.6,23.6,0.0,24.75,24.75,25.0,2
+MVPKNEE,9,Jayson Tatum,4065648,BOS,PF,F,ACTIVE,False,,4,49.25,49.25,48.1,42.62,45.36,47.09,2
+MVPKNEE,9,Jamal Murray,3936299,DEN,PG,G,ACTIVE,False,,4,43.25,43.25,43.93,46.64,45.28,44.38,1
+MVPKNEE,9,Stephen Curry,3975,GSW,PG,G,ACTIVE,False,,4,44.75,44.75,43.05,42.93,42.99,43.77,2
+MVPKNEE,9,Kawhi Leonard,6450,TOR,SF,IR,OUT,True,,2,37.5,37.5,45.75,48.66,47.2,44.43,2
+MVPKNEE,9,Brandon Miller,4433287,CHA,SF,F,ACTIVE,False,,5,36.0,36.0,37.41,34.18,35.8,35.9,2
+MVPKNEE,9,Joel Embiid,3059318,PHL,C,UT,ACTIVE,False,,4,38.5,38.5,45.35,43.5,44.42,41.79,2
+MVPKNEE,9,Coby White,4395651,CHA,PG,BE,OUT,True,,0,0.0,0.0,32.86,26.12,29.49,29.49,2
+MVPKNEE,9,Fred VanVleet,2991230,HOU,PG,UT,ACTIVE,False,,4,35.25,35.25,33.43,,33.43,34.24,2
+MVPKNEE,9,Jaime Jaquez Jr.,4432848,MIL,SF,BE,ACTIVE,False,,5,28.6,28.6,28.22,29.81,29.02,28.81,1
+MVPKNEE,9,Isaiah Hartenstein,4222252,OKC,C,BE,ACTIVE,False,,5,24.2,24.2,30.52,30.0,30.26,27.23,1
 MVPKNEE,9,Khaman Maluach,5203685,PHO,C,BE,ACTIVE,False,,3,21.67,21.67,22.14,8.46,15.3,25.0,1
-MVPKNEE,9,Yves Missi,5061589,NOP,C,IR,OUT,True,,2,36.0,36.0,24.7,19.5,22.1,26.07,3
-MVPKNEE,9,Precious Achiuwa,4431679,SAC,PF,BE,ACTIVE,False,,4,25.25,25.25,24.1,24.08,24.09,25.0,2
-MVPKNEE,9,Keldon Johnson,4395723,SAS,SF,F,ACTIVE,False,,4,18.75,18.75,23.96,23.43,23.7,25.0,2
-MVPKNEE,9,Ronald Holland II,4683771,DET,SF,UT,ACTIVE,False,,4,18.25,18.25,16.1,17.64,16.87,25.0,2
-MVPKNEE,9,Gui Santos,4997536,GSW,SF,UT,ACTIVE,False,,4,19.75,19.75,19.7,20.32,20.01,25.0,3
-Towns Syndrome,10,Shai Gilgeous-Alexander,4278073,OKC,PG,G,ACTIVE,False,,4,47.25,47.25,56.84,55.49,56.17,52.2,2
-Towns Syndrome,10,LaMelo Ball,4432816,MIN,PG,G,ACTIVE,False,,4,30.0,30.0,46.43,39.69,43.06,37.26,3
-Towns Syndrome,10,Karl-Anthony Towns,3136195,NYK,C,UT,ACTIVE,False,,4,40.75,40.75,44.09,39.29,41.69,41.27,2
-Towns Syndrome,10,Lauri Markkanen,4066336,UTA,PF,F,DAY_TO_DAY,False,,4,24.0,24.0,38.65,42.05,40.35,33.08,2
-Towns Syndrome,10,Ty Jerome,4065733,MEM,SG,BE,ACTIVE,False,,4,48.5,48.5,39.8,37.13,38.47,42.93,2
-Towns Syndrome,10,Stephon Castle,4845367,SAS,PG,G,ACTIVE,False,,4,34.0,34.0,36.86,35.01,35.94,35.08,2
-Towns Syndrome,10,Cameron Boozer,5041935,MEM,PF,BE,ACTIVE,False,,4,30.25,30.25,34.33,,34.33,32.52,2
-Towns Syndrome,10,VJ Edgecombe,5124612,PHL,SG,IR,ACTIVE,False,,3,33.0,33.0,33.69,34.0,33.84,33.53,3
-Towns Syndrome,10,Jakob Poeltl,3134908,TOR,C,C,ACTIVE,False,,3,13.0,13.0,31.65,27.41,29.53,25.0,3
-Towns Syndrome,10,Andrew Wiggins,3059319,MIA,SF,F,ACTIVE,False,,4,15.25,15.25,32.03,31.97,32.0,25.0,2
-Towns Syndrome,10,Keaton Wagler,5254165,LAC,PG,UT,ACTIVE,False,,3,23.67,23.67,24.36,,24.36,25.0,3
-Towns Syndrome,10,Aaron Gordon,3064290,DEN,PF,F,ACTIVE,False,,3,24.0,24.0,28.91,29.22,29.06,27.17,2
-Towns Syndrome,10,Jordan Poole,4277956,NOP,SG,BE,ACTIVE,False,,3,20.33,20.33,21.98,20.9,21.44,25.0,3
-Towns Syndrome,10,De'Anthony Melton,4066436,GSW,PG,UT,ACTIVE,False,,4,22.5,22.5,24.0,23.86,23.93,25.0,3
-Towns Syndrome,10,Matisse Thybulle,3907498,LAL,SF,BE,ACTIVE,False,,4,21.0,21.0,19.22,18.33,18.77,25.0,3
-The Freak and The Felons,11,Giannis Antetokounmpo,3032977,MIA,PF,C,ACTIVE,False,,4,46.5,46.5,57.55,49.36,53.45,50.36,2
-The Freak and The Felons,11,Trae Young,4277905,WAS,PG,G,ACTIVE,False,,4,43.5,43.5,44.35,34.4,39.38,41.21,2
-The Freak and The Felons,11,Pascal Siakam,3149673,IND,PF,F,ACTIVE,False,,4,35.5,35.5,41.11,39.03,40.07,38.04,3
-The Freak and The Felons,11,Jalen Duren,4433621,DET,C,IR,OUT,True,,2,31.5,31.5,42.21,38.77,40.49,37.92,2
-The Freak and The Felons,11,Damian Lillard,6606,POR,PG,UT,ACTIVE,False,,3,36.0,36.0,38.62,,38.62,37.64,2
-The Freak and The Felons,11,Ja Morant,4279888,POR,PG,BE,ACTIVE,False,,3,37.33,37.33,37.54,34.4,35.97,36.48,2
-The Freak and The Felons,11,Onyeka Okongwu,4431680,ATL,C,UT,ACTIVE,False,,4,22.75,22.75,34.81,35.11,34.96,29.53,3
-The Freak and The Felons,11,Miles Bridges,4066383,PHO,SF,BE,ACTIVE,False,,3,24.67,24.67,33.92,30.92,32.42,29.51,1
-The Freak and The Felons,11,Zach LaVine,3064440,SAC,SG,BE,ACTIVE,False,,4,38.75,38.75,32.02,28.13,30.08,33.93,2
-The Freak and The Felons,11,Nic Claxton,4278067,CHI,C,IR,OUT,True,,0,0.0,0.0,30.29,30.26,30.27,30.27,2
-The Freak and The Felons,11,Jonathan Kuminga,4433247,MIN,PF,F,ACTIVE,False,,4,31.0,31.0,26.25,21.67,23.96,27.09,3
+MVPKNEE,9,Yves Missi,5061589,NOP,C,IR,OUT,True,,2,36.0,36.0,24.7,19.5,22.1,26.07,2
+MVPKNEE,9,Precious Achiuwa,4431679,SAC,PF,C,ACTIVE,False,,4,25.25,25.25,24.1,24.08,24.09,25.0,2
+MVPKNEE,9,Keldon Johnson,4395723,SAS,SF,BE,ACTIVE,False,,5,19.2,19.2,23.96,23.43,23.7,25.0,1
+MVPKNEE,9,Ronald Holland II,4683771,DET,SF,F,ACTIVE,False,,5,13.4,13.4,16.1,17.64,16.87,25.0,1
+MVPKNEE,9,Gui Santos,4997536,GSW,SF,UT,DAY_TO_DAY,False,,4,19.75,19.75,19.7,20.32,20.01,25.0,2
+Towns Syndrome,10,Shai Gilgeous-Alexander,4278073,OKC,PG,G,ACTIVE,False,,5,43.6,43.6,56.84,55.49,56.17,49.88,1
+Towns Syndrome,10,LaMelo Ball,4432816,MIN,PG,UT,ACTIVE,False,,5,27.4,27.4,46.43,39.69,43.06,35.23,2
+Towns Syndrome,10,Karl-Anthony Towns,3136195,NYK,C,C,ACTIVE,False,,5,40.8,40.8,44.09,39.29,41.69,41.24,1
+Towns Syndrome,10,Lauri Markkanen,4066336,UTA,PF,F,DAY_TO_DAY,False,,4,24.0,24.0,38.65,42.05,40.35,33.08,1
+Towns Syndrome,10,Ty Jerome,4065733,MEM,SG,G,ACTIVE,False,,4,48.5,48.5,39.8,37.13,38.47,42.93,2
+Towns Syndrome,10,Stephon Castle,4845367,SAS,PG,UT,ACTIVE,False,,5,35.4,35.4,36.86,35.01,35.94,35.67,1
+Towns Syndrome,10,Cameron Boozer,5041935,MEM,PF,F,ACTIVE,False,,4,30.0,30.0,34.33,,34.33,32.41,2
+Towns Syndrome,10,VJ Edgecombe,5124612,PHL,SG,UT,ACTIVE,False,,4,28.25,28.25,33.69,34.0,33.84,31.36,2
+Towns Syndrome,10,Andrew Wiggins,3059319,MIA,SF,F,ACTIVE,False,,5,19.4,19.4,32.03,31.97,32.0,25.7,1
+Towns Syndrome,10,Keaton Wagler,5254165,LAC,PG,BE,ACTIVE,False,,4,24.0,24.0,24.36,,24.36,25.0,2
+Towns Syndrome,10,Aaron Gordon,3064290,DEN,PF,BE,ACTIVE,False,,4,26.25,26.25,28.91,29.22,29.06,27.81,1
+Towns Syndrome,10,Jordan Poole,4277956,NOP,SG,G,DAY_TO_DAY,False,,4,16.75,16.75,21.98,20.9,21.44,25.0,2
+Towns Syndrome,10,De'Anthony Melton,4066436,GSW,PG,BE,ACTIVE,False,,5,21.8,21.8,24.0,23.86,23.93,25.0,2
+Towns Syndrome,10,Matisse Thybulle,3907498,LAL,SF,BE,ACTIVE,False,,5,23.0,23.0,19.22,18.33,18.77,25.0,2
+The Freak and The Felons,11,Giannis Antetokounmpo,3032977,MIA,PF,F,ACTIVE,False,,5,47.8,47.8,57.55,49.36,53.45,50.63,1
+The Freak and The Felons,11,Trae Young,4277905,WAS,PG,UT,ACTIVE,False,,5,39.2,39.2,44.35,34.4,39.38,39.29,1
+The Freak and The Felons,11,Pascal Siakam,3149673,IND,PF,F,ACTIVE,False,,5,37.6,37.6,41.11,39.03,40.07,38.84,2
+The Freak and The Felons,11,Jalen Duren,4433621,DET,C,IR,OUT,True,,2,31.5,31.5,42.21,38.77,40.49,37.92,1
+The Freak and The Felons,11,Damian Lillard,6606,POR,PG,G,ACTIVE,False,,3,36.0,36.0,38.62,,38.62,37.64,2
+The Freak and The Felons,11,Ja Morant,4279888,POR,PG,G,ACTIVE,False,,3,37.33,37.33,37.54,34.4,35.97,36.48,2
+The Freak and The Felons,11,Onyeka Okongwu,4431680,ATL,C,C,ACTIVE,False,,5,23.2,23.2,34.81,35.11,34.96,29.08,2
+The Freak and The Felons,11,Miles Bridges,4066383,PHO,SF,UT,ACTIVE,False,,3,24.67,24.67,33.92,30.92,32.42,29.51,1
+The Freak and The Felons,11,Zach LaVine,3064440,SAC,SG,G,ACTIVE,False,,4,38.25,38.25,32.02,28.13,30.08,33.71,2
+The Freak and The Felons,11,Nic Claxton,4278067,CHI,C,IR,OUT,True,,0,0.0,0.0,30.29,30.26,30.27,30.27,1
+The Freak and The Felons,11,Jonathan Kuminga,4433247,MIN,PF,BE,ACTIVE,False,,5,33.0,33.0,26.25,21.67,23.96,28.48,2
 The Freak and The Felons,11,Mikel Brown Jr.,5101761,BKN,PG,BE,ACTIVE,False,,3,19.0,19.0,24.03,,24.03,25.0,2
-The Freak and The Felons,11,Kris Dunn,2991139,LAC,PG,G,ACTIVE,False,,3,42.67,42.67,20.0,22.6,21.3,29.31,3
-The Freak and The Felons,11,Aaron Wiggins,4397183,ATL,SG,G,DAY_TO_DAY,False,,4,30.75,30.75,19.24,18.78,19.01,25.0,3
-The Freak and The Felons,11,Julian Champagnie,4592479,SAS,SF,F,ACTIVE,False,,4,34.25,34.25,23.34,24.23,23.79,28.44,2
-The Freak and The Felons,11,DeMar DeRozan,3978,DEN,SF,UT,ACTIVE,False,,3,20.0,20.0,29.83,32.21,31.02,26.89,2
-My Sweet Glorious King,12,Cooper Flagg,5041939,DAL,SF,UT,ACTIVE,False,,3,59.33,59.33,45.36,39.69,42.52,48.83,2
-My Sweet Glorious King,12,Donovan Mitchell,3908809,CLE,SG,G,ACTIVE,False,,3,47.67,47.67,46.48,46.9,46.69,47.06,3
-My Sweet Glorious King,12,Bam Adebayo,4066261,MIA,C,C,ACTIVE,False,,4,30.25,30.25,39.63,39.23,39.43,35.35,2
-My Sweet Glorious King,12,LeBron James,1966,PHL,SF,F,ACTIVE,False,,3,35.33,35.33,42.48,42.92,42.7,39.94,3
-My Sweet Glorious King,12,Trey Murphy III,4397688,NOP,SF,G,ACTIVE,False,,3,26.67,26.67,36.75,40.5,38.62,34.14,3
-My Sweet Glorious King,12,Kel'el Ware,5105623,MIL,C,UT,ACTIVE,False,,4,25.75,25.75,33.78,28.71,31.25,28.8,2
-My Sweet Glorious King,12,Payton Pritchard,4066354,BOS,PG,BE,ACTIVE,False,,4,24.0,24.0,31.56,33.48,32.52,28.73,2
-My Sweet Glorious King,12,Jaden McDaniels,4431671,MIN,SF,F,ACTIVE,False,,4,35.5,35.5,29.73,30.75,30.24,32.58,3
-My Sweet Glorious King,12,Jalen Green,4437244,PHO,SG,BE,ACTIVE,False,,3,22.67,22.67,32.43,26.84,29.63,27.02,1
-My Sweet Glorious King,12,Ace Bailey,4873138,UTA,SF,F,ACTIVE,False,,4,34.0,34.0,26.75,24.89,25.82,29.46,2
-My Sweet Glorious King,12,Andrew Nembhard,4395712,IND,PG,IR,DAY_TO_DAY,False,,3,31.33,31.33,28.18,34.05,31.11,31.2,3
-My Sweet Glorious King,12,Ajay Mitchell,4900671,OKC,PG,G,DAY_TO_DAY,False,,4,33.75,33.75,25.18,27.93,26.55,29.75,2
-My Sweet Glorious King,12,Wendell Carter Jr.,4277847,ORL,C,UT,ACTIVE,False,,3,38.33,38.33,23.04,26.64,24.84,29.9,3
-My Sweet Glorious King,12,Duncan Robinson,3157465,DET,SF,BE,ACTIVE,False,,4,27.25,27.25,21.61,22.71,22.16,25.0,2
-My Sweet Glorious King,12,Brook Lopez,3448,LAC,C,BE,ACTIVE,False,,3,35.0,35.0,26.21,20.33,23.27,27.67,3
+The Freak and The Felons,11,Kris Dunn,2991139,LAC,PG,BE,ACTIVE,False,,4,35.0,35.0,20.0,22.6,21.3,27.39,2
+The Freak and The Felons,11,Aaron Wiggins,4397183,ATL,SG,F,ACTIVE,False,,5,28.0,28.0,19.24,18.78,19.01,25.0,2
+The Freak and The Felons,11,Julian Champagnie,4592479,SAS,SF,BE,ACTIVE,False,,5,30.0,30.0,23.34,24.23,23.79,26.89,1
+The Freak and The Felons,11,DeMar DeRozan,3978,DEN,SF,UT,ACTIVE,False,,4,20.0,20.0,29.83,32.21,31.02,26.12,1
+My Sweet Glorious King,12,Cooper Flagg,5041939,DAL,SF,BE,ACTIVE,False,,4,56.0,56.0,45.36,39.69,42.52,48.51,1
+My Sweet Glorious King,12,Donovan Mitchell,3908809,CLE,SG,G,ACTIVE,False,,4,45.0,45.0,46.48,46.9,46.69,45.94,2
+My Sweet Glorious King,12,Bam Adebayo,4066261,MIA,C,C,ACTIVE,False,,5,33.0,33.0,39.63,39.23,39.43,36.21,1
+My Sweet Glorious King,12,LeBron James,1966,PHL,SF,F,ACTIVE,False,,4,38.75,38.75,42.48,42.92,42.7,40.94,2
+My Sweet Glorious King,12,Trey Murphy III,4397688,NOP,SF,G,ACTIVE,False,,4,23.75,23.75,36.75,40.5,38.62,32.01,2
+My Sweet Glorious King,12,Kel'el Ware,5105623,MIL,C,UT,ACTIVE,False,,5,22.0,22.0,33.78,28.71,31.25,26.62,1
+My Sweet Glorious King,12,Payton Pritchard,4066354,BOS,PG,G,ACTIVE,False,,4,24.0,24.0,31.56,33.48,32.52,28.73,2
+My Sweet Glorious King,12,Jaden McDaniels,4431671,MIN,SF,F,ACTIVE,False,,5,34.0,34.0,29.73,30.75,30.24,32.12,2
+My Sweet Glorious King,12,Jalen Green,4437244,PHO,SG,F,ACTIVE,False,,3,22.67,22.67,32.43,26.84,29.63,27.02,1
+My Sweet Glorious King,12,Ace Bailey,4873138,UTA,SF,UT,ACTIVE,False,,5,32.0,32.0,26.75,24.89,25.82,28.91,1
+My Sweet Glorious King,12,Andrew Nembhard,4395712,IND,PG,UT,ACTIVE,False,,4,32.25,32.25,28.18,34.05,31.11,31.62,2
+My Sweet Glorious King,12,Ajay Mitchell,4900671,OKC,PG,BE,ACTIVE,False,,5,37.6,37.6,25.18,27.93,26.55,32.08,1
+My Sweet Glorious King,12,Wendell Carter Jr.,4277847,ORL,C,BE,ACTIVE,False,,4,32.75,32.75,23.04,26.64,24.84,28.36,2
+My Sweet Glorious King,12,Brook Lopez,3448,LAC,C,BE,ACTIVE,False,,4,27.75,27.75,26.21,20.33,23.27,25.26,2
