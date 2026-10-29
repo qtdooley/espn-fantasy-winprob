@@ -60,6 +60,7 @@ Brunson’s Burners,Immanuel Quickley,4395724,11,True,2026-10-30 16:30:00,ORL
 Jared Dubley,Ja'Kobe Walter,4684272,11,True,2026-10-30 16:30:00,ORL
 T's Top Team,Jalen Brunson,3934672,11,True,2026-10-30 16:30:00,PHL
 Only Franz,Jalen Duren,4433621,11,True,2026-10-30 16:30:00,BKN
+walk and ball torture,Jalen Smith,4397189,11,True,2026-10-30 16:30:00,BOS
 walk and ball torture,Jaylen Brown,3917376,11,True,2026-10-30 16:30:00,NYK
 Jared Dubley,Jayson Tatum,4065648,11,True,2026-10-30 16:30:00,CHI
 Victor Krum,Joel Embiid,3059318,11,True,2026-10-30 16:30:00,NYK
@@ -96,7 +97,6 @@ the emergency room,Ayo Dosunmu,4397002,11,True,2026-10-30 17:00:00,LAC
 Lil Dicky Ball,Bam Adebayo,4066261,11,True,2026-10-30 17:00:00,IND
 Brunson’s Burners,Bobby Portis,3064482,11,True,2026-10-30 17:00:00,IND
 Only Franz,Brandon Ingram,3913176,11,True,2026-10-30 17:00:00,MIN
-walk and ball torture,Brook Lopez,3448,11,True,2026-10-30 17:00:00,MIN
 BLACK FLAGG,Cooper Flagg,5041939,11,True,2026-10-30 17:00:00,HOU
 Jared Dubley,Daniel Gafford,4278049,11,True,2026-10-30 17:00:00,HOU
 walk and ball torture,Darius Garland,4396907,11,True,2026-10-30 17:00:00,MIN
@@ -254,7 +254,6 @@ Lil Dicky Ball,Pascal Siakam,3149673,13,True,2026-11-01 14:00:00,BKN
 walk and ball torture,Tyrese Haliburton,4396993,13,True,2026-11-01 14:00:00,BKN
 BLACK FLAGG,Brandin Podziemski,4709138,13,True,2026-11-01 17:30:00,LAC
 Only Franz,Brandon Ingram,3913176,13,True,2026-11-01 17:30:00,GSW
-walk and ball torture,Brook Lopez,3448,13,True,2026-11-01 17:30:00,GSW
 walk and ball torture,Darius Garland,4396907,13,True,2026-11-01 17:30:00,GSW
 Lil Dicky Ball,Draymond Green,6589,13,True,2026-11-01 17:30:00,LAC
 Jared Dubley,Jimmy Butler III,6430,13,True,2026-11-01 17:30:00,LAC
@@ -309,6 +308,7 @@ Only Franz,Ivica Zubac,4017837,14,False,2026-11-02 16:30:00,ATL
 T's Top Team,Jalen Brunson,3934672,14,False,2026-11-02 16:30:00,BKN
 Only Franz,Jalen Duren,4433621,14,False,2026-11-02 16:30:00,CHA
 the emergency room,Jalen Johnson,4701230,14,False,2026-11-02 16:30:00,IND
+walk and ball torture,Jalen Smith,4397189,14,False,2026-11-02 16:30:00,PHL
 walk and ball torture,Jaylen Brown,3917376,14,False,2026-11-02 16:30:00,CHI
 Victor Krum,Joel Embiid,3059318,14,False,2026-11-02 16:30:00,CHI
 Aspiration Risk,John Collins,3908845,14,False,2026-11-02 16:30:00,CHA
@@ -421,7 +421,6 @@ Lil Dicky Ball,Bam Adebayo,4066261,14,False,2026-11-02 19:00:00,LAL
 Brunson’s Burners,Bobby Portis,3064482,14,False,2026-11-02 19:00:00,LAL
 BLACK FLAGG,Brandin Podziemski,4709138,14,False,2026-11-02 19:00:00,PHO
 Only Franz,Brandon Ingram,3913176,14,False,2026-11-02 19:00:00,TOR
-walk and ball torture,Brook Lopez,3448,14,False,2026-11-02 19:00:00,TOR
 BLACK FLAGG,Collin Murray-Boyles,5093267,14,False,2026-11-02 19:00:00,LAC
 walk and ball torture,Darius Garland,4396907,14,False,2026-11-02 19:00:00,TOR
 walk and ball torture,Davion Mitchell,4278053,14,False,2026-11-02 19:00:00,LAL
@@ -478,6 +477,7 @@ Jared Dubley,Egor Demin,5175643,16,False,2026-11-04 16:30:00,CHA
 BLACK FLAGG,Grayson Allen,3135045,16,False,2026-11-04 16:30:00,BKN
 Jared Dubley,Jaime Jaquez Jr.,4432848,16,False,2026-11-04 16:30:00,BOS
 T's Top Team,Jalen Brunson,3934672,16,False,2026-11-04 16:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,16,False,2026-11-04 16:30:00,NYK
 Jared Dubley,Jayson Tatum,4065648,16,False,2026-11-04 16:30:00,MIL
 Victor Krum,Josh Giddey,4871145,16,False,2026-11-04 16:30:00,NYK
 Only Franz,Josh Hart,3062679,16,False,2026-11-04 16:30:00,CHI
@@ -602,7 +602,6 @@ Lil Dicky Ball,Zach LaVine,3064440,16,False,2026-11-04 19:00:00,LAL
 Lil Dicky Ball,Bam Adebayo,4066261,16,False,2026-11-04 19:30:00,LAC
 Brunson’s Burners,Bobby Portis,3064482,16,False,2026-11-04 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,16,False,2026-11-04 19:30:00,MIA
-walk and ball torture,Brook Lopez,3448,16,False,2026-11-04 19:30:00,MIA
 walk and ball torture,Darius Garland,4396907,16,False,2026-11-04 19:30:00,MIA
 walk and ball torture,Davion Mitchell,4278053,16,False,2026-11-04 19:30:00,LAC
 lee lee,Giannis Antetokounmpo,3032977,16,False,2026-11-04 19:30:00,LAC
@@ -821,6 +820,7 @@ Aspiration Risk,Toumani Camara,4431736,19,False,2026-11-07 19:00:00,SAS
 Lil Dicky Ball,Anfernee Simons,4351851,20,False,2026-11-08 12:30:00,CHI
 Victor Krum,Caleb Wilson,5095151,20,False,2026-11-08 12:30:00,PHL
 the emergency room,Dean Wade,3912848,20,False,2026-11-08 12:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,20,False,2026-11-08 12:30:00,PHL
 walk and ball torture,Jaylen Brown,3917376,20,False,2026-11-08 12:30:00,CHI
 Victor Krum,Joel Embiid,3059318,20,False,2026-11-08 12:30:00,CHI
 Victor Krum,Josh Giddey,4871145,20,False,2026-11-08 12:30:00,PHL
@@ -881,7 +881,6 @@ the emergency room,Tyler Herro,4395725,20,False,2026-11-08 17:00:00,BOS
 Lil Dicky Ball,Bam Adebayo,4066261,20,False,2026-11-08 18:00:00,SAC
 Brunson’s Burners,Bobby Portis,3064482,20,False,2026-11-08 18:00:00,SAC
 Only Franz,Brandon Ingram,3913176,20,False,2026-11-08 18:00:00,NOP
-walk and ball torture,Brook Lopez,3448,20,False,2026-11-08 18:00:00,NOP
 walk and ball torture,Darius Acuff Jr.,5142620,20,False,2026-11-08 18:00:00,MIA
 walk and ball torture,Darius Garland,4396907,20,False,2026-11-08 18:00:00,NOP
 walk and ball torture,Davion Mitchell,4278053,20,False,2026-11-08 18:00:00,SAC
@@ -1019,7 +1018,6 @@ the emergency room,Ace Bailey,4873138,22,False,2026-11-10 18:00:00,MIA
 Lil Dicky Ball,Bam Adebayo,4066261,22,False,2026-11-10 18:00:00,UTA
 Brunson’s Burners,Bobby Portis,3064482,22,False,2026-11-10 18:00:00,UTA
 Only Franz,Brandon Ingram,3913176,22,False,2026-11-10 18:00:00,PHO
-walk and ball torture,Brook Lopez,3448,22,False,2026-11-10 18:00:00,PHO
 walk and ball torture,Darius Garland,4396907,22,False,2026-11-10 18:00:00,PHO
 Brunson’s Burners,Darryn Peterson,5041955,22,False,2026-11-10 18:00:00,MIA
 walk and ball torture,Davion Mitchell,4278053,22,False,2026-11-10 18:00:00,UTA
@@ -1107,6 +1105,7 @@ walk and ball torture,Devin Vassell,4395630,23,False,2026-11-11 17:00:00,CHI
 Aspiration Risk,Dylan Harper,5037871,23,False,2026-11-11 17:00:00,CHI
 Jared Dubley,Egor Demin,5175643,23,False,2026-11-11 17:00:00,NOP
 Jared Dubley,Jaime Jaquez Jr.,4432848,23,False,2026-11-11 17:00:00,LAL
+walk and ball torture,Jalen Smith,4397189,23,False,2026-11-11 17:00:00,SAS
 Lil Dicky Ball,Jamal Murray,3936299,23,False,2026-11-11 17:00:00,MEM
 Victor Krum,Jaylen Wells,5112087,23,False,2026-11-11 17:00:00,DEN
 Brunson’s Burners,Jerami Grant,2991070,23,False,2026-11-11 17:00:00,DEN
@@ -1263,6 +1262,7 @@ Victor Krum,Dyson Daniels,4869342,25,False,2026-11-13 17:00:00,CHI
 Brunson’s Burners,Evan Mobley,4432158,25,False,2026-11-13 17:00:00,MIA
 lee lee,Giannis Antetokounmpo,3032977,25,False,2026-11-13 17:00:00,CLE
 the emergency room,Jalen Johnson,4701230,25,False,2026-11-13 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,25,False,2026-11-13 17:00:00,ATL
 lee lee,James Harden,3992,25,False,2026-11-13 17:00:00,MIA
 T's Top Team,Jarrett Allen,4066328,25,False,2026-11-13 17:00:00,MIA
 Victor Krum,Jaylen Wells,5112087,25,False,2026-11-13 17:00:00,NOP
@@ -1320,7 +1320,6 @@ Lil Dicky Ball,Zach LaVine,3064440,25,False,2026-11-13 19:00:00,POR
 Only Franz,Ajay Mitchell,4900671,25,False,2026-11-13 19:30:00,LAC
 the emergency room,Alex Caruso,2991350,25,False,2026-11-13 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,25,False,2026-11-13 19:30:00,OKC
-walk and ball torture,Brook Lopez,3448,25,False,2026-11-13 19:30:00,OKC
 BLACK FLAGG,Chet Holmgren,4433255,25,False,2026-11-13 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,25,False,2026-11-13 19:30:00,OKC
 Only Franz,Isaiah Hartenstein,4222252,25,False,2026-11-13 19:30:00,LAC
@@ -1369,6 +1368,7 @@ Jared Dubley,Egor Demin,5175643,26,False,2026-11-14 17:00:00,MEM
 lee lee,Giannis Antetokounmpo,3032977,26,False,2026-11-14 17:00:00,DET
 walk and ball torture,Jaden McDaniels,4431671,26,False,2026-11-14 17:00:00,CHI
 Only Franz,Jalen Duren,4433621,26,False,2026-11-14 17:00:00,MIA
+walk and ball torture,Jalen Smith,4397189,26,False,2026-11-14 17:00:00,MIN
 Victor Krum,Jaylen Wells,5112087,26,False,2026-11-14 17:00:00,BKN
 Brunson’s Burners,Jerami Grant,2991070,26,False,2026-11-14 17:00:00,BKN
 Aspiration Risk,John Collins,3908845,26,False,2026-11-14 17:00:00,MIA
@@ -1410,7 +1410,6 @@ walk and ball torture,Walker Kessler,4433136,27,False,2026-11-15 13:00:00,PHO
 "Old Heads, Young Blood",Ziaire Williams,4433137,27,False,2026-11-15 13:00:00,PHO
 Only Franz,Brandon Ingram,3913176,27,False,2026-11-15 13:30:00,CHA
 Only Franz,Brandon Miller,4433287,27,False,2026-11-15 13:30:00,LAC
-walk and ball torture,Brook Lopez,3448,27,False,2026-11-15 13:30:00,CHA
 Jared Dubley,Coby White,4395651,27,False,2026-11-15 13:30:00,LAC
 walk and ball torture,Darius Garland,4396907,27,False,2026-11-15 13:30:00,CHA
 BLACK FLAGG,Grayson Allen,3135045,27,False,2026-11-15 13:30:00,LAC
@@ -1504,6 +1503,7 @@ lee lee,Derrick White,3078576,28,False,2026-11-16 16:00:00,ORL
 Jared Dubley,Donovan Mitchell,3908809,28,False,2026-11-16 16:00:00,CHI
 Brunson’s Burners,Evan Mobley,4432158,28,False,2026-11-16 16:00:00,CHI
 Only Franz,Franz Wagner,4566434,28,False,2026-11-16 16:00:00,BOS
+walk and ball torture,Jalen Smith,4397189,28,False,2026-11-16 16:00:00,CLE
 lee lee,James Harden,3992,28,False,2026-11-16 16:00:00,CHI
 T's Top Team,Jarrett Allen,4066328,28,False,2026-11-16 16:00:00,CHI
 Victor Krum,Jaylen Wells,5112087,28,False,2026-11-16 16:00:00,WAS
@@ -1632,7 +1632,6 @@ walk and ball torture,Walker Kessler,4433136,29,False,2026-11-17 19:00:00,CHA
 "Old Heads, Young Blood",Ziaire Williams,4433137,29,False,2026-11-17 19:00:00,CHA
 the emergency room,Ace Bailey,4873138,29,False,2026-11-17 20:00:00,LAC
 Only Franz,Brandon Ingram,3913176,29,False,2026-11-17 20:00:00,UTA
-walk and ball torture,Brook Lopez,3448,29,False,2026-11-17 20:00:00,UTA
 walk and ball torture,Darius Garland,4396907,29,False,2026-11-17 20:00:00,UTA
 Brunson’s Burners,Darryn Peterson,5041955,29,False,2026-11-17 20:00:00,LAC
 BLACK FLAGG,Jaren Jackson Jr.,4277961,29,False,2026-11-17 20:00:00,LAC
@@ -1696,6 +1695,7 @@ BLACK FLAGG,Collin Murray-Boyles,5093267,30,False,2026-11-18 16:30:00,WAS
 Jared Dubley,Egor Demin,5175643,30,False,2026-11-18 16:30:00,CHI
 Brunson’s Burners,Immanuel Quickley,4395724,30,False,2026-11-18 16:30:00,WAS
 Jared Dubley,Ja'Kobe Walter,4684272,30,False,2026-11-18 16:30:00,WAS
+walk and ball torture,Jalen Smith,4397189,30,False,2026-11-18 16:30:00,BKN
 Victor Krum,Josh Giddey,4871145,30,False,2026-11-18 16:30:00,BKN
 walk and ball torture,Julius Randle,3064514,30,False,2026-11-18 16:30:00,CHI
 Aspiration Risk,Kawhi Leonard,6450,30,False,2026-11-18 16:30:00,WAS
@@ -1783,7 +1783,6 @@ Aspiration Risk,Anthony Edwards,4594268,31,False,2026-11-19 17:00:00,NYK
 the emergency room,Ayo Dosunmu,4397002,31,False,2026-11-19 17:00:00,NYK
 BLACK FLAGG,Brandin Podziemski,4709138,31,False,2026-11-19 17:00:00,MEM
 Only Franz,Brandon Ingram,3913176,31,False,2026-11-19 17:00:00,SAS
-walk and ball torture,Brook Lopez,3448,31,False,2026-11-19 17:00:00,SAS
 Lil Dicky Ball,Cameron Boozer,5041935,31,False,2026-11-19 17:00:00,GSW
 BLACK FLAGG,Cedric Coward,4903027,31,False,2026-11-19 17:00:00,GSW
 Brunson’s Burners,Damian Lillard,6606,31,False,2026-11-19 17:00:00,MIL
@@ -1882,6 +1881,7 @@ BLACK FLAGG,DeAndre Jordan,3442,32,False,2026-11-20 17:00:00,OKC
 BLACK FLAGG,Dejounte Murray,3907497,32,False,2026-11-20 17:00:00,OKC
 the emergency room,Derik Queen,4869780,32,False,2026-11-20 17:00:00,OKC
 Only Franz,Isaiah Hartenstein,4222252,32,False,2026-11-20 17:00:00,NOP
+walk and ball torture,Jalen Smith,4397189,32,False,2026-11-20 17:00:00,WAS
 lee lee,Jalen Williams,4593803,32,False,2026-11-20 17:00:00,NOP
 the emergency room,Jared McCain,4683778,32,False,2026-11-20 17:00:00,NOP
 Lil Dicky Ball,Jeremiah Fears,5144091,32,False,2026-11-20 17:00:00,OKC
@@ -1956,7 +1956,6 @@ Aspiration Risk,Toumani Camara,4431736,33,False,2026-11-21 16:30:00,NYK
 Aspiration Risk,Anthony Edwards,4594268,33,False,2026-11-21 17:00:00,MEM
 the emergency room,Ayo Dosunmu,4397002,33,False,2026-11-21 17:00:00,MEM
 Only Franz,Brandon Ingram,3913176,33,False,2026-11-21 17:00:00,DAL
-walk and ball torture,Brook Lopez,3448,33,False,2026-11-21 17:00:00,DAL
 Lil Dicky Ball,Cameron Boozer,5041935,33,False,2026-11-21 17:00:00,MIN
 BLACK FLAGG,Cedric Coward,4903027,33,False,2026-11-21 17:00:00,MIN
 BLACK FLAGG,Cooper Flagg,5041939,33,False,2026-11-21 17:00:00,LAC
@@ -2041,6 +2040,7 @@ Brunson’s Burners,Darryn Peterson,5041955,34,False,2026-11-22 16:00:00,DAL
 walk and ball torture,Dereck Lively II,4683688,34,False,2026-11-22 16:00:00,UTA
 "Old Heads, Young Blood",Desmond Bane,4066320,34,False,2026-11-22 16:00:00,WAS
 Only Franz,Franz Wagner,4566434,34,False,2026-11-22 16:00:00,WAS
+walk and ball torture,Jalen Smith,4397189,34,False,2026-11-22 16:00:00,DEN
 Lil Dicky Ball,Jamal Murray,3936299,34,False,2026-11-22 16:00:00,CHI
 BLACK FLAGG,Jaren Jackson Jr.,4277961,34,False,2026-11-22 16:00:00,DAL
 walk and ball torture,Jaxson Hayes,4397077,34,False,2026-11-22 16:00:00,DAL
@@ -2151,6 +2151,7 @@ Aspiration Risk,Dillon Brooks,3155526,35,False,2026-11-23 17:00:00,NOP
 Jared Dubley,Donovan Mitchell,3908809,35,False,2026-11-23 17:00:00,CHI
 Brunson’s Burners,Evan Mobley,4432158,35,False,2026-11-23 17:00:00,CHI
 Brunson’s Burners,Jalen Green,4437244,35,False,2026-11-23 17:00:00,NOP
+walk and ball torture,Jalen Smith,4397189,35,False,2026-11-23 17:00:00,CLE
 lee lee,James Harden,3992,35,False,2026-11-23 17:00:00,CHI
 T's Top Team,Jarrett Allen,4066328,35,False,2026-11-23 17:00:00,CHI
 Lil Dicky Ball,Jeremiah Fears,5144091,35,False,2026-11-23 17:00:00,PHO
@@ -2167,7 +2168,6 @@ Lil Dicky Ball,Trey Murphy III,4397688,35,False,2026-11-23 17:00:00,PHO
 T's Top Team,Alperen Sengun,4871144,35,False,2026-11-23 17:30:00,LAC
 the emergency room,Amen Thompson,4684740,35,False,2026-11-23 17:30:00,LAC
 Only Franz,Brandon Ingram,3913176,35,False,2026-11-23 17:30:00,HOU
-walk and ball torture,Brook Lopez,3448,35,False,2026-11-23 17:30:00,HOU
 walk and ball torture,Darius Garland,4396907,35,False,2026-11-23 17:30:00,HOU
 "Old Heads, Young Blood",Fred VanVleet,2991230,35,False,2026-11-23 17:30:00,LAC
 Brunson’s Burners,Jabari Smith Jr.,4432639,35,False,2026-11-23 17:30:00,LAC
@@ -2250,6 +2250,7 @@ Only Franz,Brandon Miller,4433287,37,False,2026-11-25 16:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,37,False,2026-11-25 16:00:00,CHA
 Jared Dubley,Coby White,4395651,37,False,2026-11-25 16:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,37,False,2026-11-25 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,37,False,2026-11-25 16:00:00,CHA
 Victor Krum,Josh Giddey,4871145,37,False,2026-11-25 16:00:00,CHA
 the emergency room,Kon Knueppel,5061575,37,False,2026-11-25 16:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,37,False,2026-11-25 16:00:00,CHA
@@ -2282,7 +2283,6 @@ Brunson’s Burners,Rudy Gobert,3032976,37,False,2026-11-25 16:30:00,OKC
 T's Top Team,Shai Gilgeous-Alexander,4278073,37,False,2026-11-25 16:30:00,MIN
 walk and ball torture,Terrence Shannon Jr.,4432847,37,False,2026-11-25 16:30:00,OKC
 Only Franz,Brandon Ingram,3913176,37,False,2026-11-25 17:00:00,MEM
-walk and ball torture,Brook Lopez,3448,37,False,2026-11-25 17:00:00,MEM
 Lil Dicky Ball,Cameron Boozer,5041935,37,False,2026-11-25 17:00:00,LAC
 BLACK FLAGG,Cedric Coward,4903027,37,False,2026-11-25 17:00:00,LAC
 walk and ball torture,Darius Garland,4396907,37,False,2026-11-25 17:00:00,MEM
@@ -2420,7 +2420,6 @@ the emergency room,Ace Bailey,4873138,39,False,2026-11-27 18:30:00,DEN
 Only Franz,Austin Reaves,4066457,39,False,2026-11-27 18:30:00,SAS
 BLACK FLAGG,Brandin Podziemski,4709138,39,False,2026-11-27 18:30:00,POR
 Only Franz,Brandon Ingram,3913176,39,False,2026-11-27 18:30:00,NOP
-walk and ball torture,Brook Lopez,3448,39,False,2026-11-27 18:30:00,NOP
 "Old Heads, Young Blood",Cameron Johnson,3138196,39,False,2026-11-27 18:30:00,UTA
 T's Top Team,Christian Braun,4431767,39,False,2026-11-27 18:30:00,UTA
 Brunson’s Burners,Damian Lillard,6606,39,False,2026-11-27 18:30:00,GSW
@@ -2494,6 +2493,7 @@ BLACK FLAGG,Chet Holmgren,4433255,40,False,2026-11-28 17:00:00,MIL
 Only Franz,Isaiah Hartenstein,4222252,40,False,2026-11-28 17:00:00,MIL
 Only Franz,Ivica Zubac,4017837,40,False,2026-11-28 17:00:00,CHI
 Jared Dubley,Jaime Jaquez Jr.,4432848,40,False,2026-11-28 17:00:00,OKC
+walk and ball torture,Jalen Smith,4397189,40,False,2026-11-28 17:00:00,IND
 lee lee,Jalen Williams,4593803,40,False,2026-11-28 17:00:00,MIL
 the emergency room,Jared McCain,4683778,40,False,2026-11-28 17:00:00,MIL
 Victor Krum,Josh Giddey,4871145,40,False,2026-11-28 17:00:00,IND
@@ -2618,7 +2618,6 @@ Victor Krum,Wendell Carter Jr.,4277847,41,False,2026-11-29 15:00:00,DET
 "Old Heads, Young Blood",Zion Williamson,4395628,41,False,2026-11-29 15:00:00,POR
 BLACK FLAGG,Brandin Podziemski,4709138,41,False,2026-11-29 17:30:00,LAC
 Only Franz,Brandon Ingram,3913176,41,False,2026-11-29 17:30:00,GSW
-walk and ball torture,Brook Lopez,3448,41,False,2026-11-29 17:30:00,GSW
 walk and ball torture,Darius Garland,4396907,41,False,2026-11-29 17:30:00,GSW
 Lil Dicky Ball,Draymond Green,6589,41,False,2026-11-29 17:30:00,LAC
 Jared Dubley,Jimmy Butler III,6430,41,False,2026-11-29 17:30:00,LAC
@@ -2754,6 +2753,7 @@ Aspiration Risk,Nickeil Alexander-Walker,4278039,43,False,2026-12-01 16:30:00,MI
 lee lee,Onyeka Okongwu,4431680,43,False,2026-12-01 16:30:00,MIA
 Victor Krum,Caleb Wilson,5095151,43,False,2026-12-01 17:00:00,NYK
 T's Top Team,Jalen Brunson,3934672,43,False,2026-12-01 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,43,False,2026-12-01 17:00:00,NYK
 Victor Krum,Josh Giddey,4871145,43,False,2026-12-01 17:00:00,NYK
 Only Franz,Josh Hart,3062679,43,False,2026-12-01 17:00:00,CHI
 Brunson’s Burners,Karl-Anthony Towns,3136195,43,False,2026-12-01 17:00:00,CHI
@@ -2775,7 +2775,6 @@ T's Top Team,RJ Barrett,4395625,43,False,2026-12-01 17:30:00,HOU
 T's Top Team,Reed Sheppard,4711272,43,False,2026-12-01 17:30:00,TOR
 Victor Krum,Scottie Barnes,4433134,43,False,2026-12-01 17:30:00,HOU
 Only Franz,Brandon Ingram,3913176,43,False,2026-12-01 18:00:00,PHO
-walk and ball torture,Brook Lopez,3448,43,False,2026-12-01 18:00:00,PHO
 walk and ball torture,Darius Garland,4396907,43,False,2026-12-01 18:00:00,PHO
 "Old Heads, Young Blood",Devin Booker,3136193,43,False,2026-12-01 18:00:00,LAC
 Aspiration Risk,Dillon Brooks,3155526,43,False,2026-12-01 18:00:00,LAC
@@ -2905,7 +2904,6 @@ Lil Dicky Ball,Zach LaVine,3064440,44,False,2026-12-02 18:00:00,PHO
 Aspiration Risk,Anthony Edwards,4594268,44,False,2026-12-02 19:30:00,LAC
 the emergency room,Ayo Dosunmu,4397002,44,False,2026-12-02 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,44,False,2026-12-02 19:30:00,MIN
-walk and ball torture,Brook Lopez,3448,44,False,2026-12-02 19:30:00,MIN
 walk and ball torture,Darius Garland,4396907,44,False,2026-12-02 19:30:00,MIN
 walk and ball torture,Jaden McDaniels,4431671,44,False,2026-12-02 19:30:00,LAC
 the emergency room,Jonathan Kuminga,4433247,44,False,2026-12-02 19:30:00,LAC
@@ -2943,6 +2941,7 @@ Aspiration Risk,Dylan Harper,5037871,45,False,2026-12-03 17:00:00,TOR
 Brunson’s Burners,Evan Mobley,4432158,45,False,2026-12-03 17:00:00,CHI
 Brunson’s Burners,Immanuel Quickley,4395724,45,False,2026-12-03 17:00:00,SAS
 Jared Dubley,Ja'Kobe Walter,4684272,45,False,2026-12-03 17:00:00,SAS
+walk and ball torture,Jalen Smith,4397189,45,False,2026-12-03 17:00:00,CLE
 lee lee,James Harden,3992,45,False,2026-12-03 17:00:00,CHI
 T's Top Team,Jarrett Allen,4066328,45,False,2026-12-03 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,45,False,2026-12-03 17:00:00,CLE
@@ -3103,6 +3102,7 @@ the emergency room,Amen Thompson,4684740,55,False,2026-12-13 15:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,55,False,2026-12-13 15:00:00,HOU
 "Old Heads, Young Blood",Fred VanVleet,2991230,55,False,2026-12-13 15:00:00,CHI
 Brunson’s Burners,Jabari Smith Jr.,4432639,55,False,2026-12-13 15:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,55,False,2026-12-13 15:00:00,HOU
 Victor Krum,Josh Giddey,4871145,55,False,2026-12-13 15:00:00,HOU
 "Old Heads, Young Blood",Kevin Durant,3202,55,False,2026-12-13 15:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,55,False,2026-12-13 15:00:00,HOU
@@ -3110,7 +3110,6 @@ Lil Dicky Ball,Nic Claxton,4278067,55,False,2026-12-13 15:00:00,HOU
 "Old Heads, Young Blood",Norman Powell,2595516,55,False,2026-12-13 15:00:00,HOU
 T's Top Team,Reed Sheppard,4711272,55,False,2026-12-13 15:00:00,CHI
 Only Franz,Brandon Ingram,3913176,55,False,2026-12-13 16:00:00,SAS
-walk and ball torture,Brook Lopez,3448,55,False,2026-12-13 16:00:00,SAS
 walk and ball torture,Darius Garland,4396907,55,False,2026-12-13 16:00:00,SAS
 T's Top Team,De'Aaron Fox,4066259,55,False,2026-12-13 16:00:00,LAC
 walk and ball torture,Devin Vassell,4395630,55,False,2026-12-13 16:00:00,LAC
@@ -3191,6 +3190,7 @@ walk and ball torture,Dereck Lively II,4683688,56,False,2026-12-14 17:00:00,MIL
 Lil Dicky Ball,Draymond Green,6589,56,False,2026-12-14 17:00:00,MEM
 lee lee,Giannis Antetokounmpo,3032977,56,False,2026-12-14 17:00:00,CHI
 Jared Dubley,Jaime Jaquez Jr.,4432848,56,False,2026-12-14 17:00:00,DAL
+walk and ball torture,Jalen Smith,4397189,56,False,2026-12-14 17:00:00,MIA
 Victor Krum,Jaylen Wells,5112087,56,False,2026-12-14 17:00:00,GSW
 Brunson’s Burners,Jerami Grant,2991070,56,False,2026-12-14 17:00:00,GSW
 Jared Dubley,Jimmy Butler III,6430,56,False,2026-12-14 17:00:00,MEM
@@ -3294,7 +3294,6 @@ Only Franz,Ausar Thompson,4684742,58,False,2026-12-16 16:00:00,PHO
 BLACK FLAGG,Brandin Podziemski,4709138,58,False,2026-12-16 16:00:00,IND
 Only Franz,Brandon Ingram,3913176,58,False,2026-12-16 16:00:00,CHA
 Only Franz,Brandon Miller,4433287,58,False,2026-12-16 16:00:00,LAC
-walk and ball torture,Brook Lopez,3448,58,False,2026-12-16 16:00:00,CHA
 Lil Dicky Ball,Cade Cunningham,4432166,58,False,2026-12-16 16:00:00,PHO
 Jared Dubley,Coby White,4395651,58,False,2026-12-16 16:00:00,LAC
 walk and ball torture,Darius Garland,4396907,58,False,2026-12-16 16:00:00,CHA
@@ -3382,6 +3381,7 @@ lee lee,Domantas Sabonis,3155942,58,False,2026-12-16 17:00:00,OKC
 lee lee,Giannis Antetokounmpo,3032977,58,False,2026-12-16 17:00:00,MEM
 Only Franz,Isaiah Hartenstein,4222252,58,False,2026-12-16 17:00:00,SAC
 T's Top Team,Jalen Brunson,3934672,58,False,2026-12-16 17:00:00,NOP
+walk and ball torture,Jalen Smith,4397189,58,False,2026-12-16 17:00:00,UTA
 lee lee,Jalen Williams,4593803,58,False,2026-12-16 17:00:00,SAC
 the emergency room,Jared McCain,4683778,58,False,2026-12-16 17:00:00,SAC
 BLACK FLAGG,Jaren Jackson Jr.,4277961,58,False,2026-12-16 17:00:00,CHI
@@ -3479,7 +3479,6 @@ Lil Dicky Ball,Bam Adebayo,4066261,60,False,2026-12-18 16:00:00,LAC
 Brunson’s Burners,Bobby Portis,3064482,60,False,2026-12-18 16:00:00,LAC
 Only Franz,Brandon Ingram,3913176,60,False,2026-12-18 16:00:00,MIA
 Only Franz,Brandon Miller,4433287,60,False,2026-12-18 16:00:00,OKC
-walk and ball torture,Brook Lopez,3448,60,False,2026-12-18 16:00:00,MIA
 BLACK FLAGG,Chet Holmgren,4433255,60,False,2026-12-18 16:00:00,CHA
 Jared Dubley,Coby White,4395651,60,False,2026-12-18 16:00:00,OKC
 walk and ball torture,Darius Garland,4396907,60,False,2026-12-18 16:00:00,MIA
@@ -3570,6 +3569,7 @@ Brunson’s Burners,Jabari Smith Jr.,4432639,60,False,2026-12-18 17:00:00,MEM
 walk and ball torture,Jaden McDaniels,4431671,60,False,2026-12-18 17:00:00,LAL
 Jared Dubley,Jaime Jaquez Jr.,4432848,60,False,2026-12-18 17:00:00,PHO
 Brunson’s Burners,Jalen Green,4437244,60,False,2026-12-18 17:00:00,MIL
+walk and ball torture,Jalen Smith,4397189,60,False,2026-12-18 17:00:00,SAS
 Victor Krum,Jaylen Wells,5112087,60,False,2026-12-18 17:00:00,HOU
 Brunson’s Burners,Jerami Grant,2991070,60,False,2026-12-18 17:00:00,HOU
 Lil Dicky Ball,Jeremiah Fears,5144091,60,False,2026-12-18 17:00:00,SAC
@@ -3634,6 +3634,7 @@ Victor Krum,Caleb Wilson,5095151,61,False,2026-12-19 17:00:00,DAL
 BLACK FLAGG,Cooper Flagg,5041939,61,False,2026-12-19 17:00:00,CHI
 Jared Dubley,Daniel Gafford,4278049,61,False,2026-12-19 17:00:00,CHI
 walk and ball torture,Dereck Lively II,4683688,61,False,2026-12-19 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,61,False,2026-12-19 17:00:00,DAL
 Victor Krum,Josh Giddey,4871145,61,False,2026-12-19 17:00:00,DAL
 BLACK FLAGG,Kyrie Irving,6442,61,False,2026-12-19 17:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,61,False,2026-12-19 17:00:00,DAL
@@ -3758,7 +3759,6 @@ the emergency room,Tyler Herro,4395725,62,False,2026-12-20 17:00:00,GSW
 "Old Heads, Young Blood",Yaxel Lendeborg,5175737,62,False,2026-12-20 17:00:00,MIL
 walk and ball torture,Andrew Nembhard,4395712,62,False,2026-12-20 19:00:00,LAC
 Only Franz,Brandon Ingram,3913176,62,False,2026-12-20 19:00:00,IND
-walk and ball torture,Brook Lopez,3448,62,False,2026-12-20 19:00:00,IND
 walk and ball torture,Darius Garland,4396907,62,False,2026-12-20 19:00:00,IND
 Only Franz,Ivica Zubac,4017837,62,False,2026-12-20 19:00:00,LAC
 T's Top Team,Keaton Wagler,5254165,62,False,2026-12-20 19:00:00,IND
@@ -3809,6 +3809,7 @@ Jared Dubley,Donovan Clingan,5105565,63,False,2026-12-21 16:30:00,BKN
 Jared Dubley,Egor Demin,5175643,63,False,2026-12-21 16:30:00,POR
 lee lee,Giannis Antetokounmpo,3032977,63,False,2026-12-21 16:30:00,CHI
 Only Franz,Ja Morant,4279888,63,False,2026-12-21 16:30:00,BKN
+walk and ball torture,Jalen Smith,4397189,63,False,2026-12-21 16:30:00,MIA
 Victor Krum,Josh Giddey,4871145,63,False,2026-12-21 16:30:00,MIA
 Only Franz,Jrue Holiday,3995,63,False,2026-12-21 16:30:00,BKN
 walk and ball torture,Julius Randle,3064514,63,False,2026-12-21 16:30:00,POR
@@ -3869,7 +3870,6 @@ walk and ball torture,Walker Kessler,4433136,63,False,2026-12-21 19:00:00,IND
 "Old Heads, Young Blood",Ziaire Williams,4433137,63,False,2026-12-21 19:00:00,IND
 Brunson’s Burners,Aaron Gordon,3064290,63,False,2026-12-21 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,63,False,2026-12-21 19:30:00,DEN
-walk and ball torture,Brook Lopez,3448,63,False,2026-12-21 19:30:00,DEN
 "Old Heads, Young Blood",Cameron Johnson,3138196,63,False,2026-12-21 19:30:00,LAC
 T's Top Team,Christian Braun,4431767,63,False,2026-12-21 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,63,False,2026-12-21 19:30:00,DEN
@@ -3971,6 +3971,7 @@ lee lee,Giannis Antetokounmpo,3032977,65,False,2026-12-23 16:30:00,CHI
 Only Franz,Ja Morant,4279888,65,False,2026-12-23 16:30:00,BOS
 Brunson’s Burners,Jabari Smith Jr.,4432639,65,False,2026-12-23 16:30:00,PHL
 T's Top Team,Jalen Brunson,3934672,65,False,2026-12-23 16:30:00,UTA
+walk and ball torture,Jalen Smith,4397189,65,False,2026-12-23 16:30:00,MIA
 BLACK FLAGG,Jaren Jackson Jr.,4277961,65,False,2026-12-23 16:30:00,NYK
 walk and ball torture,Jaxson Hayes,4397077,65,False,2026-12-23 16:30:00,NYK
 walk and ball torture,Jaylen Brown,3917376,65,False,2026-12-23 16:30:00,HOU
@@ -4079,7 +4080,6 @@ Lil Dicky Ball,Zach LaVine,3064440,65,False,2026-12-23 19:00:00,DAL
 "Old Heads, Young Blood",Ziaire Williams,4433137,65,False,2026-12-23 19:00:00,DEN
 BLACK FLAGG,Brandin Podziemski,4709138,65,False,2026-12-23 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,65,False,2026-12-23 19:30:00,GSW
-walk and ball torture,Brook Lopez,3448,65,False,2026-12-23 19:30:00,GSW
 walk and ball torture,Darius Garland,4396907,65,False,2026-12-23 19:30:00,GSW
 Lil Dicky Ball,Draymond Green,6589,65,False,2026-12-23 19:30:00,LAC
 Jared Dubley,Jimmy Butler III,6430,65,False,2026-12-23 19:30:00,LAC
@@ -4216,6 +4216,7 @@ Aspiration Risk,Dillon Brooks,3155526,68,False,2026-12-26 17:00:00,DAL
 Victor Krum,Duncan Robinson,3157465,68,False,2026-12-26 17:00:00,CHI
 Only Franz,Jalen Duren,4433621,68,False,2026-12-26 17:00:00,CHI
 Brunson’s Burners,Jalen Green,4437244,68,False,2026-12-26 17:00:00,DAL
+walk and ball torture,Jalen Smith,4397189,68,False,2026-12-26 17:00:00,DET
 Aspiration Risk,John Collins,3908845,68,False,2026-12-26 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,68,False,2026-12-26 17:00:00,DET
 BLACK FLAGG,Khaman Maluach,5203685,68,False,2026-12-26 17:00:00,DAL
@@ -4229,7 +4230,6 @@ Brunson’s Burners,P.J. Washington,4278078,68,False,2026-12-26 17:00:00,PHO
 "Old Heads, Young Blood",Paul Reed,4278562,68,False,2026-12-26 17:00:00,CHI
 Victor Krum,Zaccharie Risacher,5211175,68,False,2026-12-26 17:00:00,PHO
 Only Franz,Brandon Ingram,3913176,68,False,2026-12-26 19:30:00,MEM
-walk and ball torture,Brook Lopez,3448,68,False,2026-12-26 19:30:00,MEM
 Lil Dicky Ball,Cameron Boozer,5041935,68,False,2026-12-26 19:30:00,LAC
 BLACK FLAGG,Cedric Coward,4903027,68,False,2026-12-26 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,68,False,2026-12-26 19:30:00,MEM
@@ -4357,7 +4357,6 @@ walk and ball torture,Terrence Shannon Jr.,4432847,69,False,2026-12-27 17:30:00,
 Lil Dicky Ball,Anfernee Simons,4351851,69,False,2026-12-27 18:00:00,LAC
 Only Franz,Austin Reaves,4066457,69,False,2026-12-27 18:00:00,MEM
 Only Franz,Brandon Ingram,3913176,69,False,2026-12-27 18:00:00,PHL
-walk and ball torture,Brook Lopez,3448,69,False,2026-12-27 18:00:00,PHL
 Lil Dicky Ball,Cameron Boozer,5041935,69,False,2026-12-27 18:00:00,LAL
 BLACK FLAGG,Cedric Coward,4903027,69,False,2026-12-27 18:00:00,LAL
 walk and ball torture,Darius Garland,4396907,69,False,2026-12-27 18:00:00,PHL
@@ -4428,7 +4427,6 @@ walk and ball torture,Andrew Nembhard,4395712,71,False,2026-12-29 16:00:00,LAC
 Lil Dicky Ball,Anthony Black,4712849,71,False,2026-12-29 16:00:00,CHA
 Only Franz,Brandon Ingram,3913176,71,False,2026-12-29 16:00:00,IND
 Only Franz,Brandon Miller,4433287,71,False,2026-12-29 16:00:00,ORL
-walk and ball torture,Brook Lopez,3448,71,False,2026-12-29 16:00:00,IND
 Brunson’s Burners,CJ McCollum,2490149,71,False,2026-12-29 16:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,71,False,2026-12-29 16:00:00,ATL
 Jared Dubley,Coby White,4395651,71,False,2026-12-29 16:00:00,ORL
@@ -4439,6 +4437,7 @@ Only Franz,Franz Wagner,4566434,71,False,2026-12-29 16:00:00,CHA
 BLACK FLAGG,Grayson Allen,3135045,71,False,2026-12-29 16:00:00,ORL
 Only Franz,Ivica Zubac,4017837,71,False,2026-12-29 16:00:00,LAC
 the emergency room,Jalen Johnson,4701230,71,False,2026-12-29 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,71,False,2026-12-29 16:00:00,ATL
 Victor Krum,Josh Giddey,4871145,71,False,2026-12-29 16:00:00,ATL
 T's Top Team,Keaton Wagler,5254165,71,False,2026-12-29 16:00:00,IND
 the emergency room,Kon Knueppel,5061575,71,False,2026-12-29 16:00:00,ORL
@@ -4552,6 +4551,7 @@ Victor Krum,Scottie Barnes,4433134,72,False,2026-12-30 16:30:00,WAS
 Aspiration Risk,Trae Young,4277905,72,False,2026-12-30 16:30:00,TOR
 Victor Krum,Caleb Wilson,5095151,72,False,2026-12-30 17:00:00,BOS
 lee lee,Derrick White,3078576,72,False,2026-12-30 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,72,False,2026-12-30 17:00:00,BOS
 Jared Dubley,Jayson Tatum,4065648,72,False,2026-12-30 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,72,False,2026-12-30 17:00:00,BOS
 Lil Dicky Ball,Matas Buzelis,4711294,72,False,2026-12-30 17:00:00,BOS
@@ -4614,7 +4614,6 @@ Aspiration Risk,Aaron Wiggins,4397183,73,False,2026-12-31 12:00:00,MIL
 walk and ball torture,Andrew Nembhard,4395712,73,False,2026-12-31 12:00:00,ORL
 Lil Dicky Ball,Anthony Black,4712849,73,False,2026-12-31 12:00:00,IND
 Only Franz,Brandon Ingram,3913176,73,False,2026-12-31 12:00:00,CLE
-walk and ball torture,Brook Lopez,3448,73,False,2026-12-31 12:00:00,CLE
 Brunson’s Burners,CJ McCollum,2490149,73,False,2026-12-31 12:00:00,MIL
 walk and ball torture,Darius Garland,4396907,73,False,2026-12-31 12:00:00,CLE
 "Old Heads, Young Blood",Desmond Bane,4066320,73,False,2026-12-31 12:00:00,IND
@@ -4713,7 +4712,6 @@ Aspiration Risk,Trae Young,4277905,74,False,2027-01-01 14:00:00,SAS
 Lil Dicky Ball,Anthony Black,4712849,74,False,2027-01-01 16:30:00,DET
 Only Franz,Ausar Thompson,4684742,74,False,2027-01-01 16:30:00,ORL
 Only Franz,Brandon Ingram,3913176,74,False,2027-01-01 16:30:00,TOR
-walk and ball torture,Brook Lopez,3448,74,False,2027-01-01 16:30:00,TOR
 Lil Dicky Ball,Cade Cunningham,4432166,74,False,2027-01-01 16:30:00,ORL
 BLACK FLAGG,Collin Murray-Boyles,5093267,74,False,2027-01-01 16:30:00,LAC
 walk and ball torture,Darius Garland,4396907,74,False,2027-01-01 16:30:00,TOR
@@ -4838,6 +4836,7 @@ Victor Krum,Caleb Wilson,5095151,75,False,2027-01-02 17:00:00,LAL
 BLACK FLAGG,Chet Holmgren,4433255,75,False,2027-01-02 17:00:00,UTA
 Brunson’s Burners,Darryn Peterson,5041955,75,False,2027-01-02 17:00:00,OKC
 Only Franz,Isaiah Hartenstein,4222252,75,False,2027-01-02 17:00:00,UTA
+walk and ball torture,Jalen Smith,4397189,75,False,2027-01-02 17:00:00,LAL
 lee lee,Jalen Williams,4593803,75,False,2027-01-02 17:00:00,UTA
 the emergency room,Jared McCain,4683778,75,False,2027-01-02 17:00:00,UTA
 BLACK FLAGG,Jaren Jackson Jr.,4277961,75,False,2027-01-02 17:00:00,OKC
@@ -4929,7 +4928,6 @@ Aspiration Risk,Anthony Edwards,4594268,76,False,2027-01-03 16:00:00,SAS
 Only Franz,Austin Reaves,4066457,76,False,2027-01-03 16:00:00,TOR
 the emergency room,Ayo Dosunmu,4397002,76,False,2027-01-03 16:00:00,SAS
 Only Franz,Brandon Ingram,3913176,76,False,2027-01-03 16:00:00,WAS
-walk and ball torture,Brook Lopez,3448,76,False,2027-01-03 16:00:00,WAS
 BLACK FLAGG,Collin Murray-Boyles,5093267,76,False,2027-01-03 16:00:00,LAL
 walk and ball torture,Darius Garland,4396907,76,False,2027-01-03 16:00:00,WAS
 T's Top Team,De'Aaron Fox,4066259,76,False,2027-01-03 16:00:00,MIN
@@ -4987,6 +4985,7 @@ the emergency room,Dean Wade,3912848,77,False,2027-01-04 16:00:00,ATL
 Victor Krum,Dyson Daniels,4869342,77,False,2027-01-04 16:00:00,PHL
 Only Franz,Ivica Zubac,4017837,77,False,2027-01-04 16:00:00,CHI
 the emergency room,Jalen Johnson,4701230,77,False,2027-01-04 16:00:00,PHL
+walk and ball torture,Jalen Smith,4397189,77,False,2027-01-04 16:00:00,IND
 walk and ball torture,Jaylen Brown,3917376,77,False,2027-01-04 16:00:00,ATL
 Victor Krum,Joel Embiid,3059318,77,False,2027-01-04 16:00:00,ATL
 Victor Krum,Josh Giddey,4871145,77,False,2027-01-04 16:00:00,IND
@@ -5056,7 +5055,6 @@ the emergency room,Anthony Davis,6583,78,False,2027-01-05 16:00:00,LAL
 Only Franz,Austin Reaves,4066457,78,False,2027-01-05 16:00:00,WAS
 Only Franz,Brandon Ingram,3913176,78,False,2027-01-05 16:00:00,ORL
 Only Franz,Brandon Miller,4433287,78,False,2027-01-05 16:00:00,ATL
-walk and ball torture,Brook Lopez,3448,78,False,2027-01-05 16:00:00,ORL
 Brunson’s Burners,CJ McCollum,2490149,78,False,2027-01-05 16:00:00,CHA
 Jared Dubley,Coby White,4395651,78,False,2027-01-05 16:00:00,ATL
 BLACK FLAGG,Collin Murray-Boyles,5093267,78,False,2027-01-05 16:00:00,CLE
@@ -5111,6 +5109,7 @@ Victor Krum,Caleb Wilson,5095151,78,False,2027-01-05 17:00:00,MIL
 Brunson’s Burners,Jabari Smith Jr.,4432639,78,False,2027-01-05 17:00:00,MIN
 walk and ball torture,Jaden McDaniels,4431671,78,False,2027-01-05 17:00:00,HOU
 Jared Dubley,Jaime Jaquez Jr.,4432848,78,False,2027-01-05 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,78,False,2027-01-05 17:00:00,MIL
 the emergency room,Jonathan Kuminga,4433247,78,False,2027-01-05 17:00:00,HOU
 Victor Krum,Josh Giddey,4871145,78,False,2027-01-05 17:00:00,MIL
 Victor Krum,Kasparas Jakucionis,5214640,78,False,2027-01-05 17:00:00,CHI
@@ -5277,7 +5276,6 @@ Brunson’s Burners,Rudy Gobert,3032976,80,False,2027-01-07 16:30:00,TOR
 Victor Krum,Scottie Barnes,4433134,80,False,2027-01-07 16:30:00,MIN
 walk and ball torture,Terrence Shannon Jr.,4432847,80,False,2027-01-07 16:30:00,TOR
 Only Franz,Brandon Ingram,3913176,80,False,2027-01-07 17:00:00,MIL
-walk and ball torture,Brook Lopez,3448,80,False,2027-01-07 17:00:00,MIL
 BLACK FLAGG,Cooper Flagg,5041939,80,False,2027-01-07 17:00:00,POR
 Brunson’s Burners,Damian Lillard,6606,80,False,2027-01-07 17:00:00,DAL
 Jared Dubley,Daniel Gafford,4278049,80,False,2027-01-07 17:00:00,POR
@@ -5323,6 +5321,7 @@ lee lee,Domantas Sabonis,3155942,80,False,2027-01-07 19:00:00,CHI
 Lil Dicky Ball,Draymond Green,6589,80,False,2027-01-07 19:00:00,DET
 Victor Krum,Duncan Robinson,3157465,80,False,2027-01-07 19:00:00,GSW
 Only Franz,Jalen Duren,4433621,80,False,2027-01-07 19:00:00,GSW
+walk and ball torture,Jalen Smith,4397189,80,False,2027-01-07 19:00:00,SAC
 Jared Dubley,Jayson Tatum,4065648,80,False,2027-01-07 19:00:00,LAL
 Jared Dubley,Jimmy Butler III,6430,80,False,2027-01-07 19:00:00,DET
 Aspiration Risk,John Collins,3908845,80,False,2027-01-07 19:00:00,GSW
@@ -5473,6 +5472,7 @@ walk and ball torture,Tyrese Haliburton,4396993,82,False,2027-01-09 16:00:00,MIL
 BLACK FLAGG,Brandin Podziemski,4709138,82,False,2027-01-09 17:30:00,CHI
 Victor Krum,Caleb Wilson,5095151,82,False,2027-01-09 17:30:00,GSW
 Lil Dicky Ball,Draymond Green,6589,82,False,2027-01-09 17:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,82,False,2027-01-09 17:30:00,GSW
 Jared Dubley,Jimmy Butler III,6430,82,False,2027-01-09 17:30:00,CHI
 Victor Krum,Josh Giddey,4871145,82,False,2027-01-09 17:30:00,GSW
 Lil Dicky Ball,Matas Buzelis,4711294,82,False,2027-01-09 17:30:00,GSW
@@ -5493,7 +5493,6 @@ Aspiration Risk,Moussa Diabate,4433249,82,False,2027-01-09 19:00:00,POR
 T's Top Team,Naz Reid,4396971,82,False,2027-01-09 19:00:00,POR
 Aspiration Risk,Toumani Camara,4431736,82,False,2027-01-09 19:00:00,CHA
 Only Franz,Brandon Ingram,3913176,82,False,2027-01-09 19:30:00,BOS
-walk and ball torture,Brook Lopez,3448,82,False,2027-01-09 19:30:00,BOS
 walk and ball torture,Darius Garland,4396907,82,False,2027-01-09 19:30:00,BOS
 lee lee,Derrick White,3078576,82,False,2027-01-09 19:30:00,LAC
 Jared Dubley,Jayson Tatum,4065648,82,False,2027-01-09 19:30:00,LAC
@@ -5584,6 +5583,7 @@ Victor Krum,Caleb Wilson,5095151,83,False,2027-01-10 16:00:00,PHO
 "Old Heads, Young Blood",Devin Booker,3136193,83,False,2027-01-10 16:00:00,CHI
 Aspiration Risk,Dillon Brooks,3155526,83,False,2027-01-10 16:00:00,CHI
 Brunson’s Burners,Jalen Green,4437244,83,False,2027-01-10 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,83,False,2027-01-10 16:00:00,PHO
 Victor Krum,Josh Giddey,4871145,83,False,2027-01-10 16:00:00,PHO
 BLACK FLAGG,Khaman Maluach,5203685,83,False,2027-01-10 16:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,83,False,2027-01-10 16:00:00,PHO
@@ -5656,7 +5656,6 @@ Brunson’s Burners,Rudy Gobert,3032976,84,False,2027-01-11 17:00:00,CLE
 walk and ball torture,Terrence Shannon Jr.,4432847,84,False,2027-01-11 17:00:00,CLE
 Only Franz,Austin Reaves,4066457,84,False,2027-01-11 19:00:00,LAC
 Only Franz,Brandon Ingram,3913176,84,False,2027-01-11 19:00:00,LAL
-walk and ball torture,Brook Lopez,3448,84,False,2027-01-11 19:00:00,LAL
 walk and ball torture,Darius Garland,4396907,84,False,2027-01-11 19:00:00,LAL
 T's Top Team,Keaton Wagler,5254165,84,False,2027-01-11 19:00:00,LAL
 lee lee,Kris Dunn,2991139,84,False,2027-01-11 19:00:00,LAL
@@ -5724,6 +5723,7 @@ Lil Dicky Ball,Zach Edey,4600663,85,False,2027-01-12 17:00:00,DAL
 the emergency room,Ace Bailey,4873138,85,False,2027-01-12 18:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,85,False,2027-01-12 18:00:00,UTA
 Brunson’s Burners,Darryn Peterson,5041955,85,False,2027-01-12 18:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,85,False,2027-01-12 18:00:00,UTA
 BLACK FLAGG,Jaren Jackson Jr.,4277961,85,False,2027-01-12 18:00:00,CHI
 walk and ball torture,Jaxson Hayes,4397077,85,False,2027-01-12 18:00:00,CHI
 Victor Krum,Josh Giddey,4871145,85,False,2027-01-12 18:00:00,UTA
@@ -5885,6 +5885,7 @@ Aspiration Risk,Anthony Edwards,4594268,87,False,2027-01-14 17:00:00,CHI
 the emergency room,Ayo Dosunmu,4397002,87,False,2027-01-14 17:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,87,False,2027-01-14 17:00:00,MIN
 walk and ball torture,Jaden McDaniels,4431671,87,False,2027-01-14 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,87,False,2027-01-14 17:00:00,MIN
 the emergency room,Jonathan Kuminga,4433247,87,False,2027-01-14 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,87,False,2027-01-14 17:00:00,MIN
 walk and ball torture,LaMelo Ball,4432816,87,False,2027-01-14 17:00:00,CHI
@@ -5922,7 +5923,6 @@ Lil Dicky Ball,Zach Edey,4600663,87,False,2027-01-14 18:00:00,DEN
 Lil Dicky Ball,Anthony Black,4712849,87,False,2027-01-14 19:00:00,LAL
 Only Franz,Austin Reaves,4066457,87,False,2027-01-14 19:00:00,ORL
 Only Franz,Brandon Ingram,3913176,87,False,2027-01-14 19:00:00,SAC
-walk and ball torture,Brook Lopez,3448,87,False,2027-01-14 19:00:00,SAC
 walk and ball torture,Darius Acuff Jr.,5142620,87,False,2027-01-14 19:00:00,LAC
 walk and ball torture,Darius Garland,4396907,87,False,2027-01-14 19:00:00,SAC
 "Old Heads, Young Blood",Desmond Bane,4066320,87,False,2027-01-14 19:00:00,LAL
@@ -6019,7 +6019,6 @@ Aspiration Risk,Toumani Camara,4431736,88,False,2027-01-15 19:00:00,SAC
 Lil Dicky Ball,Zach LaVine,3064440,88,False,2027-01-15 19:00:00,POR
 Lil Dicky Ball,Anthony Black,4712849,88,False,2027-01-15 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,88,False,2027-01-15 19:30:00,ORL
-walk and ball torture,Brook Lopez,3448,88,False,2027-01-15 19:30:00,ORL
 walk and ball torture,Darius Garland,4396907,88,False,2027-01-15 19:30:00,ORL
 "Old Heads, Young Blood",Desmond Bane,4066320,88,False,2027-01-15 19:30:00,LAC
 Only Franz,Franz Wagner,4566434,88,False,2027-01-15 19:30:00,LAC
@@ -6135,6 +6134,7 @@ Brunson’s Burners,Immanuel Quickley,4395724,90,False,2027-01-17 12:30:00,CHI
 Only Franz,Isaiah Hartenstein,4222252,90,False,2027-01-17 12:30:00,POR
 Only Franz,Ja Morant,4279888,90,False,2027-01-17 12:30:00,OKC
 Jared Dubley,Ja'Kobe Walter,4684272,90,False,2027-01-17 12:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,90,False,2027-01-17 12:30:00,TOR
 lee lee,Jalen Williams,4593803,90,False,2027-01-17 12:30:00,POR
 the emergency room,Jared McCain,4683778,90,False,2027-01-17 12:30:00,POR
 Victor Krum,Josh Giddey,4871145,90,False,2027-01-17 12:30:00,TOR
@@ -6264,7 +6264,6 @@ Brunson’s Burners,P.J. Washington,4278078,91,False,2027-01-18 17:00:00,OKC
 T's Top Team,Shai Gilgeous-Alexander,4278073,91,False,2027-01-18 17:00:00,DAL
 Victor Krum,Zaccharie Risacher,5211175,91,False,2027-01-18 17:00:00,OKC
 Only Franz,Brandon Ingram,3913176,91,False,2027-01-18 19:30:00,PHO
-walk and ball torture,Brook Lopez,3448,91,False,2027-01-18 19:30:00,PHO
 walk and ball torture,Darius Garland,4396907,91,False,2027-01-18 19:30:00,PHO
 "Old Heads, Young Blood",Devin Booker,3136193,91,False,2027-01-18 19:30:00,LAC
 Aspiration Risk,Dillon Brooks,3155526,91,False,2027-01-18 19:30:00,LAC
@@ -6286,6 +6285,7 @@ Only Franz,Franz Wagner,4566434,92,False,2027-01-19 16:00:00,GSW
 Brunson’s Burners,Immanuel Quickley,4395724,92,False,2027-01-19 16:00:00,CHI
 Only Franz,Ivica Zubac,4017837,92,False,2027-01-19 16:00:00,PHL
 Jared Dubley,Ja'Kobe Walter,4684272,92,False,2027-01-19 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,92,False,2027-01-19 16:00:00,TOR
 walk and ball torture,Jaylen Brown,3917376,92,False,2027-01-19 16:00:00,IND
 Jared Dubley,Jimmy Butler III,6430,92,False,2027-01-19 16:00:00,ORL
 Victor Krum,Joel Embiid,3059318,92,False,2027-01-19 16:00:00,IND
@@ -6363,6 +6363,7 @@ Victor Krum,Dyson Daniels,4869342,93,False,2027-01-20 16:00:00,POR
 Jared Dubley,Egor Demin,5175643,93,False,2027-01-20 16:00:00,CHI
 Only Franz,Ja Morant,4279888,93,False,2027-01-20 16:00:00,ATL
 the emergency room,Jalen Johnson,4701230,93,False,2027-01-20 16:00:00,POR
+walk and ball torture,Jalen Smith,4397189,93,False,2027-01-20 16:00:00,BKN
 Victor Krum,Josh Giddey,4871145,93,False,2027-01-20 16:00:00,BKN
 Only Franz,Jrue Holiday,3995,93,False,2027-01-20 16:00:00,ATL
 walk and ball torture,Julius Randle,3064514,93,False,2027-01-20 16:00:00,CHI
@@ -6424,7 +6425,6 @@ Lil Dicky Ball,Trey Murphy III,4397688,93,False,2027-01-20 17:00:00,OKC
 "Old Heads, Young Blood",Zion Williamson,4395628,93,False,2027-01-20 17:00:00,OKC
 the emergency room,Ace Bailey,4873138,93,False,2027-01-20 18:00:00,LAC
 Only Franz,Brandon Ingram,3913176,93,False,2027-01-20 18:00:00,UTA
-walk and ball torture,Brook Lopez,3448,93,False,2027-01-20 18:00:00,UTA
 Lil Dicky Ball,Cameron Boozer,5041935,93,False,2027-01-20 18:00:00,PHO
 BLACK FLAGG,Cedric Coward,4903027,93,False,2027-01-20 18:00:00,PHO
 walk and ball torture,Darius Garland,4396907,93,False,2027-01-20 18:00:00,UTA
@@ -6635,7 +6635,6 @@ Aspiration Risk,AJ Dybantsa,5142718,95,False,2027-01-22 19:30:00,LAC
 Jared Dubley,Alex Sarr,5160992,95,False,2027-01-22 19:30:00,LAC
 the emergency room,Anthony Davis,6583,95,False,2027-01-22 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,95,False,2027-01-22 19:30:00,WAS
-walk and ball torture,Brook Lopez,3448,95,False,2027-01-22 19:30:00,WAS
 walk and ball torture,Darius Garland,4396907,95,False,2027-01-22 19:30:00,WAS
 T's Top Team,Keaton Wagler,5254165,95,False,2027-01-22 19:30:00,WAS
 lee lee,Kris Dunn,2991139,95,False,2027-01-22 19:30:00,WAS
@@ -6644,6 +6643,7 @@ Aspiration Risk,Trae Young,4277905,95,False,2027-01-22 19:30:00,LAC
 Lil Dicky Ball,Anfernee Simons,4351851,96,False,2027-01-23 14:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,96,False,2027-01-23 14:00:00,PHL
 the emergency room,Dean Wade,3912848,96,False,2027-01-23 14:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,96,False,2027-01-23 14:00:00,PHL
 walk and ball torture,Jaylen Brown,3917376,96,False,2027-01-23 14:00:00,CHI
 Victor Krum,Joel Embiid,3059318,96,False,2027-01-23 14:00:00,CHI
 Victor Krum,Josh Giddey,4871145,96,False,2027-01-23 14:00:00,PHL
@@ -6771,7 +6771,6 @@ walk and ball torture,Terrence Shannon Jr.,4432847,97,False,2027-01-24 15:00:00,
 BLACK FLAGG,Tristan da Silva,4702382,97,False,2027-01-24 15:00:00,HOU
 Victor Krum,Wendell Carter Jr.,4277847,97,False,2027-01-24 15:00:00,HOU
 Only Franz,Brandon Ingram,3913176,97,False,2027-01-24 16:00:00,NYK
-walk and ball torture,Brook Lopez,3448,97,False,2027-01-24 16:00:00,NYK
 walk and ball torture,Darius Garland,4396907,97,False,2027-01-24 16:00:00,NYK
 T's Top Team,Jalen Brunson,3934672,97,False,2027-01-24 16:00:00,LAC
 Only Franz,Josh Hart,3062679,97,False,2027-01-24 16:00:00,LAC
@@ -6796,7 +6795,6 @@ Lil Dicky Ball,Anfernee Simons,4351851,98,False,2027-01-25 16:00:00,LAC
 Lil Dicky Ball,Anthony Black,4712849,98,False,2027-01-25 16:00:00,CHA
 Only Franz,Brandon Ingram,3913176,98,False,2027-01-25 16:00:00,PHL
 Only Franz,Brandon Miller,4433287,98,False,2027-01-25 16:00:00,ORL
-walk and ball torture,Brook Lopez,3448,98,False,2027-01-25 16:00:00,PHL
 Jared Dubley,Coby White,4395651,98,False,2027-01-25 16:00:00,ORL
 BLACK FLAGG,Collin Murray-Boyles,5093267,98,False,2027-01-25 16:00:00,BOS
 walk and ball torture,Darius Garland,4396907,98,False,2027-01-25 16:00:00,PHL
@@ -6849,6 +6847,7 @@ the emergency room,Derik Queen,4869780,98,False,2027-01-25 17:00:00,CLE
 Jared Dubley,Donovan Mitchell,3908809,98,False,2027-01-25 17:00:00,NOP
 Brunson’s Burners,Evan Mobley,4432158,98,False,2027-01-25 17:00:00,NOP
 walk and ball torture,Jaden McDaniels,4431671,98,False,2027-01-25 17:00:00,MEM
+walk and ball torture,Jalen Smith,4397189,98,False,2027-01-25 17:00:00,DAL
 lee lee,James Harden,3992,98,False,2027-01-25 17:00:00,NOP
 T's Top Team,Jarrett Allen,4066328,98,False,2027-01-25 17:00:00,NOP
 Victor Krum,Jaylen Wells,5112087,98,False,2027-01-25 17:00:00,MIN
@@ -6893,6 +6892,7 @@ Victor Krum,Dyson Daniels,4869342,99,False,2027-01-26 16:00:00,DET
 Only Franz,Ivica Zubac,4017837,99,False,2027-01-26 16:00:00,CHI
 Only Franz,Jalen Duren,4433621,99,False,2027-01-26 16:00:00,ATL
 the emergency room,Jalen Johnson,4701230,99,False,2027-01-26 16:00:00,DET
+walk and ball torture,Jalen Smith,4397189,99,False,2027-01-26 16:00:00,IND
 Aspiration Risk,John Collins,3908845,99,False,2027-01-26 16:00:00,ATL
 Victor Krum,Josh Giddey,4871145,99,False,2027-01-26 16:00:00,IND
 Lil Dicky Ball,Matas Buzelis,4711294,99,False,2027-01-26 16:00:00,IND
@@ -6988,7 +6988,6 @@ BLACK FLAGG,Tyrese Maxey,4431678,100,False,2027-01-27 16:00:00,SAC
 Victor Krum,VJ Edgecombe,5124612,100,False,2027-01-27 16:00:00,SAC
 Lil Dicky Ball,Zach LaVine,3064440,100,False,2027-01-27 16:00:00,PHL
 Only Franz,Brandon Ingram,3913176,100,False,2027-01-27 16:30:00,BOS
-walk and ball torture,Brook Lopez,3448,100,False,2027-01-27 16:30:00,BOS
 BLACK FLAGG,Collin Murray-Boyles,5093267,100,False,2027-01-27 16:30:00,DAL
 BLACK FLAGG,Cooper Flagg,5041939,100,False,2027-01-27 16:30:00,TOR
 Jared Dubley,Daniel Gafford,4278049,100,False,2027-01-27 16:30:00,TOR
@@ -7087,6 +7086,7 @@ Only Franz,Franz Wagner,4566434,101,False,2027-01-28 16:00:00,CHI
 Only Franz,Ivica Zubac,4017837,101,False,2027-01-28 16:00:00,LAL
 T's Top Team,Jalen Brunson,3934672,101,False,2027-01-28 16:00:00,ATL
 the emergency room,Jalen Johnson,4701230,101,False,2027-01-28 16:00:00,NYK
+walk and ball torture,Jalen Smith,4397189,101,False,2027-01-28 16:00:00,ORL
 Victor Krum,Josh Giddey,4871145,101,False,2027-01-28 16:00:00,ORL
 Only Franz,Josh Hart,3062679,101,False,2027-01-28 16:00:00,ATL
 Brunson’s Burners,Karl-Anthony Towns,3136195,101,False,2027-01-28 16:00:00,ATL
@@ -7173,7 +7173,6 @@ T's Top Team,Peyton Watson,4576087,102,False,2027-01-29 16:00:00,TOR
 T's Top Team,RJ Barrett,4395625,102,False,2027-01-29 16:00:00,CLE
 Victor Krum,Scottie Barnes,4433134,102,False,2027-01-29 16:00:00,CLE
 Only Franz,Brandon Ingram,3913176,102,False,2027-01-29 16:30:00,BKN
-walk and ball torture,Brook Lopez,3448,102,False,2027-01-29 16:30:00,BKN
 walk and ball torture,Darius Garland,4396907,102,False,2027-01-29 16:30:00,BKN
 lee lee,Derrick White,3078576,102,False,2027-01-29 16:30:00,PHO
 "Old Heads, Young Blood",Devin Booker,3136193,102,False,2027-01-29 16:30:00,BOS
@@ -7353,6 +7352,7 @@ Only Franz,Isaiah Hartenstein,4222252,104,False,2027-01-31 15:00:00,CHI
 Jared Dubley,Ja'Kobe Walter,4684272,104,False,2027-01-31 15:00:00,BOS
 walk and ball torture,Jaden McDaniels,4431671,104,False,2027-01-31 15:00:00,PHO
 Brunson’s Burners,Jalen Green,4437244,104,False,2027-01-31 15:00:00,MIN
+walk and ball torture,Jalen Smith,4397189,104,False,2027-01-31 15:00:00,OKC
 lee lee,Jalen Williams,4593803,104,False,2027-01-31 15:00:00,CHI
 the emergency room,Jared McCain,4683778,104,False,2027-01-31 15:00:00,CHI
 Jared Dubley,Jayson Tatum,4065648,104,False,2027-01-31 15:00:00,TOR
@@ -7507,6 +7507,7 @@ the emergency room,Derik Queen,4869780,106,False,2027-02-02 16:00:00,ORL
 Victor Krum,Duncan Robinson,3157465,106,False,2027-02-02 16:00:00,CHI
 Only Franz,Franz Wagner,4566434,106,False,2027-02-02 16:00:00,NOP
 Only Franz,Jalen Duren,4433621,106,False,2027-02-02 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,106,False,2027-02-02 16:00:00,DET
 Lil Dicky Ball,Jeremiah Fears,5144091,106,False,2027-02-02 16:00:00,ORL
 Aspiration Risk,John Collins,3908845,106,False,2027-02-02 16:00:00,CHI
 Victor Krum,Josh Giddey,4871145,106,False,2027-02-02 16:00:00,DET
@@ -7567,7 +7568,6 @@ the emergency room,Jared McCain,4683778,106,False,2027-02-02 18:00:00,DEN
 Only Franz,Nikola Jokic,3112335,106,False,2027-02-02 18:00:00,OKC
 T's Top Team,Shai Gilgeous-Alexander,4278073,106,False,2027-02-02 18:00:00,DEN
 Only Franz,Brandon Ingram,3913176,106,False,2027-02-02 19:30:00,SAS
-walk and ball torture,Brook Lopez,3448,106,False,2027-02-02 19:30:00,SAS
 walk and ball torture,Darius Garland,4396907,106,False,2027-02-02 19:30:00,SAS
 T's Top Team,De'Aaron Fox,4066259,106,False,2027-02-02 19:30:00,LAC
 walk and ball torture,Devin Vassell,4395630,106,False,2027-02-02 19:30:00,LAC
@@ -7653,7 +7653,6 @@ Aspiration Risk,Mo Bamba,4277919,107,False,2027-02-03 18:30:00,HOU
 T's Top Team,Reed Sheppard,4711272,107,False,2027-02-03 18:30:00,UTA
 BLACK FLAGG,Brandin Podziemski,4709138,107,False,2027-02-03 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,107,False,2027-02-03 19:30:00,GSW
-walk and ball torture,Brook Lopez,3448,107,False,2027-02-03 19:30:00,GSW
 walk and ball torture,Darius Garland,4396907,107,False,2027-02-03 19:30:00,GSW
 Lil Dicky Ball,Draymond Green,6589,107,False,2027-02-03 19:30:00,LAC
 Jared Dubley,Jimmy Butler III,6430,107,False,2027-02-03 19:30:00,LAC
@@ -7725,6 +7724,7 @@ walk and ball torture,Devin Vassell,4395630,108,False,2027-02-04 17:00:00,ORL
 Aspiration Risk,Dylan Harper,5037871,108,False,2027-02-04 17:00:00,ORL
 Only Franz,Franz Wagner,4566434,108,False,2027-02-04 17:00:00,SAS
 Only Franz,Isaiah Hartenstein,4222252,108,False,2027-02-04 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,108,False,2027-02-04 17:00:00,OKC
 lee lee,Jalen Williams,4593803,108,False,2027-02-04 17:00:00,CHI
 the emergency room,Jared McCain,4683778,108,False,2027-02-04 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,108,False,2027-02-04 17:00:00,OKC
@@ -7814,7 +7814,6 @@ Brunson’s Burners,Aaron Gordon,3064290,109,False,2027-02-05 18:00:00,LAC
 T's Top Team,Alperen Sengun,4871144,109,False,2027-02-05 18:00:00,PHO
 the emergency room,Amen Thompson,4684740,109,False,2027-02-05 18:00:00,PHO
 Only Franz,Brandon Ingram,3913176,109,False,2027-02-05 18:00:00,DEN
-walk and ball torture,Brook Lopez,3448,109,False,2027-02-05 18:00:00,DEN
 "Old Heads, Young Blood",Cameron Johnson,3138196,109,False,2027-02-05 18:00:00,LAC
 T's Top Team,Christian Braun,4431767,109,False,2027-02-05 18:00:00,LAC
 walk and ball torture,Darius Garland,4396907,109,False,2027-02-05 18:00:00,DEN
@@ -7918,6 +7917,7 @@ Victor Krum,Caleb Wilson,5095151,110,False,2027-02-06 17:00:00,NOP
 BLACK FLAGG,DeAndre Jordan,3442,110,False,2027-02-06 17:00:00,CHI
 BLACK FLAGG,Dejounte Murray,3907497,110,False,2027-02-06 17:00:00,CHI
 the emergency room,Derik Queen,4869780,110,False,2027-02-06 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,110,False,2027-02-06 17:00:00,NOP
 Lil Dicky Ball,Jeremiah Fears,5144091,110,False,2027-02-06 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,110,False,2027-02-06 17:00:00,NOP
 Lil Dicky Ball,Matas Buzelis,4711294,110,False,2027-02-06 17:00:00,NOP
@@ -7987,7 +7987,6 @@ Aspiration Risk,Mo Bamba,4277919,111,False,2027-02-07 12:30:00,MIN
 Brunson’s Burners,Rudy Gobert,3032976,111,False,2027-02-07 12:30:00,UTA
 walk and ball torture,Terrence Shannon Jr.,4432847,111,False,2027-02-07 12:30:00,UTA
 Only Franz,Brandon Ingram,3913176,111,False,2027-02-07 13:30:00,DAL
-walk and ball torture,Brook Lopez,3448,111,False,2027-02-07 13:30:00,DAL
 BLACK FLAGG,Cooper Flagg,5041939,111,False,2027-02-07 13:30:00,LAC
 Jared Dubley,Daniel Gafford,4278049,111,False,2027-02-07 13:30:00,LAC
 walk and ball torture,Darius Garland,4396907,111,False,2027-02-07 13:30:00,DAL
@@ -8064,6 +8063,7 @@ Jared Dubley,Egor Demin,5175643,112,False,2027-02-08 16:00:00,PHL
 lee lee,Giannis Antetokounmpo,3032977,112,False,2027-02-08 16:00:00,ATL
 Only Franz,Ivica Zubac,4017837,112,False,2027-02-08 16:00:00,NOP
 the emergency room,Jalen Johnson,4701230,112,False,2027-02-08 16:00:00,MIA
+walk and ball torture,Jalen Smith,4397189,112,False,2027-02-08 16:00:00,WAS
 walk and ball torture,Jaylen Brown,3917376,112,False,2027-02-08 16:00:00,BKN
 Lil Dicky Ball,Jeremiah Fears,5144091,112,False,2027-02-08 16:00:00,IND
 Victor Krum,Joel Embiid,3059318,112,False,2027-02-08 16:00:00,BKN
@@ -8185,6 +8185,7 @@ Aspiration Risk,Dylan Harper,5037871,113,False,2027-02-09 17:00:00,DAL
 Only Franz,Isaiah Hartenstein,4222252,113,False,2027-02-09 17:00:00,POR
 Only Franz,Ja Morant,4279888,113,False,2027-02-09 17:00:00,OKC
 Jared Dubley,Jaime Jaquez Jr.,4432848,113,False,2027-02-09 17:00:00,SAC
+walk and ball torture,Jalen Smith,4397189,113,False,2027-02-09 17:00:00,GSW
 lee lee,Jalen Williams,4593803,113,False,2027-02-09 17:00:00,POR
 the emergency room,Jared McCain,4683778,113,False,2027-02-09 17:00:00,POR
 Jared Dubley,Jimmy Butler III,6430,113,False,2027-02-09 17:00:00,CHI
@@ -8229,7 +8230,6 @@ Aspiration Risk,Mo Bamba,4277919,113,False,2027-02-09 19:00:00,HOU
 T's Top Team,Reed Sheppard,4711272,113,False,2027-02-09 19:00:00,UTA
 Only Franz,Ausar Thompson,4684742,113,False,2027-02-09 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,113,False,2027-02-09 19:30:00,DET
-walk and ball torture,Brook Lopez,3448,113,False,2027-02-09 19:30:00,DET
 Lil Dicky Ball,Cade Cunningham,4432166,113,False,2027-02-09 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,113,False,2027-02-09 19:30:00,DET
 Victor Krum,Duncan Robinson,3157465,113,False,2027-02-09 19:30:00,LAC
@@ -8305,7 +8305,6 @@ lee lee,Miles Bridges,4066383,114,False,2027-02-10 18:00:00,DET
 "Old Heads, Young Blood",Paul Reed,4278562,114,False,2027-02-10 18:00:00,PHO
 Only Franz,Austin Reaves,4066457,114,False,2027-02-10 19:00:00,LAC
 Only Franz,Brandon Ingram,3913176,114,False,2027-02-10 19:00:00,LAL
-walk and ball torture,Brook Lopez,3448,114,False,2027-02-10 19:00:00,LAL
 walk and ball torture,Darius Garland,4396907,114,False,2027-02-10 19:00:00,LAL
 T's Top Team,Keaton Wagler,5254165,114,False,2027-02-10 19:00:00,LAL
 lee lee,Kris Dunn,2991139,114,False,2027-02-10 19:00:00,LAL
@@ -8378,6 +8377,7 @@ Victor Krum,Caleb Wilson,5095151,115,False,2027-02-11 18:00:00,DEN
 "Old Heads, Young Blood",Cameron Johnson,3138196,115,False,2027-02-11 18:00:00,CHI
 T's Top Team,Christian Braun,4431767,115,False,2027-02-11 18:00:00,CHI
 "Old Heads, Young Blood",DeMar DeRozan,3978,115,False,2027-02-11 18:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,115,False,2027-02-11 18:00:00,DEN
 Lil Dicky Ball,Jamal Murray,3936299,115,False,2027-02-11 18:00:00,CHI
 Victor Krum,Josh Giddey,4871145,115,False,2027-02-11 18:00:00,DEN
 Lil Dicky Ball,Matas Buzelis,4711294,115,False,2027-02-11 18:00:00,DEN
@@ -8445,7 +8445,6 @@ the emergency room,Amen Thompson,4684740,116,False,2027-02-12 17:00:00,NOP
 Aspiration Risk,Anthony Edwards,4594268,116,False,2027-02-12 17:00:00,BOS
 the emergency room,Ayo Dosunmu,4397002,116,False,2027-02-12 17:00:00,BOS
 Only Franz,Brandon Ingram,3913176,116,False,2027-02-12 17:00:00,MEM
-walk and ball torture,Brook Lopez,3448,116,False,2027-02-12 17:00:00,MEM
 Lil Dicky Ball,Cameron Boozer,5041935,116,False,2027-02-12 17:00:00,LAC
 BLACK FLAGG,Cedric Coward,4903027,116,False,2027-02-12 17:00:00,LAC
 walk and ball torture,Darius Garland,4396907,116,False,2027-02-12 17:00:00,MEM
@@ -8613,7 +8612,6 @@ Brunson’s Burners,Aaron Gordon,3064290,118,False,2027-02-14 11:00:00,HOU
 T's Top Team,Alperen Sengun,4871144,118,False,2027-02-14 11:00:00,DEN
 the emergency room,Amen Thompson,4684740,118,False,2027-02-14 11:00:00,DEN
 Only Franz,Brandon Ingram,3913176,118,False,2027-02-14 11:00:00,NOP
-walk and ball torture,Brook Lopez,3448,118,False,2027-02-14 11:00:00,NOP
 "Old Heads, Young Blood",Cameron Johnson,3138196,118,False,2027-02-14 11:00:00,HOU
 T's Top Team,Christian Braun,4431767,118,False,2027-02-14 11:00:00,HOU
 walk and ball torture,Darius Garland,4396907,118,False,2027-02-14 11:00:00,NOP
@@ -8638,6 +8636,7 @@ Brunson’s Burners,Damian Lillard,6606,118,False,2027-02-14 12:30:00,CHI
 Jared Dubley,Deni Avdija,4683021,118,False,2027-02-14 12:30:00,CHI
 Jared Dubley,Donovan Clingan,5105565,118,False,2027-02-14 12:30:00,CHI
 Only Franz,Ja Morant,4279888,118,False,2027-02-14 12:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,118,False,2027-02-14 12:30:00,POR
 Victor Krum,Josh Giddey,4871145,118,False,2027-02-14 12:30:00,POR
 Only Franz,Jrue Holiday,3995,118,False,2027-02-14 12:30:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,118,False,2027-02-14 12:30:00,POR
@@ -8773,6 +8772,7 @@ Jared Dubley,Deni Avdija,4683021,120,False,2027-02-16 19:00:00,NOP
 the emergency room,Derik Queen,4869780,120,False,2027-02-16 19:00:00,POR
 Jared Dubley,Donovan Clingan,5105565,120,False,2027-02-16 19:00:00,NOP
 Only Franz,Ja Morant,4279888,120,False,2027-02-16 19:00:00,NOP
+walk and ball torture,Jalen Smith,4397189,120,False,2027-02-16 19:00:00,LAL
 Lil Dicky Ball,Jeremiah Fears,5144091,120,False,2027-02-16 19:00:00,POR
 Victor Krum,Josh Giddey,4871145,120,False,2027-02-16 19:00:00,LAL
 Only Franz,Jrue Holiday,3995,120,False,2027-02-16 19:00:00,NOP
@@ -8790,7 +8790,6 @@ walk and ball torture,Walker Kessler,4433136,120,False,2027-02-16 19:00:00,CHI
 T's Top Team,Alperen Sengun,4871144,120,False,2027-02-16 20:00:00,LAC
 the emergency room,Amen Thompson,4684740,120,False,2027-02-16 20:00:00,LAC
 Only Franz,Brandon Ingram,3913176,120,False,2027-02-16 20:00:00,HOU
-walk and ball torture,Brook Lopez,3448,120,False,2027-02-16 20:00:00,HOU
 walk and ball torture,Darius Garland,4396907,120,False,2027-02-16 20:00:00,HOU
 "Old Heads, Young Blood",Fred VanVleet,2991230,120,False,2027-02-16 20:00:00,LAC
 Brunson’s Burners,Jabari Smith Jr.,4432639,120,False,2027-02-16 20:00:00,LAC
@@ -8938,9 +8937,9 @@ walk and ball torture,Tyrese Haliburton,4396993,121,False,2027-02-17 19:00:00,SA
 Lil Dicky Ball,Zach LaVine,3064440,121,False,2027-02-17 19:00:00,IND
 "Old Heads, Young Blood",Zion Williamson,4395628,121,False,2027-02-17 19:00:00,GSW
 Only Franz,Brandon Ingram,3913176,121,False,2027-02-17 19:30:00,CHI
-walk and ball torture,Brook Lopez,3448,121,False,2027-02-17 19:30:00,CHI
 Victor Krum,Caleb Wilson,5095151,121,False,2027-02-17 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,121,False,2027-02-17 19:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,121,False,2027-02-17 19:30:00,LAC
 Victor Krum,Josh Giddey,4871145,121,False,2027-02-17 19:30:00,LAC
 T's Top Team,Keaton Wagler,5254165,121,False,2027-02-17 19:30:00,CHI
 lee lee,Kris Dunn,2991139,121,False,2027-02-17 19:30:00,CHI
@@ -9064,6 +9063,7 @@ Victor Krum,Dyson Daniels,4869342,129,False,2027-02-25 17:00:00,CHI
 Jared Dubley,Jaime Jaquez Jr.,4432848,129,False,2027-02-25 17:00:00,WAS
 Brunson’s Burners,Jalen Green,4437244,129,False,2027-02-25 17:00:00,NOP
 the emergency room,Jalen Johnson,4701230,129,False,2027-02-25 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,129,False,2027-02-25 17:00:00,ATL
 Lil Dicky Ball,Jeremiah Fears,5144091,129,False,2027-02-25 17:00:00,PHO
 Victor Krum,Josh Giddey,4871145,129,False,2027-02-25 17:00:00,ATL
 Victor Krum,Kasparas Jakucionis,5214640,129,False,2027-02-25 17:00:00,WAS
@@ -9097,7 +9097,6 @@ BLACK FLAGG,Stephen Curry,3975,129,False,2027-02-25 19:00:00,DAL
 Victor Krum,Zaccharie Risacher,5211175,129,False,2027-02-25 19:00:00,GSW
 the emergency room,Ace Bailey,4873138,129,False,2027-02-25 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,129,False,2027-02-25 19:30:00,UTA
-walk and ball torture,Brook Lopez,3448,129,False,2027-02-25 19:30:00,UTA
 walk and ball torture,Darius Garland,4396907,129,False,2027-02-25 19:30:00,UTA
 Brunson’s Burners,Darryn Peterson,5041955,129,False,2027-02-25 19:30:00,LAC
 BLACK FLAGG,Jaren Jackson Jr.,4277961,129,False,2027-02-25 19:30:00,LAC
@@ -9224,6 +9223,7 @@ BLACK FLAGG,Cedric Coward,4903027,131,False,2027-02-27 17:00:00,SAC
 walk and ball torture,Darius Acuff Jr.,5142620,131,False,2027-02-27 17:00:00,MEM
 lee lee,Domantas Sabonis,3155942,131,False,2027-02-27 17:00:00,MEM
 Jared Dubley,Egor Demin,5175643,131,False,2027-02-27 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,131,False,2027-02-27 17:00:00,BKN
 Victor Krum,Jaylen Wells,5112087,131,False,2027-02-27 17:00:00,SAC
 Brunson’s Burners,Jerami Grant,2991070,131,False,2027-02-27 17:00:00,SAC
 Victor Krum,Josh Giddey,4871145,131,False,2027-02-27 17:00:00,BKN
@@ -9354,7 +9354,6 @@ Brunson’s Burners,Jabari Smith Jr.,4432639,132,False,2027-02-28 18:30:00,MIA
 "Old Heads, Young Blood",Kevin Durant,3202,132,False,2027-02-28 18:30:00,MIA
 T's Top Team,Reed Sheppard,4711272,132,False,2027-02-28 18:30:00,MIA
 Only Franz,Brandon Ingram,3913176,132,False,2027-02-28 19:30:00,POR
-walk and ball torture,Brook Lopez,3448,132,False,2027-02-28 19:30:00,POR
 Brunson’s Burners,Damian Lillard,6606,132,False,2027-02-28 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,132,False,2027-02-28 19:30:00,POR
 Jared Dubley,Deni Avdija,4683021,132,False,2027-02-28 19:30:00,LAC
@@ -9373,6 +9372,7 @@ Jared Dubley,Donovan Mitchell,3908809,133,False,2027-03-01 16:00:00,PHL
 Victor Krum,Duncan Robinson,3157465,133,False,2027-03-01 16:00:00,CHI
 Brunson’s Burners,Evan Mobley,4432158,133,False,2027-03-01 16:00:00,PHL
 Only Franz,Jalen Duren,4433621,133,False,2027-03-01 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,133,False,2027-03-01 16:00:00,DET
 lee lee,James Harden,3992,133,False,2027-03-01 16:00:00,PHL
 T's Top Team,Jarrett Allen,4066328,133,False,2027-03-01 16:00:00,PHL
 walk and ball torture,Jaylen Brown,3917376,133,False,2027-03-01 16:00:00,CLE
@@ -9523,7 +9523,6 @@ lee lee,Precious Achiuwa,4431679,134,False,2027-03-02 19:00:00,WAS
 Aspiration Risk,Trae Young,4277905,134,False,2027-03-02 19:00:00,SAC
 Lil Dicky Ball,Zach LaVine,3064440,134,False,2027-03-02 19:00:00,WAS
 Only Franz,Brandon Ingram,3913176,134,False,2027-03-02 20:00:00,POR
-walk and ball torture,Brook Lopez,3448,134,False,2027-03-02 20:00:00,POR
 Brunson’s Burners,Damian Lillard,6606,134,False,2027-03-02 20:00:00,LAC
 walk and ball torture,Darius Garland,4396907,134,False,2027-03-02 20:00:00,POR
 Jared Dubley,Deni Avdija,4683021,134,False,2027-03-02 20:00:00,LAC
@@ -9543,6 +9542,7 @@ the emergency room,Dean Wade,3912848,135,False,2027-03-03 16:00:00,CHA
 Victor Krum,Dyson Daniels,4869342,135,False,2027-03-03 16:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,135,False,2027-03-03 16:00:00,PHL
 the emergency room,Jalen Johnson,4701230,135,False,2027-03-03 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,135,False,2027-03-03 16:00:00,ATL
 walk and ball torture,Jaylen Brown,3917376,135,False,2027-03-03 16:00:00,CHA
 Victor Krum,Joel Embiid,3059318,135,False,2027-03-03 16:00:00,CHA
 Victor Krum,Josh Giddey,4871145,135,False,2027-03-03 16:00:00,ATL
@@ -9697,7 +9697,6 @@ Aspiration Risk,Trae Young,4277905,136,False,2027-03-04 19:00:00,GSW
 "Old Heads, Young Blood",Yaxel Lendeborg,5175737,136,False,2027-03-04 19:00:00,WAS
 Lil Dicky Ball,Zach LaVine,3064440,136,False,2027-03-04 19:00:00,OKC
 Only Franz,Brandon Ingram,3913176,136,False,2027-03-04 19:30:00,BKN
-walk and ball torture,Brook Lopez,3448,136,False,2027-03-04 19:30:00,BKN
 walk and ball torture,Darius Garland,4396907,136,False,2027-03-04 19:30:00,BKN
 Jared Dubley,Egor Demin,5175643,136,False,2027-03-04 19:30:00,LAC
 walk and ball torture,Julius Randle,3064514,136,False,2027-03-04 19:30:00,LAC
@@ -9794,6 +9793,7 @@ Only Franz,Brandon Miller,4433287,138,False,2027-03-06 14:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,138,False,2027-03-06 14:00:00,CHA
 Jared Dubley,Coby White,4395651,138,False,2027-03-06 14:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,138,False,2027-03-06 14:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,138,False,2027-03-06 14:00:00,CHA
 Victor Krum,Josh Giddey,4871145,138,False,2027-03-06 14:00:00,CHA
 the emergency room,Kon Knueppel,5061575,138,False,2027-03-06 14:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,138,False,2027-03-06 14:00:00,CHA
@@ -9851,7 +9851,6 @@ T's Top Team,Shai Gilgeous-Alexander,4278073,138,False,2027-03-06 17:30:00,LAL
 walk and ball torture,Walker Kessler,4433136,138,False,2027-03-06 17:30:00,OKC
 "Old Heads, Young Blood",Ziaire Williams,4433137,138,False,2027-03-06 17:30:00,OKC
 Only Franz,Brandon Ingram,3913176,138,False,2027-03-06 19:00:00,SAC
-walk and ball torture,Brook Lopez,3448,138,False,2027-03-06 19:00:00,SAC
 walk and ball torture,Darius Acuff Jr.,5142620,138,False,2027-03-06 19:00:00,LAC
 walk and ball torture,Darius Garland,4396907,138,False,2027-03-06 19:00:00,SAC
 lee lee,Domantas Sabonis,3155942,138,False,2027-03-06 19:00:00,LAC
@@ -9889,6 +9888,7 @@ Brunson’s Burners,Damian Lillard,6606,139,False,2027-03-07 14:00:00,CHI
 Jared Dubley,Deni Avdija,4683021,139,False,2027-03-07 14:00:00,CHI
 Jared Dubley,Donovan Clingan,5105565,139,False,2027-03-07 14:00:00,CHI
 Only Franz,Ja Morant,4279888,139,False,2027-03-07 14:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,139,False,2027-03-07 14:00:00,POR
 Victor Krum,Josh Giddey,4871145,139,False,2027-03-07 14:00:00,POR
 Only Franz,Jrue Holiday,3995,139,False,2027-03-07 14:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,139,False,2027-03-07 14:00:00,POR
@@ -10016,7 +10016,6 @@ Lil Dicky Ball,Zach LaVine,3064440,140,False,2027-03-08 19:00:00,DEN
 T's Top Team,Alperen Sengun,4871144,140,False,2027-03-08 19:30:00,LAC
 the emergency room,Amen Thompson,4684740,140,False,2027-03-08 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,140,False,2027-03-08 19:30:00,HOU
-walk and ball torture,Brook Lopez,3448,140,False,2027-03-08 19:30:00,HOU
 walk and ball torture,Darius Garland,4396907,140,False,2027-03-08 19:30:00,HOU
 "Old Heads, Young Blood",Fred VanVleet,2991230,140,False,2027-03-08 19:30:00,LAC
 Brunson’s Burners,Jabari Smith Jr.,4432639,140,False,2027-03-08 19:30:00,LAC
@@ -10064,6 +10063,7 @@ Victor Krum,Duncan Robinson,3157465,141,False,2027-03-09 17:00:00,CLE
 Aspiration Risk,Dylan Harper,5037871,141,False,2027-03-09 17:00:00,WAS
 Brunson’s Burners,Evan Mobley,4432158,141,False,2027-03-09 17:00:00,DET
 Only Franz,Jalen Duren,4433621,141,False,2027-03-09 17:00:00,CLE
+walk and ball torture,Jalen Smith,4397189,141,False,2027-03-09 17:00:00,BOS
 lee lee,James Harden,3992,141,False,2027-03-09 17:00:00,DET
 T's Top Team,Jarrett Allen,4066328,141,False,2027-03-09 17:00:00,DET
 Victor Krum,Jaylen Wells,5112087,141,False,2027-03-09 17:00:00,DAL
@@ -10188,7 +10188,6 @@ Aspiration Risk,Toumani Camara,4431736,142,False,2027-03-10 19:00:00,DEN
 "Old Heads, Young Blood",Yaxel Lendeborg,5175737,142,False,2027-03-10 19:00:00,SAC
 Lil Dicky Ball,Zach LaVine,3064440,142,False,2027-03-10 19:00:00,GSW
 Only Franz,Brandon Ingram,3913176,142,False,2027-03-10 19:30:00,NYK
-walk and ball torture,Brook Lopez,3448,142,False,2027-03-10 19:30:00,NYK
 walk and ball torture,Darius Garland,4396907,142,False,2027-03-10 19:30:00,NYK
 T's Top Team,Jalen Brunson,3934672,142,False,2027-03-10 19:30:00,LAC
 Only Franz,Josh Hart,3062679,142,False,2027-03-10 19:30:00,LAC
@@ -10261,6 +10260,7 @@ Victor Krum,Dyson Daniels,4869342,143,False,2027-03-11 17:00:00,BKN
 Jared Dubley,Egor Demin,5175643,143,False,2027-03-11 17:00:00,ATL
 Brunson’s Burners,Jalen Green,4437244,143,False,2027-03-11 17:00:00,CHI
 the emergency room,Jalen Johnson,4701230,143,False,2027-03-11 17:00:00,BKN
+walk and ball torture,Jalen Smith,4397189,143,False,2027-03-11 17:00:00,PHO
 Victor Krum,Josh Giddey,4871145,143,False,2027-03-11 17:00:00,PHO
 walk and ball torture,Julius Randle,3064514,143,False,2027-03-11 17:00:00,ATL
 the emergency room,Keon Ellis,4702177,143,False,2027-03-11 17:00:00,ATL
@@ -10289,7 +10289,6 @@ Victor Krum,OG Anunoby,3934719,143,False,2027-03-11 19:00:00,LAL
 walk and ball torture,Walker Kessler,4433136,143,False,2027-03-11 19:00:00,NYK
 "Old Heads, Young Blood",Ziaire Williams,4433137,143,False,2027-03-11 19:00:00,NYK
 Only Franz,Brandon Ingram,3913176,143,False,2027-03-11 19:30:00,CLE
-walk and ball torture,Brook Lopez,3448,143,False,2027-03-11 19:30:00,CLE
 walk and ball torture,Darius Garland,4396907,143,False,2027-03-11 19:30:00,CLE
 Jared Dubley,Donovan Mitchell,3908809,143,False,2027-03-11 19:30:00,LAC
 Brunson’s Burners,Evan Mobley,4432158,143,False,2027-03-11 19:30:00,LAC
@@ -10419,6 +10418,7 @@ BLACK FLAGG,DeAndre Jordan,3442,145,False,2027-03-13 17:00:00,DAL
 BLACK FLAGG,Dejounte Murray,3907497,145,False,2027-03-13 17:00:00,DAL
 walk and ball torture,Dereck Lively II,4683688,145,False,2027-03-13 17:00:00,NOP
 the emergency room,Derik Queen,4869780,145,False,2027-03-13 17:00:00,DAL
+walk and ball torture,Jalen Smith,4397189,145,False,2027-03-13 17:00:00,MEM
 Victor Krum,Jaylen Wells,5112087,145,False,2027-03-13 17:00:00,CHI
 Brunson’s Burners,Jerami Grant,2991070,145,False,2027-03-13 17:00:00,CHI
 Lil Dicky Ball,Jeremiah Fears,5144091,145,False,2027-03-13 17:00:00,DAL
@@ -10450,7 +10450,6 @@ walk and ball torture,Terrence Shannon Jr.,4432847,145,False,2027-03-13 17:30:00
 BLACK FLAGG,Tyrese Maxey,4431678,145,False,2027-03-13 17:30:00,MIN
 Victor Krum,VJ Edgecombe,5124612,145,False,2027-03-13 17:30:00,MIN
 Only Franz,Brandon Ingram,3913176,145,False,2027-03-13 19:30:00,POR
-walk and ball torture,Brook Lopez,3448,145,False,2027-03-13 19:30:00,POR
 Brunson’s Burners,Damian Lillard,6606,145,False,2027-03-13 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,145,False,2027-03-13 19:30:00,POR
 Jared Dubley,Deni Avdija,4683021,145,False,2027-03-13 19:30:00,LAC
@@ -10569,6 +10568,7 @@ BLACK FLAGG,Cedric Coward,4903027,147,False,2027-03-15 17:00:00,PHO
 Aspiration Risk,Dillon Brooks,3155526,147,False,2027-03-15 17:00:00,MEM
 Only Franz,Franz Wagner,4566434,147,False,2027-03-15 17:00:00,CHI
 Brunson’s Burners,Jalen Green,4437244,147,False,2027-03-15 17:00:00,MEM
+walk and ball torture,Jalen Smith,4397189,147,False,2027-03-15 17:00:00,ORL
 Victor Krum,Jaylen Wells,5112087,147,False,2027-03-15 17:00:00,PHO
 Brunson’s Burners,Jerami Grant,2991070,147,False,2027-03-15 17:00:00,PHO
 Victor Krum,Josh Giddey,4871145,147,False,2027-03-15 17:00:00,ORL
@@ -10701,7 +10701,6 @@ walk and ball torture,Walker Kessler,4433136,148,False,2027-03-16 19:00:00,POR
 "Old Heads, Young Blood",Ziaire Williams,4433137,148,False,2027-03-16 19:00:00,POR
 Brunson’s Burners,Aaron Gordon,3064290,148,False,2027-03-16 20:00:00,LAC
 Only Franz,Brandon Ingram,3913176,148,False,2027-03-16 20:00:00,DEN
-walk and ball torture,Brook Lopez,3448,148,False,2027-03-16 20:00:00,DEN
 "Old Heads, Young Blood",Cameron Johnson,3138196,148,False,2027-03-16 20:00:00,LAC
 T's Top Team,Christian Braun,4431767,148,False,2027-03-16 20:00:00,LAC
 walk and ball torture,Darius Garland,4396907,148,False,2027-03-16 20:00:00,DEN
@@ -10713,6 +10712,7 @@ Only Franz,Nikola Jokic,3112335,148,False,2027-03-16 20:00:00,LAC
 Lil Dicky Ball,Anfernee Simons,4351851,149,False,2027-03-17 16:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,149,False,2027-03-17 16:00:00,PHL
 the emergency room,Dean Wade,3912848,149,False,2027-03-17 16:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,149,False,2027-03-17 16:00:00,PHL
 walk and ball torture,Jaylen Brown,3917376,149,False,2027-03-17 16:00:00,CHI
 Victor Krum,Joel Embiid,3059318,149,False,2027-03-17 16:00:00,CHI
 Victor Krum,Josh Giddey,4871145,149,False,2027-03-17 16:00:00,PHL
@@ -10898,7 +10898,6 @@ T's Top Team,Peyton Watson,4576087,150,False,2027-03-18 18:00:00,DEN
 Brunson’s Burners,Rudy Gobert,3032976,150,False,2027-03-18 18:00:00,UTA
 walk and ball torture,Terrence Shannon Jr.,4432847,150,False,2027-03-18 18:00:00,UTA
 Only Franz,Brandon Ingram,3913176,150,False,2027-03-18 19:30:00,MEM
-walk and ball torture,Brook Lopez,3448,150,False,2027-03-18 19:30:00,MEM
 Lil Dicky Ball,Cameron Boozer,5041935,150,False,2027-03-18 19:30:00,LAC
 BLACK FLAGG,Cedric Coward,4903027,150,False,2027-03-18 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,150,False,2027-03-18 19:30:00,MEM
@@ -11002,6 +11001,7 @@ Victor Krum,Wendell Carter Jr.,4277847,152,False,2027-03-20 16:00:00,DEN
 Victor Krum,Caleb Wilson,5095151,152,False,2027-03-20 16:30:00,CLE
 Jared Dubley,Donovan Mitchell,3908809,152,False,2027-03-20 16:30:00,CHI
 Brunson’s Burners,Evan Mobley,4432158,152,False,2027-03-20 16:30:00,CHI
+walk and ball torture,Jalen Smith,4397189,152,False,2027-03-20 16:30:00,CLE
 lee lee,James Harden,3992,152,False,2027-03-20 16:30:00,CHI
 T's Top Team,Jarrett Allen,4066328,152,False,2027-03-20 16:30:00,CHI
 Victor Krum,Josh Giddey,4871145,152,False,2027-03-20 16:30:00,CLE
@@ -11047,7 +11047,6 @@ walk and ball torture,Tyrese Haliburton,4396993,152,False,2027-03-20 17:00:00,MI
 Lil Dicky Ball,Zach Edey,4600663,152,False,2027-03-20 17:00:00,OKC
 Aspiration Risk,Aaron Wiggins,4397183,152,False,2027-03-20 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,152,False,2027-03-20 19:30:00,ATL
-walk and ball torture,Brook Lopez,3448,152,False,2027-03-20 19:30:00,ATL
 Brunson’s Burners,CJ McCollum,2490149,152,False,2027-03-20 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,152,False,2027-03-20 19:30:00,ATL
 Victor Krum,Dyson Daniels,4869342,152,False,2027-03-20 19:30:00,LAC
@@ -11172,6 +11171,7 @@ walk and ball torture,Darius Acuff Jr.,5142620,154,False,2027-03-22 17:00:00,CHI
 lee lee,Domantas Sabonis,3155942,154,False,2027-03-22 17:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,154,False,2027-03-22 17:00:00,MEM
 Jared Dubley,Jaime Jaquez Jr.,4432848,154,False,2027-03-22 17:00:00,WAS
+walk and ball torture,Jalen Smith,4397189,154,False,2027-03-22 17:00:00,SAC
 Victor Krum,Jaylen Wells,5112087,154,False,2027-03-22 17:00:00,CHA
 Brunson’s Burners,Jerami Grant,2991070,154,False,2027-03-22 17:00:00,CHA
 Victor Krum,Josh Giddey,4871145,154,False,2027-03-22 17:00:00,SAC
@@ -11217,7 +11217,6 @@ lee lee,Onyeka Okongwu,4431680,154,False,2027-03-22 19:00:00,GSW
 BLACK FLAGG,Stephen Curry,3975,154,False,2027-03-22 19:00:00,ATL
 "Old Heads, Young Blood",Yaxel Lendeborg,5175737,154,False,2027-03-22 19:00:00,ATL
 Only Franz,Brandon Ingram,3913176,154,False,2027-03-22 19:30:00,DAL
-walk and ball torture,Brook Lopez,3448,154,False,2027-03-22 19:30:00,DAL
 BLACK FLAGG,Cooper Flagg,5041939,154,False,2027-03-22 19:30:00,LAC
 Jared Dubley,Daniel Gafford,4278049,154,False,2027-03-22 19:30:00,LAC
 walk and ball torture,Darius Garland,4396907,154,False,2027-03-22 19:30:00,DAL
@@ -11365,6 +11364,7 @@ walk and ball torture,Dereck Lively II,4683688,156,False,2027-03-24 17:00:00,MIN
 "Old Heads, Young Blood",Desmond Bane,4066320,156,False,2027-03-24 17:00:00,CHI
 Only Franz,Franz Wagner,4566434,156,False,2027-03-24 17:00:00,CHI
 walk and ball torture,Jaden McDaniels,4431671,156,False,2027-03-24 17:00:00,DAL
+walk and ball torture,Jalen Smith,4397189,156,False,2027-03-24 17:00:00,ORL
 the emergency room,Jonathan Kuminga,4433247,156,False,2027-03-24 17:00:00,DAL
 Victor Krum,Josh Giddey,4871145,156,False,2027-03-24 17:00:00,ORL
 BLACK FLAGG,Kyrie Irving,6442,156,False,2027-03-24 17:00:00,MIN
@@ -11415,7 +11415,6 @@ Victor Krum,VJ Edgecombe,5124612,156,False,2027-03-24 19:00:00,GSW
 "Old Heads, Young Blood",Yaxel Lendeborg,5175737,156,False,2027-03-24 19:00:00,PHL
 Lil Dicky Ball,Zach LaVine,3064440,156,False,2027-03-24 19:00:00,ATL
 Only Franz,Brandon Ingram,3913176,156,False,2027-03-24 19:30:00,MIL
-walk and ball torture,Brook Lopez,3448,156,False,2027-03-24 19:30:00,MIL
 walk and ball torture,Darius Garland,4396907,156,False,2027-03-24 19:30:00,MIL
 Jared Dubley,Jaime Jaquez Jr.,4432848,156,False,2027-03-24 19:30:00,LAC
 Victor Krum,Kasparas Jakucionis,5214640,156,False,2027-03-24 19:30:00,LAC
@@ -11485,6 +11484,7 @@ Only Franz,Nikola Jokic,3112335,157,False,2027-03-25 16:30:00,BKN
 Victor Krum,Caleb Wilson,5095151,157,False,2027-03-25 17:00:00,MEM
 Lil Dicky Ball,Cameron Boozer,5041935,157,False,2027-03-25 17:00:00,CHI
 BLACK FLAGG,Cedric Coward,4903027,157,False,2027-03-25 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,157,False,2027-03-25 17:00:00,MEM
 Victor Krum,Jaylen Wells,5112087,157,False,2027-03-25 17:00:00,CHI
 Brunson’s Burners,Jerami Grant,2991070,157,False,2027-03-25 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,157,False,2027-03-25 17:00:00,MEM
@@ -11521,7 +11521,6 @@ Lil Dicky Ball,Anthony Black,4712849,158,False,2027-03-26 17:00:00,MIN
 Aspiration Risk,Anthony Edwards,4594268,158,False,2027-03-26 17:00:00,ORL
 the emergency room,Ayo Dosunmu,4397002,158,False,2027-03-26 17:00:00,ORL
 Only Franz,Brandon Ingram,3913176,158,False,2027-03-26 17:00:00,OKC
-walk and ball torture,Brook Lopez,3448,158,False,2027-03-26 17:00:00,OKC
 BLACK FLAGG,Chet Holmgren,4433255,158,False,2027-03-26 17:00:00,LAC
 BLACK FLAGG,Cooper Flagg,5041939,158,False,2027-03-26 17:00:00,NOP
 Jared Dubley,Daniel Gafford,4278049,158,False,2027-03-26 17:00:00,NOP
@@ -11619,12 +11618,12 @@ Aspiration Risk,Trae Young,4277905,159,False,2027-03-27 16:00:00,GSW
 Lil Dicky Ball,Bam Adebayo,4066261,159,False,2027-03-27 17:00:00,BOS
 Brunson’s Burners,Bobby Portis,3064482,159,False,2027-03-27 17:00:00,BOS
 Only Franz,Brandon Ingram,3913176,159,False,2027-03-27 17:00:00,CHI
-walk and ball torture,Brook Lopez,3448,159,False,2027-03-27 17:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,159,False,2027-03-27 17:00:00,LAC
 walk and ball torture,Darius Garland,4396907,159,False,2027-03-27 17:00:00,CHI
 walk and ball torture,Davion Mitchell,4278053,159,False,2027-03-27 17:00:00,BOS
 lee lee,Derrick White,3078576,159,False,2027-03-27 17:00:00,MIA
 lee lee,Giannis Antetokounmpo,3032977,159,False,2027-03-27 17:00:00,BOS
+walk and ball torture,Jalen Smith,4397189,159,False,2027-03-27 17:00:00,LAC
 Jared Dubley,Jayson Tatum,4065648,159,False,2027-03-27 17:00:00,MIA
 Victor Krum,Josh Giddey,4871145,159,False,2027-03-27 17:00:00,LAC
 T's Top Team,Keaton Wagler,5254165,159,False,2027-03-27 17:00:00,CHI
@@ -11772,7 +11771,6 @@ the emergency room,Ayo Dosunmu,4397002,161,False,2027-03-29 16:00:00,ATL
 Lil Dicky Ball,Bam Adebayo,4066261,161,False,2027-03-29 16:00:00,CLE
 Brunson’s Burners,Bobby Portis,3064482,161,False,2027-03-29 16:00:00,CLE
 Only Franz,Brandon Ingram,3913176,161,False,2027-03-29 16:00:00,DET
-walk and ball torture,Brook Lopez,3448,161,False,2027-03-29 16:00:00,DET
 Brunson’s Burners,CJ McCollum,2490149,161,False,2027-03-29 16:00:00,MIN
 Lil Dicky Ball,Cade Cunningham,4432166,161,False,2027-03-29 16:00:00,LAC
 walk and ball torture,Darius Garland,4396907,161,False,2027-03-29 16:00:00,DET
@@ -11814,6 +11812,7 @@ Jared Dubley,Daniel Gafford,4278049,161,False,2027-03-29 17:00:00,MIL
 walk and ball torture,Dereck Lively II,4683688,161,False,2027-03-29 17:00:00,MIL
 Only Franz,Ivica Zubac,4017837,161,False,2027-03-29 17:00:00,CHI
 Jared Dubley,Jaime Jaquez Jr.,4432848,161,False,2027-03-29 17:00:00,DAL
+walk and ball torture,Jalen Smith,4397189,161,False,2027-03-29 17:00:00,IND
 Victor Krum,Josh Giddey,4871145,161,False,2027-03-29 17:00:00,IND
 Victor Krum,Kasparas Jakucionis,5214640,161,False,2027-03-29 17:00:00,DAL
 the emergency room,Kel'el Ware,5105623,161,False,2027-03-29 17:00:00,DAL
@@ -11930,7 +11929,6 @@ the emergency room,Anthony Davis,6583,163,False,2027-03-31 16:00:00,CHI
 Only Franz,Ausar Thompson,4684742,163,False,2027-03-31 16:00:00,TOR
 BLACK FLAGG,Brandin Podziemski,4709138,163,False,2027-03-31 16:00:00,PHL
 Only Franz,Brandon Ingram,3913176,163,False,2027-03-31 16:00:00,ATL
-walk and ball torture,Brook Lopez,3448,163,False,2027-03-31 16:00:00,ATL
 Brunson’s Burners,CJ McCollum,2490149,163,False,2027-03-31 16:00:00,LAC
 Lil Dicky Ball,Cade Cunningham,4432166,163,False,2027-03-31 16:00:00,TOR
 Victor Krum,Caleb Wilson,5095151,163,False,2027-03-31 16:00:00,WAS
@@ -11944,6 +11942,7 @@ Brunson’s Burners,Immanuel Quickley,4395724,163,False,2027-03-31 16:00:00,DET
 Jared Dubley,Ja'Kobe Walter,4684272,163,False,2027-03-31 16:00:00,DET
 Only Franz,Jalen Duren,4433621,163,False,2027-03-31 16:00:00,TOR
 the emergency room,Jalen Johnson,4701230,163,False,2027-03-31 16:00:00,LAC
+walk and ball torture,Jalen Smith,4397189,163,False,2027-03-31 16:00:00,WAS
 walk and ball torture,Jaylen Brown,3917376,163,False,2027-03-31 16:00:00,GSW
 Jared Dubley,Jimmy Butler III,6430,163,False,2027-03-31 16:00:00,PHL
 Victor Krum,Joel Embiid,3059318,163,False,2027-03-31 16:00:00,GSW
@@ -12138,6 +12137,7 @@ Victor Krum,Duncan Robinson,3157465,165,False,2027-04-02 17:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,165,False,2027-04-02 17:00:00,MIL
 Jared Dubley,Jaime Jaquez Jr.,4432848,165,False,2027-04-02 17:00:00,CHA
 Only Franz,Jalen Duren,4433621,165,False,2027-04-02 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,165,False,2027-04-02 17:00:00,DET
 Aspiration Risk,John Collins,3908845,165,False,2027-04-02 17:00:00,CHI
 Victor Krum,Josh Giddey,4871145,165,False,2027-04-02 17:00:00,DET
 Victor Krum,Kasparas Jakucionis,5214640,165,False,2027-04-02 17:00:00,CHA
@@ -12208,7 +12208,6 @@ Aspiration Risk,Mo Bamba,4277919,165,False,2027-04-02 19:00:00,POR
 Only Franz,Nikola Jokic,3112335,165,False,2027-04-02 19:00:00,PHO
 Aspiration Risk,Toumani Camara,4431736,165,False,2027-04-02 19:00:00,UTA
 Only Franz,Brandon Ingram,3913176,165,False,2027-04-02 19:30:00,SAS
-walk and ball torture,Brook Lopez,3448,165,False,2027-04-02 19:30:00,SAS
 walk and ball torture,Darius Garland,4396907,165,False,2027-04-02 19:30:00,SAS
 T's Top Team,De'Aaron Fox,4066259,165,False,2027-04-02 19:30:00,LAC
 walk and ball torture,Devin Vassell,4395630,165,False,2027-04-02 19:30:00,LAC
@@ -12319,6 +12318,7 @@ the emergency room,Amen Thompson,4684740,167,False,2027-04-04 13:00:00,CHI
 Victor Krum,Caleb Wilson,5095151,167,False,2027-04-04 13:00:00,HOU
 "Old Heads, Young Blood",Fred VanVleet,2991230,167,False,2027-04-04 13:00:00,CHI
 Brunson’s Burners,Jabari Smith Jr.,4432639,167,False,2027-04-04 13:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,167,False,2027-04-04 13:00:00,HOU
 Victor Krum,Josh Giddey,4871145,167,False,2027-04-04 13:00:00,HOU
 "Old Heads, Young Blood",Kevin Durant,3202,167,False,2027-04-04 13:00:00,CHI
 Lil Dicky Ball,Matas Buzelis,4711294,167,False,2027-04-04 13:00:00,HOU
@@ -12326,7 +12326,6 @@ Lil Dicky Ball,Nic Claxton,4278067,167,False,2027-04-04 13:00:00,HOU
 "Old Heads, Young Blood",Norman Powell,2595516,167,False,2027-04-04 13:00:00,HOU
 T's Top Team,Reed Sheppard,4711272,167,False,2027-04-04 13:00:00,CHI
 Only Franz,Brandon Ingram,3913176,167,False,2027-04-04 13:30:00,PHO
-walk and ball torture,Brook Lopez,3448,167,False,2027-04-04 13:30:00,PHO
 walk and ball torture,Darius Garland,4396907,167,False,2027-04-04 13:30:00,PHO
 "Old Heads, Young Blood",Devin Booker,3136193,167,False,2027-04-04 13:30:00,LAC
 Aspiration Risk,Dillon Brooks,3155526,167,False,2027-04-04 13:30:00,LAC
@@ -12466,6 +12465,7 @@ Jared Dubley,Jaime Jaquez Jr.,4432848,169,False,2027-04-06 17:00:00,CHI
 T's Top Team,Jalen Brunson,3934672,169,False,2027-04-06 17:00:00,ATL
 Only Franz,Jalen Duren,4433621,169,False,2027-04-06 17:00:00,MEM
 the emergency room,Jalen Johnson,4701230,169,False,2027-04-06 17:00:00,NYK
+walk and ball torture,Jalen Smith,4397189,169,False,2027-04-06 17:00:00,MIL
 Victor Krum,Jaylen Wells,5112087,169,False,2027-04-06 17:00:00,DET
 Brunson’s Burners,Jerami Grant,2991070,169,False,2027-04-06 17:00:00,DET
 Aspiration Risk,John Collins,3908845,169,False,2027-04-06 17:00:00,MEM
@@ -12537,7 +12537,6 @@ Victor Krum,Zaccharie Risacher,5211175,169,False,2027-04-06 19:00:00,LAL
 Aspiration Risk,Anthony Edwards,4594268,169,False,2027-04-06 19:30:00,LAC
 the emergency room,Ayo Dosunmu,4397002,169,False,2027-04-06 19:30:00,LAC
 Only Franz,Brandon Ingram,3913176,169,False,2027-04-06 19:30:00,MIN
-walk and ball torture,Brook Lopez,3448,169,False,2027-04-06 19:30:00,MIN
 walk and ball torture,Darius Garland,4396907,169,False,2027-04-06 19:30:00,MIN
 walk and ball torture,Jaden McDaniels,4431671,169,False,2027-04-06 19:30:00,LAC
 the emergency room,Jonathan Kuminga,4433247,169,False,2027-04-06 19:30:00,LAC
@@ -12610,6 +12609,7 @@ Lil Dicky Ball,Cameron Boozer,5041935,170,False,2027-04-07 17:00:00,WAS
 BLACK FLAGG,Cedric Coward,4903027,170,False,2027-04-07 17:00:00,WAS
 Jared Dubley,Coby White,4395651,170,False,2027-04-07 17:00:00,CHI
 BLACK FLAGG,Grayson Allen,3135045,170,False,2027-04-07 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,170,False,2027-04-07 17:00:00,CHA
 Victor Krum,Jaylen Wells,5112087,170,False,2027-04-07 17:00:00,WAS
 Brunson’s Burners,Jerami Grant,2991070,170,False,2027-04-07 17:00:00,WAS
 Victor Krum,Josh Giddey,4871145,170,False,2027-04-07 17:00:00,CHA
@@ -12683,7 +12683,6 @@ the emergency room,Tyler Herro,4395725,171,False,2027-04-08 17:00:00,NYK
 Brunson’s Burners,Aaron Gordon,3064290,171,False,2027-04-08 18:00:00,LAC
 the emergency room,Ace Bailey,4873138,171,False,2027-04-08 18:00:00,NOP
 Only Franz,Brandon Ingram,3913176,171,False,2027-04-08 18:00:00,DEN
-walk and ball torture,Brook Lopez,3448,171,False,2027-04-08 18:00:00,DEN
 "Old Heads, Young Blood",Cameron Johnson,3138196,171,False,2027-04-08 18:00:00,LAC
 T's Top Team,Christian Braun,4431767,171,False,2027-04-08 18:00:00,LAC
 walk and ball torture,Darius Garland,4396907,171,False,2027-04-08 18:00:00,DEN
@@ -12787,6 +12786,7 @@ Lil Dicky Ball,Draymond Green,6589,172,False,2027-04-09 17:00:00,OKC
 lee lee,Giannis Antetokounmpo,3032977,172,False,2027-04-09 17:00:00,WAS
 Only Franz,Isaiah Hartenstein,4222252,172,False,2027-04-09 17:00:00,GSW
 Jared Dubley,Jaime Jaquez Jr.,4432848,172,False,2027-04-09 17:00:00,CHI
+walk and ball torture,Jalen Smith,4397189,172,False,2027-04-09 17:00:00,MIL
 lee lee,Jalen Williams,4593803,172,False,2027-04-09 17:00:00,GSW
 the emergency room,Jared McCain,4683778,172,False,2027-04-09 17:00:00,GSW
 Jared Dubley,Jimmy Butler III,6430,172,False,2027-04-09 17:00:00,OKC
@@ -12819,7 +12819,6 @@ Aspiration Risk,Toumani Camara,4431736,172,False,2027-04-09 17:30:00,HOU
 Brunson’s Burners,Aaron Gordon,3064290,172,False,2027-04-09 18:30:00,SAS
 the emergency room,Ace Bailey,4873138,172,False,2027-04-09 18:30:00,LAC
 Only Franz,Brandon Ingram,3913176,172,False,2027-04-09 18:30:00,UTA
-walk and ball torture,Brook Lopez,3448,172,False,2027-04-09 18:30:00,UTA
 "Old Heads, Young Blood",Cameron Johnson,3138196,172,False,2027-04-09 18:30:00,SAS
 T's Top Team,Christian Braun,4431767,172,False,2027-04-09 18:30:00,SAS
 walk and ball torture,Darius Garland,4396907,172,False,2027-04-09 18:30:00,UTA
@@ -12915,6 +12914,7 @@ Jared Dubley,Jaime Jaquez Jr.,4432848,174,False,2027-04-11 15:00:00,BOS
 T's Top Team,Jalen Brunson,3934672,174,False,2027-04-11 15:00:00,IND
 Only Franz,Jalen Duren,4433621,174,False,2027-04-11 15:00:00,WAS
 the emergency room,Jalen Johnson,4701230,174,False,2027-04-11 15:00:00,CLE
+walk and ball torture,Jalen Smith,4397189,174,False,2027-04-11 15:00:00,NOP
 lee lee,James Harden,3992,174,False,2027-04-11 15:00:00,ATL
 T's Top Team,Jarrett Allen,4066328,174,False,2027-04-11 15:00:00,ATL
 walk and ball torture,Jaylen Brown,3917376,174,False,2027-04-11 15:00:00,CHA
@@ -12976,7 +12976,6 @@ Only Franz,Austin Reaves,4066457,174,False,2027-04-11 17:30:00,PHO
 the emergency room,Ayo Dosunmu,4397002,174,False,2027-04-11 17:30:00,HOU
 BLACK FLAGG,Brandin Podziemski,4709138,174,False,2027-04-11 17:30:00,UTA
 Only Franz,Brandon Ingram,3913176,174,False,2027-04-11 17:30:00,SAC
-walk and ball torture,Brook Lopez,3448,174,False,2027-04-11 17:30:00,SAC
 Lil Dicky Ball,Cameron Boozer,5041935,174,False,2027-04-11 17:30:00,DAL
 "Old Heads, Young Blood",Cameron Johnson,3138196,174,False,2027-04-11 17:30:00,OKC
 BLACK FLAGG,Cedric Coward,4903027,174,False,2027-04-11 17:30:00,DAL
