@@ -1,0 +1,14 @@
+{
+  "league_name": "AHS Leadership",
+  "espn_league_name": "AHS Leadership",
+  "matchup_period": 2,
+  "matchup_start": "2026-10-26",
+  "matchup_end": "2026-11-01",
+  "days_left": 4,
+  "updated_at": "2026-10-29T17:49",
+  "espn_day": "2026-10-29",
+  "max_per_day": 10,
+  "sd_pct": 0.25,
+  "sd_basis": "remaining",
+  "min_fppg": 25.0
+}
