@@ -1,0 +1,37 @@
+date,scoring_period,matchup_period,team_id,fantasy_team,player_id,player,injury_status,fppg_model,proj_points,in_top_n
+2026-10-29,10,2,1,Tyrese's,4395628,Zion Williamson,ACTIVE,35.49,35.49,True
+2026-10-29,10,2,1,Tyrese's,4903027,Cedric Coward,ACTIVE,29.29,29.29,True
+2026-10-29,10,2,2,Yong,4066328,Jarrett Allen,ACTIVE,32.34,32.34,True
+2026-10-29,10,2,2,Yong,5081727,Sidy Cissoko,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,3,Anything Is Possible,3155942,Domantas Sabonis,ACTIVE,41.98,41.98,True
+2026-10-29,10,2,3,Anything Is Possible,3992,James Harden,ACTIVE,34.39,34.39,True
+2026-10-29,10,2,3,Anything Is Possible,4869342,Dyson Daniels,ACTIVE,34.02,34.02,True
+2026-10-29,10,2,3,Anything Is Possible,5144091,Jeremiah Fears,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,4,Don't Ask,4701230,Jalen Johnson,ACTIVE,43.67,43.67,True
+2026-10-29,10,2,4,Don't Ask,4432158,Evan Mobley,ACTIVE,39.16,39.16,True
+2026-10-29,10,2,4,Don't Ask,4065732,De'Andre Hunter,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,5,you know what to do with that,4683021,Deni Avdija,ACTIVE,40.88,40.88,True
+2026-10-29,10,2,5,you know what to do with that,4278039,Nickeil Alexander-Walker,ACTIVE,31.92,31.92,True
+2026-10-29,10,2,5,you know what to do with that,5105565,Donovan Clingan,ACTIVE,31.8,31.8,True
+2026-10-29,10,2,5,you know what to do with that,4431736,Toumani Camara,ACTIVE,27.78,27.78,True
+2026-10-29,10,2,5,you know what to do with that,4066211,Robert Williams III,OUT,26.26,0.0,True
+2026-10-29,10,2,6,KotaroLivesAlone,4869780,Derik Queen,ACTIVE,26.5,26.5,True
+2026-10-29,10,2,7,The Galumphs,3995,Jrue Holiday,ACTIVE,30.99,30.99,True
+2026-10-29,10,2,7,The Galumphs,4600663,Zach Edey,ACTIVE,30.04,30.04,True
+2026-10-29,10,2,7,The Galumphs,3907497,Dejounte Murray,OUT,39.29,0.0,True
+2026-10-29,10,2,8,Flashy like Primo,5142620,Darius Acuff Jr.,ACTIVE,27.5,27.5,True
+2026-10-29,10,2,8,Flashy like Primo,2490149,CJ McCollum,ACTIVE,26.98,26.98,True
+2026-10-29,10,2,8,Flashy like Primo,4576087,Peyton Watson,ACTIVE,26.6,26.6,True
+2026-10-29,10,2,9,MVPKNEE,4431679,Precious Achiuwa,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,9,MVPKNEE,5061589,Yves Missi,OUT,26.07,0.0,True
+2026-10-29,10,2,10,Towns Syndrome,4065733,Ty Jerome,ACTIVE,42.93,42.93,True
+2026-10-29,10,2,10,Towns Syndrome,5041935,Cameron Boozer,ACTIVE,32.41,32.41,True
+2026-10-29,10,2,10,Towns Syndrome,5149077,Kingston Flemings,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,10,Towns Syndrome,4277956,Jordan Poole,OUT,25.0,0.0,True
+2026-10-29,10,2,11,The Freak and The Felons,6606,Damian Lillard,ACTIVE,37.64,37.64,True
+2026-10-29,10,2,11,The Freak and The Felons,4279888,Ja Morant,ACTIVE,36.48,36.48,True
+2026-10-29,10,2,11,The Freak and The Felons,3064440,Zach LaVine,ACTIVE,31.34,31.34,True
+2026-10-29,10,2,11,The Freak and The Felons,4431680,Onyeka Okongwu,ACTIVE,26.8,26.8,True
+2026-10-29,10,2,11,The Freak and The Felons,4397183,Aaron Wiggins,ACTIVE,25.0,25.0,True
+2026-10-29,10,2,12,My Sweet Glorious King,3908809,Donovan Mitchell,ACTIVE,42.05,42.05,True
+2026-10-29,10,2,12,My Sweet Glorious King,4397688,Trey Murphy III,ACTIVE,30.31,30.31,True
