@@ -1,6 +1,6 @@
 # ESPN Fantasy Basketball — daily pull + weekly win probability
 
-A GitHub Action runs `run_all.py` every morning (~5am Pacific, with a 7:43am backup). For
+A GitHub Action runs `run_all.py` every morning before 9am Pacific (see Timing). For
 every league in `leagues.json` it pulls ESPN, estimates each team's points for the rest of
 the matchup, converts that into a win probability with a z-score, and commits the CSVs to
 `data/<league>/`. Optionally it also publishes a web page and emails the results.
@@ -86,6 +86,48 @@ To turn it on:
    `ENABLE_SITE` = `true`.
 3. Run the workflow. The page goes live at `https://<your-username>.github.io/<repo-name>/`.
    The deploy job's box on the run page links to it.
+
+## Timing
+
+GitHub's own scheduler has been starting runs 3–10 hours late, so the workflow asks for a
+run every 30 minutes from 4:07 to 8:37am Pacific (3:07–7:37 in winter). The first run that
+gets today's data does the work and sends the email. Later scheduled runs see that and stop
+within seconds. Manual and external-trigger runs always run in full.
+
+The email waits until ESPN has rolled over to the new day, so last night's scores are final.
+After 8:30am it sends regardless.
+
+### Guaranteed time: trigger from cron-job.org (free)
+
+1. **Make a token:** github.com → your photo → Settings → Developer settings →
+   Personal access tokens → **Fine-grained tokens** → Generate new token.
+   - Repository access: **Only select repositories** → this repo
+   - Permissions → Repository permissions → **Actions: Read and write**
+   - Set the longest expiration offered and note the date; renew it before then.
+2. **Create the job** at cron-job.org (free account) → Create cronjob:
+   - URL: `https://api.github.com/repos/<you>/<repo>/actions/workflows/daily.yml/dispatches`
+   - Schedule: every day at 6:30, time zone America/Los_Angeles
+   - Advanced → Request method **POST**, headers:
+     `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`,
+     `X-GitHub-Api-Version: 2022-11-28`, `Content-Type: application/json`
+   - Request body: `{"ref":"main"}`
+3. Click **Test run**. A `204` response means it worked, and a new run appears in the
+   Actions tab within seconds, labeled as manually run by you.
+
+### Performance vs projection (web page only)
+
+Each league on the page has a collapsed **Performance vs projection** section. Nothing
+loads until someone opens it, then only the chosen week.
+
+- **Team table:** over/under for each finished day and the week so far. Team actual =
+  points that counted (active lineup); team projection = that morning's top 10 projected
+  players. Blue = over, red = under, darker = bigger.
+- **Click a team** for its players: whole week or one day, sorted by the biggest miss either
+  way. Player numbers include bench games, tagged "bench".
+- How it works: each morning's run saves every player's projection for that day to
+  `history/projections.csv` (first run of the day wins, so it can't be rewritten after the
+  games). The next morning's actual scores are compared against it. Tracking starts the
+  day you install this; earlier days have no saved projection.
 
 ## Daily email (Gmail)
 
@@ -181,6 +223,7 @@ moved into `data/<first league's slug>/`, history included.
 | `yesterday_points.csv` | Each player's fantasy points yesterday |
 | `win_probability.csv` | Today's matchups: banked, expected remaining, expected total, z, win % |
 | `history/*.csv` | Growing daily logs of the two files above |
+| `history/projections.csv` | Each morning's per-player projection for that day (for performance vs projection) |
 | `meta.json` | League name, matchup dates, last update (used by the page and email) |
 | `last_email.txt` | Date that league's email last went out |
 
@@ -190,8 +233,8 @@ moved into `data/<first league's slug>/`, history included.
 - Weekly games-played caps and acquisition limits aren't modeled.
 - The daily cap ignores positions, so on a rare day where many of one position play,
   the projection can count a lineup ESPN wouldn't allow.
-- GitHub's scheduler is best-effort: a scheduled run can start late or be skipped when
-  GitHub is busy. The workflow has a backup run at 7:43am Pacific for that reason.
+- GitHub's scheduler is best-effort; see **Timing** for how this copes and how to
+  guarantee the time.
 
 ## Tests
 

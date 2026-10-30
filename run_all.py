@@ -60,11 +60,29 @@ def migrate_single_league_layout(first_slug: str):
         print(f"Moved existing data/ files into data/{first_slug}/ (history kept)")
 
 
+def done_today(leagues, today: date) -> bool:
+    """True if every league already has today's data from after ESPN's overnight rollover."""
+    for L in leagues:
+        f = DATA / L["slug"] / "meta.json"
+        if not f.exists():
+            return False
+        m = json.loads(f.read_text())
+        if m.get("espn_day") != str(today) or not str(m.get("updated_at", "")).startswith(str(today)):
+            return False
+    return True
+
+
 def main():
     leagues = load_leagues()
     if not leagues:
         sys.exit("No leagues to run: check leagues.json")
     migrate_single_league_layout(leagues[0]["slug"])
+
+    # The schedule fires many times each morning because GitHub often starts runs hours late.
+    # Once one run has today's data, the later scheduled ones stop here. Manual runs always run.
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and done_today(leagues, date.today()):
+        print(f"Already have today's data for every league ({date.today()}); nothing to do.")
+        return
 
     ok, failed = [], []
     for L in leagues:

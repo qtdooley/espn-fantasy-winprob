@@ -147,8 +147,169 @@ def page(title: str, body: str, email: bool = False) -> str:
             f'<body><div class="wrap">{body}</div></body></html>')
 
 
+PERF_CSS = """
+:root{--pos:#2a78d6;--neg:#e34948}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--pos:#3987e5;--neg:#e66767}}
+details.perf{background:var(--card);border:1px solid var(--rule);border-radius:10px;margin:14px 0 4px}
+details.perf>summary{cursor:pointer;padding:12px 16px;font-weight:600;list-style-position:inside}
+.perf-body{padding:0 16px 14px}
+.ctl{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:2px 0 10px}
+.ctl select{max-width:100%}
+.ctl select,.chips button{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);
+  border:1px solid var(--rule);border-radius:6px;padding:5px 8px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.chips button{cursor:pointer}.chips button[aria-pressed=true]{border-color:var(--ink);font-weight:600}
+.legend{color:var(--ink2);font-size:12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px;vertical-align:-1px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.pt{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+.pt th,.pt td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap}
+.pt th{color:var(--ink2);font-weight:600;font-size:12px}
+.pt th:first-child,.pt td:first-child{text-align:left;position:sticky;left:0;background:var(--card);
+  white-space:normal;min-width:120px;overflow-wrap:break-word}
+.pt tr.team{cursor:pointer}.pt tr.team:hover td:first-child{text-decoration:underline}
+.pt tr.team td:first-child::before{content:"\\25B8  ";color:var(--ink2)}
+.pt tr.team.open td:first-child::before{content:"\\25BE  "}
+.pt td.sum{font-weight:700}
+.panel{margin-top:10px;background:var(--bg);border:1px solid var(--rule);border-radius:8px;padding:10px 12px}
+.panel:empty{display:none}
+.panel .pt th:first-child,.panel .pt td:first-child{background:var(--bg)}
+.phead{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:2px}
+.x{font:inherit;font-size:13px;color:var(--ink);background:var(--card);border:1px solid var(--rule);
+  border-radius:6px;padding:4px 10px;cursor:pointer}
+.tag{font-size:11px;color:var(--ink2);border:1px solid var(--rule);border-radius:4px;padding:0 4px;margin-left:6px}
+.empty{color:var(--ink2);font-size:13px}
+"""
+
+PERF_JS = r"""
+(function () {
+  var MINUS = "\u2212";
+  function fmt(v) { v = Math.round(v * 10) / 10; return (v > 0 ? "+" : v < 0 ? MINUS : "") + Math.abs(v).toFixed(1); }
+  function n0(v) { return Math.round(v).toLocaleString(); }
+  function el(tag, attrs, kids) {
+    var e = document.createElement(tag);
+    for (var k in (attrs || {})) e.setAttribute(k, attrs[k]);
+    [].concat(kids || []).forEach(function (c) { e.append(c && c.nodeType ? c : document.createTextNode(c == null ? "" : c)); });
+    return e;
+  }
+  function day(iso) { var d = new Date(iso + "T12:00:00"); return d.toLocaleDateString("en-US", { weekday: "short", month: "numeric", day: "numeric" }); }
+  function tint(v, max) {
+    if (!max || !v) return "";
+    var pct = Math.round(8 + 37 * Math.min(Math.abs(v) / max, 1));
+    return "background:color-mix(in oklab," + (v > 0 ? "var(--pos)" : "var(--neg)") + " " + pct + "%,var(--card))";
+  }
+  function getJSON(u) { return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+
+  function deltaCell(p, a, max, cls) {
+    var v = a - p;
+    var td = el("td", { title: "Projected " + n0(p) + " \u00b7 Actual " + n0(a), class: cls || "" }, fmt(v));
+    var s = tint(v, max); if (s) td.setAttribute("style", s);
+    return td;
+  }
+
+  function playersView(box, wk, tid) {
+    var chips = el("div", { class: "chips", role: "group", "aria-label": "Show" });
+    var holder = el("div");
+    var views = [{ key: "week", label: "Whole week" }].concat(wk.days.map(function (d) { return { key: d.sp, label: d.label }; }));
+    function render(key) {
+      [].forEach.call(chips.children, function (b) { b.setAttribute("aria-pressed", String(b.dataset.key === String(key))); });
+      var rows = (wk.players[tid] || []).map(function (p) {
+        if (key === "week") return { name: p.name, p: p.proj, a: p.act, note: p.games + " gm" };
+        var d = p.days[key]; if (!d) return null;
+        var note = (d[2] === "BE" || d[2] === "IR") ? "bench" : (!d[3] ? "no proj" : "");
+        return { name: p.name, p: d[0], a: d[1], note: note };
+      }).filter(Boolean).sort(function (x, y) { return Math.abs(y.a - y.p) - Math.abs(x.a - x.p); });
+      var max = rows.reduce(function (m, r) { return Math.max(m, Math.abs(r.a - r.p)); }, 0);
+      var t = el("table", { class: "pt" }, [el("thead", {}, el("tr", {}, [
+        el("th", { scope: "col" }, "Player"), el("th", { scope: "col" }, "Proj"),
+        el("th", { scope: "col" }, "Actual"), el("th", { scope: "col" }, "+/" + MINUS)]))]);
+      var tb = el("tbody");
+      rows.forEach(function (r) {
+        tb.append(el("tr", {}, [el("td", {}, [r.name, r.note ? el("span", { class: "tag" }, r.note) : ""]),
+          el("td", {}, n0(r.p)), el("td", {}, n0(r.a)), deltaCell(r.p, r.a, max)]));
+      });
+      t.append(tb);
+      holder.replaceChildren(rows.length ? el("div", { class: "scroll" }, t) : el("p", { class: "empty" }, "No games."));
+    }
+    views.forEach(function (v) {
+      var b = el("button", { type: "button", "data-key": v.key, "aria-pressed": "false" }, v.label);
+      b.addEventListener("click", function () { render(v.key); });
+      chips.append(b);
+    });
+    box.replaceChildren(el("div", { class: "legend" }, "Sorted by biggest miss either way. Player totals include bench games."), chips, holder);
+    render("week");
+  }
+
+  function renderWeek(out, wk) {
+    var cells = [];
+    wk.teams.forEach(function (t) { wk.days.forEach(function (d) { var c = t.days[d.sp]; if (c) cells.push(Math.abs(c[1] - c[0])); }); });
+    var dmax = Math.max.apply(null, cells.concat([0]));
+    var wmax = Math.max.apply(null, wk.teams.map(function (t) { return Math.abs(t.act - t.proj); }).concat([0]));
+    var head = el("tr", {}, [el("th", { scope: "col" }, "Team")]
+      .concat(wk.days.map(function (d) { return el("th", { scope: "col" }, d.label); }))
+      .concat([el("th", { scope: "col" }, "Week"), el("th", { scope: "col" }, "Proj"), el("th", { scope: "col" }, "Actual")]));
+    var tb = el("tbody");
+    var panel = el("div", { class: "panel", "aria-live": "polite" });
+    wk.teams.forEach(function (t) {
+      var tr = el("tr", { class: "team", tabindex: "0", "aria-expanded": "false" }, [el("td", {}, t.name)]);
+      wk.days.forEach(function (d) { var c = t.days[d.sp]; tr.append(c ? deltaCell(c[0], c[1], dmax) : el("td", {}, "\u2013")); });
+      tr.append(deltaCell(t.proj, t.act, wmax, "sum"), el("td", {}, n0(t.proj)), el("td", {}, n0(t.act)));
+      function toggle() {
+        var wasOpen = tr.classList.contains("open");
+        tb.querySelectorAll("tr.team.open").forEach(function (r) { r.classList.remove("open"); r.setAttribute("aria-expanded", "false"); });
+        if (wasOpen) { panel.replaceChildren(); return; }
+        tr.classList.add("open"); tr.setAttribute("aria-expanded", "true");
+        var close = el("button", { type: "button", class: "x" }, "Close");
+        close.addEventListener("click", toggle);
+        var box = el("div");
+        panel.replaceChildren(el("div", { class: "phead" }, [el("strong", {}, t.name + " \u00b7 players"), close]), box);
+        playersView(box, wk, t.id);
+        panel.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+      tr.addEventListener("click", toggle);
+      tr.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+      tb.append(tr);
+    });
+    out.replaceChildren(el("div", { class: "scroll" }, el("table", { class: "pt" }, [el("thead", {}, head), tb])),
+      el("p", { class: "legend" }, "Team actual = points that counted (active lineup). Team projection = the top " +
+        wk.max_per_day + " projected players each day. Click a team for its players."), panel);
+  }
+
+  function init(d) {
+    var slug = d.getAttribute("data-league"), body = d.querySelector(".perf-body");
+    body.textContent = "Loading\u2026";
+    getJSON("data/" + slug + "/perf_index.json").then(function (idx) {
+      if (!idx.length) { body.replaceChildren(el("p", { class: "empty" }, "Tracking starts once a full day has both a morning projection and final scores.")); return; }
+      var sel = el("select", { "aria-label": "Matchup week" });
+      idx.forEach(function (w) {
+        sel.append(el("option", { value: String(w.mp) }, "Matchup " + w.mp + " \u00b7 " + day(w.start) +
+          (w.end !== w.start ? " \u2013 " + day(w.end) : "") + " (" + w.days + " day" + (w.days > 1 ? "s" : "") + " so far)"));
+      });
+      var legend = el("span", { class: "legend" }, [el("i", { style: "background:var(--pos)" }), "over projection",
+        el("i", { style: "background:var(--neg)" }), "under"]);
+      var out = el("div"), cache = {};
+      function show() {
+        var mp = sel.value; out.textContent = "Loading\u2026";
+        (cache[mp] ? Promise.resolve(cache[mp]) : getJSON("data/" + slug + "/perf_" + mp + ".json"))
+          .then(function (wk) { cache[mp] = wk; renderWeek(out, wk); })
+          .catch(function () { out.textContent = "Couldn't load that week."; });
+      }
+      sel.addEventListener("change", show);
+      body.replaceChildren(el("div", { class: "ctl" }, [sel, legend]), out);
+      show();
+    }).catch(function () { body.replaceChildren(el("p", { class: "empty" }, "Couldn't load performance data.")); });
+  }
+
+  document.querySelectorAll("details.perf").forEach(function (d) {
+    d.addEventListener("toggle", function () { if (d.open && !d.dataset.loaded) { d.dataset.loaded = "1"; init(d); } });
+  });
+})();
+"""
+
+
 def build_site(leagues, data_dir: Path, site_dir: Path) -> Path:
-    """leagues: list of (slug, display_name). Writes site_dir/index.html."""
+    """leagues: list of (slug, display_name). Writes site_dir/index.html + per-week perf JSON."""
+    from perf import build_perf  # local import keeps email-only runs light
     site_dir.mkdir(parents=True, exist_ok=True)
     sections, nav, last_meta = [], [], {}
     for slug, _ in leagues:
@@ -158,11 +319,21 @@ def build_site(leagues, data_dir: Path, site_dir: Path) -> Path:
         meta, wp, hist = load_league(d)
         last_meta = meta
         nav.append(f'<a href="#{_e(slug)}">{_e(meta["league_name"])}</a>')
-        sections.append(league_section(meta, wp, hist, slug))
+        index, weeks = build_perf(d, int(meta.get("max_per_day", 10)))
+        out = site_dir / "data" / slug
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "perf_index.json").write_text(json.dumps(index))
+        for mp, wk in weeks.items():
+            (out / f"perf_{mp}.json").write_text(json.dumps(wk))
+        sections.append(league_section(meta, wp, hist, slug)
+                        + f'<details class="perf" data-league="{_e(slug)}">'
+                          f'<summary>Performance vs projection</summary><div class="perf-body"></div></details>')
     body = ("<h1>Fantasy win probabilities</h1>"
             + (f"<nav>{''.join(nav)}</nav>" if len(nav) > 1 else "")
             + "".join(sections) + (_footer(last_meta) if last_meta else ""))
-    (site_dir / "index.html").write_text(page("Fantasy Win Odds", body))
+    html_out = page("Fantasy Win Odds", body).replace(
+        "</style>", PERF_CSS + "</style>", 1).replace("</body>", f"<script>{PERF_JS}</script></body>", 1)
+    (site_dir / "index.html").write_text(html_out)
     (site_dir / ".nojekyll").write_text("")
     return site_dir / "index.html"
 
@@ -215,6 +386,11 @@ def send_league_emails(leagues, data_dir: Path, today: date, mode: str = "auto",
                 status.append(f"email {slug}: already sent today")
                 continue
             meta, wp, hist = load_league(d)
+            late = datetime.now().hour * 60 + datetime.now().minute >= 8 * 60 + 30
+            if mode == "auto" and meta.get("espn_day") and meta["espn_day"] != str(today) and not late:
+                # Very early run: ESPN hasn't moved to today yet, so last night isn't final.
+                status.append(f"email {slug}: waiting, ESPN still on {meta['espn_day']}")
+                continue
             link = (f'<p><a href="{_e(site_url)}">Open the live page →</a></p>' if site_url else "")
             body = league_section(meta, wp, hist, slug, email=True) + link + _footer(meta)
             msg = EmailMessage()

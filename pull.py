@@ -25,8 +25,8 @@ from pathlib import Path
 import pandas as pd
 from espn_api.basketball import League
 
-from model import (matchup_remaining_periods, model_fppg, period_date_anchor, prior_fppg,
-                   team_expected_remaining, win_probability)
+from model import (availability, matchup_remaining_periods, model_fppg, period_date_anchor,
+                   prior_fppg, team_expected_remaining, win_probability)
 
 YEAR = int(os.environ.get("ESPN_YEAR") or 2027)
 ESPN_S2 = os.environ.get("ESPN_S2") or None
@@ -73,15 +73,16 @@ def last_season_fppg(league, player_ids) -> dict:
     return out
 
 
-def append_dedup(df: pd.DataFrame, path: Path, keys: list):
-    """Append rows to a CSV log, keeping the newest row for each key (safe to re-run)."""
+def append_dedup(df: pd.DataFrame, path: Path, keys: list, keep: str = "last"):
+    """Append rows to a CSV log, keeping one row per key: the newest (keep="last") or the
+    first one ever written (keep="first"). Safe to re-run."""
     if df.empty:
         return
     df = df.astype({k: str for k in keys})
     if path.exists():
         old = pd.read_csv(path, dtype={k: str for k in keys})
         df = pd.concat([old, df], ignore_index=True)
-    df.drop_duplicates(subset=keys, keep="last").to_csv(path, index=False)
+    df.drop_duplicates(subset=keys, keep=keep).to_csv(path, index=False)
 
 
 def main(league_id=None, out_dir=None, espn_s2=None, swid=None, label=None):
@@ -152,6 +153,32 @@ def main(league_id=None, out_dir=None, espn_s2=None, swid=None, label=None):
                     })
 
     pd.DataFrame(roster_rows).to_csv(OUT / "rosters.csv", index=False)
+
+    # ---------- Today's projection snapshot, for "performance vs projection" ----------
+    # Each player with a game today: projected points (FPPG x P(plays)), and whether he's in
+    # his team's top MAX_PER_DAY. The first run of the day sets it (keep="first"), so later
+    # runs can't rewrite the morning projection after the games; they only add pickups.
+    if cur_date == today:
+        snap_rows = []
+        for team in league.teams:
+            day = []
+            for p, mp in zip(team.roster, model_players[team.team_id]):
+                g = mp["schedule"].get(cur_period)
+                if not g:
+                    continue
+                a = availability(mp["injury_status"], g["date"], mp["expected_return"])
+                day.append((mp["fppg"] * a, p, mp))
+            day.sort(key=lambda x: x[0], reverse=True)
+            for rank, (proj, p, mp) in enumerate(day):
+                snap_rows.append({
+                    "date": today, "scoring_period": cur_period, "matchup_period": matchup_id,
+                    "team_id": team.team_id, "fantasy_team": team.team_name,
+                    "player_id": p.playerId, "player": p.name, "injury_status": p.injuryStatus,
+                    "fppg_model": round(mp["fppg"], 2), "proj_points": round(proj, 2),
+                    "in_top_n": rank < MAX_PER_DAY,
+                })
+        append_dedup(pd.DataFrame(snap_rows), OUT / "history" / "projections.csv",
+                     ["scoring_period", "team_id", "player_id"], keep="first")
     pd.DataFrame(sched_rows).sort_values(["game_datetime", "player"]).to_csv(
         OUT / "schedule.csv", index=False)
 
@@ -208,6 +235,7 @@ def main(league_id=None, out_dir=None, espn_s2=None, swid=None, label=None):
         "league_name": label, "espn_league_name": league.settings.name,
         "matchup_period": matchup_id, "matchup_start": str(wk_start), "matchup_end": str(wk_end),
         "days_left": len(remaining_periods), "updated_at": now.isoformat(timespec="minutes"),
+        "espn_day": str(cur_date),  # the day ESPN considers "today"; lags overnight until ESPN rolls over
         "max_per_day": MAX_PER_DAY, "sd_pct": SD_PCT, "sd_basis": SD_BASIS, "min_fppg": MIN_FPPG,
     }
     (OUT / "meta.json").write_text(json.dumps(meta, indent=2))
