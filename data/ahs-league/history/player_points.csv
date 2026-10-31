@@ -172,177 +172,350 @@ date,scoring_period,fantasy_team,team_id,player,player_id,slot,opponent,points,c
 2026-10-28,9,Jared Dubley,8,Jimmy Butler III,6430,IR,MIN,0.0,False
 2026-10-28,9,Jared Dubley,8,Egor Demin,5175643,BE,,0.0,False
 2026-10-28,9,Jared Dubley,8,Ja'Kobe Walter,4684272,SG,ORL,31.0,True
-2026-10-29,10,Lil Dicky Ball,3,Cade Cunningham,4432166,G,None,0.0,True
-2026-10-29,10,Lil Dicky Ball,3,Jamal Murray,3936299,UT,None,0.0,True
-2026-10-29,10,Lil Dicky Ball,3,Bam Adebayo,4066261,BE,None,0.0,False
-2026-10-29,10,Lil Dicky Ball,3,Pascal Siakam,3149673,F,None,0.0,True
+2026-10-29,10,Lil Dicky Ball,3,Cade Cunningham,4432166,G,,0.0,True
+2026-10-29,10,Lil Dicky Ball,3,Jamal Murray,3936299,UT,,0.0,True
+2026-10-29,10,Lil Dicky Ball,3,Bam Adebayo,4066261,BE,,0.0,False
+2026-10-29,10,Lil Dicky Ball,3,Pascal Siakam,3149673,F,,0.0,True
 2026-10-29,10,Lil Dicky Ball,3,Trey Murphy III,4397688,SG,SAC,33.0,True
 2026-10-29,10,Lil Dicky Ball,3,Cameron Boozer,5041935,PF,POR,56.0,True
-2026-10-29,10,Lil Dicky Ball,3,Matas Buzelis,4711294,UT,None,0.0,True
+2026-10-29,10,Lil Dicky Ball,3,Matas Buzelis,4711294,UT,,0.0,True
 2026-10-29,10,Lil Dicky Ball,3,Zach Edey,4600663,C,POR,25.0,True
 2026-10-29,10,Lil Dicky Ball,3,Jeremiah Fears,5144091,PG,SAC,77.0,True
 2026-10-29,10,Lil Dicky Ball,3,Zach LaVine,3064440,SF,NOP,38.0,True
-2026-10-29,10,Lil Dicky Ball,3,Nic Claxton,4278067,IR,None,0.0,False
-2026-10-29,10,Lil Dicky Ball,3,Anthony Black,4712849,BE,None,0.0,False
-2026-10-29,10,Lil Dicky Ball,3,Draymond Green,6589,BE,None,0.0,False
-2026-10-29,10,Lil Dicky Ball,3,Anfernee Simons,4351851,BE,None,0.0,False
-2026-10-29,10,BLACK FLAGG,13,Cooper Flagg,5041939,PF,None,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Tyrese Maxey,4431678,G,None,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Stephen Curry,3975,UT,None,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Kyrie Irving,6442,UT,None,0.0,True
+2026-10-29,10,Lil Dicky Ball,3,Nic Claxton,4278067,IR,,0.0,False
+2026-10-29,10,Lil Dicky Ball,3,Anthony Black,4712849,BE,,0.0,False
+2026-10-29,10,Lil Dicky Ball,3,Draymond Green,6589,BE,,0.0,False
+2026-10-29,10,Lil Dicky Ball,3,Anfernee Simons,4351851,BE,,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Cooper Flagg,5041939,PF,,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Tyrese Maxey,4431678,G,,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Stephen Curry,3975,UT,,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Kyrie Irving,6442,UT,,0.0,True
 2026-10-29,10,BLACK FLAGG,13,Dejounte Murray,3907497,PG,SAC,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Chet Holmgren,4433255,IR,None,0.0,False
-2026-10-29,10,BLACK FLAGG,13,Jaren Jackson Jr.,4277961,IR,None,0.0,False
-2026-10-29,10,BLACK FLAGG,13,Paul George,4251,SF,None,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Chet Holmgren,4433255,IR,,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Jaren Jackson Jr.,4277961,IR,,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Paul George,4251,SF,,0.0,True
 2026-10-29,10,BLACK FLAGG,13,Cedric Coward,4903027,SG,POR,43.0,True
-2026-10-29,10,BLACK FLAGG,13,Collin Murray-Boyles,5093267,F,None,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Khaman Maluach,5203685,BE,None,0.0,False
-2026-10-29,10,BLACK FLAGG,13,Grayson Allen,3135045,BE,None,0.0,False
-2026-10-29,10,BLACK FLAGG,13,Brandin Podziemski,4709138,UT,None,0.0,True
-2026-10-29,10,BLACK FLAGG,13,Tristan da Silva,4702382,BE,None,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Collin Murray-Boyles,5093267,F,,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Khaman Maluach,5203685,BE,,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Grayson Allen,3135045,BE,,0.0,False
+2026-10-29,10,BLACK FLAGG,13,Brandin Podziemski,4709138,UT,,0.0,True
+2026-10-29,10,BLACK FLAGG,13,Tristan da Silva,4702382,BE,,0.0,False
 2026-10-29,10,BLACK FLAGG,13,DeAndre Jordan,3442,C,SAC,0.0,True
 2026-10-29,10,the emergency room,11,Jalen Johnson,4701230,PF,CLE,31.0,True
-2026-10-29,10,the emergency room,11,Amen Thompson,4684740,SF,None,0.0,True
-2026-10-29,10,the emergency room,11,Anthony Davis,6583,F,None,0.0,True
-2026-10-29,10,the emergency room,11,Kon Knueppel,5061575,IR,None,0.0,False
+2026-10-29,10,the emergency room,11,Amen Thompson,4684740,SF,,0.0,True
+2026-10-29,10,the emergency room,11,Anthony Davis,6583,F,,0.0,True
+2026-10-29,10,the emergency room,11,Kon Knueppel,5061575,IR,,0.0,False
 2026-10-29,10,the emergency room,11,Ty Jerome,4065733,PG,POR,15.0,True
-2026-10-29,10,the emergency room,11,Tyler Herro,4395725,G,None,0.0,True
-2026-10-29,10,the emergency room,11,Kel'el Ware,5105623,UT,None,0.0,True
+2026-10-29,10,the emergency room,11,Tyler Herro,4395725,G,,0.0,True
+2026-10-29,10,the emergency room,11,Kel'el Ware,5105623,UT,,0.0,True
 2026-10-29,10,the emergency room,11,Derik Queen,4869780,C,SAC,15.0,True
-2026-10-29,10,the emergency room,11,Ayo Dosunmu,4397002,UT,None,0.0,True
-2026-10-29,10,the emergency room,11,Jonathan Kuminga,4433247,BE,None,0.0,False
-2026-10-29,10,the emergency room,11,Ace Bailey,4873138,UT,None,0.0,True
-2026-10-29,10,the emergency room,11,Keon Ellis,4702177,BE,None,0.0,False
-2026-10-29,10,the emergency room,11,Alex Caruso,2991350,IR,None,0.0,False
-2026-10-29,10,the emergency room,11,Jared McCain,4683778,SG,None,0.0,True
-2026-10-29,10,the emergency room,11,Dean Wade,3912848,BE,None,0.0,False
-2026-10-29,10,Victor Krum,7,Josh Giddey,4871145,G,None,0.0,True
-2026-10-29,10,Victor Krum,7,Scottie Barnes,4433134,SF,None,0.0,True
-2026-10-29,10,Victor Krum,7,Stephon Castle,4845367,UT,None,0.0,True
+2026-10-29,10,the emergency room,11,Ayo Dosunmu,4397002,UT,,0.0,True
+2026-10-29,10,the emergency room,11,Jonathan Kuminga,4433247,BE,,0.0,False
+2026-10-29,10,the emergency room,11,Ace Bailey,4873138,UT,,0.0,True
+2026-10-29,10,the emergency room,11,Keon Ellis,4702177,BE,,0.0,False
+2026-10-29,10,the emergency room,11,Alex Caruso,2991350,IR,,0.0,False
+2026-10-29,10,the emergency room,11,Jared McCain,4683778,SG,,0.0,True
+2026-10-29,10,the emergency room,11,Dean Wade,3912848,BE,,0.0,False
+2026-10-29,10,Victor Krum,7,Josh Giddey,4871145,G,,0.0,True
+2026-10-29,10,Victor Krum,7,Scottie Barnes,4433134,SF,,0.0,True
+2026-10-29,10,Victor Krum,7,Stephon Castle,4845367,UT,,0.0,True
 2026-10-29,10,Victor Krum,7,Dyson Daniels,4869342,PG,CLE,20.0,True
-2026-10-29,10,Victor Krum,7,VJ Edgecombe,5124612,BE,None,0.0,False
-2026-10-29,10,Victor Krum,7,Caleb Wilson,5095151,F,None,0.0,True
-2026-10-29,10,Victor Krum,7,Joel Embiid,3059318,C,None,0.0,True
-2026-10-29,10,Victor Krum,7,OG Anunoby,3934719,PF,None,0.0,True
-2026-10-29,10,Victor Krum,7,Wendell Carter Jr.,4277847,BE,None,0.0,False
+2026-10-29,10,Victor Krum,7,VJ Edgecombe,5124612,BE,,0.0,False
+2026-10-29,10,Victor Krum,7,Caleb Wilson,5095151,F,,0.0,True
+2026-10-29,10,Victor Krum,7,Joel Embiid,3059318,C,,0.0,True
+2026-10-29,10,Victor Krum,7,OG Anunoby,3934719,PF,,0.0,True
+2026-10-29,10,Victor Krum,7,Wendell Carter Jr.,4277847,BE,,0.0,False
 2026-10-29,10,Victor Krum,7,Jaylen Wells,5112087,SG,POR,12.0,True
-2026-10-29,10,Victor Krum,7,Duncan Robinson,3157465,BE,None,0.0,False
-2026-10-29,10,Victor Krum,7,Zaccharie Risacher,5211175,UT,None,0.0,True
+2026-10-29,10,Victor Krum,7,Duncan Robinson,3157465,BE,,0.0,False
+2026-10-29,10,Victor Krum,7,Zaccharie Risacher,5211175,UT,,0.0,True
 2026-10-29,10,Victor Krum,7,De'Andre Hunter,4065732,UT,NOP,30.0,True
-2026-10-29,10,Only Franz,12,Nikola Jokic,3112335,C,None,0.0,True
-2026-10-29,10,Only Franz,12,Jalen Duren,4433621,IR,None,0.0,False
-2026-10-29,10,Only Franz,12,Austin Reaves,4066457,SG,None,0.0,True
-2026-10-29,10,Only Franz,12,Franz Wagner,4566434,SF,None,0.0,True
-2026-10-29,10,Only Franz,12,Brandon Miller,4433287,F,None,0.0,True
+2026-10-29,10,Only Franz,12,Nikola Jokic,3112335,C,,0.0,True
+2026-10-29,10,Only Franz,12,Jalen Duren,4433621,IR,,0.0,False
+2026-10-29,10,Only Franz,12,Austin Reaves,4066457,SG,,0.0,True
+2026-10-29,10,Only Franz,12,Franz Wagner,4566434,SF,,0.0,True
+2026-10-29,10,Only Franz,12,Brandon Miller,4433287,F,,0.0,True
 2026-10-29,10,Only Franz,12,Ja Morant,4279888,UT,MEM,20.0,True
-2026-10-29,10,Only Franz,12,Ivica Zubac,4017837,BE,None,0.0,False
-2026-10-29,10,Only Franz,12,Ausar Thompson,4684742,PF,None,0.0,True
-2026-10-29,10,Only Franz,12,Josh Hart,3062679,G,None,0.0,True
-2026-10-29,10,Only Franz,12,Brandon Ingram,3913176,IR,None,0.0,False
-2026-10-29,10,Only Franz,12,Isaiah Hartenstein,4222252,BE,None,0.0,False
+2026-10-29,10,Only Franz,12,Ivica Zubac,4017837,BE,,0.0,False
+2026-10-29,10,Only Franz,12,Ausar Thompson,4684742,PF,,0.0,True
+2026-10-29,10,Only Franz,12,Josh Hart,3062679,G,,0.0,True
+2026-10-29,10,Only Franz,12,Brandon Ingram,3913176,IR,,0.0,False
+2026-10-29,10,Only Franz,12,Isaiah Hartenstein,4222252,BE,,0.0,False
 2026-10-29,10,Only Franz,12,Jrue Holiday,3995,UT,MEM,19.0,True
-2026-10-29,10,Only Franz,12,Ajay Mitchell,4900671,PG,None,0.0,True
-2026-10-29,10,Only Franz,12,Mikal Bridges,3147657,UT,None,0.0,True
-2026-10-29,10,Only Franz,12,Matisse Thybulle,3907498,BE,None,0.0,False
-2026-10-29,10,Aspiration Risk,5,Anthony Edwards,4594268,IR,None,0.0,False
-2026-10-29,10,Aspiration Risk,5,Trae Young,4277905,G,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,Kawhi Leonard,6450,PF,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,Paolo Banchero,4432573,IR,None,0.0,False
+2026-10-29,10,Only Franz,12,Ajay Mitchell,4900671,PG,,0.0,True
+2026-10-29,10,Only Franz,12,Mikal Bridges,3147657,UT,,0.0,True
+2026-10-29,10,Only Franz,12,Matisse Thybulle,3907498,BE,,0.0,False
+2026-10-29,10,Aspiration Risk,5,Anthony Edwards,4594268,IR,,0.0,False
+2026-10-29,10,Aspiration Risk,5,Trae Young,4277905,G,,0.0,True
+2026-10-29,10,Aspiration Risk,5,Kawhi Leonard,6450,PF,,0.0,True
+2026-10-29,10,Aspiration Risk,5,Paolo Banchero,4432573,IR,,0.0,False
 2026-10-29,10,Aspiration Risk,5,Nickeil Alexander-Walker,4278039,PG,CLE,37.0,True
-2026-10-29,10,Aspiration Risk,5,Dylan Harper,5037871,UT,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,AJ Dybantsa,5142718,F,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,Payton Pritchard,4066354,UT,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,John Collins,3908845,C,None,0.0,True
+2026-10-29,10,Aspiration Risk,5,Dylan Harper,5037871,UT,,0.0,True
+2026-10-29,10,Aspiration Risk,5,AJ Dybantsa,5142718,F,,0.0,True
+2026-10-29,10,Aspiration Risk,5,Payton Pritchard,4066354,UT,,0.0,True
+2026-10-29,10,Aspiration Risk,5,John Collins,3908845,C,,0.0,True
 2026-10-29,10,Aspiration Risk,5,Toumani Camara,4431736,SF,MEM,32.0,True
-2026-10-29,10,Aspiration Risk,5,Moussa Diabate,4433249,BE,None,0.0,False
+2026-10-29,10,Aspiration Risk,5,Moussa Diabate,4433249,BE,,0.0,False
 2026-10-29,10,Aspiration Risk,5,Aaron Wiggins,4397183,SG,CLE,41.0,True
-2026-10-29,10,Aspiration Risk,5,Dillon Brooks,3155526,UT,None,0.0,True
-2026-10-29,10,Aspiration Risk,5,Kyle Filipowski,4684793,BE,None,0.0,False
-2026-10-29,10,Aspiration Risk,5,Mo Bamba,4277919,BE,None,0.0,False
-2026-10-29,10,walk and ball torture,10,LaMelo Ball,4432816,G,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Tyrese Haliburton,4396993,IR,None,0.0,False
-2026-10-29,10,walk and ball torture,10,Jaylen Brown,3917376,SG,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Julius Randle,3064514,PF,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Walker Kessler,4433136,C,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Darius Garland,4396907,UT,None,0.0,True
+2026-10-29,10,Aspiration Risk,5,Dillon Brooks,3155526,UT,,0.0,True
+2026-10-29,10,Aspiration Risk,5,Kyle Filipowski,4684793,BE,,0.0,False
+2026-10-29,10,Aspiration Risk,5,Mo Bamba,4277919,BE,,0.0,False
+2026-10-29,10,walk and ball torture,10,LaMelo Ball,4432816,G,,0.0,True
+2026-10-29,10,walk and ball torture,10,Tyrese Haliburton,4396993,IR,,0.0,False
+2026-10-29,10,walk and ball torture,10,Jaylen Brown,3917376,SG,,0.0,True
+2026-10-29,10,walk and ball torture,10,Julius Randle,3064514,PF,,0.0,True
+2026-10-29,10,walk and ball torture,10,Walker Kessler,4433136,C,,0.0,True
+2026-10-29,10,walk and ball torture,10,Darius Garland,4396907,UT,,0.0,True
 2026-10-29,10,walk and ball torture,10,Darius Acuff Jr.,5142620,PG,NOP,63.0,True
-2026-10-29,10,walk and ball torture,10,Jaden McDaniels,4431671,SF,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Andrew Nembhard,4395712,UT,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Dereck Lively II,4683688,IR,None,0.0,False
-2026-10-29,10,walk and ball torture,10,Davion Mitchell,4278053,UT,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Jaxson Hayes,4397077,BE,None,0.0,False
-2026-10-29,10,walk and ball torture,10,Devin Vassell,4395630,F,None,0.0,True
-2026-10-29,10,walk and ball torture,10,Terrence Shannon Jr.,4432847,BE,None,0.0,False
-2026-10-29,10,walk and ball torture,10,Jalen Smith,4397189,BE,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,Victor Wembanyama,5104157,C,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Devin Booker,3136193,PG,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Kevin Durant,3202,SF,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Desmond Bane,4066320,SG,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,LeBron James,1966,F,None,0.0,True
+2026-10-29,10,walk and ball torture,10,Jaden McDaniels,4431671,SF,,0.0,True
+2026-10-29,10,walk and ball torture,10,Andrew Nembhard,4395712,UT,,0.0,True
+2026-10-29,10,walk and ball torture,10,Dereck Lively II,4683688,IR,,0.0,False
+2026-10-29,10,walk and ball torture,10,Davion Mitchell,4278053,UT,,0.0,True
+2026-10-29,10,walk and ball torture,10,Jaxson Hayes,4397077,BE,,0.0,False
+2026-10-29,10,walk and ball torture,10,Devin Vassell,4395630,F,,0.0,True
+2026-10-29,10,walk and ball torture,10,Terrence Shannon Jr.,4432847,BE,,0.0,False
+2026-10-29,10,walk and ball torture,10,Jalen Smith,4397189,BE,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,Victor Wembanyama,5104157,C,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Devin Booker,3136193,PG,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Kevin Durant,3202,SF,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Desmond Bane,4066320,SG,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,LeBron James,1966,F,,0.0,True
 2026-10-29,10,"Old Heads, Young Blood",2,Zion Williamson,4395628,PF,SAC,56.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Norman Powell,2595516,G,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Fred VanVleet,2991230,UT,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Ryan Rollins,4591725,UT,None,0.0,True
-2026-10-29,10,"Old Heads, Young Blood",2,Myles Turner,3133628,BE,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,Yaxel Lendeborg,5175737,BE,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,Cameron Johnson,3138196,IR,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,Paul Reed,4278562,BE,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,Ziaire Williams,4433137,IR,None,0.0,False
-2026-10-29,10,"Old Heads, Young Blood",2,DeMar DeRozan,3978,UT,None,0.0,True
-2026-10-29,10,Brunson’s Burners,1,Luka Doncic,3945274,IR,None,0.0,False
-2026-10-29,10,Brunson’s Burners,1,Karl-Anthony Towns,3136195,C,None,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Norman Powell,2595516,G,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Fred VanVleet,2991230,UT,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Ryan Rollins,4591725,UT,,0.0,True
+2026-10-29,10,"Old Heads, Young Blood",2,Myles Turner,3133628,BE,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,Yaxel Lendeborg,5175737,BE,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,Cameron Johnson,3138196,IR,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,Paul Reed,4278562,BE,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,Ziaire Williams,4433137,IR,,0.0,False
+2026-10-29,10,"Old Heads, Young Blood",2,DeMar DeRozan,3978,UT,,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Luka Doncic,3945274,IR,,0.0,False
+2026-10-29,10,Brunson’s Burners,1,Karl-Anthony Towns,3136195,C,,0.0,True
 2026-10-29,10,Brunson’s Burners,1,Evan Mobley,4432158,PF,ATL,29.0,True
 2026-10-29,10,Brunson’s Burners,1,Damian Lillard,6606,PG,MEM,5.0,True
-2026-10-29,10,Brunson’s Burners,1,Lauri Markkanen,4066336,IR,None,0.0,False
-2026-10-29,10,Brunson’s Burners,1,Rudy Gobert,3032976,UT,None,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Lauri Markkanen,4066336,IR,,0.0,False
+2026-10-29,10,Brunson’s Burners,1,Rudy Gobert,3032976,UT,,0.0,True
 2026-10-29,10,Brunson’s Burners,1,CJ McCollum,2490149,SG,CLE,17.0,True
-2026-10-29,10,Brunson’s Burners,1,Jalen Green,4437244,BE,None,0.0,False
-2026-10-29,10,Brunson’s Burners,1,Immanuel Quickley,4395724,G,None,0.0,True
-2026-10-29,10,Brunson’s Burners,1,Jabari Smith Jr.,4432639,UT,None,0.0,True
-2026-10-29,10,Brunson’s Burners,1,Aaron Gordon,3064290,BE,None,0.0,False
-2026-10-29,10,Brunson’s Burners,1,P.J. Washington,4278078,SF,None,0.0,True
-2026-10-29,10,Brunson’s Burners,1,Bobby Portis,3064482,UT,None,0.0,True
-2026-10-29,10,Brunson’s Burners,1,Darryn Peterson,5041955,BE,None,0.0,False
+2026-10-29,10,Brunson’s Burners,1,Jalen Green,4437244,BE,,0.0,False
+2026-10-29,10,Brunson’s Burners,1,Immanuel Quickley,4395724,G,,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Jabari Smith Jr.,4432639,UT,,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Aaron Gordon,3064290,BE,,0.0,False
+2026-10-29,10,Brunson’s Burners,1,P.J. Washington,4278078,SF,,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Bobby Portis,3064482,UT,,0.0,True
+2026-10-29,10,Brunson’s Burners,1,Darryn Peterson,5041955,BE,,0.0,False
 2026-10-29,10,Brunson’s Burners,1,Jerami Grant,2991070,F,POR,1.0,True
-2026-10-29,10,T's Top Team,14,Shai Gilgeous-Alexander,4278073,PG,None,0.0,True
-2026-10-29,10,T's Top Team,14,Jalen Brunson,3934672,G,None,0.0,True
-2026-10-29,10,T's Top Team,14,Alperen Sengun,4871144,UT,None,0.0,True
-2026-10-29,10,T's Top Team,14,De'Aaron Fox,4066259,SG,None,0.0,True
-2026-10-29,10,T's Top Team,14,Naz Reid,4396971,PF,None,0.0,True
+2026-10-29,10,T's Top Team,14,Shai Gilgeous-Alexander,4278073,PG,,0.0,True
+2026-10-29,10,T's Top Team,14,Jalen Brunson,3934672,G,,0.0,True
+2026-10-29,10,T's Top Team,14,Alperen Sengun,4871144,UT,,0.0,True
+2026-10-29,10,T's Top Team,14,De'Aaron Fox,4066259,SG,,0.0,True
+2026-10-29,10,T's Top Team,14,Naz Reid,4396971,PF,,0.0,True
 2026-10-29,10,T's Top Team,14,Jarrett Allen,4066328,C,ATL,32.0,True
-2026-10-29,10,T's Top Team,14,RJ Barrett,4395625,F,None,0.0,True
-2026-10-29,10,T's Top Team,14,Reed Sheppard,4711272,UT,None,0.0,True
-2026-10-29,10,T's Top Team,14,Tobias Harris,6440,UT,None,0.0,True
+2026-10-29,10,T's Top Team,14,RJ Barrett,4395625,F,,0.0,True
+2026-10-29,10,T's Top Team,14,Reed Sheppard,4711272,UT,,0.0,True
+2026-10-29,10,T's Top Team,14,Tobias Harris,6440,UT,,0.0,True
 2026-10-29,10,T's Top Team,14,Peyton Watson,4576087,SF,ATL,10.0,True
-2026-10-29,10,T's Top Team,14,Christian Braun,4431767,BE,None,0.0,False
-2026-10-29,10,T's Top Team,14,Obi Toppin,4278355,BE,None,0.0,False
-2026-10-29,10,T's Top Team,14,Keaton Wagler,5254165,BE,None,0.0,False
-2026-10-29,10,lee lee,6,Giannis Antetokounmpo,3032977,PF,None,0.0,True
+2026-10-29,10,T's Top Team,14,Christian Braun,4431767,BE,,0.0,False
+2026-10-29,10,T's Top Team,14,Obi Toppin,4278355,BE,,0.0,False
+2026-10-29,10,T's Top Team,14,Keaton Wagler,5254165,BE,,0.0,False
+2026-10-29,10,lee lee,6,Giannis Antetokounmpo,3032977,PF,,0.0,True
 2026-10-29,10,lee lee,6,Domantas Sabonis,3155942,C,NOP,36.0,True
 2026-10-29,10,lee lee,6,James Harden,3992,PG,ATL,32.0,True
-2026-10-29,10,lee lee,6,Jalen Williams,4593803,IR,None,0.0,False
-2026-10-29,10,lee lee,6,Derrick White,3078576,SG,None,0.0,True
+2026-10-29,10,lee lee,6,Jalen Williams,4593803,IR,,0.0,False
+2026-10-29,10,lee lee,6,Derrick White,3078576,SG,,0.0,True
 2026-10-29,10,lee lee,6,Onyeka Okongwu,4431680,UT,CLE,59.0,True
-2026-10-29,10,lee lee,6,Miles Bridges,4066383,BE,None,0.0,False
-2026-10-29,10,lee lee,6,Kevin Porter Jr.,4397140,BE,None,0.0,False
-2026-10-29,10,lee lee,6,Neemias Queta,4397424,BE,None,0.0,False
-2026-10-29,10,lee lee,6,Kris Dunn,2991139,G,None,0.0,True
-2026-10-29,10,lee lee,6,Julian Champagnie,4592479,SF,None,0.0,True
-2026-10-29,10,lee lee,6,Naji Marshall,4278594,F,None,0.0,True
+2026-10-29,10,lee lee,6,Miles Bridges,4066383,BE,,0.0,False
+2026-10-29,10,lee lee,6,Kevin Porter Jr.,4397140,BE,,0.0,False
+2026-10-29,10,lee lee,6,Neemias Queta,4397424,BE,,0.0,False
+2026-10-29,10,lee lee,6,Kris Dunn,2991139,G,,0.0,True
+2026-10-29,10,lee lee,6,Julian Champagnie,4592479,SF,,0.0,True
+2026-10-29,10,lee lee,6,Naji Marshall,4278594,F,,0.0,True
 2026-10-29,10,lee lee,6,Precious Achiuwa,4431679,UT,NOP,57.0,True
-2026-10-29,10,lee lee,6,Keldon Johnson,4395723,UT,None,0.0,True
-2026-10-29,10,Jared Dubley,8,Jayson Tatum,4065648,F,None,0.0,True
+2026-10-29,10,lee lee,6,Keldon Johnson,4395723,UT,,0.0,True
+2026-10-29,10,Jared Dubley,8,Jayson Tatum,4065648,F,,0.0,True
 2026-10-29,10,Jared Dubley,8,Donovan Mitchell,3908809,PG,ATL,30.0,True
 2026-10-29,10,Jared Dubley,8,Deni Avdija,4683021,SF,MEM,47.0,True
-2026-10-29,10,Jared Dubley,8,Keyonte George,4433627,SG,None,0.0,True
-2026-10-29,10,Jared Dubley,8,Michael Porter Jr.,4278104,UT,None,0.0,True
+2026-10-29,10,Jared Dubley,8,Keyonte George,4433627,SG,,0.0,True
+2026-10-29,10,Jared Dubley,8,Michael Porter Jr.,4278104,UT,,0.0,True
 2026-10-29,10,Jared Dubley,8,Donovan Clingan,5105565,C,MEM,42.0,True
-2026-10-29,10,Jared Dubley,8,Alex Sarr,5160992,UT,None,0.0,True
-2026-10-29,10,Jared Dubley,8,Coby White,4395651,IR,None,0.0,False
-2026-10-29,10,Jared Dubley,8,Jaime Jaquez Jr.,4432848,UT,None,0.0,True
-2026-10-29,10,Jared Dubley,8,Kyshawn George,5174563,BE,None,0.0,False
-2026-10-29,10,Jared Dubley,8,Daniel Gafford,4278049,BE,None,0.0,False
+2026-10-29,10,Jared Dubley,8,Alex Sarr,5160992,UT,,0.0,True
+2026-10-29,10,Jared Dubley,8,Coby White,4395651,IR,,0.0,False
+2026-10-29,10,Jared Dubley,8,Jaime Jaquez Jr.,4432848,UT,,0.0,True
+2026-10-29,10,Jared Dubley,8,Kyshawn George,5174563,BE,,0.0,False
+2026-10-29,10,Jared Dubley,8,Daniel Gafford,4278049,BE,,0.0,False
 2026-10-29,10,Jared Dubley,8,Saddiq Bey,4397136,PF,SAC,19.0,True
-2026-10-29,10,Jared Dubley,8,Jimmy Butler III,6430,IR,None,0.0,False
-2026-10-29,10,Jared Dubley,8,Egor Demin,5175643,G,None,0.0,True
-2026-10-29,10,Jared Dubley,8,Ja'Kobe Walter,4684272,BE,None,0.0,False
+2026-10-29,10,Jared Dubley,8,Jimmy Butler III,6430,IR,,0.0,False
+2026-10-29,10,Jared Dubley,8,Egor Demin,5175643,G,,0.0,True
+2026-10-29,10,Jared Dubley,8,Ja'Kobe Walter,4684272,BE,,0.0,False
+2026-10-30,11,Lil Dicky Ball,3,Cade Cunningham,4432166,PG,BKN,27.0,True
+2026-10-30,11,Lil Dicky Ball,3,Jamal Murray,3936299,G,PHO,61.0,True
+2026-10-30,11,Lil Dicky Ball,3,Bam Adebayo,4066261,C,IND,58.0,True
+2026-10-30,11,Lil Dicky Ball,3,Pascal Siakam,3149673,PF,MIA,19.0,True
+2026-10-30,11,Lil Dicky Ball,3,Trey Murphy III,4397688,UT,None,0.0,True
+2026-10-30,11,Lil Dicky Ball,3,Cameron Boozer,5041935,BE,None,0.0,False
+2026-10-30,11,Lil Dicky Ball,3,Matas Buzelis,4711294,SF,BOS,18.0,True
+2026-10-30,11,Lil Dicky Ball,3,Zach Edey,4600663,UT,None,0.0,True
+2026-10-30,11,Lil Dicky Ball,3,Jeremiah Fears,5144091,BE,None,0.0,False
+2026-10-30,11,Lil Dicky Ball,3,Zach LaVine,3064440,BE,None,0.0,False
+2026-10-30,11,Lil Dicky Ball,3,Nic Claxton,4278067,IR,BOS,0.0,False
+2026-10-30,11,Lil Dicky Ball,3,Anthony Black,4712849,SG,TOR,48.0,True
+2026-10-30,11,Lil Dicky Ball,3,Draymond Green,6589,F,LAL,37.0,True
+2026-10-30,11,Lil Dicky Ball,3,Anfernee Simons,4351851,UT,NYK,31.0,True
+2026-10-30,11,BLACK FLAGG,13,Cooper Flagg,5041939,UT,HOU,64.0,True
+2026-10-30,11,BLACK FLAGG,13,Tyrese Maxey,4431678,PG,NYK,44.0,True
+2026-10-30,11,BLACK FLAGG,13,Stephen Curry,3975,G,LAL,58.0,True
+2026-10-30,11,BLACK FLAGG,13,Kyrie Irving,6442,UT,HOU,63.0,True
+2026-10-30,11,BLACK FLAGG,13,Dejounte Murray,3907497,BE,None,0.0,False
+2026-10-30,11,BLACK FLAGG,13,Chet Holmgren,4433255,IR,None,0.0,False
+2026-10-30,11,BLACK FLAGG,13,Jaren Jackson Jr.,4277961,IR,None,0.0,False
+2026-10-30,11,BLACK FLAGG,13,Paul George,4251,PF,CHI,49.0,True
+2026-10-30,11,BLACK FLAGG,13,Cedric Coward,4903027,BE,None,0.0,False
+2026-10-30,11,BLACK FLAGG,13,Collin Murray-Boyles,5093267,BE,ORL,25.0,False
+2026-10-30,11,BLACK FLAGG,13,Khaman Maluach,5203685,C,DEN,13.0,True
+2026-10-30,11,BLACK FLAGG,13,Grayson Allen,3135045,SG,WAS,5.0,True
+2026-10-30,11,BLACK FLAGG,13,Brandin Podziemski,4709138,UT,LAL,49.0,True
+2026-10-30,11,BLACK FLAGG,13,Tristan da Silva,4702382,SF,TOR,13.0,True
+2026-10-30,11,BLACK FLAGG,13,Pelle Larsson,4601025,F,IND,30.0,True
+2026-10-30,11,the emergency room,11,Jalen Johnson,4701230,BE,None,0.0,False
+2026-10-30,11,the emergency room,11,Amen Thompson,4684740,G,DAL,42.0,True
+2026-10-30,11,the emergency room,11,Anthony Davis,6583,PF,CHA,43.0,True
+2026-10-30,11,the emergency room,11,Kon Knueppel,5061575,IR,WAS,0.0,False
+2026-10-30,11,the emergency room,11,Ty Jerome,4065733,UT,None,0.0,True
+2026-10-30,11,the emergency room,11,Tyler Herro,4395725,UT,None,0.0,True
+2026-10-30,11,the emergency room,11,Kel'el Ware,5105623,C,None,0.0,True
+2026-10-30,11,the emergency room,11,Derik Queen,4869780,UT,None,0.0,True
+2026-10-30,11,the emergency room,11,Ayo Dosunmu,4397002,PG,LAC,28.0,True
+2026-10-30,11,the emergency room,11,Jonathan Kuminga,4433247,SF,LAC,7.0,True
+2026-10-30,11,the emergency room,11,Ace Bailey,4873138,BE,None,0.0,False
+2026-10-30,11,the emergency room,11,Keon Ellis,4702177,SG,DET,17.0,True
+2026-10-30,11,the emergency room,11,Alex Caruso,2991350,IR,None,0.0,False
+2026-10-30,11,the emergency room,11,Jared McCain,4683778,BE,None,0.0,False
+2026-10-30,11,the emergency room,11,Dean Wade,3912848,F,NYK,16.0,True
+2026-10-30,11,Victor Krum,7,Josh Giddey,4871145,PG,BOS,20.0,True
+2026-10-30,11,Victor Krum,7,Scottie Barnes,4433134,SG,ORL,60.0,True
+2026-10-30,11,Victor Krum,7,Stephon Castle,4845367,BE,None,0.0,False
+2026-10-30,11,Victor Krum,7,Dyson Daniels,4869342,UT,None,0.0,True
+2026-10-30,11,Victor Krum,7,VJ Edgecombe,5124612,G,NYK,24.0,True
+2026-10-30,11,Victor Krum,7,Caleb Wilson,5095151,SF,BOS,47.0,True
+2026-10-30,11,Victor Krum,7,Joel Embiid,3059318,C,NYK,25.0,True
+2026-10-30,11,Victor Krum,7,OG Anunoby,3934719,PF,PHL,18.0,True
+2026-10-30,11,Victor Krum,7,Wendell Carter Jr.,4277847,UT,TOR,34.0,True
+2026-10-30,11,Victor Krum,7,Jaylen Wells,5112087,BE,None,0.0,False
+2026-10-30,11,Victor Krum,7,Duncan Robinson,3157465,UT,BKN,38.0,True
+2026-10-30,11,Victor Krum,7,Zaccharie Risacher,5211175,F,HOU,37.0,True
+2026-10-30,11,Victor Krum,7,De'Andre Hunter,4065732,BE,None,0.0,False
+2026-10-30,11,Only Franz,12,Nikola Jokic,3112335,C,PHO,50.0,True
+2026-10-30,11,Only Franz,12,Jalen Duren,4433621,IR,BKN,0.0,False
+2026-10-30,11,Only Franz,12,Austin Reaves,4066457,SG,GSW,27.0,True
+2026-10-30,11,Only Franz,12,Franz Wagner,4566434,SF,TOR,48.0,True
+2026-10-30,11,Only Franz,12,Brandon Miller,4433287,F,WAS,27.0,True
+2026-10-30,11,Only Franz,12,Ja Morant,4279888,UT,None,0.0,True
+2026-10-30,11,Only Franz,12,Ivica Zubac,4017837,BE,MIA,0.0,False
+2026-10-30,11,Only Franz,12,Ausar Thompson,4684742,PF,BKN,39.0,True
+2026-10-30,11,Only Franz,12,Josh Hart,3062679,G,PHL,17.0,True
+2026-10-30,11,Only Franz,12,Brandon Ingram,3913176,IR,MIN,0.0,False
+2026-10-30,11,Only Franz,12,Isaiah Hartenstein,4222252,BE,None,0.0,False
+2026-10-30,11,Only Franz,12,Jrue Holiday,3995,BE,None,0.0,False
+2026-10-30,11,Only Franz,12,Ajay Mitchell,4900671,PG,None,0.0,True
+2026-10-30,11,Only Franz,12,Mikal Bridges,3147657,UT,PHL,35.0,True
+2026-10-30,11,Only Franz,12,Matisse Thybulle,3907498,UT,GSW,22.0,True
+2026-10-30,11,Aspiration Risk,5,Anthony Edwards,4594268,IR,LAC,0.0,False
+2026-10-30,11,Aspiration Risk,5,Trae Young,4277905,PG,CHA,52.0,True
+2026-10-30,11,Aspiration Risk,5,Kawhi Leonard,6450,F,ORL,0.0,True
+2026-10-30,11,Aspiration Risk,5,Paolo Banchero,4432573,IR,TOR,0.0,False
+2026-10-30,11,Aspiration Risk,5,Nickeil Alexander-Walker,4278039,UT,None,0.0,True
+2026-10-30,11,Aspiration Risk,5,Dylan Harper,5037871,UT,None,0.0,True
+2026-10-30,11,Aspiration Risk,5,AJ Dybantsa,5142718,SF,CHA,28.0,True
+2026-10-30,11,Aspiration Risk,5,Payton Pritchard,4066354,SG,CHI,45.0,True
+2026-10-30,11,Aspiration Risk,5,John Collins,3908845,PF,BKN,11.0,True
+2026-10-30,11,Aspiration Risk,5,Toumani Camara,4431736,BE,None,0.0,False
+2026-10-30,11,Aspiration Risk,5,Moussa Diabate,4433249,C,WAS,29.0,True
+2026-10-30,11,Aspiration Risk,5,Aaron Wiggins,4397183,BE,None,0.0,False
+2026-10-30,11,Aspiration Risk,5,Dillon Brooks,3155526,G,DEN,39.0,True
+2026-10-30,11,Aspiration Risk,5,Kyle Filipowski,4684793,UT,None,0.0,True
+2026-10-30,11,Aspiration Risk,5,Mo Bamba,4277919,BE,None,0.0,False
+2026-10-30,11,walk and ball torture,10,LaMelo Ball,4432816,PG,LAC,50.0,True
+2026-10-30,11,walk and ball torture,10,Tyrese Haliburton,4396993,IR,MIA,0.0,False
+2026-10-30,11,walk and ball torture,10,Jaylen Brown,3917376,SG,NYK,0.0,True
+2026-10-30,11,walk and ball torture,10,Julius Randle,3064514,PF,DET,17.0,True
+2026-10-30,11,walk and ball torture,10,Walker Kessler,4433136,C,GSW,45.0,True
+2026-10-30,11,walk and ball torture,10,Darius Garland,4396907,G,MIN,32.0,True
+2026-10-30,11,walk and ball torture,10,Darius Acuff Jr.,5142620,BE,None,0.0,False
+2026-10-30,11,walk and ball torture,10,Jaden McDaniels,4431671,SF,LAC,55.0,True
+2026-10-30,11,walk and ball torture,10,Andrew Nembhard,4395712,UT,MIA,43.0,True
+2026-10-30,11,walk and ball torture,10,Dereck Lively II,4683688,IR,HOU,0.0,False
+2026-10-30,11,walk and ball torture,10,Davion Mitchell,4278053,UT,IND,40.0,True
+2026-10-30,11,walk and ball torture,10,Jaxson Hayes,4397077,BE,None,0.0,False
+2026-10-30,11,walk and ball torture,10,Devin Vassell,4395630,BE,None,0.0,False
+2026-10-30,11,walk and ball torture,10,Terrence Shannon Jr.,4432847,UT,LAC,19.0,True
+2026-10-30,11,walk and ball torture,10,Jalen Smith,4397189,F,BOS,20.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Victor Wembanyama,5104157,UT,None,0.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Devin Booker,3136193,UT,DEN,29.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Kevin Durant,3202,SF,DAL,24.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Desmond Bane,4066320,SG,TOR,42.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,LeBron James,1966,PF,NYK,51.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Zion Williamson,4395628,BE,None,0.0,False
+2026-10-30,11,"Old Heads, Young Blood",2,Norman Powell,2595516,G,BOS,21.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Fred VanVleet,2991230,PG,DAL,34.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Ryan Rollins,4591725,BE,None,0.0,False
+2026-10-30,11,"Old Heads, Young Blood",2,Myles Turner,3133628,BE,None,0.0,False
+2026-10-30,11,"Old Heads, Young Blood",2,Yaxel Lendeborg,5175737,F,LAL,-2.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Cameron Johnson,3138196,IR,PHO,24.0,False
+2026-10-30,11,"Old Heads, Young Blood",2,Paul Reed,4278562,C,BKN,18.0,True
+2026-10-30,11,"Old Heads, Young Blood",2,Ziaire Williams,4433137,IR,GSW,0.0,False
+2026-10-30,11,"Old Heads, Young Blood",2,DeMar DeRozan,3978,UT,PHO,16.0,True
+2026-10-30,11,Brunson’s Burners,1,Luka Doncic,3945274,UT,GSW,62.0,True
+2026-10-30,11,Brunson’s Burners,1,Karl-Anthony Towns,3136195,C,PHL,44.0,True
+2026-10-30,11,Brunson’s Burners,1,Evan Mobley,4432158,BE,None,0.0,False
+2026-10-30,11,Brunson’s Burners,1,Damian Lillard,6606,G,None,0.0,True
+2026-10-30,11,Brunson’s Burners,1,Lauri Markkanen,4066336,IR,None,0.0,False
+2026-10-30,11,Brunson’s Burners,1,Rudy Gobert,3032976,UT,LAC,35.0,True
+2026-10-30,11,Brunson’s Burners,1,CJ McCollum,2490149,BE,None,0.0,False
+2026-10-30,11,Brunson’s Burners,1,Jalen Green,4437244,SG,DEN,0.0,True
+2026-10-30,11,Brunson’s Burners,1,Immanuel Quickley,4395724,PG,ORL,40.0,True
+2026-10-30,11,Brunson’s Burners,1,Jabari Smith Jr.,4432639,UT,DAL,29.0,True
+2026-10-30,11,Brunson’s Burners,1,Aaron Gordon,3064290,PF,PHO,24.0,True
+2026-10-30,11,Brunson’s Burners,1,P.J. Washington,4278078,SF,HOU,8.0,True
+2026-10-30,11,Brunson’s Burners,1,Bobby Portis,3064482,F,IND,16.0,True
+2026-10-30,11,Brunson’s Burners,1,Darryn Peterson,5041955,BE,None,0.0,False
+2026-10-30,11,T's Top Team,14,Shai Gilgeous-Alexander,4278073,UT,None,0.0,True
+2026-10-30,11,T's Top Team,14,Jalen Brunson,3934672,PG,PHL,41.0,True
+2026-10-30,11,T's Top Team,14,Alperen Sengun,4871144,C,DAL,0.0,True
+2026-10-30,11,T's Top Team,14,De'Aaron Fox,4066259,UT,None,0.0,True
+2026-10-30,11,T's Top Team,14,Naz Reid,4396971,PF,WAS,24.0,True
+2026-10-30,11,T's Top Team,14,Jarrett Allen,4066328,BE,None,0.0,False
+2026-10-30,11,T's Top Team,14,RJ Barrett,4395625,SF,ORL,11.0,True
+2026-10-30,11,T's Top Team,14,Reed Sheppard,4711272,SG,DAL,0.0,True
+2026-10-30,11,T's Top Team,14,Tobias Harris,6440,BE,None,0.0,False
+2026-10-30,11,T's Top Team,14,Peyton Watson,4576087,BE,None,0.0,False
+2026-10-30,11,T's Top Team,14,Christian Braun,4431767,F,PHO,59.0,True
+2026-10-30,11,T's Top Team,14,Obi Toppin,4278355,UT,MIA,0.0,True
+2026-10-30,11,T's Top Team,14,Keaton Wagler,5254165,G,MIN,13.0,True
+2026-10-30,11,lee lee,6,Giannis Antetokounmpo,3032977,PF,IND,77.0,True
+2026-10-30,11,lee lee,6,Domantas Sabonis,3155942,C,None,0.0,True
+2026-10-30,11,lee lee,6,James Harden,3992,PG,None,0.0,True
+2026-10-30,11,lee lee,6,Jalen Williams,4593803,IR,None,0.0,False
+2026-10-30,11,lee lee,6,Derrick White,3078576,SG,CHI,28.0,True
+2026-10-30,11,lee lee,6,Onyeka Okongwu,4431680,UT,None,0.0,True
+2026-10-30,11,lee lee,6,Miles Bridges,4066383,BE,DEN,57.0,False
+2026-10-30,11,lee lee,6,Kevin Porter Jr.,4397140,BE,None,0.0,False
+2026-10-30,11,lee lee,6,Neemias Queta,4397424,BE,CHI,23.0,False
+2026-10-30,11,lee lee,6,Kris Dunn,2991139,G,MIN,19.0,True
+2026-10-30,11,lee lee,6,Julian Champagnie,4592479,SF,None,0.0,True
+2026-10-30,11,lee lee,6,Naji Marshall,4278594,F,HOU,0.0,True
+2026-10-30,11,lee lee,6,Precious Achiuwa,4431679,UT,None,0.0,True
+2026-10-30,11,lee lee,6,Keldon Johnson,4395723,UT,None,0.0,True
+2026-10-30,11,Jared Dubley,8,Jayson Tatum,4065648,SF,CHI,37.0,True
+2026-10-30,11,Jared Dubley,8,Donovan Mitchell,3908809,PG,None,0.0,True
+2026-10-30,11,Jared Dubley,8,Deni Avdija,4683021,UT,None,0.0,True
+2026-10-30,11,Jared Dubley,8,Keyonte George,4433627,UT,None,0.0,True
+2026-10-30,11,Jared Dubley,8,Michael Porter Jr.,4278104,PF,DET,25.0,True
+2026-10-30,11,Jared Dubley,8,Donovan Clingan,5105565,BE,None,0.0,False
+2026-10-30,11,Jared Dubley,8,Alex Sarr,5160992,C,CHA,1.0,True
+2026-10-30,11,Jared Dubley,8,Coby White,4395651,IR,WAS,0.0,False
+2026-10-30,11,Jared Dubley,8,Jaime Jaquez Jr.,4432848,BE,None,0.0,False
+2026-10-30,11,Jared Dubley,8,Kyshawn George,5174563,SG,CHA,27.0,True
+2026-10-30,11,Jared Dubley,8,Daniel Gafford,4278049,UT,HOU,33.0,True
+2026-10-30,11,Jared Dubley,8,Saddiq Bey,4397136,BE,None,0.0,False
+2026-10-30,11,Jared Dubley,8,Jimmy Butler III,6430,IR,LAL,0.0,False
+2026-10-30,11,Jared Dubley,8,Ja'Kobe Walter,4684272,G,ORL,22.0,True
+2026-10-30,11,Jared Dubley,8,Derrick Jones Jr.,3936099,F,MIN,20.0,True

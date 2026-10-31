@@ -145,3 +145,92 @@ date,scoring_period,matchup_period,team_id,fantasy_team,player_id,player,injury_
 2026-10-30,11,2,14,T's Top Team,4278355,Obi Toppin,ACTIVE,25.0,25.0,True
 2026-10-30,11,2,14,T's Top Team,5254165,Keaton Wagler,ACTIVE,25.0,25.0,True
 2026-10-30,11,2,14,T's Top Team,4711272,Reed Sheppard,OUT,28.12,0.0,True
+2026-10-31,12,2,1,Brunson’s Burners,4432158,Evan Mobley,ACTIVE,40.86,40.86,True
+2026-10-31,12,2,1,Brunson’s Burners,6606,Damian Lillard,ACTIVE,34.01,34.01,True
+2026-10-31,12,2,1,Brunson’s Burners,4066336,Lauri Markkanen,DAY_TO_DAY,33.08,33.08,True
+2026-10-31,12,2,1,Brunson’s Burners,4432639,Jabari Smith Jr.,ACTIVE,31.97,31.97,True
+2026-10-31,12,2,1,Brunson’s Burners,2490149,CJ McCollum,ACTIVE,28.25,28.25,True
+2026-10-31,12,2,1,Brunson’s Burners,3032976,Rudy Gobert,ACTIVE,26.12,26.12,True
+2026-10-31,12,2,1,Brunson’s Burners,5041955,Darryn Peterson,ACTIVE,26.04,26.04,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",5104157,Victor Wembanyama,ACTIVE,58.48,58.48,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",1966,LeBron James,DAY_TO_DAY,41.95,41.95,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",4395628,Zion Williamson,ACTIVE,40.69,40.69,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",3202,Kevin Durant,ACTIVE,39.99,39.99,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",2991230,Fred VanVleet,ACTIVE,34.21,34.21,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",4591725,Ryan Rollins,ACTIVE,28.3,28.3,True
+2026-10-31,12,2,2,"Old Heads, Young Blood",3133628,Myles Turner,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,3,Lil Dicky Ball,5041935,Cameron Boozer,ACTIVE,34.77,34.77,True
+2026-10-31,12,2,3,Lil Dicky Ball,3064440,Zach LaVine,ACTIVE,34.14,34.14,True
+2026-10-31,12,2,3,Lil Dicky Ball,4397688,Trey Murphy III,ACTIVE,32.11,32.11,True
+2026-10-31,12,2,3,Lil Dicky Ball,4600663,Zach Edey,ACTIVE,29.48,29.48,True
+2026-10-31,12,2,3,Lil Dicky Ball,5144091,Jeremiah Fears,ACTIVE,25.12,25.12,True
+2026-10-31,12,2,3,Lil Dicky Ball,4351851,Anfernee Simons,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,5,Aspiration Risk,4278039,Nickeil Alexander-Walker,ACTIVE,34.55,34.55,True
+2026-10-31,12,2,5,Aspiration Risk,5037871,Dylan Harper,ACTIVE,30.44,30.44,True
+2026-10-31,12,2,5,Aspiration Risk,4431736,Toumani Camara,ACTIVE,28.24,28.24,True
+2026-10-31,12,2,5,Aspiration Risk,4433249,Moussa Diabate,ACTIVE,27.81,27.81,True
+2026-10-31,12,2,5,Aspiration Risk,4397183,Aaron Wiggins,ACTIVE,25.1,25.1,True
+2026-10-31,12,2,5,Aspiration Risk,4277919,Mo Bamba,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,5,Aspiration Risk,4433083,Cam Spencer,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,5,Aspiration Risk,4594268,Anthony Edwards,OUT,48.56,0.0,True
+2026-10-31,12,2,6,lee lee,3155942,Domantas Sabonis,ACTIVE,44.39,44.39,True
+2026-10-31,12,2,6,lee lee,3992,James Harden,ACTIVE,36.2,36.2,True
+2026-10-31,12,2,6,lee lee,4431680,Onyeka Okongwu,ACTIVE,31.8,31.8,True
+2026-10-31,12,2,6,lee lee,4431679,Precious Achiuwa,ACTIVE,27.84,27.84,True
+2026-10-31,12,2,6,lee lee,4592479,Julian Champagnie,ACTIVE,26.89,26.89,True
+2026-10-31,12,2,6,lee lee,4395723,Keldon Johnson,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,6,lee lee,4593803,Jalen Williams,OUT,33.39,0.0,True
+2026-10-31,12,2,7,Victor Krum,4869342,Dyson Daniels,ACTIVE,35.93,35.93,True
+2026-10-31,12,2,7,Victor Krum,4845367,Stephon Castle,ACTIVE,35.67,35.67,True
+2026-10-31,12,2,7,Victor Krum,5124612,VJ Edgecombe,ACTIVE,30.62,30.62,True
+2026-10-31,12,2,7,Victor Krum,5112087,Jaylen Wells,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,7,Victor Krum,4065732,De'Andre Hunter,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,7,Victor Krum,3059318,Joel Embiid,OUT,40.11,0.0,True
+2026-10-31,12,2,8,Jared Dubley,3908809,Donovan Mitchell,ACTIVE,44.34,44.34,True
+2026-10-31,12,2,8,Jared Dubley,4683021,Deni Avdija,ACTIVE,41.56,41.56,True
+2026-10-31,12,2,8,Jared Dubley,4433627,Keyonte George,ACTIVE,37.46,37.46,True
+2026-10-31,12,2,8,Jared Dubley,5105565,Donovan Clingan,ACTIVE,32.93,32.93,True
+2026-10-31,12,2,8,Jared Dubley,4432848,Jaime Jaquez Jr.,ACTIVE,28.81,28.81,True
+2026-10-31,12,2,8,Jared Dubley,4397136,Saddiq Bey,ACTIVE,25.04,25.04,True
+2026-10-31,12,2,8,Jared Dubley,4395651,Coby White,OUT,29.49,0.0,True
+2026-10-31,12,2,10,walk and ball torture,3917376,Jaylen Brown,DAY_TO_DAY,38.35,38.35,True
+2026-10-31,12,2,10,walk and ball torture,4432816,LaMelo Ball,ACTIVE,36.48,36.48,True
+2026-10-31,12,2,10,walk and ball torture,4431671,Jaden McDaniels,ACTIVE,34.2,34.2,True
+2026-10-31,12,2,10,walk and ball torture,5142620,Darius Acuff Jr.,ACTIVE,31.8,31.8,True
+2026-10-31,12,2,10,walk and ball torture,4395630,Devin Vassell,ACTIVE,27.69,27.69,True
+2026-10-31,12,2,10,walk and ball torture,4397077,Jaxson Hayes,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,10,walk and ball torture,4432847,Terrence Shannon Jr.,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,11,the emergency room,4701230,Jalen Johnson,ACTIVE,46.22,46.22,True
+2026-10-31,12,2,11,the emergency room,4065733,Ty Jerome,DAY_TO_DAY,40.13,40.13,True
+2026-10-31,12,2,11,the emergency room,4684740,Amen Thompson,ACTIVE,38.45,38.45,True
+2026-10-31,12,2,11,the emergency room,4395725,Tyler Herro,ACTIVE,38.19,38.19,True
+2026-10-31,12,2,11,the emergency room,4397002,Ayo Dosunmu,ACTIVE,28.94,28.94,True
+2026-10-31,12,2,11,the emergency room,4873138,Ace Bailey,ACTIVE,28.91,28.91,True
+2026-10-31,12,2,11,the emergency room,4869780,Derik Queen,ACTIVE,27.2,27.2,True
+2026-10-31,12,2,11,the emergency room,5105623,Kel'el Ware,ACTIVE,26.62,26.62,True
+2026-10-31,12,2,11,the emergency room,4433247,Jonathan Kuminga,ACTIVE,26.53,26.53,True
+2026-10-31,12,2,11,the emergency room,4683778,Jared McCain,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,11,the emergency room,5174983,Aday Mara,ACTIVE,25.0,25.0,False
+2026-10-31,12,2,11,the emergency room,4433192,Tari Eason,ACTIVE,25.0,25.0,False
+2026-10-31,12,2,11,the emergency room,5061575,Kon Knueppel,OUT,33.93,0.0,False
+2026-10-31,12,2,11,the emergency room,2991350,Alex Caruso,OUT,25.0,0.0,False
+2026-10-31,12,2,12,Only Franz,4433287,Brandon Miller,ACTIVE,35.09,35.09,True
+2026-10-31,12,2,12,Only Franz,4900671,Ajay Mitchell,ACTIVE,32.08,32.08,True
+2026-10-31,12,2,12,Only Franz,3995,Jrue Holiday,ACTIVE,29.65,29.65,True
+2026-10-31,12,2,12,Only Franz,4222252,Isaiah Hartenstein,ACTIVE,27.23,27.23,True
+2026-10-31,12,2,12,Only Franz,4279888,Ja Morant,OUT,34.65,0.0,True
+2026-10-31,12,2,13,BLACK FLAGG,4431678,Tyrese Maxey,ACTIVE,47.57,47.57,True
+2026-10-31,12,2,13,BLACK FLAGG,3907497,Dejounte Murray,ACTIVE,39.29,39.29,True
+2026-10-31,12,2,13,BLACK FLAGG,4903027,Cedric Coward,ACTIVE,30.81,30.81,True
+2026-10-31,12,2,13,BLACK FLAGG,3135045,Grayson Allen,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,13,BLACK FLAGG,3032979,Dennis Schroder,ACTIVE,25.0,25.0,True
+2026-10-31,12,2,13,BLACK FLAGG,4433255,Chet Holmgren,OUT,36.62,0.0,True
+2026-10-31,12,2,13,BLACK FLAGG,4277961,Jaren Jackson Jr.,OUT,31.5,0.0,True
+2026-10-31,12,2,14,T's Top Team,4278073,Shai Gilgeous-Alexander,ACTIVE,49.88,49.88,True
+2026-10-31,12,2,14,T's Top Team,4871144,Alperen Sengun,DAY_TO_DAY,46.8,46.8,True
+2026-10-31,12,2,14,T's Top Team,4066259,De'Aaron Fox,ACTIVE,37.41,37.41,True
+2026-10-31,12,2,14,T's Top Team,4066328,Jarrett Allen,ACTIVE,34.84,34.84,True
+2026-10-31,12,2,14,T's Top Team,4396971,Naz Reid,ACTIVE,29.98,29.98,True
+2026-10-31,12,2,14,T's Top Team,4711272,Reed Sheppard,DAY_TO_DAY,28.12,28.12,True
+2026-10-31,12,2,14,T's Top Team,4576087,Peyton Watson,ACTIVE,27.0,27.0,True
+2026-10-31,12,2,14,T's Top Team,6440,Tobias Harris,OUT,28.55,0.0,True
