@@ -1,91 +1,4 @@
 fantasy_team,player,player_id,scoring_period,in_current_matchup,game_datetime,opponent
-My Sweet Glorious King,Ace Bailey,4873138,12,True,2026-10-31 12:00:00,POR
-The Freak and The Felons,Damian Lillard,6606,12,True,2026-10-31 12:00:00,UTA
-KotaroLivesAlone,Darryn Peterson,5041955,12,True,2026-10-31 12:00:00,POR
-you know what to do with that,Deni Avdija,4683021,12,True,2026-10-31 12:00:00,UTA
-you know what to do with that,Donovan Clingan,5105565,12,True,2026-10-31 12:00:00,UTA
-The Freak and The Felons,Ja Morant,4279888,12,True,2026-10-31 12:00:00,UTA
-The Galumphs,Jaren Jackson Jr.,4277961,12,True,2026-10-31 12:00:00,POR
-The Galumphs,Jaxson Hayes,4397077,12,True,2026-10-31 12:00:00,POR
-The Galumphs,Jrue Holiday,3995,12,True,2026-10-31 12:00:00,UTA
-Tyrese's,Keyonte George,4433627,12,True,2026-10-31 12:00:00,POR
-Towns Syndrome,Lauri Markkanen,4066336,12,True,2026-10-31 12:00:00,POR
-you know what to do with that,Mo Bamba,4277919,12,True,2026-10-31 12:00:00,POR
-you know what to do with that,Robert Williams III,4066211,12,True,2026-10-31 12:00:00,UTA
-you know what to do with that,Toumani Camara,4431736,12,True,2026-10-31 12:00:00,UTA
-MVPKNEE,Brandon Miller,4433287,12,True,2026-10-31 15:00:00,PHL
-MVPKNEE,Coby White,4395651,12,True,2026-10-31 15:00:00,PHL
-Anything Is Possible,Dennis Schroder,3032979,12,True,2026-10-31 15:00:00,PHL
-The Galumphs,Grayson Allen,3135045,12,True,2026-10-31 15:00:00,PHL
-Yong,Jaylen Brown,3917376,12,True,2026-10-31 15:00:00,CHA
-MVPKNEE,Joel Embiid,3059318,12,True,2026-10-31 15:00:00,CHA
-Yong,Kon Knueppel,5061575,12,True,2026-10-31 15:00:00,PHL
-My Sweet Glorious King,LeBron James,1966,12,True,2026-10-31 15:00:00,CHA
-KotaroLivesAlone,Moussa Diabate,4433249,12,True,2026-10-31 15:00:00,PHL
-Flashy like Primo,Naz Reid,4396971,12,True,2026-10-31 15:00:00,PHL
-Tyrese's,Tyrese Maxey,4431678,12,True,2026-10-31 15:00:00,CHA
-Towns Syndrome,VJ Edgecombe,5124612,12,True,2026-10-31 15:00:00,CHA
-The Freak and The Felons,Aaron Wiggins,4397183,12,True,2026-10-31 16:00:00,NOP
-Flashy like Primo,CJ McCollum,2490149,12,True,2026-10-31 16:00:00,NOP
-The Galumphs,Dejounte Murray,3907497,12,True,2026-10-31 16:00:00,ATL
-Anything Is Possible,Dyson Daniels,4869342,12,True,2026-10-31 16:00:00,NOP
-Don't Ask,Jalen Johnson,4701230,12,True,2026-10-31 16:00:00,NOP
-Anything Is Possible,Jeremiah Fears,5144091,12,True,2026-10-31 16:00:00,ATL
-Towns Syndrome,Jordan Poole,4277956,12,True,2026-10-31 16:00:00,ATL
-Towns Syndrome,Kingston Flemings,5149077,12,True,2026-10-31 16:00:00,NOP
-you know what to do with that,Nickeil Alexander-Walker,4278039,12,True,2026-10-31 16:00:00,NOP
-The Freak and The Felons,Onyeka Okongwu,4431680,12,True,2026-10-31 16:00:00,NOP
-My Sweet Glorious King,Trey Murphy III,4397688,12,True,2026-10-31 16:00:00,ATL
-MVPKNEE,Yves Missi,5061589,12,True,2026-10-31 16:00:00,ATL
-Tyrese's,Zion Williamson,4395628,12,True,2026-10-31 16:00:00,ATL
-Yong,Anthony Edwards,4594268,12,True,2026-10-31 17:00:00,SAS
-Don't Ask,Ayo Dosunmu,4397002,12,True,2026-10-31 17:00:00,SAS
-Towns Syndrome,Cameron Boozer,5041935,12,True,2026-10-31 17:00:00,SAC
-Tyrese's,Cedric Coward,4903027,12,True,2026-10-31 17:00:00,SAC
-Flashy like Primo,Darius Acuff Jr.,5142620,12,True,2026-10-31 17:00:00,MEM
-you know what to do with that,De'Aaron Fox,4066259,12,True,2026-10-31 17:00:00,MIN
-Don't Ask,De'Andre Hunter,4065732,12,True,2026-10-31 17:00:00,MEM
-Anything Is Possible,Devin Vassell,4395630,12,True,2026-10-31 17:00:00,MIN
-Anything Is Possible,Domantas Sabonis,3155942,12,True,2026-10-31 17:00:00,MEM
-My Sweet Glorious King,Donovan Mitchell,3908809,12,True,2026-10-31 17:00:00,MIL
-Don't Ask,Dylan Harper,5037871,12,True,2026-10-31 17:00:00,MIN
-Don't Ask,Evan Mobley,4432158,12,True,2026-10-31 17:00:00,MIL
-My Sweet Glorious King,Jaden McDaniels,4431671,12,True,2026-10-31 17:00:00,SAS
-MVPKNEE,Jaime Jaquez Jr.,4432848,12,True,2026-10-31 17:00:00,CLE
-Anything Is Possible,James Harden,3992,12,True,2026-10-31 17:00:00,MIL
-Yong,Jarrett Allen,4066328,12,True,2026-10-31 17:00:00,MIL
-KotaroLivesAlone,Jaylen Wells,5112087,12,True,2026-10-31 17:00:00,SAC
-The Freak and The Felons,Jonathan Kuminga,4433247,12,True,2026-10-31 17:00:00,SAS
-The Freak and The Felons,Julian Champagnie,4592479,12,True,2026-10-31 17:00:00,MIN
-My Sweet Glorious King,Kel'el Ware,5105623,12,True,2026-10-31 17:00:00,CLE
-Towns Syndrome,LaMelo Ball,4432816,12,True,2026-10-31 17:00:00,SAS
-KotaroLivesAlone,Myles Turner,3133628,12,True,2026-10-31 17:00:00,CLE
-Flashy like Primo,Peyton Watson,4576087,12,True,2026-10-31 17:00:00,MIL
-MVPKNEE,Precious Achiuwa,4431679,12,True,2026-10-31 17:00:00,MEM
-Don't Ask,Rudy Gobert,3032976,12,True,2026-10-31 17:00:00,SAS
-Tyrese's,Ryan Rollins,4591725,12,True,2026-10-31 17:00:00,CLE
-Towns Syndrome,Stephon Castle,4845367,12,True,2026-10-31 17:00:00,MIN
-Tyrese's,Terrence Shannon Jr.,4432847,12,True,2026-10-31 17:00:00,SAS
-Don't Ask,Tobias Harris,6440,12,True,2026-10-31 17:00:00,MIN
-Towns Syndrome,Ty Jerome,4065733,12,True,2026-10-31 17:00:00,SAC
-Flashy like Primo,Tyler Herro,4395725,12,True,2026-10-31 17:00:00,CLE
-The Galumphs,Victor Wembanyama,5104157,12,True,2026-10-31 17:00:00,MIN
-The Galumphs,Zach Edey,4600663,12,True,2026-10-31 17:00:00,SAC
-The Freak and The Felons,Zach LaVine,3064440,12,True,2026-10-31 17:00:00,MEM
-Tyrese's,Aday Mara,5174983,12,True,2026-10-31 17:30:00,HOU
-My Sweet Glorious King,Ajay Mitchell,4900671,12,True,2026-10-31 17:30:00,HOU
-you know what to do with that,Alex Caruso,2991350,12,True,2026-10-31 17:30:00,HOU
-you know what to do with that,Alperen Sengun,4871144,12,True,2026-10-31 17:30:00,OKC
-KotaroLivesAlone,Amen Thompson,4684740,12,True,2026-10-31 17:30:00,OKC
-The Galumphs,Chet Holmgren,4433255,12,True,2026-10-31 17:30:00,HOU
-MVPKNEE,Fred VanVleet,2991230,12,True,2026-10-31 17:30:00,OKC
-MVPKNEE,Isaiah Hartenstein,4222252,12,True,2026-10-31 17:30:00,HOU
-Anything Is Possible,Jabari Smith Jr.,4432639,12,True,2026-10-31 17:30:00,OKC
-Flashy like Primo,Jared McCain,4683778,12,True,2026-10-31 17:30:00,HOU
-The Galumphs,Kevin Durant,3202,12,True,2026-10-31 17:30:00,OKC
-Anything Is Possible,Reed Sheppard,4711272,12,True,2026-10-31 17:30:00,OKC
-Towns Syndrome,Shai Gilgeous-Alexander,4278073,12,True,2026-10-31 17:30:00,HOU
-Tyrese's,Tari Eason,4433192,12,True,2026-10-31 17:30:00,OKC
 Yong,Anthony Black,4712849,13,True,2026-11-01 12:30:00,BOS
 KotaroLivesAlone,Derrick White,3078576,13,True,2026-11-01 12:30:00,ORL
 Yong,Desmond Bane,4066320,13,True,2026-11-01 12:30:00,BOS
@@ -106,6 +19,7 @@ Tyrese's,Jay Huff,4065731,13,True,2026-11-01 14:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,13,True,2026-11-01 14:00:00,IND
 you know what to do with that,Michael Porter Jr.,4278104,13,True,2026-11-01 14:00:00,IND
 The Freak and The Felons,Mikel Brown Jr.,5101761,13,True,2026-11-01 14:00:00,IND
+Flashy like Primo,Moritz Wagner,3150844,13,True,2026-11-01 14:00:00,IND
 Anything Is Possible,Obi Toppin,4278355,13,True,2026-11-01 14:00:00,BKN
 The Freak and The Felons,Pascal Siakam,3149673,13,True,2026-11-01 14:00:00,BKN
 Tyrese's,Tyrese Haliburton,4396993,13,True,2026-11-01 14:00:00,BKN
@@ -190,6 +104,7 @@ KotaroLivesAlone,Matas Buzelis,4711294,14,False,2026-11-02 16:30:00,PHL
 you know what to do with that,Michael Porter Jr.,4278104,14,False,2026-11-02 16:30:00,NYK
 Anything Is Possible,Mikal Bridges,3147657,14,False,2026-11-02 16:30:00,BKN
 The Freak and The Felons,Mikel Brown Jr.,5101761,14,False,2026-11-02 16:30:00,NYK
+Flashy like Primo,Moritz Wagner,3150844,14,False,2026-11-02 16:30:00,NYK
 KotaroLivesAlone,Moussa Diabate,4433249,14,False,2026-11-02 16:30:00,DET
 Flashy like Primo,Naz Reid,4396971,14,False,2026-11-02 16:30:00,DET
 The Freak and The Felons,Nic Claxton,4278067,14,False,2026-11-02 16:30:00,PHL
@@ -367,6 +282,7 @@ you know what to do with that,Michael Porter Jr.,4278104,16,False,2026-11-04 16:
 Anything Is Possible,Mikal Bridges,3147657,16,False,2026-11-04 16:30:00,CHI
 The Freak and The Felons,Mikel Brown Jr.,5101761,16,False,2026-11-04 16:30:00,CHA
 Don't Ask,Mitchell Robinson,4351852,16,False,2026-11-04 16:30:00,MIL
+Flashy like Primo,Moritz Wagner,3150844,16,False,2026-11-04 16:30:00,CHA
 KotaroLivesAlone,Moussa Diabate,4433249,16,False,2026-11-04 16:30:00,BKN
 KotaroLivesAlone,Myles Turner,3133628,16,False,2026-11-04 16:30:00,BOS
 Flashy like Primo,Naz Reid,4396971,16,False,2026-11-04 16:30:00,BKN
@@ -646,6 +562,7 @@ KotaroLivesAlone,Julius Randle,3064514,19,False,2026-11-07 16:30:00,ATL
 Towns Syndrome,Kingston Flemings,5149077,19,False,2026-11-07 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,19,False,2026-11-07 16:30:00,ATL
 The Freak and The Felons,Mikel Brown Jr.,5101761,19,False,2026-11-07 16:30:00,ATL
+Flashy like Primo,Moritz Wagner,3150844,19,False,2026-11-07 16:30:00,ATL
 you know what to do with that,Nickeil Alexander-Walker,4278039,19,False,2026-11-07 16:30:00,BKN
 The Freak and The Felons,Onyeka Okongwu,4431680,19,False,2026-11-07 16:30:00,BKN
 Anything Is Possible,AJ Dybantsa,5142718,19,False,2026-11-07 17:00:00,OKC
@@ -758,6 +675,7 @@ KotaroLivesAlone,Julius Randle,3064514,20,False,2026-11-08 16:30:00,DAL
 Tyrese's,Kyrie Irving,6442,20,False,2026-11-08 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,20,False,2026-11-08 16:30:00,DAL
 The Freak and The Felons,Mikel Brown Jr.,5101761,20,False,2026-11-08 16:30:00,DAL
+Flashy like Primo,Moritz Wagner,3150844,20,False,2026-11-08 16:30:00,DAL
 KotaroLivesAlone,P.J. Washington,4278078,20,False,2026-11-08 16:30:00,BKN
 Yong,Santi Aldama,4593125,20,False,2026-11-08 16:30:00,BKN
 MVPKNEE,Zaccharie Risacher,5211175,20,False,2026-11-08 16:30:00,BKN
@@ -1030,6 +948,7 @@ KotaroLivesAlone,Matas Buzelis,4711294,23,False,2026-11-11 17:00:00,SAS
 Towns Syndrome,Matisse Thybulle,3907498,23,False,2026-11-11 17:00:00,MIL
 you know what to do with that,Michael Porter Jr.,4278104,23,False,2026-11-11 17:00:00,NOP
 The Freak and The Felons,Mikel Brown Jr.,5101761,23,False,2026-11-11 17:00:00,NOP
+Flashy like Primo,Moritz Wagner,3150844,23,False,2026-11-11 17:00:00,NOP
 KotaroLivesAlone,Myles Turner,3133628,23,False,2026-11-11 17:00:00,LAL
 The Freak and The Felons,Nic Claxton,4278067,23,False,2026-11-11 17:00:00,SAS
 you know what to do with that,Nikola Jokic,3112335,23,False,2026-11-11 17:00:00,MEM
@@ -1301,6 +1220,7 @@ Towns Syndrome,LaMelo Ball,4432816,26,False,2026-11-14 17:00:00,CHI
 KotaroLivesAlone,Matas Buzelis,4711294,26,False,2026-11-14 17:00:00,MIN
 you know what to do with that,Michael Porter Jr.,4278104,26,False,2026-11-14 17:00:00,MEM
 The Freak and The Felons,Mikel Brown Jr.,5101761,26,False,2026-11-14 17:00:00,MEM
+Flashy like Primo,Moritz Wagner,3150844,26,False,2026-11-14 17:00:00,MEM
 The Freak and The Felons,Nic Claxton,4278067,26,False,2026-11-14 17:00:00,MIN
 Yong,Norman Powell,2595516,26,False,2026-11-14 17:00:00,MIN
 Tyrese's,Paul Reed,4278562,26,False,2026-11-14 17:00:00,MIA
@@ -1473,6 +1393,7 @@ The Galumphs,Kevin Durant,3202,28,False,2026-11-16 16:30:00,MIA
 My Sweet Glorious King,LeBron James,1966,28,False,2026-11-16 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,28,False,2026-11-16 16:30:00,PHL
 The Freak and The Felons,Mikel Brown Jr.,5101761,28,False,2026-11-16 16:30:00,PHL
+Flashy like Primo,Moritz Wagner,3150844,28,False,2026-11-16 16:30:00,PHL
 Flashy like Primo,Pelle Larsson,4601025,28,False,2026-11-16 16:30:00,HOU
 Anything Is Possible,Reed Sheppard,4711272,28,False,2026-11-16 16:30:00,MIA
 Tyrese's,Tari Eason,4433192,28,False,2026-11-16 16:30:00,MIA
@@ -1646,6 +1567,7 @@ Yong,Kyshawn George,5174563,30,False,2026-11-18 16:30:00,TOR
 KotaroLivesAlone,Matas Buzelis,4711294,30,False,2026-11-18 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,30,False,2026-11-18 16:30:00,CHI
 The Freak and The Felons,Mikel Brown Jr.,5101761,30,False,2026-11-18 16:30:00,CHI
+Flashy like Primo,Moritz Wagner,3150844,30,False,2026-11-18 16:30:00,CHI
 The Freak and The Felons,Nic Claxton,4278067,30,False,2026-11-18 16:30:00,BKN
 Yong,Norman Powell,2595516,30,False,2026-11-18 16:30:00,BKN
 you know what to do with that,RJ Barrett,4395625,30,False,2026-11-18 16:30:00,WAS
@@ -1816,6 +1738,7 @@ KotaroLivesAlone,Julius Randle,3064514,32,False,2026-11-20 16:30:00,ORL
 MVPKNEE,Kawhi Leonard,6450,32,False,2026-11-20 16:30:00,DET
 you know what to do with that,Michael Porter Jr.,4278104,32,False,2026-11-20 16:30:00,ORL
 The Freak and The Felons,Mikel Brown Jr.,5101761,32,False,2026-11-20 16:30:00,ORL
+Flashy like Primo,Moritz Wagner,3150844,32,False,2026-11-20 16:30:00,ORL
 Anything Is Possible,Obi Toppin,4278355,32,False,2026-11-20 16:30:00,CLE
 Anything Is Possible,Paolo Banchero,4432573,32,False,2026-11-20 16:30:00,BKN
 The Freak and The Felons,Pascal Siakam,3149673,32,False,2026-11-20 16:30:00,CLE
@@ -2096,6 +2019,7 @@ My Sweet Glorious King,Kel'el Ware,5105623,35,False,2026-11-23 16:30:00,TOR
 Towns Syndrome,LaMelo Ball,4432816,35,False,2026-11-23 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,35,False,2026-11-23 16:30:00,MIN
 The Freak and The Felons,Mikel Brown Jr.,5101761,35,False,2026-11-23 16:30:00,MIN
+Flashy like Primo,Moritz Wagner,3150844,35,False,2026-11-23 16:30:00,MIN
 KotaroLivesAlone,Myles Turner,3133628,35,False,2026-11-23 16:30:00,TOR
 Anything Is Possible,Obi Toppin,4278355,35,False,2026-11-23 16:30:00,OKC
 The Freak and The Felons,Pascal Siakam,3149673,35,False,2026-11-23 16:30:00,OKC
@@ -2269,6 +2193,7 @@ My Sweet Glorious King,Kel'el Ware,5105623,37,False,2026-11-25 17:00:00,BKN
 The Freak and The Felons,Kris Dunn,2991139,37,False,2026-11-25 17:00:00,MEM
 you know what to do with that,Michael Porter Jr.,4278104,37,False,2026-11-25 17:00:00,MIL
 The Freak and The Felons,Mikel Brown Jr.,5101761,37,False,2026-11-25 17:00:00,MIL
+Flashy like Primo,Moritz Wagner,3150844,37,False,2026-11-25 17:00:00,MIL
 KotaroLivesAlone,Myles Turner,3133628,37,False,2026-11-25 17:00:00,BKN
 Flashy like Primo,Rui Hachimura,4066648,37,False,2026-11-25 17:00:00,MEM
 Tyrese's,Ryan Rollins,4591725,37,False,2026-11-25 17:00:00,BKN
@@ -2347,6 +2272,7 @@ My Sweet Glorious King,Kel'el Ware,5105623,39,False,2026-11-27 16:30:00,DET
 My Sweet Glorious King,LeBron James,1966,39,False,2026-11-27 16:30:00,IND
 you know what to do with that,Michael Porter Jr.,4278104,39,False,2026-11-27 16:30:00,TOR
 The Freak and The Felons,Mikel Brown Jr.,5101761,39,False,2026-11-27 16:30:00,TOR
+Flashy like Primo,Moritz Wagner,3150844,39,False,2026-11-27 16:30:00,TOR
 KotaroLivesAlone,Myles Turner,3133628,39,False,2026-11-27 16:30:00,DET
 Anything Is Possible,Obi Toppin,4278355,39,False,2026-11-27 16:30:00,PHL
 The Freak and The Felons,Pascal Siakam,3149673,39,False,2026-11-27 16:30:00,PHL
@@ -2471,6 +2397,7 @@ KotaroLivesAlone,Julius Randle,3064514,40,False,2026-11-28 15:00:00,CHA
 Yong,Kon Knueppel,5061575,40,False,2026-11-28 15:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,40,False,2026-11-28 15:00:00,CHA
 The Freak and The Felons,Mikel Brown Jr.,5101761,40,False,2026-11-28 15:00:00,CHA
+Flashy like Primo,Moritz Wagner,3150844,40,False,2026-11-28 15:00:00,CHA
 KotaroLivesAlone,Moussa Diabate,4433249,40,False,2026-11-28 15:00:00,BKN
 Flashy like Primo,Naz Reid,4396971,40,False,2026-11-28 15:00:00,BKN
 Tyrese's,Aday Mara,5174983,40,False,2026-11-28 17:00:00,MIL
@@ -2677,6 +2604,7 @@ Flashy like Primo,Luka Doncic,3945274,42,False,2026-11-30 16:30:00,HOU
 Towns Syndrome,Matisse Thybulle,3907498,42,False,2026-11-30 16:30:00,HOU
 you know what to do with that,Michael Porter Jr.,4278104,42,False,2026-11-30 16:30:00,OKC
 The Freak and The Felons,Mikel Brown Jr.,5101761,42,False,2026-11-30 16:30:00,OKC
+Flashy like Primo,Moritz Wagner,3150844,42,False,2026-11-30 16:30:00,OKC
 you know what to do with that,Quentin Grimes,4397014,42,False,2026-11-30 16:30:00,HOU
 Anything Is Possible,Reed Sheppard,4711272,42,False,2026-11-30 16:30:00,LAL
 Flashy like Primo,Sandro Mamukelashvili,4278580,42,False,2026-11-30 16:30:00,HOU
@@ -2882,6 +2810,7 @@ Towns Syndrome,Matisse Thybulle,3907498,44,False,2026-12-02 17:00:00,NOP
 you know what to do with that,Michael Porter Jr.,4278104,44,False,2026-12-02 17:00:00,OKC
 Anything Is Possible,Mikal Bridges,3147657,44,False,2026-12-02 17:00:00,MIL
 The Freak and The Felons,Mikel Brown Jr.,5101761,44,False,2026-12-02 17:00:00,OKC
+Flashy like Primo,Moritz Wagner,3150844,44,False,2026-12-02 17:00:00,OKC
 KotaroLivesAlone,Myles Turner,3133628,44,False,2026-12-02 17:00:00,NYK
 Don't Ask,OG Anunoby,3934719,44,False,2026-12-02 17:00:00,MIL
 KotaroLivesAlone,P.J. Washington,4278078,44,False,2026-12-02 17:00:00,ORL
@@ -3092,6 +3021,7 @@ KotaroLivesAlone,Julius Randle,3064514,55,False,2026-12-13 12:00:00,BOS
 you know what to do with that,Michael Porter Jr.,4278104,55,False,2026-12-13 12:00:00,BOS
 The Freak and The Felons,Mikel Brown Jr.,5101761,55,False,2026-12-13 12:00:00,BOS
 Don't Ask,Mitchell Robinson,4351852,55,False,2026-12-13 12:00:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,55,False,2026-12-13 12:00:00,BOS
 Yong,Neemias Queta,4397424,55,False,2026-12-13 12:00:00,BKN
 The Galumphs,Paul George,4251,55,False,2026-12-13 12:00:00,BKN
 My Sweet Glorious King,Payton Pritchard,4066354,55,False,2026-12-13 12:00:00,BKN
@@ -3184,6 +3114,7 @@ Yong,Kon Knueppel,5061575,56,False,2026-12-14 16:00:00,TOR
 My Sweet Glorious King,LeBron James,1966,56,False,2026-12-14 16:00:00,ORL
 you know what to do with that,Michael Porter Jr.,4278104,56,False,2026-12-14 16:00:00,DET
 The Freak and The Felons,Mikel Brown Jr.,5101761,56,False,2026-12-14 16:00:00,DET
+Flashy like Primo,Moritz Wagner,3150844,56,False,2026-12-14 16:00:00,DET
 KotaroLivesAlone,Moussa Diabate,4433249,56,False,2026-12-14 16:00:00,TOR
 Flashy like Primo,Naz Reid,4396971,56,False,2026-12-14 16:00:00,TOR
 Anything Is Possible,Paolo Banchero,4432573,56,False,2026-12-14 16:00:00,PHL
@@ -3398,6 +3329,7 @@ MVPKNEE,Kawhi Leonard,6450,58,False,2026-12-16 16:30:00,SAS
 Tyrese's,Kyrie Irving,6442,58,False,2026-12-16 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,58,False,2026-12-16 16:30:00,DAL
 The Freak and The Felons,Mikel Brown Jr.,5101761,58,False,2026-12-16 16:30:00,DAL
+Flashy like Primo,Moritz Wagner,3150844,58,False,2026-12-16 16:30:00,DAL
 KotaroLivesAlone,P.J. Washington,4278078,58,False,2026-12-16 16:30:00,BKN
 you know what to do with that,RJ Barrett,4395625,58,False,2026-12-16 16:30:00,SAS
 Yong,Santi Aldama,4593125,58,False,2026-12-16 16:30:00,BKN
@@ -3589,6 +3521,7 @@ you know what to do with that,Michael Porter Jr.,4278104,60,False,2026-12-18 16:
 The Freak and The Felons,Mikel Brown Jr.,5101761,60,False,2026-12-18 16:30:00,ORL
 Don't Ask,Mitchell Robinson,4351852,60,False,2026-12-18 16:30:00,UTA
 you know what to do with that,Mo Bamba,4277919,60,False,2026-12-18 16:30:00,BOS
+Flashy like Primo,Moritz Wagner,3150844,60,False,2026-12-18 16:30:00,ORL
 Yong,Neemias Queta,4397424,60,False,2026-12-18 16:30:00,UTA
 Anything Is Possible,Paolo Banchero,4432573,60,False,2026-12-18 16:30:00,BKN
 The Galumphs,Paul George,4251,60,False,2026-12-18 16:30:00,UTA
@@ -3722,6 +3655,7 @@ KotaroLivesAlone,Julius Randle,3064514,62,False,2026-12-20 12:00:00,WAS
 Yong,Kyshawn George,5174563,62,False,2026-12-20 12:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,62,False,2026-12-20 12:00:00,WAS
 The Freak and The Felons,Mikel Brown Jr.,5101761,62,False,2026-12-20 12:00:00,WAS
+Flashy like Primo,Moritz Wagner,3150844,62,False,2026-12-20 12:00:00,WAS
 The Freak and The Felons,Trae Young,4277905,62,False,2026-12-20 12:00:00,BKN
 you know what to do with that,Alperen Sengun,4871144,62,False,2026-12-20 12:30:00,TOR
 KotaroLivesAlone,Amen Thompson,4684740,62,False,2026-12-20 12:30:00,TOR
@@ -3888,6 +3822,7 @@ KotaroLivesAlone,Julius Randle,3064514,63,False,2026-12-21 16:30:00,POR
 KotaroLivesAlone,Matas Buzelis,4711294,63,False,2026-12-21 16:30:00,MIA
 you know what to do with that,Michael Porter Jr.,4278104,63,False,2026-12-21 16:30:00,POR
 The Freak and The Felons,Mikel Brown Jr.,5101761,63,False,2026-12-21 16:30:00,POR
+Flashy like Primo,Moritz Wagner,3150844,63,False,2026-12-21 16:30:00,POR
 The Freak and The Felons,Nic Claxton,4278067,63,False,2026-12-21 16:30:00,MIA
 Yong,Norman Powell,2595516,63,False,2026-12-21 16:30:00,MIA
 Flashy like Primo,Pelle Larsson,4601025,63,False,2026-12-21 16:30:00,CHI
@@ -4076,6 +4011,7 @@ Anything Is Possible,Mikal Bridges,3147657,65,False,2026-12-23 16:30:00,UTA
 The Freak and The Felons,Mikel Brown Jr.,5101761,65,False,2026-12-23 16:30:00,SAS
 Don't Ask,Mitchell Robinson,4351852,65,False,2026-12-23 16:30:00,POR
 you know what to do with that,Mo Bamba,4277919,65,False,2026-12-23 16:30:00,NYK
+Flashy like Primo,Moritz Wagner,3150844,65,False,2026-12-23 16:30:00,SAS
 Yong,Neemias Queta,4397424,65,False,2026-12-23 16:30:00,POR
 The Freak and The Felons,Nic Claxton,4278067,65,False,2026-12-23 16:30:00,MIA
 Yong,Norman Powell,2595516,65,False,2026-12-23 16:30:00,MIA
@@ -4286,6 +4222,7 @@ Towns Syndrome,Jordan Poole,4277956,68,False,2026-12-26 15:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,68,False,2026-12-26 15:00:00,NOP
 you know what to do with that,Michael Porter Jr.,4278104,68,False,2026-12-26 15:00:00,NOP
 The Freak and The Felons,Mikel Brown Jr.,5101761,68,False,2026-12-26 15:00:00,NOP
+Flashy like Primo,Moritz Wagner,3150844,68,False,2026-12-26 15:00:00,NOP
 My Sweet Glorious King,Trey Murphy III,4397688,68,False,2026-12-26 15:00:00,BKN
 MVPKNEE,Yves Missi,5061589,68,False,2026-12-26 15:00:00,BKN
 Tyrese's,Zion Williamson,4395628,68,False,2026-12-26 15:00:00,BKN
@@ -4396,6 +4333,7 @@ you know what to do with that,Michael Porter Jr.,4278104,69,False,2026-12-27 15:
 Anything Is Possible,Mikal Bridges,3147657,69,False,2026-12-27 15:00:00,BKN
 The Freak and The Felons,Mikel Brown Jr.,5101761,69,False,2026-12-27 15:00:00,NYK
 you know what to do with that,Mo Bamba,4277919,69,False,2026-12-27 15:00:00,SAC
+Flashy like Primo,Moritz Wagner,3150844,69,False,2026-12-27 15:00:00,NYK
 KotaroLivesAlone,Moussa Diabate,4433249,69,False,2026-12-27 15:00:00,MIA
 KotaroLivesAlone,Myles Turner,3133628,69,False,2026-12-27 15:00:00,ORL
 Flashy like Primo,Naz Reid,4396971,69,False,2026-12-27 15:00:00,MIA
@@ -4627,6 +4565,7 @@ KotaroLivesAlone,Julius Randle,3064514,71,False,2026-12-29 19:00:00,POR
 My Sweet Glorious King,LeBron James,1966,71,False,2026-12-29 19:00:00,SAC
 you know what to do with that,Michael Porter Jr.,4278104,71,False,2026-12-29 19:00:00,POR
 The Freak and The Felons,Mikel Brown Jr.,5101761,71,False,2026-12-29 19:00:00,POR
+Flashy like Primo,Moritz Wagner,3150844,71,False,2026-12-29 19:00:00,POR
 MVPKNEE,Precious Achiuwa,4431679,71,False,2026-12-29 19:00:00,PHL
 you know what to do with that,Robert Williams III,4066211,71,False,2026-12-29 19:00:00,BKN
 you know what to do with that,Toumani Camara,4431736,71,False,2026-12-29 19:00:00,BKN
@@ -4791,6 +4730,7 @@ Anything Is Possible,Domantas Sabonis,3155942,73,False,2026-12-31 15:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,73,False,2026-12-31 15:00:00,SAC
 you know what to do with that,Michael Porter Jr.,4278104,73,False,2026-12-31 15:00:00,SAC
 The Freak and The Felons,Mikel Brown Jr.,5101761,73,False,2026-12-31 15:00:00,SAC
+Flashy like Primo,Moritz Wagner,3150844,73,False,2026-12-31 15:00:00,SAC
 MVPKNEE,Precious Achiuwa,4431679,73,False,2026-12-31 15:00:00,BKN
 The Freak and The Felons,Zach LaVine,3064440,73,False,2026-12-31 15:00:00,BKN
 Tyrese's,Aday Mara,5174983,73,False,2026-12-31 17:00:00,MIA
@@ -5001,6 +4941,7 @@ KotaroLivesAlone,Julius Randle,3064514,75,False,2027-01-02 17:30:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,75,False,2027-01-02 17:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,75,False,2027-01-02 17:30:00,GSW
 The Freak and The Felons,Mikel Brown Jr.,5101761,75,False,2027-01-02 17:30:00,GSW
+Flashy like Primo,Moritz Wagner,3150844,75,False,2027-01-02 17:30:00,GSW
 MVPKNEE,Stephen Curry,3975,75,False,2027-01-02 17:30:00,BKN
 Yong,Yaxel Lendeborg,5175737,75,False,2027-01-02 17:30:00,BKN
 Yong,Collin Gillespie,4278585,75,False,2027-01-02 18:00:00,SAC
@@ -5182,6 +5123,7 @@ The Freak and The Felons,Mikel Brown Jr.,5101761,77,False,2027-01-04 18:00:00,UT
 The Freak and The Felons,Miles Bridges,4066383,77,False,2027-01-04 18:00:00,BOS
 Don't Ask,Mitchell Robinson,4351852,77,False,2027-01-04 18:00:00,PHO
 you know what to do with that,Mo Bamba,4277919,77,False,2027-01-04 18:00:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,77,False,2027-01-04 18:00:00,UTA
 Yong,Neemias Queta,4397424,77,False,2027-01-04 18:00:00,PHO
 The Galumphs,Paul George,4251,77,False,2027-01-04 18:00:00,PHO
 My Sweet Glorious King,Payton Pritchard,4066354,77,False,2027-01-04 18:00:00,PHO
@@ -5327,6 +5269,7 @@ My Sweet Glorious King,LeBron James,1966,79,False,2027-01-06 16:30:00,OKC
 you know what to do with that,Michael Porter Jr.,4278104,79,False,2027-01-06 16:30:00,UTA
 The Freak and The Felons,Mikel Brown Jr.,5101761,79,False,2027-01-06 16:30:00,UTA
 you know what to do with that,Mo Bamba,4277919,79,False,2027-01-06 16:30:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,79,False,2027-01-06 16:30:00,UTA
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,79,False,2027-01-06 16:30:00,PHL
 Tyrese's,Tyrese Maxey,4431678,79,False,2027-01-06 16:30:00,OKC
 Towns Syndrome,VJ Edgecombe,5124612,79,False,2027-01-06 16:30:00,OKC
@@ -5437,6 +5380,7 @@ MVPKNEE,Kawhi Leonard,6450,80,False,2027-01-07 16:30:00,MIN
 Towns Syndrome,LaMelo Ball,4432816,80,False,2027-01-07 16:30:00,TOR
 you know what to do with that,Michael Porter Jr.,4278104,80,False,2027-01-07 16:30:00,MIA
 The Freak and The Felons,Mikel Brown Jr.,5101761,80,False,2027-01-07 16:30:00,MIA
+Flashy like Primo,Moritz Wagner,3150844,80,False,2027-01-07 16:30:00,MIA
 Flashy like Primo,Pelle Larsson,4601025,80,False,2027-01-07 16:30:00,BKN
 you know what to do with that,RJ Barrett,4395625,80,False,2027-01-07 16:30:00,MIN
 Don't Ask,Rudy Gobert,3032976,80,False,2027-01-07 16:30:00,TOR
@@ -5633,6 +5577,7 @@ KotaroLivesAlone,Julius Randle,3064514,82,False,2027-01-09 15:00:00,HOU
 The Galumphs,Kevin Durant,3202,82,False,2027-01-09 15:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,82,False,2027-01-09 15:00:00,HOU
 The Freak and The Felons,Mikel Brown Jr.,5101761,82,False,2027-01-09 15:00:00,HOU
+Flashy like Primo,Moritz Wagner,3150844,82,False,2027-01-09 15:00:00,HOU
 Anything Is Possible,Reed Sheppard,4711272,82,False,2027-01-09 15:00:00,BKN
 Tyrese's,Tari Eason,4433192,82,False,2027-01-09 15:00:00,BKN
 My Sweet Glorious King,Andrew Nembhard,4395712,82,False,2027-01-09 16:00:00,MIL
@@ -5804,6 +5749,7 @@ Towns Syndrome,Kingston Flemings,5149077,84,False,2027-01-11 16:00:00,WAS
 Yong,Kyshawn George,5174563,84,False,2027-01-11 16:00:00,ATL
 you know what to do with that,Michael Porter Jr.,4278104,84,False,2027-01-11 16:00:00,IND
 The Freak and The Felons,Mikel Brown Jr.,5101761,84,False,2027-01-11 16:00:00,IND
+Flashy like Primo,Moritz Wagner,3150844,84,False,2027-01-11 16:00:00,IND
 you know what to do with that,Nickeil Alexander-Walker,4278039,84,False,2027-01-11 16:00:00,WAS
 Anything Is Possible,Obi Toppin,4278355,84,False,2027-01-11 16:00:00,BKN
 The Freak and The Felons,Onyeka Okongwu,4431680,84,False,2027-01-11 16:00:00,WAS
@@ -5876,6 +5822,7 @@ KotaroLivesAlone,Julius Randle,3064514,85,False,2027-01-12 16:30:00,MIA
 MVPKNEE,Kawhi Leonard,6450,85,False,2027-01-12 16:30:00,DET
 you know what to do with that,Michael Porter Jr.,4278104,85,False,2027-01-12 16:30:00,MIA
 The Freak and The Felons,Mikel Brown Jr.,5101761,85,False,2027-01-12 16:30:00,MIA
+Flashy like Primo,Moritz Wagner,3150844,85,False,2027-01-12 16:30:00,MIA
 Tyrese's,Paul Reed,4278562,85,False,2027-01-12 16:30:00,TOR
 Flashy like Primo,Pelle Larsson,4601025,85,False,2027-01-12 16:30:00,BKN
 you know what to do with that,RJ Barrett,4395625,85,False,2027-01-12 16:30:00,DET
@@ -6069,6 +6016,7 @@ Tyrese's,Kyrie Irving,6442,87,False,2027-01-14 16:00:00,DET
 My Sweet Glorious King,LeBron James,1966,87,False,2027-01-14 16:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,87,False,2027-01-14 16:00:00,PHL
 The Freak and The Felons,Mikel Brown Jr.,5101761,87,False,2027-01-14 16:00:00,PHL
+Flashy like Primo,Moritz Wagner,3150844,87,False,2027-01-14 16:00:00,PHL
 KotaroLivesAlone,P.J. Washington,4278078,87,False,2027-01-14 16:00:00,DET
 Tyrese's,Paul Reed,4278562,87,False,2027-01-14 16:00:00,DAL
 MVPKNEE,Ronald Holland II,4683771,87,False,2027-01-14 16:00:00,DAL
@@ -6270,6 +6218,7 @@ KotaroLivesAlone,Julius Randle,3064514,89,False,2027-01-16 16:00:00,BOS
 you know what to do with that,Michael Porter Jr.,4278104,89,False,2027-01-16 16:00:00,BOS
 The Freak and The Felons,Mikel Brown Jr.,5101761,89,False,2027-01-16 16:00:00,BOS
 Don't Ask,Mitchell Robinson,4351852,89,False,2027-01-16 16:00:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,89,False,2027-01-16 16:00:00,BOS
 Yong,Neemias Queta,4397424,89,False,2027-01-16 16:00:00,BKN
 The Galumphs,Paul George,4251,89,False,2027-01-16 16:00:00,BKN
 My Sweet Glorious King,Payton Pritchard,4066354,89,False,2027-01-16 16:00:00,BKN
@@ -6611,6 +6560,7 @@ Towns Syndrome,Kingston Flemings,5149077,93,False,2027-01-20 16:00:00,POR
 KotaroLivesAlone,Matas Buzelis,4711294,93,False,2027-01-20 16:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,93,False,2027-01-20 16:00:00,CHI
 The Freak and The Felons,Mikel Brown Jr.,5101761,93,False,2027-01-20 16:00:00,CHI
+Flashy like Primo,Moritz Wagner,3150844,93,False,2027-01-20 16:00:00,CHI
 The Freak and The Felons,Nic Claxton,4278067,93,False,2027-01-20 16:00:00,BKN
 you know what to do with that,Nickeil Alexander-Walker,4278039,93,False,2027-01-20 16:00:00,POR
 Yong,Norman Powell,2595516,93,False,2027-01-20 16:00:00,BKN
@@ -6729,6 +6679,7 @@ My Sweet Glorious King,LeBron James,1966,94,False,2027-01-21 16:30:00,BOS
 you know what to do with that,Michael Porter Jr.,4278104,94,False,2027-01-21 16:30:00,CLE
 The Freak and The Felons,Mikel Brown Jr.,5101761,94,False,2027-01-21 16:30:00,CLE
 Don't Ask,Mitchell Robinson,4351852,94,False,2027-01-21 16:30:00,PHL
+Flashy like Primo,Moritz Wagner,3150844,94,False,2027-01-21 16:30:00,CLE
 Yong,Neemias Queta,4397424,94,False,2027-01-21 16:30:00,PHL
 The Galumphs,Paul George,4251,94,False,2027-01-21 16:30:00,PHL
 My Sweet Glorious King,Payton Pritchard,4066354,94,False,2027-01-21 16:30:00,PHL
@@ -6920,6 +6871,7 @@ KotaroLivesAlone,Julius Randle,3064514,96,False,2027-01-23 15:00:00,TOR
 MVPKNEE,Kawhi Leonard,6450,96,False,2027-01-23 15:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,96,False,2027-01-23 15:00:00,TOR
 The Freak and The Felons,Mikel Brown Jr.,5101761,96,False,2027-01-23 15:00:00,TOR
+Flashy like Primo,Moritz Wagner,3150844,96,False,2027-01-23 15:00:00,TOR
 you know what to do with that,RJ Barrett,4395625,96,False,2027-01-23 15:00:00,BKN
 KotaroLivesAlone,Scottie Barnes,4433134,96,False,2027-01-23 15:00:00,BKN
 MVPKNEE,Brandon Miller,4433287,96,False,2027-01-23 16:00:00,BOS
@@ -7110,6 +7062,7 @@ The Freak and The Felons,Giannis Antetokounmpo,3032977,98,False,2027-01-25 16:30
 KotaroLivesAlone,Julius Randle,3064514,98,False,2027-01-25 16:30:00,MIA
 you know what to do with that,Michael Porter Jr.,4278104,98,False,2027-01-25 16:30:00,MIA
 The Freak and The Felons,Mikel Brown Jr.,5101761,98,False,2027-01-25 16:30:00,MIA
+Flashy like Primo,Moritz Wagner,3150844,98,False,2027-01-25 16:30:00,MIA
 Flashy like Primo,Pelle Larsson,4601025,98,False,2027-01-25 16:30:00,BKN
 Yong,Anthony Edwards,4594268,98,False,2027-01-25 17:00:00,MEM
 Don't Ask,Ayo Dosunmu,4397002,98,False,2027-01-25 17:00:00,MEM
@@ -7293,6 +7246,7 @@ you know what to do with that,Michael Porter Jr.,4278104,100,False,2027-01-27 16
 The Freak and The Felons,Mikel Brown Jr.,5101761,100,False,2027-01-27 16:30:00,PHO
 The Freak and The Felons,Miles Bridges,4066383,100,False,2027-01-27 16:30:00,BKN
 Don't Ask,Mitchell Robinson,4351852,100,False,2027-01-27 16:30:00,LAC
+Flashy like Primo,Moritz Wagner,3150844,100,False,2027-01-27 16:30:00,PHO
 Yong,Neemias Queta,4397424,100,False,2027-01-27 16:30:00,LAC
 KotaroLivesAlone,P.J. Washington,4278078,100,False,2027-01-27 16:30:00,TOR
 The Galumphs,Paul George,4251,100,False,2027-01-27 16:30:00,LAC
@@ -7483,6 +7437,7 @@ you know what to do with that,Michael Porter Jr.,4278104,102,False,2027-01-29 16
 The Freak and The Felons,Mikel Brown Jr.,5101761,102,False,2027-01-29 16:30:00,LAC
 The Freak and The Felons,Miles Bridges,4066383,102,False,2027-01-29 16:30:00,BOS
 Don't Ask,Mitchell Robinson,4351852,102,False,2027-01-29 16:30:00,PHO
+Flashy like Primo,Moritz Wagner,3150844,102,False,2027-01-29 16:30:00,LAC
 Yong,Neemias Queta,4397424,102,False,2027-01-29 16:30:00,PHO
 The Galumphs,Paul George,4251,102,False,2027-01-29 16:30:00,PHO
 My Sweet Glorious King,Payton Pritchard,4066354,102,False,2027-01-29 16:30:00,PHO
@@ -7672,6 +7627,7 @@ you know what to do with that,Michael Porter Jr.,4278104,104,False,2027-01-31 15
 The Freak and The Felons,Mikel Brown Jr.,5101761,104,False,2027-01-31 15:00:00,ORL
 The Freak and The Felons,Miles Bridges,4066383,104,False,2027-01-31 15:00:00,MIN
 Don't Ask,Mitchell Robinson,4351852,104,False,2027-01-31 15:00:00,TOR
+Flashy like Primo,Moritz Wagner,3150844,104,False,2027-01-31 15:00:00,ORL
 Yong,Neemias Queta,4397424,104,False,2027-01-31 15:00:00,TOR
 The Freak and The Felons,Nic Claxton,4278067,104,False,2027-01-31 15:00:00,OKC
 Yong,Norman Powell,2595516,104,False,2027-01-31 15:00:00,OKC
@@ -7763,6 +7719,7 @@ Towns Syndrome,Karl-Anthony Towns,3136195,105,False,2027-02-01 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,105,False,2027-02-01 16:30:00,NYK
 Anything Is Possible,Mikal Bridges,3147657,105,False,2027-02-01 16:30:00,BKN
 The Freak and The Felons,Mikel Brown Jr.,5101761,105,False,2027-02-01 16:30:00,NYK
+Flashy like Primo,Moritz Wagner,3150844,105,False,2027-02-01 16:30:00,NYK
 Don't Ask,OG Anunoby,3934719,105,False,2027-02-01 16:30:00,BKN
 Anything Is Possible,Obi Toppin,4278355,105,False,2027-02-01 16:30:00,MIA
 The Freak and The Felons,Pascal Siakam,3149673,105,False,2027-02-01 16:30:00,MIA
@@ -8025,6 +7982,7 @@ you know what to do with that,Michael Porter Jr.,4278104,108,False,2027-02-04 16
 Anything Is Possible,Mikal Bridges,3147657,108,False,2027-02-04 16:30:00,TOR
 The Freak and The Felons,Mikel Brown Jr.,5101761,108,False,2027-02-04 16:30:00,LAL
 Don't Ask,Mitchell Robinson,4351852,108,False,2027-02-04 16:30:00,CHA
+Flashy like Primo,Moritz Wagner,3150844,108,False,2027-02-04 16:30:00,LAL
 KotaroLivesAlone,Moussa Diabate,4433249,108,False,2027-02-04 16:30:00,BOS
 KotaroLivesAlone,Myles Turner,3133628,108,False,2027-02-04 16:30:00,MIA
 Flashy like Primo,Naz Reid,4396971,108,False,2027-02-04 16:30:00,BOS
@@ -8227,6 +8185,7 @@ KotaroLivesAlone,Julius Randle,3064514,110,False,2027-02-06 15:00:00,WAS
 Yong,Kyshawn George,5174563,110,False,2027-02-06 15:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,110,False,2027-02-06 15:00:00,WAS
 The Freak and The Felons,Mikel Brown Jr.,5101761,110,False,2027-02-06 15:00:00,WAS
+Flashy like Primo,Moritz Wagner,3150844,110,False,2027-02-06 15:00:00,WAS
 The Freak and The Felons,Trae Young,4277905,110,False,2027-02-06 15:00:00,BKN
 Yong,Anthony Black,4712849,110,False,2027-02-06 16:30:00,CLE
 The Galumphs,Collin Murray-Boyles,5093267,110,False,2027-02-06 16:30:00,MIL
@@ -8421,6 +8380,7 @@ My Sweet Glorious King,LeBron James,1966,112,False,2027-02-08 16:00:00,BKN
 KotaroLivesAlone,Matas Buzelis,4711294,112,False,2027-02-08 16:00:00,WAS
 you know what to do with that,Michael Porter Jr.,4278104,112,False,2027-02-08 16:00:00,PHL
 The Freak and The Felons,Mikel Brown Jr.,5101761,112,False,2027-02-08 16:00:00,PHL
+Flashy like Primo,Moritz Wagner,3150844,112,False,2027-02-08 16:00:00,PHL
 The Freak and The Felons,Nic Claxton,4278067,112,False,2027-02-08 16:00:00,WAS
 you know what to do with that,Nickeil Alexander-Walker,4278039,112,False,2027-02-08 16:00:00,MIA
 Yong,Norman Powell,2595516,112,False,2027-02-08 16:00:00,WAS
@@ -8507,6 +8467,7 @@ you know what to do with that,Michael Porter Jr.,4278104,113,False,2027-02-09 16
 Anything Is Possible,Mikal Bridges,3147657,113,False,2027-02-09 16:30:00,CHA
 The Freak and The Felons,Mikel Brown Jr.,5101761,113,False,2027-02-09 16:30:00,MIN
 Don't Ask,Mitchell Robinson,4351852,113,False,2027-02-09 16:30:00,DEN
+Flashy like Primo,Moritz Wagner,3150844,113,False,2027-02-09 16:30:00,MIN
 KotaroLivesAlone,Moussa Diabate,4433249,113,False,2027-02-09 16:30:00,NYK
 Flashy like Primo,Naz Reid,4396971,113,False,2027-02-09 16:30:00,NYK
 Yong,Neemias Queta,4397424,113,False,2027-02-09 16:30:00,DEN
@@ -8797,6 +8758,7 @@ Yong,Kyshawn George,5174563,116,False,2027-02-12 16:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,116,False,2027-02-12 16:00:00,WAS
 The Freak and The Felons,Mikel Brown Jr.,5101761,116,False,2027-02-12 16:00:00,WAS
 The Freak and The Felons,Miles Bridges,4066383,116,False,2027-02-12 16:00:00,ATL
+Flashy like Primo,Moritz Wagner,3150844,116,False,2027-02-12 16:00:00,WAS
 you know what to do with that,Nickeil Alexander-Walker,4278039,116,False,2027-02-12 16:00:00,PHO
 The Freak and The Felons,Onyeka Okongwu,4431680,116,False,2027-02-12 16:00:00,PHO
 Anything Is Possible,Paolo Banchero,4432573,116,False,2027-02-12 16:00:00,MIA
@@ -8986,6 +8948,7 @@ you know what to do with that,Michael Porter Jr.,4278104,118,False,2027-02-14 10
 The Freak and The Felons,Mikel Brown Jr.,5101761,118,False,2027-02-14 10:00:00,MIA
 The Freak and The Felons,Miles Bridges,4066383,118,False,2027-02-14 10:00:00,CLE
 Don't Ask,Mitchell Robinson,4351852,118,False,2027-02-14 10:00:00,TOR
+Flashy like Primo,Moritz Wagner,3150844,118,False,2027-02-14 10:00:00,MIA
 Yong,Neemias Queta,4397424,118,False,2027-02-14 10:00:00,TOR
 you know what to do with that,Nickeil Alexander-Walker,4278039,118,False,2027-02-14 10:00:00,SAC
 The Freak and The Felons,Onyeka Okongwu,4431680,118,False,2027-02-14 10:00:00,SAC
@@ -9279,6 +9242,7 @@ KotaroLivesAlone,Julius Randle,3064514,121,False,2027-02-17 16:30:00,ATL
 Towns Syndrome,Kingston Flemings,5149077,121,False,2027-02-17 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,121,False,2027-02-17 16:30:00,ATL
 The Freak and The Felons,Mikel Brown Jr.,5101761,121,False,2027-02-17 16:30:00,ATL
+Flashy like Primo,Moritz Wagner,3150844,121,False,2027-02-17 16:30:00,ATL
 you know what to do with that,Nickeil Alexander-Walker,4278039,121,False,2027-02-17 16:30:00,BKN
 The Freak and The Felons,Onyeka Okongwu,4431680,121,False,2027-02-17 16:30:00,BKN
 Towns Syndrome,Cameron Boozer,5041935,121,False,2027-02-17 17:00:00,SAS
@@ -9461,6 +9425,7 @@ My Sweet Glorious King,LeBron James,1966,129,False,2027-02-25 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,129,False,2027-02-25 16:30:00,PHL
 Anything Is Possible,Mikal Bridges,3147657,129,False,2027-02-25 16:30:00,OKC
 The Freak and The Felons,Mikel Brown Jr.,5101761,129,False,2027-02-25 16:30:00,PHL
+Flashy like Primo,Moritz Wagner,3150844,129,False,2027-02-25 16:30:00,PHL
 Don't Ask,OG Anunoby,3934719,129,False,2027-02-25 16:30:00,OKC
 Towns Syndrome,Shai Gilgeous-Alexander,4278073,129,False,2027-02-25 16:30:00,NYK
 Tyrese's,Tyrese Maxey,4431678,129,False,2027-02-25 16:30:00,BKN
@@ -9657,6 +9622,7 @@ KotaroLivesAlone,Julius Randle,3064514,131,False,2027-02-27 17:00:00,CHI
 KotaroLivesAlone,Matas Buzelis,4711294,131,False,2027-02-27 17:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,131,False,2027-02-27 17:00:00,CHI
 The Freak and The Felons,Mikel Brown Jr.,5101761,131,False,2027-02-27 17:00:00,CHI
+Flashy like Primo,Moritz Wagner,3150844,131,False,2027-02-27 17:00:00,CHI
 The Freak and The Felons,Nic Claxton,4278067,131,False,2027-02-27 17:00:00,BKN
 Yong,Norman Powell,2595516,131,False,2027-02-27 17:00:00,BKN
 MVPKNEE,Precious Achiuwa,4431679,131,False,2027-02-27 17:00:00,MEM
@@ -9856,6 +9822,7 @@ MVPKNEE,Jamal Murray,3936299,133,False,2027-03-01 18:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,133,False,2027-03-01 18:00:00,DEN
 you know what to do with that,Michael Porter Jr.,4278104,133,False,2027-03-01 18:00:00,DEN
 The Freak and The Felons,Mikel Brown Jr.,5101761,133,False,2027-03-01 18:00:00,DEN
+Flashy like Primo,Moritz Wagner,3150844,133,False,2027-03-01 18:00:00,DEN
 you know what to do with that,Nikola Jokic,3112335,133,False,2027-03-01 18:00:00,BKN
 Anything Is Possible,AJ Dybantsa,5142718,133,False,2027-03-01 18:30:00,PHO
 Anything Is Possible,Alex Sarr,5160992,133,False,2027-03-01 18:30:00,PHO
@@ -10053,6 +10020,7 @@ MVPKNEE,Khaman Maluach,5203685,135,False,2027-03-03 18:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,135,False,2027-03-03 18:00:00,PHO
 The Freak and The Felons,Mikel Brown Jr.,5101761,135,False,2027-03-03 18:00:00,PHO
 The Freak and The Felons,Miles Bridges,4066383,135,False,2027-03-03 18:00:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,135,False,2027-03-03 18:00:00,PHO
 Towns Syndrome,Aaron Gordon,3064290,135,False,2027-03-03 19:00:00,SAS
 KotaroLivesAlone,Christian Braun,4431767,135,False,2027-03-03 19:00:00,SAS
 you know what to do with that,De'Aaron Fox,4066259,135,False,2027-03-03 19:00:00,DEN
@@ -10160,6 +10128,7 @@ Towns Syndrome,Keaton Wagler,5254165,136,False,2027-03-04 19:30:00,BKN
 The Freak and The Felons,Kris Dunn,2991139,136,False,2027-03-04 19:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,136,False,2027-03-04 19:30:00,LAC
 The Freak and The Felons,Mikel Brown Jr.,5101761,136,False,2027-03-04 19:30:00,LAC
+Flashy like Primo,Moritz Wagner,3150844,136,False,2027-03-04 19:30:00,LAC
 Flashy like Primo,Rui Hachimura,4066648,136,False,2027-03-04 19:30:00,BKN
 My Sweet Glorious King,Ace Bailey,4873138,137,False,2027-03-05 16:00:00,ORL
 Yong,Anthony Black,4712849,137,False,2027-03-05 16:00:00,UTA
@@ -10395,6 +10364,7 @@ Flashy like Primo,Luka Doncic,3945274,139,False,2027-03-07 19:30:00,BKN
 Towns Syndrome,Matisse Thybulle,3907498,139,False,2027-03-07 19:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,139,False,2027-03-07 19:30:00,LAL
 The Freak and The Felons,Mikel Brown Jr.,5101761,139,False,2027-03-07 19:30:00,LAL
+Flashy like Primo,Moritz Wagner,3150844,139,False,2027-03-07 19:30:00,LAL
 you know what to do with that,Quentin Grimes,4397014,139,False,2027-03-07 19:30:00,BKN
 Flashy like Primo,Sandro Mamukelashvili,4278580,139,False,2027-03-07 19:30:00,BKN
 Don't Ask,Walker Kessler,4433136,139,False,2027-03-07 19:30:00,BKN
@@ -10516,6 +10486,7 @@ KotaroLivesAlone,Julius Randle,3064514,141,False,2027-03-09 16:30:00,MIL
 My Sweet Glorious King,Kel'el Ware,5105623,141,False,2027-03-09 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,141,False,2027-03-09 16:30:00,MIL
 The Freak and The Felons,Mikel Brown Jr.,5101761,141,False,2027-03-09 16:30:00,MIL
+Flashy like Primo,Moritz Wagner,3150844,141,False,2027-03-09 16:30:00,MIL
 KotaroLivesAlone,Myles Turner,3133628,141,False,2027-03-09 16:30:00,BKN
 Tyrese's,Ryan Rollins,4591725,141,False,2027-03-09 16:30:00,BKN
 Flashy like Primo,Tyler Herro,4395725,141,False,2027-03-09 16:30:00,BKN
@@ -10761,6 +10732,7 @@ KotaroLivesAlone,Matas Buzelis,4711294,143,False,2027-03-11 17:00:00,PHO
 you know what to do with that,Michael Porter Jr.,4278104,143,False,2027-03-11 17:00:00,ATL
 The Freak and The Felons,Mikel Brown Jr.,5101761,143,False,2027-03-11 17:00:00,ATL
 The Freak and The Felons,Miles Bridges,4066383,143,False,2027-03-11 17:00:00,CHI
+Flashy like Primo,Moritz Wagner,3150844,143,False,2027-03-11 17:00:00,ATL
 The Freak and The Felons,Nic Claxton,4278067,143,False,2027-03-11 17:00:00,PHO
 you know what to do with that,Nickeil Alexander-Walker,4278039,143,False,2027-03-11 17:00:00,BKN
 Yong,Norman Powell,2595516,143,False,2027-03-11 17:00:00,PHO
@@ -10882,6 +10854,7 @@ KotaroLivesAlone,Julius Randle,3064514,145,False,2027-03-13 12:00:00,DET
 Towns Syndrome,Kingston Flemings,5149077,145,False,2027-03-13 12:00:00,ORL
 you know what to do with that,Michael Porter Jr.,4278104,145,False,2027-03-13 12:00:00,DET
 The Freak and The Felons,Mikel Brown Jr.,5101761,145,False,2027-03-13 12:00:00,DET
+Flashy like Primo,Moritz Wagner,3150844,145,False,2027-03-13 12:00:00,DET
 you know what to do with that,Nickeil Alexander-Walker,4278039,145,False,2027-03-13 12:00:00,ORL
 The Freak and The Felons,Onyeka Okongwu,4431680,145,False,2027-03-13 12:00:00,ORL
 Anything Is Possible,Paolo Banchero,4432573,145,False,2027-03-13 12:00:00,ATL
@@ -11068,6 +11041,7 @@ Tyrese's,Jay Huff,4065731,147,False,2027-03-15 16:30:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,147,False,2027-03-15 16:30:00,IND
 you know what to do with that,Michael Porter Jr.,4278104,147,False,2027-03-15 16:30:00,IND
 The Freak and The Felons,Mikel Brown Jr.,5101761,147,False,2027-03-15 16:30:00,IND
+Flashy like Primo,Moritz Wagner,3150844,147,False,2027-03-15 16:30:00,IND
 Anything Is Possible,Obi Toppin,4278355,147,False,2027-03-15 16:30:00,BKN
 The Freak and The Felons,Pascal Siakam,3149673,147,False,2027-03-15 16:30:00,BKN
 Tyrese's,Tyrese Haliburton,4396993,147,False,2027-03-15 16:30:00,BKN
@@ -11277,6 +11251,7 @@ KotaroLivesAlone,Julius Randle,3064514,149,False,2027-03-17 17:30:00,HOU
 The Galumphs,Kevin Durant,3202,149,False,2027-03-17 17:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,149,False,2027-03-17 17:30:00,HOU
 The Freak and The Felons,Mikel Brown Jr.,5101761,149,False,2027-03-17 17:30:00,HOU
+Flashy like Primo,Moritz Wagner,3150844,149,False,2027-03-17 17:30:00,HOU
 Anything Is Possible,Reed Sheppard,4711272,149,False,2027-03-17 17:30:00,BKN
 Tyrese's,Tari Eason,4433192,149,False,2027-03-17 17:30:00,BKN
 The Freak and The Felons,Aaron Wiggins,4397183,149,False,2027-03-17 18:00:00,UTA
@@ -11390,6 +11365,7 @@ My Sweet Glorious King,Kel'el Ware,5105623,150,False,2027-03-18 17:00:00,DET
 Yong,Kon Knueppel,5061575,150,False,2027-03-18 17:00:00,NOP
 you know what to do with that,Michael Porter Jr.,4278104,150,False,2027-03-18 17:00:00,SAS
 The Freak and The Felons,Mikel Brown Jr.,5101761,150,False,2027-03-18 17:00:00,SAS
+Flashy like Primo,Moritz Wagner,3150844,150,False,2027-03-18 17:00:00,SAS
 KotaroLivesAlone,Moussa Diabate,4433249,150,False,2027-03-18 17:00:00,NOP
 KotaroLivesAlone,Myles Turner,3133628,150,False,2027-03-18 17:00:00,DET
 Flashy like Primo,Naz Reid,4396971,150,False,2027-03-18 17:00:00,NOP
@@ -11614,6 +11590,7 @@ KotaroLivesAlone,Julius Randle,3064514,153,False,2027-03-21 12:00:00,SAC
 you know what to do with that,Michael Porter Jr.,4278104,153,False,2027-03-21 12:00:00,SAC
 The Freak and The Felons,Mikel Brown Jr.,5101761,153,False,2027-03-21 12:00:00,SAC
 Don't Ask,Mitchell Robinson,4351852,153,False,2027-03-21 12:00:00,NOP
+Flashy like Primo,Moritz Wagner,3150844,153,False,2027-03-21 12:00:00,SAC
 Yong,Neemias Queta,4397424,153,False,2027-03-21 12:00:00,NOP
 The Galumphs,Paul George,4251,153,False,2027-03-21 12:00:00,NOP
 My Sweet Glorious King,Payton Pritchard,4066354,153,False,2027-03-21 12:00:00,NOP
@@ -11798,6 +11775,7 @@ you know what to do with that,Michael Porter Jr.,4278104,155,False,2027-03-23 16
 Anything Is Possible,Mikal Bridges,3147657,155,False,2027-03-23 16:30:00,NOP
 The Freak and The Felons,Mikel Brown Jr.,5101761,155,False,2027-03-23 16:30:00,BOS
 Don't Ask,Mitchell Robinson,4351852,155,False,2027-03-23 16:30:00,BKN
+Flashy like Primo,Moritz Wagner,3150844,155,False,2027-03-23 16:30:00,BOS
 Yong,Neemias Queta,4397424,155,False,2027-03-23 16:30:00,BKN
 Don't Ask,OG Anunoby,3934719,155,False,2027-03-23 16:30:00,NOP
 The Galumphs,Paul George,4251,155,False,2027-03-23 16:30:00,BKN
@@ -12050,6 +12028,7 @@ Towns Syndrome,Lauri Markkanen,4066336,157,False,2027-03-25 16:30:00,MIA
 you know what to do with that,Michael Porter Jr.,4278104,157,False,2027-03-25 16:30:00,DEN
 The Freak and The Felons,Mikel Brown Jr.,5101761,157,False,2027-03-25 16:30:00,DEN
 you know what to do with that,Mo Bamba,4277919,157,False,2027-03-25 16:30:00,MIA
+Flashy like Primo,Moritz Wagner,3150844,157,False,2027-03-25 16:30:00,DEN
 you know what to do with that,Nikola Jokic,3112335,157,False,2027-03-25 16:30:00,BKN
 Flashy like Primo,Pelle Larsson,4601025,157,False,2027-03-25 16:30:00,UTA
 Flashy like Primo,Caleb Wilson,5095151,157,False,2027-03-25 17:00:00,MEM
@@ -12269,6 +12248,7 @@ Flashy like Primo,Luka Doncic,3945274,160,False,2027-03-28 12:00:00,HOU
 Towns Syndrome,Matisse Thybulle,3907498,160,False,2027-03-28 12:00:00,HOU
 you know what to do with that,Michael Porter Jr.,4278104,160,False,2027-03-28 12:00:00,MEM
 The Freak and The Felons,Mikel Brown Jr.,5101761,160,False,2027-03-28 12:00:00,MEM
+Flashy like Primo,Moritz Wagner,3150844,160,False,2027-03-28 12:00:00,MEM
 you know what to do with that,Quentin Grimes,4397014,160,False,2027-03-28 12:00:00,HOU
 Anything Is Possible,Reed Sheppard,4711272,160,False,2027-03-28 12:00:00,LAL
 Flashy like Primo,Sandro Mamukelashvili,4278580,160,False,2027-03-28 12:00:00,HOU
@@ -12399,6 +12379,7 @@ KotaroLivesAlone,Julius Randle,3064514,161,False,2027-03-29 16:30:00,GSW
 you know what to do with that,Kristaps Porzingis,3102531,161,False,2027-03-29 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,161,False,2027-03-29 16:30:00,GSW
 The Freak and The Felons,Mikel Brown Jr.,5101761,161,False,2027-03-29 16:30:00,GSW
+Flashy like Primo,Moritz Wagner,3150844,161,False,2027-03-29 16:30:00,GSW
 MVPKNEE,Stephen Curry,3975,161,False,2027-03-29 16:30:00,BKN
 Yong,Yaxel Lendeborg,5175737,161,False,2027-03-29 16:30:00,BKN
 My Sweet Glorious King,Andrew Nembhard,4395712,161,False,2027-03-29 17:00:00,CHI
@@ -12583,6 +12564,7 @@ Yong,Jarrett Allen,4066328,163,False,2027-03-31 16:30:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,163,False,2027-03-31 16:30:00,CLE
 you know what to do with that,Michael Porter Jr.,4278104,163,False,2027-03-31 16:30:00,CLE
 The Freak and The Felons,Mikel Brown Jr.,5101761,163,False,2027-03-31 16:30:00,CLE
+Flashy like Primo,Moritz Wagner,3150844,163,False,2027-03-31 16:30:00,CLE
 Flashy like Primo,Peyton Watson,4576087,163,False,2027-03-31 16:30:00,BKN
 Yong,Anthony Edwards,4594268,163,False,2027-03-31 17:00:00,SAC
 Don't Ask,Ayo Dosunmu,4397002,163,False,2027-03-31 17:00:00,SAC
@@ -12732,6 +12714,7 @@ you know what to do with that,Michael Porter Jr.,4278104,165,False,2027-04-02 16
 Anything Is Possible,Mikal Bridges,3147657,165,False,2027-04-02 16:30:00,BKN
 The Freak and The Felons,Mikel Brown Jr.,5101761,165,False,2027-04-02 16:30:00,NYK
 Don't Ask,Mitchell Robinson,4351852,165,False,2027-04-02 16:30:00,MIA
+Flashy like Primo,Moritz Wagner,3150844,165,False,2027-04-02 16:30:00,NYK
 Yong,Neemias Queta,4397424,165,False,2027-04-02 16:30:00,MIA
 Don't Ask,OG Anunoby,3934719,165,False,2027-04-02 16:30:00,BKN
 The Galumphs,Paul George,4251,165,False,2027-04-02 16:30:00,MIA
@@ -12885,6 +12868,7 @@ KotaroLivesAlone,Julius Randle,3064514,167,False,2027-04-04 11:00:00,MIL
 My Sweet Glorious King,Kel'el Ware,5105623,167,False,2027-04-04 11:00:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,167,False,2027-04-04 11:00:00,MIL
 The Freak and The Felons,Mikel Brown Jr.,5101761,167,False,2027-04-04 11:00:00,MIL
+Flashy like Primo,Moritz Wagner,3150844,167,False,2027-04-04 11:00:00,MIL
 KotaroLivesAlone,Myles Turner,3133628,167,False,2027-04-04 11:00:00,BKN
 Tyrese's,Ryan Rollins,4591725,167,False,2027-04-04 11:00:00,BKN
 Flashy like Primo,Tyler Herro,4395725,167,False,2027-04-04 11:00:00,BKN
@@ -13042,6 +13026,7 @@ Yong,Jarrett Allen,4066328,168,False,2027-04-05 16:00:00,BKN
 KotaroLivesAlone,Julius Randle,3064514,168,False,2027-04-05 16:00:00,CLE
 you know what to do with that,Michael Porter Jr.,4278104,168,False,2027-04-05 16:00:00,CLE
 The Freak and The Felons,Mikel Brown Jr.,5101761,168,False,2027-04-05 16:00:00,CLE
+Flashy like Primo,Moritz Wagner,3150844,168,False,2027-04-05 16:00:00,CLE
 Anything Is Possible,Paolo Banchero,4432573,168,False,2027-04-05 16:00:00,MIA
 Flashy like Primo,Pelle Larsson,4601025,168,False,2027-04-05 16:00:00,ORL
 Flashy like Primo,Peyton Watson,4576087,168,False,2027-04-05 16:00:00,BKN
@@ -13237,6 +13222,7 @@ KotaroLivesAlone,Julius Randle,3064514,170,False,2027-04-07 16:30:00,TOR
 MVPKNEE,Kawhi Leonard,6450,170,False,2027-04-07 16:30:00,BKN
 you know what to do with that,Michael Porter Jr.,4278104,170,False,2027-04-07 16:30:00,TOR
 The Freak and The Felons,Mikel Brown Jr.,5101761,170,False,2027-04-07 16:30:00,TOR
+Flashy like Primo,Moritz Wagner,3150844,170,False,2027-04-07 16:30:00,TOR
 Flashy like Primo,Peyton Watson,4576087,170,False,2027-04-07 16:30:00,SAS
 you know what to do with that,RJ Barrett,4395625,170,False,2027-04-07 16:30:00,BKN
 KotaroLivesAlone,Scottie Barnes,4433134,170,False,2027-04-07 16:30:00,BKN
@@ -13407,6 +13393,7 @@ you know what to do with that,Michael Porter Jr.,4278104,172,False,2027-04-09 16
 Anything Is Possible,Mikal Bridges,3147657,172,False,2027-04-09 16:00:00,DET
 The Freak and The Felons,Mikel Brown Jr.,5101761,172,False,2027-04-09 16:00:00,CHA
 Don't Ask,Mitchell Robinson,4351852,172,False,2027-04-09 16:00:00,ATL
+Flashy like Primo,Moritz Wagner,3150844,172,False,2027-04-09 16:00:00,CHA
 KotaroLivesAlone,Moussa Diabate,4433249,172,False,2027-04-09 16:00:00,BKN
 Flashy like Primo,Naz Reid,4396971,172,False,2027-04-09 16:00:00,BKN
 Yong,Neemias Queta,4397424,172,False,2027-04-09 16:00:00,ATL
@@ -13602,6 +13589,7 @@ you know what to do with that,Michael Porter Jr.,4278104,174,False,2027-04-11 15
 Anything Is Possible,Mikal Bridges,3147657,174,False,2027-04-11 15:00:00,IND
 The Freak and The Felons,Mikel Brown Jr.,5101761,174,False,2027-04-11 15:00:00,TOR
 Don't Ask,Mitchell Robinson,4351852,174,False,2027-04-11 15:00:00,MIL
+Flashy like Primo,Moritz Wagner,3150844,174,False,2027-04-11 15:00:00,TOR
 KotaroLivesAlone,Moussa Diabate,4433249,174,False,2027-04-11 15:00:00,PHL
 KotaroLivesAlone,Myles Turner,3133628,174,False,2027-04-11 15:00:00,BOS
 Flashy like Primo,Naz Reid,4396971,174,False,2027-04-11 15:00:00,PHL
