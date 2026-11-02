@@ -1,7 +1,7 @@
 run_date,matchup_period,home_team,away_team,home_banked,away_banked,home_exp_remaining,away_exp_remaining,home_exp_games,away_exp_games,home_exp_total,away_exp_total,z,home_win_prob,away_win_prob,sd_pct,sd_basis,matchup_start,matchup_end
-2026-11-01,2,you know what to do with that,Tyrese's,1138.0,1223.0,146.5,75.0,5,3,1284.5,1298.0,-0.328,0.3716,0.6284,0.25,remaining,2026-10-26,2026-11-01
-2026-11-01,2,The Galumphs,The Freak and The Felons,995.0,1231.0,164.5,63.6,5,2,1159.5,1294.6,-3.064,0.0011,0.9989,0.25,remaining,2026-10-26,2026-11-01
-2026-11-01,2,Anything Is Possible,MVPKNEE,1232.0,1248.0,25.0,71.1,1,2,1257.0,1319.1,-3.296,0.0005,0.9995,0.25,remaining,2026-10-26,2026-11-01
-2026-11-01,2,My Sweet Glorious King,Towns Syndrome,1391.0,974.0,92.0,75.0,3,3,1483.0,1049.0,14.623,1.0,0.0,0.25,remaining,2026-10-26,2026-11-01
-2026-11-01,2,Flashy like Primo,Don't Ask,1246.0,1230.0,134.3,109.7,4,3,1380.3,1339.7,0.938,0.8258,0.1742,0.25,remaining,2026-10-26,2026-11-01
-2026-11-01,2,KotaroLivesAlone,Yong,1006.0,1188.0,146.5,148.2,4,5,1152.5,1336.2,-3.526,0.0002,0.9998,0.25,remaining,2026-10-26,2026-11-01
+2026-11-02,3,The Freak and The Felons,MVPKNEE,0.0,0.0,1366.3,1394.3,42,41,1366.3,1394.3,-0.057,0.4771,0.5229,0.25,remaining,2026-11-02,2026-11-08
+2026-11-02,3,Yong,Flashy like Primo,0.0,0.0,1271.0,1544.5,40,45,1271.0,1544.5,-0.547,0.2922,0.7078,0.25,remaining,2026-11-02,2026-11-08
+2026-11-02,3,The Galumphs,Tyrese's,0.0,0.0,1310.8,1359.7,38,42,1310.8,1359.7,-0.104,0.4587,0.5413,0.25,remaining,2026-11-02,2026-11-08
+2026-11-02,3,KotaroLivesAlone,My Sweet Glorious King,0.0,0.0,1259.1,1562.7,41,45,1259.1,1562.7,-0.605,0.2726,0.7274,0.25,remaining,2026-11-02,2026-11-08
+2026-11-02,3,you know what to do with that,Anything Is Possible,0.0,0.0,1497.6,1329.0,43,41,1497.6,1329.0,0.337,0.6319,0.3681,0.25,remaining,2026-11-02,2026-11-08
+2026-11-02,3,Don't Ask,Towns Syndrome,0.0,0.0,1488.4,1385.3,45,41,1488.4,1385.3,0.203,0.5803,0.4197,0.25,remaining,2026-11-02,2026-11-08
