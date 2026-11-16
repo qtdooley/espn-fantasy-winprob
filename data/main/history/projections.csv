@@ -1614,3 +1614,106 @@ date,scoring_period,matchup_period,team_id,fantasy_team,player_id,player,injury_
 2026-11-15,27,4,12,My Sweet Glorious King,4437244,Jalen Green,ACTIVE,25.0,25.0,True
 2026-11-15,27,4,12,My Sweet Glorious King,4433137,Ziaire Williams,ACTIVE,25.0,25.0,True
 2026-11-15,27,4,12,My Sweet Glorious King,4395712,Andrew Nembhard,OUT,31.85,0.0,True
+2026-11-16,28,5,1,Tyrese's,4431678,Tyrese Maxey,ACTIVE,46.96,46.96,True
+2026-11-16,28,5,1,Tyrese's,4395628,Zion Williamson,ACTIVE,39.72,39.72,True
+2026-11-16,28,5,1,Tyrese's,4903027,Cedric Coward,ACTIVE,32.37,32.37,True
+2026-11-16,28,5,1,Tyrese's,4432165,Jalen Suggs,ACTIVE,26.28,26.28,True
+2026-11-16,28,5,1,Tyrese's,4869780,Derik Queen,ACTIVE,25.64,25.64,True
+2026-11-16,28,5,1,Tyrese's,4433192,Tari Eason,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,1,Tyrese's,4711294,Matas Buzelis,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,1,Tyrese's,4432847,Terrence Shannon Jr.,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,2,Yong,3917376,Jaylen Brown,ACTIVE,38.14,38.14,True
+2026-11-16,28,5,2,Yong,5175737,Yaxel Lendeborg,ACTIVE,34.76,34.76,True
+2026-11-16,28,5,2,Yong,4712849,Anthony Black,ACTIVE,33.93,33.93,True
+2026-11-16,28,5,2,Yong,5174563,Kyshawn George,ACTIVE,33.13,33.13,True
+2026-11-16,28,5,2,Yong,4709138,Brandin Podziemski,ACTIVE,33.02,33.02,True
+2026-11-16,28,5,2,Yong,4066328,Jarrett Allen,ACTIVE,32.46,32.46,True
+2026-11-16,28,5,2,Yong,4066320,Desmond Bane,ACTIVE,31.79,31.79,True
+2026-11-16,28,5,2,Yong,2595516,Norman Powell,ACTIVE,31.15,31.15,True
+2026-11-16,28,5,2,Yong,4397189,Jalen Smith,DAY_TO_DAY,28.3,28.3,True
+2026-11-16,28,5,2,Yong,4397424,Neemias Queta,DAY_TO_DAY,25.0,25.0,True
+2026-11-16,28,5,2,Yong,4594268,Anthony Edwards,OUT,48.55,0.0,False
+2026-11-16,28,5,3,Anything Is Possible,3992,James Harden,ACTIVE,35.55,35.55,True
+2026-11-16,28,5,3,Anything Is Possible,5160992,Alex Sarr,ACTIVE,31.82,31.82,True
+2026-11-16,28,5,3,Anything Is Possible,4432639,Jabari Smith Jr.,ACTIVE,31.67,31.67,True
+2026-11-16,28,5,3,Anything Is Possible,5144091,Jeremiah Fears,ACTIVE,28.96,28.96,True
+2026-11-16,28,5,3,Anything Is Possible,5142718,AJ Dybantsa,ACTIVE,26.77,26.77,True
+2026-11-16,28,5,3,Anything Is Possible,4711272,Reed Sheppard,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,3,Anything Is Possible,4432573,Paolo Banchero,OUT,40.3,0.0,True
+2026-11-16,28,5,4,Don't Ask,4278053,Davion Mitchell,ACTIVE,37.43,37.43,True
+2026-11-16,28,5,4,Don't Ask,4397002,Ayo Dosunmu,ACTIVE,33.91,33.91,True
+2026-11-16,28,5,4,Don't Ask,4871145,Josh Giddey,ACTIVE,33.78,33.78,True
+2026-11-16,28,5,4,Don't Ask,4278585,Collin Gillespie,ACTIVE,25.55,25.55,True
+2026-11-16,28,5,4,Don't Ask,3032976,Rudy Gobert,ACTIVE,25.55,25.55,True
+2026-11-16,28,5,4,Don't Ask,6589,Draymond Green,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,4,Don't Ask,5023693,Tyrese Proctor,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,4,Don't Ask,4432158,Evan Mobley,OUT,38.38,0.0,True
+2026-11-16,28,5,5,you know what to do with that,3112335,Nikola Jokic,ACTIVE,61.48,61.48,True
+2026-11-16,28,5,5,you know what to do with that,4871144,Alperen Sengun,ACTIVE,49.3,49.3,True
+2026-11-16,28,5,5,you know what to do with that,4683021,Deni Avdija,ACTIVE,41.18,41.18,True
+2026-11-16,28,5,5,you know what to do with that,4278104,Michael Porter Jr.,ACTIVE,36.16,36.16,True
+2026-11-16,28,5,5,you know what to do with that,5105565,Donovan Clingan,ACTIVE,34.2,34.2,True
+2026-11-16,28,5,5,you know what to do with that,4431736,Toumani Camara,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,5,you know what to do with that,3102531,Kristaps Porzingis,OUT,33.96,0.0,True
+2026-11-16,28,5,6,KotaroLivesAlone,4566434,Franz Wagner,ACTIVE,41.84,41.84,True
+2026-11-16,28,5,6,KotaroLivesAlone,4684740,Amen Thompson,DAY_TO_DAY,35.05,35.05,True
+2026-11-16,28,5,6,KotaroLivesAlone,3064514,Julius Randle,ACTIVE,32.92,32.92,True
+2026-11-16,28,5,6,KotaroLivesAlone,3078576,Derrick White,ACTIVE,32.42,32.42,True
+2026-11-16,28,5,6,KotaroLivesAlone,4431767,Christian Braun,ACTIVE,28.13,28.13,True
+2026-11-16,28,5,6,KotaroLivesAlone,5104155,Bilal Coulibaly,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,6,KotaroLivesAlone,5112087,Jaylen Wells,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,7,The Galumphs,4251,Paul George,ACTIVE,39.27,39.27,True
+2026-11-16,28,5,7,The Galumphs,3202,Kevin Durant,ACTIVE,37.57,37.57,True
+2026-11-16,28,5,7,The Galumphs,3995,Jrue Holiday,ACTIVE,28.05,28.05,True
+2026-11-16,28,5,7,The Galumphs,4432194,Day'Ron Sharpe,ACTIVE,27.5,27.5,True
+2026-11-16,28,5,7,The Galumphs,4433083,Cam Spencer,ACTIVE,26.71,26.71,True
+2026-11-16,28,5,7,The Galumphs,4600663,Zach Edey,DAY_TO_DAY,25.0,25.0,True
+2026-11-16,28,5,7,The Galumphs,5279130,Nolan Traore,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,7,The Galumphs,3907497,Dejounte Murray,OUT,32.54,0.0,True
+2026-11-16,28,5,8,Flashy like Primo,6583,Anthony Davis,ACTIVE,45.63,45.63,True
+2026-11-16,28,5,8,Flashy like Primo,3136193,Devin Booker,ACTIVE,40.48,40.48,True
+2026-11-16,28,5,8,Flashy like Primo,4397136,Saddiq Bey,ACTIVE,28.07,28.07,True
+2026-11-16,28,5,8,Flashy like Primo,4576087,Peyton Watson,DAY_TO_DAY,25.18,25.18,True
+2026-11-16,28,5,8,Flashy like Primo,4601025,Pelle Larsson,DAY_TO_DAY,25.0,25.0,True
+2026-11-16,28,5,8,Flashy like Primo,5175643,Egor Demin,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,8,Flashy like Primo,4431687,Patrick Williams,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,8,Flashy like Primo,5095151,Caleb Wilson,OUT,33.57,0.0,True
+2026-11-16,28,5,8,Flashy like Primo,6430,Jimmy Butler III,OUT,38.91,0.0,True
+2026-11-16,28,5,9,MVPKNEE,3936299,Jamal Murray,ACTIVE,47.84,47.84,True
+2026-11-16,28,5,9,MVPKNEE,4065648,Jayson Tatum,ACTIVE,45.87,45.87,True
+2026-11-16,28,5,9,MVPKNEE,3059318,Joel Embiid,DAY_TO_DAY,34.51,34.51,True
+2026-11-16,28,5,9,MVPKNEE,2991230,Fred VanVleet,ACTIVE,32.89,32.89,True
+2026-11-16,28,5,9,MVPKNEE,5203685,Khaman Maluach,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,9,MVPKNEE,5041951,Meleek Thomas,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,9,MVPKNEE,4278402,Jordan Goodwin,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,9,MVPKNEE,4066211,Robert Williams III,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,9,MVPKNEE,3975,Stephen Curry,OUT,43.73,0.0,True
+2026-11-16,28,5,10,Towns Syndrome,4432816,LaMelo Ball,ACTIVE,38.19,38.19,True
+2026-11-16,28,5,10,Towns Syndrome,5041935,Cameron Boozer,ACTIVE,33.37,33.37,True
+2026-11-16,28,5,10,Towns Syndrome,5124612,VJ Edgecombe,ACTIVE,33.23,33.23,True
+2026-11-16,28,5,10,Towns Syndrome,5061589,Yves Missi,ACTIVE,25.56,25.56,True
+2026-11-16,28,5,10,Towns Syndrome,3064290,Aaron Gordon,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,10,Towns Syndrome,3155526,Dillon Brooks,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,10,Towns Syndrome,5107173,Danny Wolf,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,10,Towns Syndrome,4702382,Tristan da Silva,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,10,Towns Syndrome,4065733,Ty Jerome,OUT,39.72,0.0,True
+2026-11-16,28,5,11,The Freak and The Felons,3032977,Giannis Antetokounmpo,ACTIVE,53.62,53.62,True
+2026-11-16,28,5,11,The Freak and The Felons,4277905,Trae Young,ACTIVE,36.42,36.42,True
+2026-11-16,28,5,11,The Freak and The Felons,6606,Damian Lillard,ACTIVE,33.36,33.36,True
+2026-11-16,28,5,11,The Freak and The Felons,4066383,Miles Bridges,ACTIVE,33.18,33.18,True
+2026-11-16,28,5,11,The Freak and The Felons,4278067,Nic Claxton,ACTIVE,27.3,27.3,True
+2026-11-16,28,5,11,The Freak and The Felons,4433247,Jonathan Kuminga,ACTIVE,26.38,26.38,True
+2026-11-16,28,5,11,The Freak and The Felons,5101761,Mikel Brown Jr.,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,11,The Freak and The Felons,6475,Klay Thompson,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,11,The Freak and The Felons,3138196,Cameron Johnson,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,11,The Freak and The Felons,4279888,Ja Morant,OUT,34.65,0.0,True
+2026-11-16,28,5,12,My Sweet Glorious King,3908809,Donovan Mitchell,ACTIVE,42.36,42.36,True
+2026-11-16,28,5,12,My Sweet Glorious King,4066261,Bam Adebayo,ACTIVE,42.01,42.01,True
+2026-11-16,28,5,12,My Sweet Glorious King,4431671,Jaden McDaniels,ACTIVE,33.95,33.95,True
+2026-11-16,28,5,12,My Sweet Glorious King,4277847,Wendell Carter Jr.,ACTIVE,28.89,28.89,True
+2026-11-16,28,5,12,My Sweet Glorious King,4066354,Payton Pritchard,ACTIVE,27.03,27.03,True
+2026-11-16,28,5,12,My Sweet Glorious King,4437244,Jalen Green,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,12,My Sweet Glorious King,4066436,De'Anthony Melton,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,12,My Sweet Glorious King,4592492,Bones Hyland,ACTIVE,25.0,25.0,True
+2026-11-16,28,5,12,My Sweet Glorious King,1966,LeBron James,OUT,38.53,0.0,True
+2026-11-16,28,5,12,My Sweet Glorious King,4397688,Trey Murphy III,OUT,33.08,0.0,True
