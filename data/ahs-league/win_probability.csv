@@ -1,7 +1,7 @@
 run_date,matchup_period,home_team,away_team,home_banked,away_banked,home_exp_remaining,away_exp_remaining,home_exp_games,away_exp_games,home_exp_total,away_exp_total,z,home_win_prob,away_win_prob,sd_pct,sd_basis,matchup_start,matchup_end
-2026-11-16,5,walk and ball torture,Lil Dicky Ball,0.0,0.0,1453.7,1560.7,45,46,1453.7,1560.7,-0.201,0.4205,0.5795,0.25,remaining,2026-11-16,2026-11-22
-2026-11-16,5,Only Franz,Brunson’s Burners,0.0,0.0,1337.1,1369.1,40,42,1337.1,1369.1,-0.067,0.4734,0.5266,0.25,remaining,2026-11-16,2026-11-22
-2026-11-16,5,the emergency room,lee lee,0.0,0.0,1353.5,1291.1,44,42,1353.5,1291.1,0.133,0.553,0.447,0.25,remaining,2026-11-16,2026-11-22
-2026-11-16,5,BLACK FLAGG,Jared Dubley,0.0,0.0,1173.7,1540.3,35,46,1173.7,1540.3,-0.757,0.2245,0.7755,0.25,remaining,2026-11-16,2026-11-22
-2026-11-16,5,Victor Krum,T's Top Team,0.0,0.0,1274.1,1229.6,41,37,1274.1,1229.6,0.101,0.5401,0.4599,0.25,remaining,2026-11-16,2026-11-22
-2026-11-16,5,Aspiration Risk,"Old Heads, Young Blood",0.0,0.0,1152.6,1406.0,41,41,1152.6,1406.0,-0.557,0.2886,0.7114,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,walk and ball torture,Lil Dicky Ball,355.0,253.0,1055.4,1319.1,33,39,1410.4,1572.1,-0.383,0.3508,0.6492,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,Only Franz,Brunson’s Burners,131.0,100.0,1088.7,1250.0,34,38,1219.7,1350.0,-0.315,0.3766,0.6234,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,the emergency room,lee lee,165.0,167.0,1146.5,1057.2,36,35,1311.5,1224.2,0.224,0.5886,0.4114,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,BLACK FLAGG,Jared Dubley,215.0,372.0,999.1,1229.0,30,37,1214.1,1601.0,-0.977,0.1643,0.8357,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,Victor Krum,T's Top Team,99.0,123.0,1004.4,1068.4,32,32,1103.4,1191.4,-0.24,0.4052,0.5948,0.25,remaining,2026-11-16,2026-11-22
+2026-11-17,5,Aspiration Risk,"Old Heads, Young Blood",134.0,281.0,1022.9,1187.1,36,34,1156.9,1468.1,-0.794,0.2135,0.7865,0.25,remaining,2026-11-16,2026-11-22
